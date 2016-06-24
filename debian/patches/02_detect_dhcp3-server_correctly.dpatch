@@ -1,0 +1,19 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 02_detect_dhcp3-server_correctly.dpatch by Christian Bjälevik <nafallo@ubuntu.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@DPATCH@
+diff -urNad fortified-1.1.0~/src/dhcp-server.c fortified-1.1.0/src/dhcp-server.c
+--- fortified-1.1.0~/src/dhcp-server.c	2005-01-29 13:32:07.000000000 +0100
++++ fortified-1.1.0/src/dhcp-server.c	2007-01-05 15:58:52.055760358 +0100
+@@ -100,7 +100,7 @@
+ 	network = calculate_network (router, subnet_mask);
+ 	
+ 	/* Merge the settings with the config file template */
+-	dhcp3_in_use = g_file_test ("/etc/dhcp3", G_FILE_TEST_EXISTS);
++	dhcp3_in_use = g_file_test (DHCP3_CONFIG, G_FILE_TEST_EXISTS);
+ 	debian_in_use = g_file_test ("/etc/debian_version", G_FILE_TEST_EXISTS);
+ 
+ 	configuration = g_strconcat (

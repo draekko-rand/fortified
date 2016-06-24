@@ -1,0 +1,15 @@
+-- Before 1.0 -- (Longer Term)
+
+* Seperate {in/out}bound filtering dialogues
+* Add FTP Pasv/PORT selection option to druid (being worked on ATM - PD)
+* Transparent Proxy support
+* Better IPSec support
+* Better Masquerading IPSec support
+* Fix Outbound filtering so it breaks rules down into the first connection
+being a NEW packet, and all future packets relating to that connection
+become ESTABLISHED.
+
+-- After 1.0 -- (?)
+* IPFilter support (as well as support for Solaris, and other known-to-work
+GNOME platforms)
+* QoS support

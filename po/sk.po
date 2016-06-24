@@ -1,0 +1,2378 @@
+# translation of fortified.HEAD.sk.po to Slovak
+# translation of sk.po to Slovak
+# fortified Slovak translation.
+# Copyright (C) 2001,2002,2003 Free Software Foundation, Inc.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2001.
+# Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2002.
+# Stanislav Visnovsky <visnovsky@kde.org>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified.HEAD.sk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2003-10-01 16:40+0200\n"
+"Last-Translator: Stanislav Visnovsky <visnovsky@kde.org>\n"
+"Language-Team: Slovak <sk-i18n@linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+
+#: fortified.desktop.in.h:1
+#, fuzzy
+msgid "Desktop Firewall Tool"
+msgstr "Nástroj pre firewall Fortified"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+#, fuzzy
+msgid "Fortified"
+msgstr "Fortified "
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Použiť nastavenie ICMP podľa sprievodcu."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "Použiť nastavenie typu služieb podľa sprievodcu."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr ""
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+
+#: fortified.schemas.in.h:12
+#, fuzzy
+msgid "Enable DHCP server for connection sharing"
+msgstr "Nastavenie pre zdieľanie pripojenia na Internet"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Povoliť NAT"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "Povoliť preklad sieťových adries NAT alebo zdieľanie pripojenia."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "Povoliť nastavenie ICMP"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "Povoliť nastavenie ToS"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+#, fuzzy
+msgid "Enable tray icon"
+msgstr "Povoliť experimentálne možnosti"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr ""
+"Nepodarilo sa spustiť firewall\n"
+"\n"
+
+#: fortified.schemas.in.h:19
+#, fuzzy
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+"Ak zapnete túto voľbu, zoznam zásahov nebude zobrazovať tie, ktorých cieľová "
+"adresa nie je vaša IP."
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Filtrovať opakované zásahy"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Filtrovať opakované zásahy."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr ""
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr ""
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr ""
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr ""
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:31
+#, fuzzy
+msgid "Show the Fortified icon in the notification area."
+msgstr "Zobraziť stĺpec s cieľom v pohľade zásahov."
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "Zobraziť stĺpec s typom služby v pohľade zásahov."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "Zobraziť stĺpec s cieľom v pohľade zásahov"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "Zobraziť stĺpec s cieľom v pohľade zásahov."
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr ""
+"Zobraziť stĺpec so zariadením, z ktorého bol zásah zaznamenaný v pohľade "
+"zásahov."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+"Zobraziť stĺpec so zariadením, kam bol zásah presmerovaný v pohľade zásahov."
+
+#: fortified.schemas.in.h:37
+#, fuzzy
+msgid "Show the direction column in the Hit View"
+msgstr "Zobraziť stĺpec v pohľade zásahov"
+
+#: fortified.schemas.in.h:38
+#, fuzzy
+msgid "Show the direction column in the Hit View."
+msgstr "Zobraziť stĺpec s cieľom v pohľade zásahov."
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "Zobraziť stĺpec v pohľade zásahov"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "Zobraziť stĺpec s dĺžkou v pohľade zásahov"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "Zobraziť stĺpec odosielané v pohľade zásahov"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "Zobraziť stĺpec s dĺžkou paketu v pohľade zásahov."
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "Zobraziť stĺpec s číslom portu v pohľade zásahov"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "Zobraziť stĺpec s číslom portu v pohľade zásahov."
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "Zobraziť stĺpec s protokolom v pohľade zásahov"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "Zobraziť stĺpec s protokolom v pohľade zásahov."
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "Zobraziť stĺpec so službou v pohľade zásahov"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "Zobraziť stĺpec so službou v pohľade zásahov."
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "Zobraziť stĺpec so zdrojom v pohľade zásahov"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "Zobraziť stĺpec so zdrojom v pohľade zásahov."
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "Zobraziť stĺpec s časom v pohľade zásahov"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "Zobraziť stĺpec s časom v pohľade zásahov."
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "Zobraziť stĺpec s ToS v pohľade zásahov"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:56
+#, fuzzy
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "Spustiť firewall pri pripojení na Internet"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "Spustiť firewall pri štarte programu"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "Spustiť firewall pri štarte programu."
+
+#: fortified.schemas.in.h:59
+#, fuzzy
+msgid "Start the firewall when the system boots"
+msgstr "Spustiť firewall pri štarte programu"
+
+#: fortified.schemas.in.h:60
+#, fuzzy
+msgid "Start the firewall when the system boots."
+msgstr "Spustiť firewall pri štarte programu."
+
+#: fortified.schemas.in.h:61
+#, fuzzy
+msgid "Start the firewall when the system dials out"
+msgstr "Spustiť firewall pri pripojení na Internet"
+
+#: fortified.schemas.in.h:62
+#, fuzzy
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "Spustiť firewall pri štarte programu."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "Spustiť firewall pri štarte programu."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "Sieťové rozhranie pripojené k Internetu. Napríklad eth0 alebo ppp0."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "Sieťové rozhranie pripojené k LAN. Napríklad eth0 alebo eth1."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "Externé rozhranie"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr "Pri prvom spustení Fortified sa vykoná niekoľko špeciálnych akcií."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "Interné rozhranie"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "Umiestnenie súboru, kam zapisuje záznam syslog."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "Súbor so záznamom systému"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+#, fuzzy
+msgid "Failed to stop the firewall"
+msgstr ""
+"Nepodarilo sa zastaviť firewall\n"
+"\n"
+
+#: src/fortified.c:87
+#, fuzzy
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "Pri pokuse o zastavenie firewallu nastala neznáma chyba."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, fuzzy, c-format
+msgid "The device %s is not ready."
+msgstr ""
+"Zariadenie %s nie je pripravené.\n"
+"\n"
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr ""
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr ""
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Prosím, overte nastavenie vašeho sieťového zariadenia a že\n"
+"máte aktívne pripojenie na Internet."
+
+#: src/fortified.c:143
+#, fuzzy
+msgid "Failed to start the firewall\n"
+msgstr ""
+"Nepodarilo sa spustiť firewall\n"
+"\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+#, fuzzy
+msgid "Failed to start the firewall"
+msgstr ""
+"Nepodarilo sa spustiť firewall\n"
+"\n"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+#, fuzzy
+msgid "Failed to lock the firewall"
+msgstr ""
+"Nepodarilo sa zastaviť firewall\n"
+"\n"
+
+#: src/fortified.c:204
+#, fuzzy
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "Pri pokuse o zastavenie firewallu nastala neznáma chyba."
+
+#: src/fortified.c:298
+#, fuzzy
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+"\n"
+"\n"
+" -s, --start            Spustiť firewall\n"
+" -p, --stop             Zastaviť firewall\n"
+"     --halt             Zastaviť celý prenos, príjem aj odosielanie (panický "
+"režim)\n"
+"     --generate-scripts Generovať skripty pre firewall z aktuálneho "
+"nastavenia\n"
+" -v, --version          Zobraziť verziu Fortified\n"
+" -h, --help             To je tento text\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+#, fuzzy
+msgid "Insufficient privileges"
+msgstr ""
+"Nedostatočné práva\n"
+"\n"
+
+#: src/fortified.c:320
+#, fuzzy
+msgid "You must have root user privileges to use Fortified."
+msgstr "Pre použitie Fortified musíte byť root.\n"
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "Firewall zastavený"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "Nástroj pre kompletnú prácu s firewallom Linuxu pre GNOME.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+#, fuzzy
+msgid "Status"
+msgstr "Spustiť"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr ""
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr ""
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr ""
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr ""
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr ""
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Čas"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+#, fuzzy
+msgid "Direction"
+msgstr "Presmerovanie"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "Vstup"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Výstup"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Port"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Zdroj"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Cieľ"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Dĺžka"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "TOS"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protokol"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Služba"
+
+#: src/hitview.c:968
+#, fuzzy
+msgid "Blocked Connections"
+msgstr "Blokovaný hostitelia"
+
+#: src/menus.c:43
+#, fuzzy
+msgid "_Firewall"
+msgstr "/_Firewall"
+
+#: src/menus.c:44
+#, fuzzy
+msgid "_Edit"
+msgstr "/_Upraviť"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr ""
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr ""
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr ""
+
+#: src/menus.c:48
+#, fuzzy
+msgid "_Help"
+msgstr "/_Pomocník"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr ""
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr ""
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run _Wizard"
+msgstr "Spustiť sprievodcu"
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run the firewall wizard"
+msgstr "Sprievodca firewallom"
+
+#. S
+#: src/menus.c:52
+#, fuzzy
+msgid "_Start Firewall"
+msgstr "Spustiť firewall"
+
+#: src/menus.c:52
+#, fuzzy
+msgid "Start the firewall"
+msgstr "Spustiť firewall"
+
+#. P
+#: src/menus.c:53
+#, fuzzy
+msgid "Sto_p Firewall"
+msgstr "Zastaviť firewall"
+
+#: src/menus.c:53
+#, fuzzy
+msgid "Stop the firewall"
+msgstr "Zastaví firewall"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "_Lock Firewall"
+msgstr "/_Firewall"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "Lock the firewall"
+msgstr "Zastaví firewall"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "_Unlock Firewall"
+msgstr "/_Firewall"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "Unlock the firewall"
+msgstr ""
+"Nepodarilo sa zastaviť firewall\n"
+"\n"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr ""
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr ""
+
+#: src/menus.c:58
+#, fuzzy
+msgid "_Preferences"
+msgstr "/_Upraviť/Nas_tavenia..."
+
+#: src/menus.c:58
+#, fuzzy
+msgid "Program preferences"
+msgstr "Fortified: Nastavenie"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr ""
+
+#: src/menus.c:60
+#, fuzzy
+msgid "Save the events to a file"
+msgstr "Uloží zoznam zásahov firewallu do súboru"
+
+#. L
+#: src/menus.c:61
+#, fuzzy
+msgid "_Clear"
+msgstr "Vyčistiť"
+
+#: src/menus.c:61
+#, fuzzy
+msgid "Clear the events"
+msgstr "Vyčistiť zoznam zásahov"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "_Reload"
+msgstr "Obnoviť"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "Reload the events"
+msgstr "Obnoví zoznam zásahov"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr ""
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr ""
+
+#: src/menus.c:65
+#, fuzzy
+msgid "_Remove Rule"
+msgstr "/Odstrániť pravidlo"
+
+#: src/menus.c:65
+#, fuzzy
+msgid "Remove the selected rule"
+msgstr "/Odstrániť pravidlo"
+
+#: src/menus.c:66
+#, fuzzy
+msgid "_Add Rule"
+msgstr "/P_ravidlá"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+#, fuzzy
+msgid "_Edit Rule"
+msgstr "Upraviť pravidlo"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr ""
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr ""
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+#, fuzzy
+msgid "Online Users' _Manual"
+msgstr "/_Pomocník/On-line _manuál"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr ""
+
+#: src/menus.c:71
+#, fuzzy
+msgid "Fortified _Homepage"
+msgstr "/_Pomocník/_Domovská stránka Fortified"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr ""
+
+#: src/menus.c:72
+msgid "_About"
+msgstr ""
+
+#: src/menus.c:72
+#, fuzzy
+msgid "About Fortified"
+msgstr "Fortified "
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr ""
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+#, fuzzy
+msgid "_Lookup Hostnames"
+msgstr "/Vy_hľadať hostiteľa"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr ""
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr ""
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+#, fuzzy
+msgid "Show time column"
+msgstr "Zobraziť stĺpec s časom v pohľade zásahov"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr ""
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+#, fuzzy
+msgid "Show out column"
+msgstr "Zobraziť stĺpec odosielané v pohľade zásahov"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+#, fuzzy
+msgid "Show port column"
+msgstr "Zobraziť stĺpec s číslom portu v pohľade zásahov"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+#, fuzzy
+msgid "ToS"
+msgstr "TOS"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Skript firewallu uložený ako %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr ""
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr ""
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr ""
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr ""
+
+#: src/policyview.c:628
+#, fuzzy
+msgid "Firewall host"
+msgstr "Port firewallu:"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr ""
+
+#: src/policyview.c:675
+#, fuzzy
+msgid "IP or host"
+msgstr "IP alebo hostiteľ:"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+#, fuzzy
+msgid "There was an error when applying the inbound policy:"
+msgstr "Pri pokuse o zastavenie sieťového prenosu nastala neznáma chyba."
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+#, fuzzy
+msgid "There was an error when applying the outbound policy:"
+msgstr "Pri pokuse o zastavenie sieťového prenosu nastala neznáma chyba."
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr ""
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr ""
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+#, fuzzy
+msgid "Allow service"
+msgstr "Služba"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr ""
+
+#: src/policyview.c:1216
+#, fuzzy
+msgid "Forward service"
+msgstr "Forwardovať z"
+
+#: src/policyview.c:1217
+#, fuzzy
+msgid "Firewall Port"
+msgstr "Port firewallu:"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr ""
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+#, fuzzy
+msgid "Add new inbound rule"
+msgstr "Pridať pravidlo pre otvorenie portu"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr ""
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+#, fuzzy
+msgid "Forward service from firewall"
+msgstr "Správa firewallu"
+
+#: src/policyview.c:1246
+#, fuzzy
+msgid "To internal host"
+msgstr "Interné rozhranie"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr ""
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1278 src/policyview.c:1350
+#, fuzzy
+msgid "Deny service"
+msgstr "Služba"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr ""
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr ""
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+#, fuzzy
+msgid "Add new outbound rule"
+msgstr "Pridať pravidlo pre otvorenie portu"
+
+#: src/policyview.c:1334
+#, fuzzy
+msgid "Deny connections to"
+msgstr "Nastavenie pre zdieľanie pripojenia na Internet"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr ""
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr ""
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+#, fuzzy
+msgid "Editing"
+msgstr "/_Upraviť"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr ""
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+#, fuzzy
+msgid "Firewall"
+msgstr "/_Firewall"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+#, fuzzy
+msgid "Network Settings"
+msgstr "Nastavenie sieťového zariadenia"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "Filtrovanie ICMP"
+
+#: src/preferences.c:268
+#, fuzzy
+msgid "ToS Filtering"
+msgstr "Filtrovanie ICMP"
+
+#: src/preferences.c:273
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Pokročilé"
+
+#: src/preferences.c:505
+#, fuzzy
+msgid "Hosts"
+msgstr "Hostiteľ"
+
+#: src/preferences.c:509
+#, fuzzy
+msgid "Ports"
+msgstr "Port"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr ""
+
+#: src/preferences.c:673
+#, fuzzy
+msgid "Invalid DHCP configuration"
+msgstr "Povoliť nastavenie ToS"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr ""
+
+#: src/preferences.c:910
+#, fuzzy
+msgid "Fortified interface file not found"
+msgstr "Nástroj pre firewall Fortified"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr ""
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr ""
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr ""
+
+#: src/preferences.glade.h:9
+#, fuzzy
+msgid "<b>Internet connected network device</b>"
+msgstr "Vyberte interné sieťové rozhranie:"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "Preferovaná metóda odmietnutia paketov"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+#, fuzzy
+msgid "<b>System tray icon</b>"
+msgstr "Režim podpory systémovej lišty"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Maskovanie adries"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr ""
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+#, fuzzy
+msgid "Create new DHCP configuration"
+msgstr "Povoliť nastavenie ToS"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Detekované zariadenia:"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr ""
+
+#: src/preferences.glade.h:38
+#, fuzzy
+msgid "Enable ICMP filtering"
+msgstr "Zakázať filtrovanie ICMP"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+#, fuzzy
+msgid "Enable Internet connection sharing"
+msgstr "Nastavenie pre zdieľanie pripojenia na Internet"
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "Nastavenie filtrovania podľa typu služieb"
+
+#: src/preferences.glade.h:43
+#, fuzzy
+msgid "Filter host"
+msgstr "Filtre"
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "Filtre"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "IP adresa pridelená pomocou DHCP"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Hostiteľ"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr ""
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr ""
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "IP adresa pridelená pomocou DHCP"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS Traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr ""
+
+#: src/preferences.glade.h:62
+#, fuzzy
+msgid "Preferences"
+msgstr "/_Upraviť/Nas_tavenia..."
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Presmerovanie"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Spoľahlivosť"
+
+#: src/preferences.glade.h:66
+#, fuzzy
+msgid "Servers"
+msgstr "Služby"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+#, fuzzy
+msgid "Source Quenching"
+msgstr "Source Quench"
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "Spustiť firewall pri pripojení na Internet"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "Spustiť firewall pri pripojení na Internet"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "Spustiť firewall pri štarte programu"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "X Window"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Prenosová rýchlosť"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Časové razítka"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"Filtrovanie podľa typu služby umožňuje zmeniť priority služieb\n"
+"v sieti pre vyššiu prenosovú rýchlosť pre často používané služby."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Nedostupný"
+
+#: src/preferences.glade.h:83
+#, fuzzy
+msgid "Workstations"
+msgstr "Cieľ"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr ""
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+#, fuzzy
+msgid "Save Events To File"
+msgstr "Uloží zoznam zásahov firewallu do súboru"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Aktívne"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr ""
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr ""
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr ""
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr ""
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr ""
+
+#: src/statusview.c:940
+#, fuzzy
+msgid "Color"
+msgstr "Vyčistiť"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr ""
+
+#: src/statusview.c:986
+#, fuzzy
+msgid "Serious"
+msgstr "Služby"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr ""
+
+#: src/statusview.c:1058
+#, fuzzy
+msgid "Device"
+msgstr "Služba"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Typ"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr ""
+
+#: src/statusview.c:1076
+#, fuzzy
+msgid "Sent"
+msgstr "Dĺžka"
+
+#: src/statusview.c:1082
+#, fuzzy
+msgid "Activity"
+msgstr "Aktívne"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr ""
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Firewall je zastavený"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Firewall beží"
+
+#: src/tray.c:150
+#, fuzzy
+msgid "Firewall locked"
+msgstr "Firewall zastavený"
+
+#: src/tray.c:204
+#, fuzzy
+msgid "_Show Fortified"
+msgstr "Fortified "
+
+#: src/tray.c:214
+#, fuzzy
+msgid "_Exit"
+msgstr "Koniec"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Chyba Fortified"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"Nepodarilo sa otvoriť systémový súbor so záznamom\n"
+"\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr ""
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+
+#: src/util.c:277
+#, fuzzy
+msgid "Ethernet device"
+msgstr "Externé zariadenie"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr ""
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr ""
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr ""
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr ""
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr ""
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr ""
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr ""
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr ""
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr ""
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Prosím, vyberte zariadenie, ktorým ste pripojený k Internetu,\n"
+"zo zoznamu detekovaných zariadení."
+
+#: src/wizard.c:137
+#, fuzzy
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Tip: Ak používate modem, vaše zariadenie asi bude ppp0. Ak máte\n"
+"linku ISDN alebo ethernet, použite ippp0 resp. eth0.\n"
+"Použite ppp0 ak váš operátor DSL používa PPP pomocou Ethernetu."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Spustiť firewall pri pripojení na Internet"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Ak použijete túto voľbu, program bude spúšťaný pri pripojení k vašemu "
+"poskytovateľovi pripojenia k Internetu."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP adresa pridelená pomocou DHCP"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Ak použijete túto voľbu, ak sa potrebujete spojiť s DHCP serverom. "
+"Používatelia cable modemov a DSL by to mali použiť."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+
+#: src/wizard.c:263
+#, fuzzy
+msgid "Local area network device:"
+msgstr "Vyberte interné sieťové rozhranie:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr ""
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr ""
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr ""
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr ""
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Tento sprievodca vám umožní nastaviť váš firewall\n"
+"na počítači s Linuxom. Budú vám položené niektoré\n"
+"otázky o nastavení vašej siete.\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"Tip: Ak neviete, ako odpovedať na otázku, použite\n"
+"prednastavenú hodnotu.\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Pokračujte stlačením \"Ďalej\".\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Pripravený štart vášho firewallu"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"Sprievodca je pripravený spustiť firewall.\n"
+"\n"
+"Stlačením Uložiť spustíte generovanie, tlačidlom\n"
+"Dozadu môžete ešte zmeniť vaše nastavenie.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "Spustiť firewall"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Sprievodca firewallom"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Víta vás Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Nastavenie sieťového zariadenia"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Nastavenie pre zdieľanie pripojenia na Internet"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Pripravený štart vášho firewallu"
+
+#~ msgid ""
+#~ "Allow incoming DHCP packets, and start the firewall when an IP lease is "
+#~ "obtained."
+#~ msgstr ""
+#~ "Povoliť prichádzajúce pakety DHCP a spustiť firewall ak sa obnovuje IP "
+#~ "adresa."
+
+#~ msgid ""
+#~ "Always convert the entries in the Hit View from IP format to a valid "
+#~ "hostname. This options can slow down the client a lot, as it is not "
+#~ "threaded."
+#~ msgstr ""
+#~ "Vždy previesť záznamy z pohľadu zásahov z IP na mená hostiteľov. Táto "
+#~ "voľba môže byť pomalá, pretože nepoužíva vlákna."
+
+#~ msgid ""
+#~ "Apply the settings of the well known services, as configured in the "
+#~ "wizard."
+#~ msgstr "Použiť nastavenie známych služieb podľa sprievodcu."
+
+#~ msgid "Convert IPs to human readable form"
+#~ msgstr "Previesť IP na mená hostiteľov"
+
+#~ msgid "Enable the configuration of services"
+#~ msgstr "Povoliť nastavenie služieb"
+
+#~ msgid "External interface is modem"
+#~ msgstr "Externé zariadenie je modem"
+
+#~ msgid "External interface uses DHCP"
+#~ msgstr "Externé zariadenie používa DHCP"
+
+#~ msgid "Filter out hits not meant for your machine"
+#~ msgstr "Filtrovať zásahy nemierané tento počítač"
+
+#~ msgid ""
+#~ "Start the firewall when the users dials out. Modifies /etc/ppp/ip-up."
+#~ "local."
+#~ msgstr "Spustiť firewall pri vytáčaní. Upravuje /etc/ppp/ip-up.local."
+
+#~ msgid "Stop the firewall when the program exists"
+#~ msgstr "Zastaviť firewall pri ukončení programu"
+
+#~ msgid "Stop the firewall when the program exists."
+#~ msgstr "Zastaviť firewall pri ukončení programu."
+
+#~ msgid "User has gone trough the wizard at least once"
+#~ msgstr "Používateľ už aspoň raz spustil sprievodcu"
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited. Works together with the notification area applet."
+#~ msgstr ""
+#~ "Pri zatvorení okna programu v režime systémovej lišty sa program skryje a "
+#~ "nie ukončí. Funguje spolu s appletom pre upozornenia."
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "Firewall zastavený, prenos po sieti beží úplne voľne.\n"
+
+#~ msgid "Firewall started\n"
+#~ msgstr "Firewall spustený\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "Prenos zastavený\n"
+
+#~ msgid ""
+#~ "Failed to enter halted firewall mode\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Nepodarilo sa spustiť režim so zastaveným sieťovým prenosom\n"
+#~ "\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "Prenos zastavený"
+
+#~ msgid ""
+#~ "Fortified requires a Linux 2.4 or later kernel to function.\n"
+#~ "\n"
+#~ "A client for your system might be available at http://fortified.sf.net"
+#~ msgstr ""
+#~ "Fortified vyžaduje pre správne fungovanie jadro Linux 2.4 alebo "
+#~ "novšie.\n"
+#~ "\n"
+#~ "Klient pre váš systém je možno k dispozícii na http://fortified.sf.net"
+
+#~ msgid "Hits"
+#~ msgstr "Zásahy"
+
+#~ msgid "Rules"
+#~ msgstr "Pravidlá"
+
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "/_Firewall/_Sprievodca"
+
+#~ msgid "/_Firewall/---"
+#~ msgstr "/_Firewall/---"
+
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "/_Firewall/_Spustiť firewall"
+
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "/_Firewall/_Zastaviť firewall"
+
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "/_Firewall/Zastaviť sieťový _prenos"
+
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "/_Firewall/_Koniec"
+
+#~ msgid "/_Edit/_Copy"
+#~ msgstr "/_Upraviť/_Kopírovať"
+
+#~ msgid "/_Edit/---"
+#~ msgstr "/_Upraviť/---"
+
+#~ msgid "/_View"
+#~ msgstr "/_Zobraziť"
+
+#~ msgid "/_View/_Clear Hit List"
+#~ msgstr "/_Zobraziť/_Vyčistiť zoznam zásahov"
+
+#~ msgid "/_View/_Re_load Hit List"
+#~ msgstr "/_Zobraziť/_Obnoviť zoznam zásahov"
+
+#~ msgid "/_View/---"
+#~ msgstr "/_Zobraziť/---"
+
+#~ msgid "/_View/Hit columns"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov"
+
+#~ msgid "/_View/Hit columns/Time"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Čas"
+
+#~ msgid "/_View/Hit columns/In"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Vstup"
+
+#~ msgid "/_View/Hit columns/Out"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Výstup"
+
+#~ msgid "/_View/Hit columns/Port"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Port"
+
+#~ msgid "/_View/Hit columns/Source"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Zdroj"
+
+#~ msgid "/_View/Hit columns/Destination"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Cieľ"
+
+#~ msgid "/_View/Hit columns/Length"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Dĺžka"
+
+#~ msgid "/_View/Hit columns/ToS"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/ToS"
+
+#~ msgid "/_View/Hit columns/Protocol"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Protokol"
+
+#~ msgid "/_View/Hit columns/Service"
+#~ msgstr "/_Zobraziť/Stĺpce zásahov/Služba"
+
+#~ msgid "/_Hits"
+#~ msgstr "/_Zásahy"
+
+#~ msgid "/_Hits/_Block Host"
+#~ msgstr "/_Zásahy/Blokovať hostiteľa"
+
+#~ msgid "/_Hits/_Trust Host"
+#~ msgstr "/_Zásahy/_Dôverovať hostiteľovi"
+
+#~ msgid "/_Hits/_Open Port"
+#~ msgstr "/_Zásahy/_Otvoriť port"
+
+#~ msgid "/_Hits/Open Port for This _Host Only"
+#~ msgstr "/_Zásahy/Otvoriť port len pre tohto _hostiteľa"
+
+#~ msgid "/_Hits/Block and _Stop Logging Port"
+#~ msgstr "/_Zásahy/Blokovať a za_staviť záznam pre port"
+
+#~ msgid "/_Hits/_Lookup Hostname"
+#~ msgstr "/_Zásahy/Vy_hľadať hostiteľa"
+
+#~ msgid "/_Hits/---"
+#~ msgstr "/_Zásahy/---"
+
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "/_Zásahy/_Uložiť zoznam zásahov do súboru"
+
+#~ msgid "/_Rules/_New Rule"
+#~ msgstr "/P_ravidlá/_Nové pravidlo"
+
+#~ msgid "/_Rules/_Remove Rule"
+#~ msgstr "/P_ravidlá/O_dstrániť pravidlo"
+
+#~ msgid "/_Rules/_Edit Rule"
+#~ msgstr "/P_ravidlá/_Upraviť pravidlo"
+
+#~ msgid "/_Help/---"
+#~ msgstr "/_Pomocník/---"
+
+#~ msgid "/_Help/_About..."
+#~ msgstr "/_Pomocník/_O programe..."
+
+#~ msgid "/_Block Host"
+#~ msgstr "/_Blokovať hostiteľa"
+
+#~ msgid "/_Trust Host"
+#~ msgstr "/_Dôverovať hostiteľovi"
+
+#~ msgid "/_Open Port"
+#~ msgstr "/_Otvorené porty"
+
+#~ msgid "/Open Port for This _Host Only"
+#~ msgstr "/Otvoriť port len pre tohto _hostiteľa"
+
+#~ msgid "/Block and _Stop Logging Port"
+#~ msgstr "/Blokovať a _zastaviť záznam pre port"
+
+#~ msgid "/New rule"
+#~ msgstr "/Nové pravidlo"
+
+#~ msgid "/Edit rule"
+#~ msgstr "/Upraviť pravidlo"
+
+#~ msgid "Wizard"
+#~ msgstr "Sprievodca"
+
+#~ msgid "Stop"
+#~ msgstr "Zastaviť"
+
+#~ msgid "Add trust host rule"
+#~ msgstr "Pridať pravidlo pre dôverovanie hostiteľovi"
+
+#~ msgid "Add block host rule"
+#~ msgstr "Pridať pravidlo pre blokovanie hostiteľa"
+
+#~ msgid "Add forwarding rule"
+#~ msgstr "Pridať pravidlo pre forward"
+
+#~ msgid "Add stealth port rule"
+#~ msgstr "Pridať pravidlo pre skrytie portu"
+
+#~ msgid "Add block port rule"
+#~ msgstr "Pridať pravidlo pre blokovanie portu"
+
+#~ msgid ""
+#~ "The general program settings let you configure the overall behavior\n"
+#~ "of the program.\n"
+#~ msgstr "Všeobecné nastavenie umožňuje upraviť chovanie programu.\n"
+
+#~ msgid "Check this and the firewall will be started when the program loads."
+#~ msgstr ""
+#~ "Ak použijete túto voľbu, firewall bude spustený pri každom spustení tohto "
+#~ "programu."
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "Zastaviť firewall pri ukončení programu"
+
+#~ msgid ""
+#~ "Check this and the firewall will be stopped when you exit the program."
+#~ msgstr ""
+#~ "Ak použijete túto voľbu, firewall bude vypnutý pri ukončení programu."
+
+#~ msgid "Autoresolve IP numbers to hostnames for hits"
+#~ msgstr "Automaticky zistiť mená hostiteľov pre IP pre zásahy"
+
+#~ msgid ""
+#~ "Check this and instead of the IP number you will see a hostname in the "
+#~ "Hits view. This option uses some network bandwidth."
+#~ msgstr ""
+#~ "Ak použijete túto voľbu, namiesto adresy IP bude zobrazované meno "
+#~ "hositeľa v prehľade zásahov. Táto voľba zaťažuje vaše pripojenie."
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited and can be restored by clicking the Fortified system tray "
+#~ "icon."
+#~ msgstr ""
+#~ "Pri zatvorení okna programu v režime systémovej lišty sa program skryje a "
+#~ "je možné ho obnoviť kliknutím na ikonu v systémovej lište."
+
+#~ msgid ""
+#~ "The filtering settings let you weed out excessive information\n"
+#~ "from the Hits view.\n"
+#~ msgstr ""
+#~ "Nastavenie filtrovania umožňuje skryť nepotrebné informácie\n"
+#~ "z pohľadu zásahov.\n"
+
+#~ msgid ""
+#~ "Check this and the Hits view will not show identical hits that follow "
+#~ "each other."
+#~ msgstr ""
+#~ "Ak zapnete túto voľbu, zoznam zásahov nebude zobrazovať opakované zásahy, "
+#~ "ktoré nasledujú hneď za sebou."
+
+#~ msgid ""
+#~ "Check this and the hits list will not show hits that have a destination "
+#~ "field other than your IP."
+#~ msgstr ""
+#~ "Ak zapnete túto voľbu, zoznam zásahov nebude zobrazovať tie, ktorých "
+#~ "cieľová adresa nie je vaše IP."
+
+#~ msgid ""
+#~ "The advanced settings let the experienced user fine tune\n"
+#~ "the program operation.\n"
+#~ msgstr "Pokročilé nastavenie umožňuje podrobne vyladiť chovanie programu.\n"
+
+#~ msgid ""
+#~ "If you enable this, Fortified can use some experimental patches for "
+#~ "filtering. Do not enable this option until you have read the manual for "
+#~ "the prerequisites."
+#~ msgstr ""
+#~ "Ak toto povolíte, Fortified bude môcť používať experimentálne funkcie "
+#~ "pre filtrovanie. Ak ste si neprečítali manuál, túto voľbu nezapínajte."
+
+#~ msgid "Deny"
+#~ msgstr "Zakázať"
+
+#~ msgid "Silently ignore the rejected packets."
+#~ msgstr "Potichu ignorovať odmietnuté pakety."
+
+#~ msgid "Reject"
+#~ msgstr "Odmietnuť"
+
+#~ msgid "Reply with a notice of rejection to the sender."
+#~ msgstr "Odpovedať s upozornením na odmietnutie."
+
+#~ msgid "General"
+#~ msgstr "Všeobecné"
+
+#~ msgid "Connection Sharing"
+#~ msgstr "Zdieľanie spojenia"
+
+#~ msgid "Type of Service"
+#~ msgstr "Typ služby"
+
+#~ msgid "%s (%s) is open to %s"
+#~ msgstr "%s (%s) je otvorený pre %s"
+
+#~ msgid "From port %s to %s, port %s"
+#~ msgstr "Z portu %s do %s, port %s"
+
+#~ msgid "Trusted Hosts"
+#~ msgstr "Dôveryhodný hostitelia"
+
+#~ msgid "Forwarded Ports"
+#~ msgstr "Forwadované porty"
+
+#~ msgid "Open Ports"
+#~ msgstr "Otvorené porty"
+
+#~ msgid "Stealthed Ports"
+#~ msgstr "Skryté porty"
+
+#~ msgid "Blocked Ports"
+#~ msgstr "Blokované porty"
+
+#~ msgid "Rule"
+#~ msgstr "Pravidlo"
+
+#~ msgid "Please specify a valid hostname or IP address."
+#~ msgstr "Prosím, zadajte hostiteľa alebo IP adresu."
+
+#~ msgid "Please specify a valid port number."
+#~ msgstr "Prosím, zadajte platné číslo portu."
+
+#~ msgid "Please specify a valid internal hostname or IP address."
+#~ msgstr "Prosím, zadajte platné interné meno hostiteľa alebo IP adresu."
+
+#~ msgid "Please specify a valid port number for the internal host."
+#~ msgstr "Prosím, zadajte platné číslo portu pre interného hostiteľa."
+
+#~ msgid "Trust Host"
+#~ msgstr "Dôveryhodný hostiteľ"
+
+#~ msgid "Block Host"
+#~ msgstr "Blokovaný hostiteľ"
+
+#~ msgid "Forward To"
+#~ msgstr "Forwardovať do"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Open Port"
+#~ msgstr "Otvorený port"
+
+#~ msgid "Stealth Port"
+#~ msgstr "Skrytý port"
+
+#~ msgid "For Machine"
+#~ msgstr "Na počítači"
+
+#~ msgid "Block Port"
+#~ msgstr "Blokovaný port"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "Vyberte súbor, do ktorého sa bude zaznamenávať"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "Nenájdené nastavenie klienta DHCP\n"
+#~ "\n"
+#~ "Firewall nebude automaticky znovu načítaný pri obnove IP adresy.\n"
+#~ "Overte, že je správne nastavené externé zariadenie alebo vypnite\n"
+#~ "voľbu DHCP v prípade, že používate statické nastavenie.\n"
+
+#~ msgid ""
+#~ "No realtime hit information will be available. Please make sure the "
+#~ "syslog daemon is running."
+#~ msgstr ""
+#~ "Nebude k dispozícii informácia o momentálnych zásahoch. Overte, že beží "
+#~ "démon syslog."
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Vyberte zo zoznamu sieťové zariadenie. Ak neviete ktoré, použite "
+#~ "štandardné."
+
+#~ msgid ""
+#~ "Network Address Translation (NAT) is a technique that allows all the "
+#~ "machines\n"
+#~ "on your network to share a single IP address and Internet connection."
+#~ msgstr ""
+#~ "Preklad sieťový adries (NAT) je technika, ktorá umožňuje, aby všetky "
+#~ "počítače\n"
+#~ "na vašej sieti zdieľať jedinú adresu IP a pripojenie na Internet."
+
+#~ msgid "Disable Network Address Translation"
+#~ msgstr "Zakázať preklad sieťových adries NAT"
+
+#~ msgid "Enable Network Address Translation"
+#~ msgstr "Povoliť preklad sieťových adries NAT"
+
+#~ msgid ""
+#~ "This is the device that connects to your LAN. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Toto je sieťové zariadenie, ktorým ste pripojení k sieti. Ak neviete "
+#~ "ktoré, použite štandardné."
+
+#~ msgid "Autodetect internal network IP range"
+#~ msgstr "Autodetekcia rozsahu IP adries internej siete"
+
+#~ msgid "Select this and the IP range of your LAN is autodetected."
+#~ msgstr ""
+#~ "Toto použite pre automatické zistenie rozsahu IP adries na vašej sieti."
+
+#~ msgid "Specify internal network IP range manually (advanced users only)"
+#~ msgstr "Nastaviť rozsah IP adries internej siete ručne (len pre expertov)"
+
+#~ msgid "Select this only if the automatic detection fails."
+#~ msgstr "Toto použite iba ak autodetekcia zlyhá."
+
+#~ msgid "Enter the internal network address range:"
+#~ msgstr "Zadajte rozsah IP adries internej siete:"
+
+#~ msgid ""
+#~ "Tip: The network range is given in the form of <i>address/mask</i>. "
+#~ "192.168.0.0/24 is the\n"
+#~ " most common IP range reserved for internal networks."
+#~ msgstr ""
+#~ "Tip: Rozsah sieťový adries je vo formáte <i>adresa/maska</i>. "
+#~ "192.168.1.0/24 je najčastejší rozsah IP adries\n"
+#~ "rezervovaný pre interné siete."
+
+#~ msgid ""
+#~ "If you run server software on your machine and want to give public "
+#~ "access\n"
+#~ "to the services you provide, you can configure them here.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ak na vašom počítači beží nejaký server a chcete poskytnúť k nemu\n"
+#~ "verejný prístup, môžete ho tu nastaviť.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Tip: Services can easily be configured later from the main interface, in "
+#~ "the Rules view.\n"
+#~ "The Rules view settings override any conflicting choices made here."
+#~ msgstr ""
+#~ "Tip: Služby je možné neskôr nastaviť v hlavnom rozhraní v pohľade\n"
+#~ "Pravidlá. V ňom je možné vyriešiť všetky konflikty, ktoré vznikli\n"
+#~ "voľbami v tomto dialógu."
+
+#~ msgid "Disable public access to all services"
+#~ msgstr "Zakázať verejný prístup ku všetkým službám"
+
+#~ msgid "Enable public access to the following services:"
+#~ msgstr "Povoliť verejný prístup pre tieto služby:"
+
+#~ msgid ""
+#~ "ICMP packet filtering can be useful to prevent some common\n"
+#~ "Denial of Service (DoS) attacks on your network."
+#~ msgstr ""
+#~ "Filtrovanie ICMP paketov môže byť výhodné pre zabráneniu niektorým\n"
+#~ "obvyklým útokom typu Denial of Service (DoS) na vašej sieti."
+
+#~ msgid "Enable ICMP filtering related to the following packets:"
+#~ msgstr "Povoliť filtrovanie ICMP pre tieto pakety:"
+
+#~ msgid "Echo"
+#~ msgstr "Echo"
+
+#~ msgid "Disable ToS filtering"
+#~ msgstr "Zakázať filtrovanie podľa typu služby"
+
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr "Povoliť filtrovanie podľa typu služby pre tieto pakety:"
+
+#~ msgid "Client Applications"
+#~ msgstr "Klientské aplikácie"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "Vybraním tejto možnosti nastavíte príznaky typu služby pre obvyklé "
+#~ "klientské aplikácie, napr. WWW, FTP, SSH a e-mail."
+
+#~ msgid "Server Applications"
+#~ msgstr "Serverové aplikácie"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "Vybraním tejto možnosti povolíte príznaky typu služby pre obvyklé "
+#~ "serverovské aplikácie, napr. SQUID, FTPd, SSHd, SMTP & POP démonov."
+
+#~ msgid ""
+#~ "Selecting this option will automatically configure Type of Service for "
+#~ "`Throughput' for both X and SSHd. You should select this ONLY if you need "
+#~ "to run X over your link"
+#~ msgstr ""
+#~ "Vybraním tejto možnosti nastavíte automaticky príznaky typu služby na "
+#~ "maximálnu prenosovú rýchlosť pre X a SSHd. Toto použite iba ak používate "
+#~ "X na tomto spojení."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "Vybraním tejto možnosti nastavíte príznaky typu služby na maximálnu "
+#~ "prenosovú rýchlosť pre vybrané možnosti."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "Vybraním tejto možnosti nastavíte príznaky typu služby na maximálnu "
+#~ "spoľahlivosť pre vybrané možnosti."
+
+#~ msgid "Delay"
+#~ msgstr "Pauza"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "Použitím tejto voľby nastavíte príznaky typu služby na minimálnu pauzu "
+#~ "pre vami vybrané možnosti."
+
+#~ msgid "Network services setup"
+#~ msgstr "Nastavenie sieťových služieb"
+
+#~ msgid "ICMP filtering setup"
+#~ msgstr "Nastavenie filtrovania ICMP"

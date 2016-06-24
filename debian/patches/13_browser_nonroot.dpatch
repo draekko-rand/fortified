@@ -1,0 +1,92 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 13_browser_nonroot.dpatch by  <pandis@pandis-laptop>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@DPATCH@
+diff -urNad fortified-1.1.0~/src/menus.c fortified-1.1.0/src/menus.c
+--- fortified-1.1.0~/src/menus.c	2005-01-29 14:32:08.000000000 +0200
++++ fortified-1.1.0/src/menus.c	2006-08-12 04:17:35.000000000 +0300
+@@ -23,6 +23,7 @@
+ 
+ #include "xpm/fortified-pixbufs.h"
+ 
++
+ #define FORTIFIED_STOCK_WIZARD "fortified-wizard-icon"
+ #define FORTIFIED_STOCK_START_FIREWALL "fortified-start-firewall-icon"
+ #define FORTIFIED_STOCK_STOP_FIREWALL "fortified-stop-firewall-icon"
+@@ -541,13 +542,13 @@
+ static void
+ open_homepage (void)
+ {
+-	gnome_url_show ("http://www.fs-security.com", NULL);
++	open_browser ("http://www.fs-security.com");
+ }
+ 
+ static void
+ open_manual (void)
+ {
+-	gnome_url_show ("http://www.fs-security.com/docs/", NULL);
++	open_browser ("http://www.fs-security.com/docs/");
+ }
+ 
+ /* [ copy_selected ]
+diff -urNad fortified-1.1.0~/src/preferences.c fortified-1.1.0/src/preferences.c
+--- fortified-1.1.0~/src/preferences.c	2005-01-29 14:32:08.000000000 +0200
++++ fortified-1.1.0/src/preferences.c	2006-08-12 04:17:35.000000000 +0300
+@@ -215,7 +215,7 @@
+ static void
+ preferences_show_help (void)
+ {
+-	gnome_url_show ("http://www.fs-security.com/docs/preferences.php", NULL);
++	open_browser ("http://www.fs-security.com/docs/preferences.php");
+ }
+ 
+ static GtkTreeModel*
+diff -urNad fortified-1.1.0~/src/util.c fortified-1.1.0/src/util.c
+--- fortified-1.1.0~/src/util.c	2005-01-29 14:32:08.000000000 +0200
++++ fortified-1.1.0/src/util.c	2006-08-12 04:17:35.000000000 +0300
+@@ -18,6 +18,7 @@
+ #include <arpa/inet.h>
+ #include <net/if.h>
+ #include <sys/ioctl.h>
++#include <libgnomevfs/gnome-vfs-mime-handlers.h>
+ 
+ #include "globals.h"
+ #include "fortified.h"
+@@ -537,3 +538,24 @@
+ 	g_free (contents);
+ 	g_free (tail);
+ }
++
++/* [ open_browser ]
++ * Open default browser without superuser privileges
++ */
++
++void
++open_browser (const gchar *str)
++{
++        const gchar *sudo_user;
++        GnomeVFSMimeApplication *app;
++        app=gnome_vfs_mime_get_default_application("text/html");
++        sudo_user=g_getenv("SUDO_USER");
++        if (sudo_user!=NULL)
++	{
++                g_spawn_command_line_async (g_strjoin(" ","sudo -u",sudo_user,app->command,str, NULL),NULL);
++		g_fprintf(stderr,"Doing :%s:\n",g_strjoin(" ","sudo -u",sudo_user,app->command,str, NULL));
++	}
++        else
++                g_spawn_command_line_async (g_strjoin(" ",app->command,str, NULL),NULL);
++}
++
+diff -urNad fortified-1.1.0~/src/util.h fortified-1.1.0/src/util.h
+--- fortified-1.1.0~/src/util.h	2005-01-29 14:32:08.000000000 +0200
++++ fortified-1.1.0/src/util.h	2006-08-12 04:17:35.000000000 +0300
+@@ -45,5 +45,6 @@
+ 
+ gboolean append_to_file (gchar *path, gchar *data, gboolean newline);
+ void remove_line_from_file (gchar *path, gint position);
++void open_browser(const gchar *str);
+ 
+ #endif

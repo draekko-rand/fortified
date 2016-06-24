@@ -1,0 +1,2064 @@
+# Norwegian translation of fortified.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified 0.5.0pre2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2005-01-11 01:34+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian <no@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "Brannveggverktøy for skrivebordet"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr ""
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr ""
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr ""
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+
+#: fortified.schemas.in.h:12
+#, fuzzy
+msgid "Enable DHCP server for connection sharing"
+msgstr "Oppsett av deling av internettforbindelse"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Aktiver NAT"
+
+#: fortified.schemas.in.h:14
+#, fuzzy
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "Aktiver adresseoversetting (NAT)"
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr ""
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr ""
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "Aktiver ikon for systemtrauet"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr "Kunne ikke starte brannvegg\n"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Filtrer bort identiske treff"
+
+#: fortified.schemas.in.h:21
+#, fuzzy
+msgid "Filter out sequences of identical hits."
+msgstr "Filtrer bort identiske treff"
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr ""
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr ""
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr ""
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr ""
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr ""
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:35
+msgid "Show the device the hit was received from in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:56
+#, fuzzy
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "Start brannvegg ved oppringing"
+
+#: fortified.schemas.in.h:57
+#, fuzzy
+msgid "Start the firewall when the program loads"
+msgstr ""
+"Kryss av her for å la brannveggen startes på nytt hver gang programmet "
+"starter. Slått på som standard."
+
+#: fortified.schemas.in.h:58
+#, fuzzy
+msgid "Start the firewall when the program loads."
+msgstr ""
+"Kryss av her for å la brannveggen startes på nytt hver gang programmet "
+"starter. Slått på som standard."
+
+#: fortified.schemas.in.h:59
+#, fuzzy
+msgid "Start the firewall when the system boots"
+msgstr ""
+"Kryss av her for å la brannveggen startes på nytt hver gang programmet "
+"starter. Slått på som standard."
+
+#: fortified.schemas.in.h:60
+#, fuzzy
+msgid "Start the firewall when the system boots."
+msgstr ""
+"Kryss av her for å la brannveggen startes på nytt hver gang programmet "
+"starter. Slått på som standard."
+
+#: fortified.schemas.in.h:61
+#, fuzzy
+msgid "Start the firewall when the system dials out"
+msgstr "Start brannvegg ved oppringing"
+
+#: fortified.schemas.in.h:62
+#, fuzzy
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr ""
+"Kryss av her for å la brannveggen startes på nytt hver gang programmet "
+"starter. Slått på som standard."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr ""
+"Kryss av her for å la brannveggen startes på nytt hver gang programmet "
+"starter. Slått på som standard."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr ""
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr ""
+
+#: fortified.schemas.in.h:66
+#, fuzzy
+msgid "The external interface"
+msgstr "Velg ditt eksterne grensesnitt"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+
+#: fortified.schemas.in.h:68
+#, fuzzy
+msgid "The internal interface"
+msgstr "Velg ditt eksterne grensesnitt"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr ""
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr ""
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+msgid "Failed to stop the firewall"
+msgstr "Kunne ikke stoppe brannveggen"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr ""
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr "Enhet %s er ikke klar."
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr "Kjernen støtter ikke iptables."
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr "En ukjent feil oppsto."
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+
+#: src/fortified.c:143
+msgid "Failed to start the firewall\n"
+msgstr "Kunne ikke starte brannveggen\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+msgid "Failed to start the firewall"
+msgstr "Kunne ikke starte brannveggen"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+msgid "Failed to lock the firewall"
+msgstr "Kunne ikke låse brannveggen"
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr ""
+
+#: src/fortified.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr ""
+
+#: src/fortified.c:320
+msgid "You must have root user privileges to use Fortified."
+msgstr ""
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, c-format
+msgid "Firewall update complete\n"
+msgstr "Oppdatering av brannvegg fullført\n"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "Et alt-i-ett GNOME-verktøy for Linux brannvegger.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "Status"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "Hendelser"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "Regelsett"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr "Utgående"
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr "Innkommende"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "Ukjent"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Tid"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr "Retning"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "Inn"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Ut"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Port"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Kilde"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Mål"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Lengde"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "TOS"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protokoll"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Tjeneste"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "Blokkerte tilkoblinger"
+
+#: src/menus.c:43
+msgid "_Firewall"
+msgstr "_Brannvegg"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr "R_ediger"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr "_Hendelser"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr "Vi_s kolonne"
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr "_Regelsett"
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr "_Hjelp"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr "A_vslutt"
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr "Avslutt programmet"
+
+#: src/menus.c:51
+msgid "Run _Wizard"
+msgstr "Kjør _veiviser"
+
+#: src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "Kjør veiviser for brannvegg"
+
+#. S
+#: src/menus.c:52
+msgid "_Start Firewall"
+msgstr "_Start brannveggen"
+
+#: src/menus.c:52
+msgid "Start the firewall"
+msgstr "Start brannveggen"
+
+#. P
+#: src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "Sto_pp brannveggen"
+
+#: src/menus.c:53
+msgid "Stop the firewall"
+msgstr "Stopp brannveggen"
+
+#: src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "_Lås brannveggen"
+
+#: src/menus.c:54
+msgid "Lock the firewall"
+msgstr "Lås brannveggen"
+
+#: src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "Lås _opp brannveggen"
+
+#: src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "Lås opp brannveggen"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr "_Kopier beskrivelse"
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr "Kopier beskrivelse av hendelse"
+
+#: src/menus.c:58
+msgid "_Preferences"
+msgstr "_Brukervalg"
+
+#: src/menus.c:58
+msgid "Program preferences"
+msgstr "Brukervalg for programmet"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr "_Lagre liste"
+
+#: src/menus.c:60
+msgid "Save the events to a file"
+msgstr "Lagre hendelsene til en fil"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr "_Tøm"
+
+#: src/menus.c:61
+msgid "Clear the events"
+msgstr "Tøm hendelser"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr "_Last på nytt"
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr "Last hendelsene på nytt"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "Avbryt gjenlasting av hendelsene"
+
+#: src/menus.c:65
+msgid "_Remove Rule"
+msgstr "Fje_rn regel"
+
+#: src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "Fjern valgt regel"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr "_Legg til regel"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr "R_ediger regel"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "Rediger valgt regel"
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr ""
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "Bruker_manual på nettet"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr ""
+
+#: src/menus.c:71
+msgid "Fortified _Homepage"
+msgstr "Fortified _hjemmeside"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr ""
+
+#: src/menus.c:72
+msgid "_About"
+msgstr "_Om"
+
+#: src/menus.c:72
+msgid "About Fortified"
+msgstr "Om Fortified"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr ""
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "S_lå opp vertsnavn"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr ""
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr ""
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr ""
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr ""
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr ""
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr ""
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr "ToS"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Brannvegg-skriptet lagret som %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr ""
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr ""
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr ""
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr ""
+
+#: src/policyview.c:628
+msgid "Firewall host"
+msgstr "Vert for brannvegg"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr "LAN-klienter"
+
+#: src/policyview.c:675
+msgid "IP or host"
+msgstr "IP eller vert"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr ""
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr ""
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr ""
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr "Kommentar"
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+msgid "Allow service"
+msgstr "Tillat tjeneste"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr "For"
+
+#: src/policyview.c:1216
+msgid "Forward service"
+msgstr "Videresend tjeneste"
+
+#: src/policyview.c:1217
+msgid "Firewall Port"
+msgstr "Brannveggport"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr "Til"
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr ""
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr ""
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr "Videresend tjeneste fra brannvegg"
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr "Til intern vert"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr "Nekt tilkoblinger til vert"
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1278 src/policyview.c:1350
+msgid "Deny service"
+msgstr "Nekt tjeneste"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr ""
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr ""
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr ""
+
+#: src/policyview.c:1334
+msgid "Deny connections to"
+msgstr "Nekt tilkoblinger til"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr ""
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr ""
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr "Redigering"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr "Grensesnitt"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "Brannvegg"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "Nettverksinnstillinger"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP-filtrering"
+
+#: src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "ToS-filtrering"
+
+#: src/preferences.c:273
+msgid "Advanced Options"
+msgstr "Avanserte alternativer"
+
+#: src/preferences.c:505
+msgid "Hosts"
+msgstr "Verter"
+
+#: src/preferences.c:509
+msgid "Ports"
+msgstr "Porter"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr ""
+
+#: src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "Ugyldig DCHP-konfigurasjon"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr "Mangler fil"
+
+#: src/preferences.c:910
+#, fuzzy
+msgid "Fortified interface file not found"
+msgstr "Fortified brannveggverktøy"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr ""
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr ""
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr ""
+
+#: src/preferences.glade.h:9
+#, fuzzy
+msgid "<b>Internet connected network device</b>"
+msgstr "Velg din interne nettverksenhet:"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "Foretrukket avvisningsmetode for pakker"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr ""
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Address Masking"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Avansert"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr ""
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr ""
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Gjenkjente enhet(er):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr ""
+
+#: src/preferences.glade.h:38
+msgid "Enable ICMP filtering"
+msgstr "Aktiver ICMP-filtrering"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+#, fuzzy
+msgid "Enable Internet connection sharing"
+msgstr "Oppsett av deling av internettforbindelse"
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "Oppsett av filtrering på tjenestetype"
+
+#: src/preferences.glade.h:43
+#, fuzzy
+msgid "Filter host"
+msgstr "Filtre"
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "Filtre"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "IP-adressen er tildelt via DHCP"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Vert"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr ""
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr ""
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "IP-adressen er tildelt via DHCP"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr "Navnetjener:"
+
+#: src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "Brukervalg"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Omdirigering"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Pålitelighet"
+
+#: src/preferences.glade.h:66
+msgid "Servers"
+msgstr "Tjenere"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+#, fuzzy
+msgid "Source Quenching"
+msgstr "Source Quenches"
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "Start brannvegg ved oppringing"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "Start brannvegg ved oppringing"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "Start brannvegg ved oppstart av program"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr ""
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr ""
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Timestamping"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"Filtrering på tjenestetype lar deg omprioritere nettverkstjenester\n"
+"for å tillate høyere overføringshastigheter for de mest brukte tjenestene.\n"
+"\n"
+"Vil du aktivere ToS-filtrering?\n"
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Unreachable"
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "Arbeidsstasjoner"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "_Godta"
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+msgid "Save Events To File"
+msgstr "Lagre hendelser til fil"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr "Låst"
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internett"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "Lokal"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr "Program"
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr "Farge"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "Totalt"
+
+#: src/statusview.c:986
+msgid "Serious"
+msgstr "Alvorlig"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr "Nettverk"
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "Enhet"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Type"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr "Mottatt"
+
+#: src/statusview.c:1076
+msgid "Sent"
+msgstr "Sendt"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "Aktivitet"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "Aktive tilkoblinger"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Brannvegg stoppet"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Brannveggen er aktiv"
+
+#: src/tray.c:150
+msgid "Firewall locked"
+msgstr "Brannvegg låst"
+
+#: src/tray.c:204
+msgid "_Show Fortified"
+msgstr "Vi_s fortified"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr "A_vslutt"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Fortified-feil"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr ""
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr "Ethernet-enhet"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr "Oppringt enhet"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr "Oppringt"
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr "Trådløs enhet"
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr "Trådløs"
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr "IPv6-tunnel"
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr "VPN-tunnel"
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr "Rutet IP-tunnel"
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr "Ukjent enhet"
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Velg nettverksenheten som er koblet til Internett fra nedtrekksmenyen med\n"
+"gjenkjente enheter."
+
+#: src/wizard.c:137
+#, fuzzy
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Vennligst velg enheten du kobler deg til Internett med fra\n"
+"nedtrekkslisten med gjenkjente enheter.\n"
+"\n"
+"Hvis du bruker et modem vil enhetsnavnet sannsynligvis være ppp0. Hvis du "
+"har\n"
+"et kabelmodem eller en DSL-tilkobling, velg eth0."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Start brannvegg ved oppringing"
+
+#: src/wizard.c:149
+#, fuzzy
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Kryss av for dette valget for å la programmet starte når du ringer opp din "
+"Internett-tjenestetilbyder. Kun tilgjengelig ved bruk av modem."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP-adressen er tildelt via DHCP"
+
+#: src/wizard.c:157
+#, fuzzy
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Kryss av for dette valget hvis du bruker en DHCP-tjener. Brukere som har "
+"kabelmodem bør krysse av her."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+
+#: src/wizard.c:263
+#, fuzzy
+msgid "Local area network device:"
+msgstr "Velg din interne nettverksenhet:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr ""
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr ""
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr ""
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr ""
+
+#: src/wizard.c:399
+#, fuzzy
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Velkommen til Fortified!\n"
+"\n"
+"\n"
+"Denne veiviseren vil hjelpe deg med å sette opp en brannvegg for din\n"
+"Linux-maskin. Du vil bli spurt noen spørsmål om ditt\n"
+"nettverksoppsett.\n"
+"\n"
+"Trykk \"Neste\" for å fortsette.\n"
+"\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr ""
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Klar til å starte din brannvegg"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"Veiviseren er nå klar til å generere din brannvegg.\n"
+"\n"
+"Trykk \"Fullfør\" for å fortsette, eller \"Tilbake\" for\n"
+"å endre dine valg.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "Start brannvegg"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Veiviser for brannvegg"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Velkommen til Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Oppsett av nettverksenhet"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Oppsett av deling av internettforbindelse"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Klar til å starte din brannvegg"
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "Brannveggen er stoppet, nettverkstrafikken flyter fritt\n"
+
+#~ msgid "Firewall started\n"
+#~ msgstr "Brannvegg startet\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "All trafikk stoppet\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "All trafikk stoppet"
+
+#~ msgid "Fortified "
+#~ msgstr "Fortified "
+
+#~ msgid "Hits"
+#~ msgstr "Treff"
+
+#~ msgid "Rules"
+#~ msgstr "Regler"
+
+#~ msgid "Save"
+#~ msgstr "Lagre"
+
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "/_Brannvegg/Kjør _veiviser"
+
+#~ msgid "/_Firewall/---"
+#~ msgstr "/_Brannvegg/---"
+
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "/_Brannvegg/_Start brannvegg"
+
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "/_Brannvegg/Sto_pp brannvegg"
+
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "/_Brannvegg/_Steng for all nettverkstrafikk"
+
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "/_Brannvegg/_Avslutt"
+
+#~ msgid "/_Edit/_Copy"
+#~ msgstr "/R_ediger/_Kopier"
+
+#~ msgid "/_Edit/---"
+#~ msgstr "/R_ediger/---"
+
+#~ msgid "/_View"
+#~ msgstr "/_Vis"
+
+#~ msgid "/_View/_Clear Hit List"
+#~ msgstr "/_Vis/_Tøm trefflisten"
+
+#~ msgid "/_View/_Re_load Hit List"
+#~ msgstr "/_Vis/_Last trefflisten på nytt"
+
+#~ msgid "/_View/---"
+#~ msgstr "/_Vis/---"
+
+#~ msgid "/_View/Hit columns"
+#~ msgstr "/_Vis/Treff-kolonner"
+
+#~ msgid "/_View/Hit columns/Service"
+#~ msgstr "/_Vis/Treff-kolonner/Tjeneste"
+
+#~ msgid "/_Hits"
+#~ msgstr "/_Treff"
+
+#~ msgid "/_Hits/_Block Host"
+#~ msgstr "/_Treff/_Blokker vert"
+
+#~ msgid "/_Hits/_Trust Host"
+#~ msgstr "/_Treff/S_tol på vert"
+
+#~ msgid "/_Hits/_Open Port"
+#~ msgstr "/_Treff/_Åpne port"
+
+#~ msgid "/_Hits/Open Port for This _Host Only"
+#~ msgstr "/_Treff/Åpne port kun for denne _verten"
+
+#~ msgid "/_Hits/Block and _Stop Logging Port"
+#~ msgstr "/_Treff/Blokker og _stopp logging av porten"
+
+#~ msgid "/_Hits/_Lookup Hostname"
+#~ msgstr "/_Treff/S_lå opp vertsnavn"
+
+#~ msgid "/_Hits/---"
+#~ msgstr "/_Treff/---"
+
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "/_Treff/Lagre trefflisten til _fil"
+
+#~ msgid "/_Rules/_New Rule"
+#~ msgstr "/_Regler/_Ny regel"
+
+#~ msgid "/_Rules/_Remove Rule"
+#~ msgstr "/_Regler/Fje_rn regel"
+
+#~ msgid "/_Rules/_Edit Rule"
+#~ msgstr "/_Regler/R_ediger regel"
+
+#~ msgid "/_Help/---"
+#~ msgstr "/_Hjelp/---"
+
+#~ msgid "/_Help/_About..."
+#~ msgstr "/_Hjelp/_Om..."
+
+#~ msgid "/_Block Host"
+#~ msgstr "/_Blokker vert"
+
+#~ msgid "/_Trust Host"
+#~ msgstr "/S_tol på vert"
+
+#~ msgid "/_Open Port"
+#~ msgstr "/_Åpne port"
+
+#~ msgid "/Open Port for This _Host Only"
+#~ msgstr "/Åpne port kun for denne _verten"
+
+#~ msgid "/New rule"
+#~ msgstr "/Ny regel"
+
+#~ msgid "/Edit rule"
+#~ msgstr "/Rediger regel"
+
+#~ msgid "Wizard"
+#~ msgstr "Veiviser"
+
+#~ msgid "Stop"
+#~ msgstr "Stopp"
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "Stopp brannveggen ved avslutting av programmet"
+
+#~ msgid "Try to detect the location of system binaries"
+#~ msgstr "Prøv å finne plasseringen av systemets binærfiler"
+
+#~ msgid ""
+#~ "Check this and Fortified will search for the location of some needed "
+#~ "binaries. Do not check unless you're having problems."
+#~ msgstr ""
+#~ "Kryss av her for at Fortified skal søke etter plasseringen for noen "
+#~ "nødvendige binærfiler. Ikke kryss av hvis du ikke har problemer."
+
+#~ msgid "Deny"
+#~ msgstr "Nekt"
+
+#~ msgid "Reject"
+#~ msgstr "Avvis"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "Connection Sharing"
+#~ msgstr "Deling av tilkobling"
+
+#~ msgid "Type of Service"
+#~ msgstr "Tjenestetype"
+
+#~ msgid "Forwarded Ports"
+#~ msgstr "Videresendte porter"
+
+#~ msgid "Open Ports"
+#~ msgstr "Åpne porter"
+
+#~ msgid "Rule"
+#~ msgstr "Regel"
+
+#~ msgid "Please specify a valid hostname or IP address."
+#~ msgstr "Vennligst oppgi et gyldig vertsnavn eller IP-adresse."
+
+#~ msgid "Please specify a valid port number."
+#~ msgstr "Vennligst oppgi et gyldig portnummer."
+
+#~ msgid "Block Host"
+#~ msgstr "Blokker vert"
+
+#~ msgid "Forward To"
+#~ msgstr "Videresend til"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Open Port"
+#~ msgstr "Åpne port"
+
+#~ msgid "For Machine"
+#~ msgstr "Til maskin"
+
+#~ msgid "Block Port"
+#~ msgstr "Blokker port"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "Velg fil loggen skal lagres til"
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Velg nettverksenheten fra nedtrekksmenyen. Bruk standardvalget hvis du "
+#~ "ikke er sikker."
+
+#~ msgid "Disable Network Address Translation"
+#~ msgstr "Deaktiver adresseoversetting (NAT)"
+
+#~ msgid "Enable Network Address Translation"
+#~ msgstr "Aktiver adresseoversetting (NAT)"
+
+#~ msgid ""
+#~ "This is the device that connects to your LAN. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Dette er enheten som er koblet til ditt LAN. Bruk standardvalget hvis du "
+#~ "ikke er sikker."
+
+#~ msgid "Autodetect internal network IP range"
+#~ msgstr "Automatisk gjenkjenning av internt IP-adresse område"
+
+#~ msgid "Select this and the IP range of your LAN is autodetected."
+#~ msgstr ""
+#~ "Velg dette hvis du vil gjenkjenne IP-området for ditt LAN automatisk."
+
+#~ msgid "Specify internal network IP range manually (advanced users only)"
+#~ msgstr ""
+#~ "Spesifiser IP-område for ditt interne nettverk manuelt (kun avanserte "
+#~ "brukere)"
+
+#~ msgid "Select this only if the automatic detection fails."
+#~ msgstr "Velg dette kun hvis automatisk gjenkjenning feiler."
+
+#~ msgid "Enter the internal network address range:"
+#~ msgstr "Skriv inn ditt interne nettverksadresseområde:"
+
+#~ msgid "Echo"
+#~ msgstr "Echo"
+
+#~ msgid "Disable ToS filtering"
+#~ msgstr "Deaktiver ToS-filtrering"
+
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr "Aktiver ToS-filtrering relatert til følgende pakker:"
+
+#~ msgid "Client Applications"
+#~ msgstr "Klientapplikasjoner"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "Kryss av for dette alternativet for å aktivere flagg for tjenestetype for "
+#~ "vanlige klientapplikasjoner som WWW, FTP, SSH og e-post."
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "Kryss av for dette alternativet for å aktivere flagg for tjenestetype for "
+#~ "vanlige tjenerapplikasjoner som SQUID, FTPd, SSHd, SMTP- og POP-daemoner."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "Ved å velge dette alternativet vil du konfigurere flagg for tjenestetype "
+#~ "til maksimal ytelse for de alternativene du har valgt."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "Dette alternativet vil konfigurere flagg for tjenestetype for maksimal "
+#~ "pålitelighet for de valgene du har gjort."
+
+#~ msgid "Delay"
+#~ msgstr "Pause"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "Dette alternativet vil konfigurere flagg for tjenestetype til minimal "
+#~ "ventetid for valgene du har gjort."
+
+#~ msgid "Network services setup"
+#~ msgstr "Oppsett av nettverkstjenester"
+
+#~ msgid "ICMP filtering setup"
+#~ msgstr "Oppsett av ICMP-filtrering"
+
+#~ msgid "Halt all network traffic"
+#~ msgstr "Stopp all nettverkstrafikk"
+
+#~ msgid "No, I do not run any public network services on my machine"
+#~ msgstr ""
+#~ "Nei, jeg kjører ikke noen offentlige nettverkstjenester på min maskin"
+
+#~ msgid "Yes, I run the following services on my machine:"
+#~ msgstr "Ja, jeg kjører følgende tjenester på min maskin:"
+
+#~ msgid "General options"
+#~ msgstr "Generelle alternativer"
+
+#~ msgid "Wizard options"
+#~ msgstr "Alternativer for wizard"
+
+#~ msgid "Checking this box will simply ignore the unauthorized packets."
+#~ msgstr ""
+#~ "Hvis du krysser av i denne boksen vil uautoriserte pakker ignoreres."
+
+#~ msgid "Checking this box will reject the unauthorized packets"
+#~ msgstr "Hvis du krysser av i denne boksen vil uautoriserte pakker nektes."
+
+#~ msgid "You must rerun the wizard for the changes to take effect"
+#~ msgstr "Du må kjøre wizarden på nytt for at endringene skal tre i kraft"
+
+#~ msgid "_Clear firewall hit list"
+#~ msgstr "T_øm brannveggens treffliste"
+
+#~ msgid "R_eload entire firewall hit list"
+#~ msgstr "Gj_enles hele trefflisten"
+
+#~ msgid "_Hit list"
+#~ msgstr "Tre_ffliste"
+
+#~ msgid "Reload entire firewall hit list"
+#~ msgstr "Les hele trefflisten på nytt"
+
+#~ msgid "Restart firewall"
+#~ msgstr "Gjenstart brannvegg"
+
+#~ msgid "You must be root to manipulate the firewall.\n"
+#~ msgstr "Du må være root for å manipulere brannveggen.\n"
+
+#~ msgid "You must be root to manipulate the firewall."
+#~ msgstr "Du må være root for å manipulere brannveggen."
+
+#~ msgid "Old version detected"
+#~ msgstr "Gammel versjon funnet"
+
+#~ msgid ""
+#~ "\n"
+#~ "A firewall created by an older version of\n"
+#~ "Fortified has been detected.\n"
+#~ "\n"
+#~ "OK to remove old firewall (recommended)?\n"
+#~ msgstr ""
+#~ "\n"
+#~ "En brannvegg opprettet av en eldre versjon av\n"
+#~ "Fortified ble funnet.\n"
+#~ "\n"
+#~ "OK for å fjerne gammel brannvegg (anbefalt)?\n"
+
+#~ msgid ""
+#~ "Log file not found or access denied.\n"
+#~ "Firewall log monitoring disabled.\n"
+#~ "\n"
+#~ "You can configure the path to the log file in the \"preferences\" section."
+#~ msgstr ""
+#~ "Loggfil ikke funnet eller ingen tilgang.\n"
+#~ "Loggovervåking for brannvegg slått av.\n"
+#~ "\n"
+#~ "Du kan konfigurere stien til loggfilen i \"brukervalg\"-seksjonen."

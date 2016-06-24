@@ -1,0 +1,2237 @@
+# fortified korean translation
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Young-Ho, Cha <ganadist@chollian.net>, 2001
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified 0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2001-02-13 21:27+0900\n"
+"Last-Translator: Young-Ho, Cha <ganadist@chollian.net>\n"
+"Language-Team: korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+#, fuzzy
+msgid "Desktop Firewall Tool"
+msgstr "Fortified 방화벽 마법사"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+#, fuzzy
+msgid "Fortified"
+msgstr "Fortified 홈페이지(_H)"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr ""
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr ""
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr ""
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr ""
+
+#: fortified.schemas.in.h:13
+#, fuzzy
+msgid "Enable NAT"
+msgstr "소리 사용"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr ""
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr ""
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+#, fuzzy
+msgid "Enable tray icon"
+msgstr "매스커리이딩 사용"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr "방화벽 재시작"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+
+#: fortified.schemas.in.h:20
+#, fuzzy
+msgid "Filter out redundant hits"
+msgstr "동일한 접근 필터 "
+
+#: fortified.schemas.in.h:21
+#, fuzzy
+msgid "Filter out sequences of identical hits."
+msgstr "동일한 접근 필터 "
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr ""
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr ""
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr ""
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr ""
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr ""
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:35
+msgid "Show the device the hit was received from in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:56
+#, fuzzy
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "전화걸때 방화벽 시작합니다"
+
+#: fortified.schemas.in.h:57
+#, fuzzy
+msgid "Start the firewall when the program loads"
+msgstr ""
+"여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 사"
+"용합니다."
+
+#: fortified.schemas.in.h:58
+#, fuzzy
+msgid "Start the firewall when the program loads."
+msgstr ""
+"여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 사"
+"용합니다."
+
+#: fortified.schemas.in.h:59
+#, fuzzy
+msgid "Start the firewall when the system boots"
+msgstr ""
+"여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 사"
+"용합니다."
+
+#: fortified.schemas.in.h:60
+#, fuzzy
+msgid "Start the firewall when the system boots."
+msgstr ""
+"여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 사"
+"용합니다."
+
+#: fortified.schemas.in.h:61
+#, fuzzy
+msgid "Start the firewall when the system dials out"
+msgstr "전화걸때 방화벽 시작합니다"
+
+#: fortified.schemas.in.h:62
+#, fuzzy
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr ""
+"여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 사"
+"용합니다."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr ""
+"여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 사"
+"용합니다."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr ""
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr ""
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr ""
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr ""
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr ""
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+
+#: fortified.schemas.in.h:71
+#, fuzzy
+msgid "The system log file"
+msgstr "syslog 기록파일 선택"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+#, fuzzy
+msgid "Failed to stop the firewall"
+msgstr "방화벽에 접근할때 연주할 파일:"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr ""
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr ""
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr ""
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr ""
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+
+#: src/fortified.c:143
+#, fuzzy
+msgid "Failed to start the firewall\n"
+msgstr "방화벽 재시작"
+
+#: src/fortified.c:147 src/fortified.c:148
+#, fuzzy
+msgid "Failed to start the firewall"
+msgstr "방화벽 재시작"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+#, fuzzy
+msgid "Failed to lock the firewall"
+msgstr "방화벽에 접근할때 연주할 파일:"
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr ""
+
+#: src/fortified.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr ""
+
+#: src/fortified.c:320
+#, fuzzy
+msgid "You must have root user privileges to use Fortified."
+msgstr "Fortified 마법사를 사용하려면 root 사용자 이어야 합니다."
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "방화벽 스크립트 재시작\n"
+
+#: src/gui.c:157
+#, fuzzy
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr ""
+"GNOME용 통합 리눅스 방화벽 유틸리티.\n"
+"http://fortified.sourceforge.net"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr ""
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr ""
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr ""
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr ""
+
+#: src/hitview.c:268 src/statusview.c:992
+#, fuzzy
+msgid "Inbound"
+msgstr "소리"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+#, fuzzy
+msgid "Unknown"
+msgstr "알수없음"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "시간"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr ""
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr ""
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr ""
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "포트"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+#, fuzzy
+msgid "Source"
+msgstr "서비스"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr ""
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr ""
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr ""
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+#, fuzzy
+msgid "Protocol"
+msgstr "프로토콜:"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "서비스"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr ""
+
+#: src/menus.c:43
+#, fuzzy
+msgid "_Firewall"
+msgstr "방화벽(_F)"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr ""
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr ""
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr ""
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr ""
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr ""
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr ""
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr ""
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run _Wizard"
+msgstr "방화벽 마법사 실행"
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run the firewall wizard"
+msgstr "방화벽 마법사 실행"
+
+#. S
+#: src/menus.c:52
+#, fuzzy
+msgid "_Start Firewall"
+msgstr "방화벽 재시작"
+
+#: src/menus.c:52
+#, fuzzy
+msgid "Start the firewall"
+msgstr "방화벽 재시작"
+
+#. P
+#: src/menus.c:53
+#, fuzzy
+msgid "Sto_p Firewall"
+msgstr "방화벽 중지"
+
+#: src/menus.c:53
+#, fuzzy
+msgid "Stop the firewall"
+msgstr "방화벽 중지"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "_Lock Firewall"
+msgstr "방화벽(_F)"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "Lock the firewall"
+msgstr "방화벽 중지"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "_Unlock Firewall"
+msgstr "방화벽(_F)"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "Unlock the firewall"
+msgstr "방화벽에 접근할때 연주할 파일:"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr ""
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr ""
+
+#: src/menus.c:58
+#, fuzzy
+msgid "_Preferences"
+msgstr "Fortified: 세부사항"
+
+#: src/menus.c:58
+#, fuzzy
+msgid "Program preferences"
+msgstr "Fortified: 세부사항"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr ""
+
+#: src/menus.c:60
+#, fuzzy
+msgid "Save the events to a file"
+msgstr "방화벽 접근 목록을 파일로 저장"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr ""
+
+#: src/menus.c:61
+#, fuzzy
+msgid "Clear the events"
+msgstr "방화벽 접근 목록 비움"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr ""
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr ""
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr ""
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr ""
+
+#: src/menus.c:65
+#, fuzzy
+msgid "_Remove Rule"
+msgstr "이 규칙 제거"
+
+#: src/menus.c:65
+#, fuzzy
+msgid "Remove the selected rule"
+msgstr "이 규칙 제거"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr ""
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr ""
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr ""
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr ""
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr ""
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr ""
+
+#: src/menus.c:71
+#, fuzzy
+msgid "Fortified _Homepage"
+msgstr "Fortified 홈페이지(_H)"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr ""
+
+#: src/menus.c:72
+msgid "_About"
+msgstr ""
+
+#: src/menus.c:72
+#, fuzzy
+msgid "About Fortified"
+msgstr "Fortified 홈페이지(_H)"
+
+#: src/menus.c:74
+#, fuzzy
+msgid "Allow Connections From Source"
+msgstr "이 컴퓨터로 부터 모든 연결 허용"
+
+#: src/menus.c:74
+#, fuzzy
+msgid "Allow all connections from this source"
+msgstr "이 컴퓨터로 부터 모든 연결 허용"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+#, fuzzy
+msgid "Allow Connections to Destination"
+msgstr "이 컴퓨터로 부터 모든 연결 허용"
+
+#: src/menus.c:77
+#, fuzzy
+msgid "Allow connections to destination"
+msgstr "이 컴퓨터로 부터 모든 연결 허용"
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+#, fuzzy
+msgid "_Lookup Hostnames"
+msgstr "호스트이름 찾음"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr ""
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr ""
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr ""
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr ""
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr ""
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr ""
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr ""
+
+#: src/netfilter-script.c:803
+#, fuzzy, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "방화벽 스크립트 재시작\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr ""
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr ""
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr ""
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr ""
+
+#: src/policyview.c:628
+#, fuzzy
+msgid "Firewall host"
+msgstr "방화벽에 걸림"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr ""
+
+#: src/policyview.c:675
+#, fuzzy
+msgid "IP or host"
+msgstr "호스트이름 찾음"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr ""
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr ""
+
+#: src/policyview.c:1204
+#, fuzzy
+msgid "Allow connections from host"
+msgstr "모든 연결을 허용"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr ""
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+#, fuzzy
+msgid "Allow service"
+msgstr "서비스"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr ""
+
+#: src/policyview.c:1216
+msgid "Forward service"
+msgstr ""
+
+#: src/policyview.c:1217
+#, fuzzy
+msgid "Firewall Port"
+msgstr "방화벽에 걸림"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr ""
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr ""
+
+#: src/policyview.c:1228 src/policyview.c:1370
+#, fuzzy
+msgid "Allow connections from"
+msgstr "모든 연결을 허용"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr ""
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr ""
+
+#: src/policyview.c:1268
+#, fuzzy
+msgid "Deny connections to host"
+msgstr "모든 연결을 거부"
+
+#: src/policyview.c:1273
+#, fuzzy
+msgid "Deny connections from LAN host"
+msgstr "모든 연결을 거부"
+
+#: src/policyview.c:1278 src/policyview.c:1350
+#, fuzzy
+msgid "Deny service"
+msgstr "서비스"
+
+#: src/policyview.c:1286
+#, fuzzy
+msgid "Allow connections to host"
+msgstr "모든 연결을 허용"
+
+#: src/policyview.c:1291
+#, fuzzy
+msgid "Allow connections from LAN host"
+msgstr "모든 연결을 허용"
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr ""
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr ""
+
+#: src/policyview.c:1334
+#, fuzzy
+msgid "Deny connections to"
+msgstr "모든 연결을 거부"
+
+#: src/policyview.c:1342
+#, fuzzy
+msgid "Deny connections from"
+msgstr "모든 연결을 거부"
+
+#: src/policyview.c:1362
+#, fuzzy
+msgid "Allow connections to"
+msgstr "모든 연결을 허용"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr ""
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr ""
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+#, fuzzy
+msgid "Firewall"
+msgstr "방화벽(_F)"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+#, fuzzy
+msgid "Network Settings"
+msgstr "네트워크 장치 설정"
+
+#: src/preferences.c:263
+#, fuzzy
+msgid "ICMP Filtering"
+msgstr "ICMP 필터링 사용하지 않음"
+
+#: src/preferences.c:268
+#, fuzzy
+msgid "ToS Filtering"
+msgstr "ICMP 필터링 사용하지 않음"
+
+#: src/preferences.c:273
+#, fuzzy
+msgid "Advanced Options"
+msgstr "고급"
+
+#: src/preferences.c:505
+#, fuzzy
+msgid "Hosts"
+msgstr "접근 목록(_H)"
+
+#: src/preferences.c:509
+#, fuzzy
+msgid "Ports"
+msgstr "포트"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr ""
+
+#: src/preferences.c:673
+#, fuzzy
+msgid "Invalid DHCP configuration"
+msgstr "ICMP 설정"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr ""
+
+#: src/preferences.c:910
+#, fuzzy
+msgid "Fortified interface file not found"
+msgstr "Fortified 방화벽 마법사"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr ""
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr ""
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+#, fuzzy
+msgid "<b>Do not log events from</b>"
+msgstr "이 포트는 기록하지 않음"
+
+#: src/preferences.glade.h:9
+#, fuzzy
+msgid "<b>Internet connected network device</b>"
+msgstr "내부 네트워크 인터페이스 선택:"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "패킷 거절 방법 설정"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr ""
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr ""
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "고급"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr ""
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+#, fuzzy
+msgid "Create new DHCP configuration"
+msgstr "ICMP 설정"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "발견된 장치:"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr ""
+
+#: src/preferences.glade.h:38
+#, fuzzy
+msgid "Enable ICMP filtering"
+msgstr "ICMP 필터링 사용하지 않음"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr ""
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "서비스 형식(ToS) 설정"
+
+#: src/preferences.glade.h:43
+msgid "Filter host"
+msgstr ""
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "방화벽에 걸림"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "DHCP로 IP주소를 할당받습니다"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr ""
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr ""
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+#, fuzzy
+msgid "Keep existing DHCP configuration"
+msgstr "서비스 설정"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "DHCP로 IP주소를 할당받습니다"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr ""
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr ""
+
+#: src/preferences.glade.h:62
+#, fuzzy
+msgid "Preferences"
+msgstr "Fortified: 세부사항"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr ""
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "신뢰"
+
+#: src/preferences.glade.h:66
+#, fuzzy
+msgid "Servers"
+msgstr "서비스"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr ""
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "전화걸때 방화벽 시작합니다"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "전화걸때 방화벽 시작합니다"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "프로그램 시작시 방화벽 시작"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr ""
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr ""
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr ""
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr ""
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"자주 사용되는 서비스의 높은 효율을 위해 네트워크 서비스의 순위를 \n"
+"다시 매기는데 ToS필터링을 사용합니다.\n"
+"\n"
+"ToS 필터링을 사용하겠습니까?\n"
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr ""
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr ""
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr ""
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+#, fuzzy
+msgid "Save Events To File"
+msgstr "방화벽 접근 목록을 파일로 저장"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr ""
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr ""
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr ""
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr ""
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr ""
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr ""
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr ""
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr ""
+
+#: src/statusview.c:986
+#, fuzzy
+msgid "Serious"
+msgstr "서비스"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr ""
+
+#: src/statusview.c:1058
+#, fuzzy
+msgid "Device"
+msgstr "서비스"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr ""
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr ""
+
+#: src/statusview.c:1076
+#, fuzzy
+msgid "Sent"
+msgstr "보내는곳"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr ""
+
+#: src/statusview.c:1089
+#, fuzzy
+msgid "Active connections"
+msgstr "모든 연결을 거부"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "방화벽 중지"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "방화벽 실행중"
+
+#: src/tray.c:150
+#, fuzzy
+msgid "Firewall locked"
+msgstr "방화벽 스크립트 재시작\n"
+
+#: src/tray.c:204
+#, fuzzy
+msgid "_Show Fortified"
+msgstr "Fortified 홈페이지(_H)"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr ""
+
+#: src/util.c:109
+#, fuzzy
+msgid "Fortified error"
+msgstr "Fortified 홈페이지(_H)"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr ""
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr ""
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr ""
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr ""
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr ""
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr ""
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr ""
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr ""
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr ""
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr ""
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr ""
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"드랍다운 목록에서 네트워크 장치를 선택 하십시오. 모른다면 기본값으로 두십시오"
+
+#: src/wizard.c:137
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "전화걸때 방화벽 시작합니다"
+
+#: src/wizard.c:149
+#, fuzzy
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"이 옵션을 체크 하면 방화벽은 인터넷 서비스 제공자로 전화를 걸때 시작 됩니다."
+"모뎀을 사용할 때만 사용할 수 있습니다."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "DHCP로 IP주소를 할당받습니다"
+
+#: src/wizard.c:157
+#, fuzzy
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"DHCP서버로 연결할 필요가 있으면 이 옵션을 체크 하십시오. 케이블 모뎀 사용자는"
+"이것을 체크하여야 합니다."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+
+#: src/wizard.c:263
+#, fuzzy
+msgid "Local area network device:"
+msgstr "내부 네트워크 인터페이스 선택:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr ""
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr ""
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr ""
+
+#: src/wizard.c:317
+#, fuzzy
+msgid "Create new DHCP configuration:"
+msgstr "ICMP 설정"
+
+#: src/wizard.c:399
+#, fuzzy
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Fortified 에 오신것을 환영합니다!\n"
+"\n"
+"\n"
+"이 마법사는 리눅스 컴퓨터에 방화벽을 설정하는것을 도와줍니다.\n"
+"네트워크 설정에 대한 몇가지 질문에 \n"
+"대답하여야 합니다.\n"
+"\n"
+"계속 하려면 다음 버튼을 누르십시오.\n"
+"\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr ""
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "방화벽 재시작"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"마법사가 방화벽을 생성할 준비를 합니다.\n"
+"\n"
+"계속 하려면 마침 버튼을 누르십시오. 선택한것을 다시 보려면\n"
+"뒤로 버튼을 누르십시오.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "방화벽 재시작"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+#, fuzzy
+msgid "Firewall Wizard"
+msgstr "방화벽 마법사 실행"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr ""
+
+#: src/wizard.c:649
+#, fuzzy
+msgid "Network device setup"
+msgstr "네트워크 장치 설정"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr ""
+
+#. Final page
+#: src/wizard.c:662
+#, fuzzy
+msgid "Ready to start your firewall"
+msgstr "방화벽 재시작"
+
+#, fuzzy
+#~ msgid "Stop the firewall when the program exists"
+#~ msgstr "프로그램 종료시 방화벽 중지"
+
+#, fuzzy
+#~ msgid "Stop the firewall when the program exists."
+#~ msgstr "프로그램 종료시 방화벽 중지"
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "방화벽이 중지되었습니다, 네트웍 트래픽이 자유롭게 흘러갑니다\n"
+
+#, fuzzy
+#~ msgid "Firewall started\n"
+#~ msgstr "방화벽 스크립트 재시작\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "모든 트래픽 중지\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "모든 트래픽 중지"
+
+#, fuzzy
+#~ msgid "Fortified "
+#~ msgstr "Fortified 홈페이지(_H)"
+
+#, fuzzy
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "방화벽 마법사 실행(_R)"
+
+#, fuzzy
+#~ msgid "/_Firewall/---"
+#~ msgstr "방화벽(_F)"
+
+#, fuzzy
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "방화벽 재시작(_e)"
+
+#, fuzzy
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "방화벽 중지(_S)"
+
+#, fuzzy
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "모든 네트웍 트래픽 중단(_H)"
+
+#, fuzzy
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "방화벽(_F)"
+
+#, fuzzy
+#~ msgid "/_Hits"
+#~ msgstr "접근 목록(_H)"
+
+#, fuzzy
+#~ msgid "/_Hits/_Lookup Hostname"
+#~ msgstr "호스트이름 찾음"
+
+#, fuzzy
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "방화벽 접근 목록을 파일로 저장(_S)"
+
+#, fuzzy
+#~ msgid "/New rule"
+#~ msgstr "새 규칙 추가"
+
+#, fuzzy
+#~ msgid "Check this and the firewall will be started when the program loads."
+#~ msgstr ""
+#~ "여기를 체크하면 프로그램이 시작할때마다 방화벽이 재시작됩니다. 기본값으로 "
+#~ "사용합니다."
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "프로그램 종료시 방화벽 중지"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this and the firewall will be stopped when you exit the program."
+#~ msgstr ""
+#~ "여기를 체크하면 Fortified를 종료할때 방화벽이 중지됩니다. 기본값으로 사"
+#~ "용합니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this and the Hits view will not show identical hits that follow "
+#~ "each other."
+#~ msgstr ""
+#~ "여기를 체크하면 방화벽 접근 기록에 동일한 줄은 제거 됩니다. 기본값으로 사"
+#~ "용 합니다."
+
+#~ msgid "Try to detect the location of system binaries"
+#~ msgstr "시스템 실행파일의 위치 검색 시도"
+
+#~ msgid ""
+#~ "Check this and Fortified will search for the location of some needed "
+#~ "binaries. Do not check unless you're having problems."
+#~ msgstr ""
+#~ "여기를 체크하면 Fortified는 몇몇 필요한 실행파일의 위치를 검색합니다.문"
+#~ "제가 생긴다면 체크하지마십시오."
+
+#~ msgid "Deny"
+#~ msgstr "거부"
+
+#~ msgid "Reject"
+#~ msgstr "거절"
+
+#~ msgid "General"
+#~ msgstr "일반"
+
+#, fuzzy
+#~ msgid "Type of Service"
+#~ msgstr "서비스"
+
+#, fuzzy
+#~ msgid "Port:"
+#~ msgstr "포트"
+
+#, fuzzy
+#~ msgid "Open Port"
+#~ msgstr "포트"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "기록을 저장할 파일을 선택"
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "드랍다운 목록에서 네트워크 장치를 선택 하십시오. 모른다면 기본값으로 두십"
+#~ "시오"
+
+#~ msgid ""
+#~ "This is the device that connects to your LAN. Go with the default if "
+#~ "unsure."
+#~ msgstr "LAN환경에 연결되는 장치입니다. 모른다면 기본값으로 두십시오."
+
+#~ msgid "Autodetect internal network IP range"
+#~ msgstr "내부 네트워크 IP범위 자동검색"
+
+#~ msgid "Select this and the IP range of your LAN is autodetected."
+#~ msgstr "이것을 선택하면 LAN환경의 IP범위가 자동검색 됩니다."
+
+#, fuzzy
+#~ msgid "Specify internal network IP range manually (advanced users only)"
+#~ msgstr "내부 네트워크 IP 범위 수동으로 지정(권장하지 않음)"
+
+#~ msgid "Select this only if the automatic detection fails."
+#~ msgstr "자동검색이 실패하였다면 이것을 선택하십시오."
+
+#~ msgid "Enter the internal network address range:"
+#~ msgstr "내부 네트워크 주소 범위를 입력하십시오:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Tip: The network range is given in the form of <i>address/mask</i>. "
+#~ "192.168.0.0/24 is the\n"
+#~ " most common IP range reserved for internal networks."
+#~ msgstr ""
+#~ "네트워크 범위는 주소/마스크의 형식으로 주어집니다. 192.168.0.0/24 는 \n"
+#~ "내부 네트워크로 자주 쓰이는 예약된 IP 범위입니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you run server software on your machine and want to give public "
+#~ "access\n"
+#~ "to the services you provide, you can configure them here.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "컴퓨터에서 서버 소프트웨어가 실행되고 있습니까? 그리고 다른 사람들이\n"
+#~ "여러분이 제공하는 서비스에 접근하여야만 합니까?"
+
+#, fuzzy
+#~ msgid "Enable public access to the following services:"
+#~ msgstr "다음 패킷과 관계된 ToS 필터링을 사용함:"
+
+#, fuzzy
+#~ msgid ""
+#~ "ICMP packet filtering can be useful to prevent some common\n"
+#~ "Denial of Service (DoS) attacks on your network."
+#~ msgstr ""
+#~ "ICMP 패킷 필터링은 몇몇 자주 쓰이는 서비스 거부 공격을 \n"
+#~ "막아내는데 유용합니다.\n"
+#~ "\n"
+#~ "ICMP 필터링을 사용하겠습니까?"
+
+#, fuzzy
+#~ msgid "Enable ICMP filtering related to the following packets:"
+#~ msgstr "다음의 패킷과 관계된 ICMP필터링을 사용함: "
+
+#, fuzzy
+#~ msgid "Disable ToS filtering"
+#~ msgstr "ToS 필터링 사용하지 않음"
+
+#, fuzzy
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr "다음 패킷과 관계된 ToS 필터링을 사용함:"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "WWW, FTP, SSH & E-Mail과 같이 자주 사용되는 클라이언트 프로그램을 위해 "
+#~ "ToS 플래그를 가능하도록 이 옵션을 체크합니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "SQUID, FTPd, SSHd & POP 데몬 같이 자주 사용되는 서버 프로그램을 위해 ToS "
+#~ "플래그를 가능하도록 이 옵션을 체크합니다."
+
+#, fuzzy
+#~ msgid ""
+#~ "Selecting this option will automatically configure Type of Service for "
+#~ "`Throughput' for both X and SSHd. You should select this ONLY if you need "
+#~ "to run X over your link"
+#~ msgstr ""
+#~ "이 옵션을 선택하면 X와 SSHd모두에게 `효율'을 위한 ToS설정을 할것입니다.연"
+#~ "결위에 X를 실행시킬 필요가 있을때만 이것을 선택하십시오."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "이 옵션을 선택하면 선택한 옵션의 최대효율을 위한 ToS플래그를 설정할수있습"
+#~ "니다."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "이 옵션을 선택하면 선택한 옵션의 최대 신뢰도를 위한 ToS 플래그를 설정할수 "
+#~ "있습니다."
+
+#~ msgid "Delay"
+#~ msgstr "지연"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "이 옵션을 선택하면 선택한 옵션의 최소 지연을 위한 ToS 플래그를 설정할수 있"
+#~ "습니다."
+
+#, fuzzy
+#~ msgid "ICMP filtering setup"
+#~ msgstr "ICMP 필터링 사용하지 않음"
+
+#~ msgid "Old version detected"
+#~ msgstr "지난 버젼이 발견되었습니다"
+
+#~ msgid ""
+#~ "\n"
+#~ "A firewall created by an older version of\n"
+#~ "Fortified has been detected.\n"
+#~ "\n"
+#~ "OK to remove old firewall (recommended)?\n"
+#~ msgstr ""
+#~ "\n"
+#~ "지난 버젼의 Fortified가 만들어낸 방화벽이\n"
+#~ "발견되었습니다.\n"
+#~ "\n"
+#~ "지난 버젼의 방화벽을 제거하시겠습니까(권장값)?\n"
+
+#~ msgid "You must be root to manipulate the firewall."
+#~ msgstr "방화벽을 조작하려면 root이어야만 합니다."
+
+#~ msgid "Open service to machine"
+#~ msgstr "이 컴퓨터에 서비스를 열음"
+
+#~ msgid "Open service to anyone"
+#~ msgstr "모두에게 서비스를 열음"
+
+#~ msgid "Dynamic rules"
+#~ msgstr "동적 규칙"
+
+#~ msgid ""
+#~ "Log file not found or access denied.\n"
+#~ "Firewall log monitoring disabled.\n"
+#~ "\n"
+#~ "You can configure the path to the log file in the \"preferences\" section."
+#~ msgstr ""
+#~ "기록 파일을 찾지 못하거나 접근이 거부되었습니다.\n"
+#~ "방화벽 기록 감시가 불가능 합니다.\n"
+#~ "\n"
+#~ "기록파일의 경로를 \"세부사항\"섹션에서 설정할수 있습니다."
+
+#~ msgid ""
+#~ "The external and internal network interfaces\n"
+#~ "can't be the same. Please change one of them,\n"
+#~ "or alternatively disable IP Masquerading."
+#~ msgstr ""
+#~ "외부, 내부 네트워크 인터페이스가 같을수 \n"
+#~ "없습니다. 둘중 하나를 변경하던지 IP 매스커\n"
+#~ "레이딩을 중지 하십시오."
+
+#~ msgid ""
+#~ "Please select your Internet connected network device from the\n"
+#~ "drop-down list of detected devices.\n"
+#~ "\n"
+#~ "If you use a modem your device name is likely ppp0. If you have a\n"
+#~ "cable modem or a DSL connection, choose eth0."
+#~ msgstr ""
+#~ "발견된 장치의 드랍-다운 목록에서 인터넷에 연결된 네트워크 장치를\n"
+#~ "선택하십시오.\n"
+#~ "\n"
+#~ "모뎀을 사용한다면 ppp0가 같은 장치이름을 사용하십시오. 케이블 \n"
+#~ "모뎀이나 DSL연결을 사용한다면 eth0를 사용하십시오."
+
+#~ msgid "IP Masquerade Configuration"
+#~ msgstr "IP 매스커레이드 설정"
+
+#~ msgid ""
+#~ "Do you use IP Masquerading on your LAN, allowing all the machines on your "
+#~ "network\n"
+#~ "to communicate with the Internet via a single IP address?"
+#~ msgstr ""
+#~ "하나의 IP주소로 네트워크상의 모든 컴퓨터가 인터넷으로 연결할수 있도록 하"
+#~ "는\n"
+#~ "IP 매스커레이드를 사용하겠습니까?"
+
+#~ msgid "Disable masquerading"
+#~ msgstr "매스커레이딩 사용않음"
+
+#~ msgid "No, I do not run any public network services on my machine"
+#~ msgstr "아니오. 이 컴퓨터에서는 공용 네트워크 서비스가 실행되지 않습니다"
+
+#~ msgid "Yes, I run the following services on my machine:"
+#~ msgstr "예, 이 컴퓨터에서 다음의 서비스를 실행되고 있습니다:"
+
+#~ msgid "General options"
+#~ msgstr "일반 옵션"
+
+#~ msgid "Exit program when window is closed (otherwise hide)"
+#~ msgstr "창을 닫으면 프로그램 종료("
+
+#~ msgid ""
+#~ "By default when you close the program window the program is merely "
+#~ "hidden, you can then make it visible again by clicking on the status "
+#~ "button."
+#~ msgstr ""
+#~ "기본적으로 프로그램 창을 닫을때 프로그램이 숨겨집니다, 상황 버튼을 클릭하"
+#~ "면다시 볼수 있도록 할수 있습니다."
+
+#~ msgid "Start hidden"
+#~ msgstr "숨겨서 시작"
+
+#~ msgid ""
+#~ "Check this and Fortified will start hidden. Click on the status button "
+#~ "to unhide. Disabled by default."
+#~ msgstr ""
+#~ "여기를 클릭하면 Fortified는 숨겨져서 시작됩니다. 상황 버튼을 클릭하면 다"
+#~ "시 나타납니다. 기본값으로 사용하지 않습니다."
+
+#~ msgid "Play current sound file"
+#~ msgstr "현재 소리 파일 연주"
+
+#~ msgid "Sound options"
+#~ msgstr "소리 옵션"
+
+#~ msgid "Check this if you want to hear sounds on certain events"
+#~ msgstr "몇몇 결과에 소리를 듣고 싶으면 여기를 체크하십시오"
+
+#~ msgid ""
+#~ "Enter the path to the sound file that should be played when a firewall "
+#~ "hit occurs."
+#~ msgstr "방화벽에 접근할때 연주할 음악파일의 경로를 입력하십시오."
+
+#~ msgid "File to play on firewall stop:"
+#~ msgstr "방화벽을 중지할때 연주할 파일:"
+
+#~ msgid ""
+#~ "Enter the path to the sound file that should be played when the firewall "
+#~ "is stopped."
+#~ msgstr "방화벽이 중지될때 연주할 음악파일의 경로를 입력하십시오."
+
+#~ msgid "File to play on firewall restart:"
+#~ msgstr "방화벽을 재시작할때 연주할 파일:"
+
+#~ msgid ""
+#~ "Enter the path to the sound file that should be played when the firewall "
+#~ "is restarted."
+#~ msgstr "방화벽이 재시작할때 연주할 음악파일의 경로를 입력하십시오."
+
+#~ msgid "Never log these ports"
+#~ msgstr "이 포트는 기록하지 않음"
+
+#~ msgid "Add"
+#~ msgstr "추가"
+
+#~ msgid "Misc. options"
+#~ msgstr "기타 옵션"
+
+#~ msgid "Syslog file:"
+#~ msgstr "Syslog 파일:"
+
+#~ msgid ""
+#~ "Enter the path to the file the syslog daemon logs to. This is almost "
+#~ "always /var/log/messages."
+#~ msgstr ""
+#~ "syslog 데몬이 기록되는 파일의 경로를 입력하십시오. 대부분 /var/log/"
+#~ "messages 를 사용합니다."
+
+#~ msgid "Wizard options"
+#~ msgstr "마법사 옵션"
+
+#~ msgid "Show every page in wizard"
+#~ msgstr "마법사에서 모든 페이지 보기"
+
+#~ msgid "Check this and every wizard page will be available in the wizard"
+#~ msgstr "여기를 체크하면 마법사에서 모든 마법사페이즈를 보여줄것입니다"
+
+#~ msgid "Filter Outbound Packets"
+#~ msgstr "나가는 패킷 필터"
+
+#~ msgid ""
+#~ "Check this and Fortified will also filter Outbound packets. Do not "
+#~ "check unless you are sure you need it."
+#~ msgstr ""
+#~ "여기를 체크하면 Fortified는 외부로 나가는 패킷을 필터링합니다. 정말로필"
+#~ "요하지 않다면 체크하지 마십시오."
+
+#~ msgid "Checking this box will simply ignore the unauthorized packets."
+#~ msgstr "인증되지 않은 패킷을 간단하게 무시하려면 이 상자를 체크하십시오"
+
+#~ msgid "Checking this box will reject the unauthorized packets"
+#~ msgstr "인증되지 않은 패킷을 거절하려면 이 상자를 체크하십시오"
+
+#~ msgid "You must rerun the wizard for the changes to take effect"
+#~ msgstr "변경점을 적용시키려면 마법사를 다시 실행하여야 합니다"
+
+#~ msgid "Logging"
+#~ msgstr "기록"
+
+#~ msgid "Select the file to play a sound"
+#~ msgstr "연주할 파일을 선택"
+
+#~ msgid "Browse"
+#~ msgstr "찾아보기"
+
+#~ msgid "_Clear firewall hit list"
+#~ msgstr "방화벽 접근 목록 비움(_C)"
+
+#~ msgid "R_eload entire firewall hit list"
+#~ msgstr "모든 방화벽 접근 목록 다시 읽기(_e)"
+
+#~ msgid "Reload entire firewall hit list"
+#~ msgstr "모든 방화벽 접근 목록 다시 읽음"
+
+#~ msgid "Deny all connections from machine"
+#~ msgstr "이 컴퓨터로 부터 모든 연결 거부"
+
+#~ msgid "Remove all rules in this group"
+#~ msgstr "이 그룹의 모든 규칙 제거"
+
+#~ msgid "Remove all rules in all groups"
+#~ msgstr "모든 그룹의 모든 규칙 제거"
+
+#~ msgid "Enter IP range or hostname to deny all connections from:"
+#~ msgstr "모든 연결을 거부할 IP범위나 호스트이름을 입력:"
+
+#~ msgid "Enter IP range or hostname to allow all connections from:"
+#~ msgstr "모든 연결을 허용할 IP범위나 호스트이름을 입력:"
+
+#~ msgid "Enter the port number of the service to open:"
+#~ msgstr "서비스를 열 포트 번호를 입력:"
+
+#~ msgid "Enter IP range or hostname to open service to:"
+#~ msgstr "서비스를 열 IP범위나 호스트이름을 입력:"

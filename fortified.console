@@ -1,0 +1,4 @@
+USER=root
+FALLBACK=true
+PROGRAM=%{_sbindir}/fortified
+SESSION=true

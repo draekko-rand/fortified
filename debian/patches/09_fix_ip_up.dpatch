@@ -1,0 +1,88 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 09_fix_ip_up.dpatch by Yann Verley <yann.verley@free.fr>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+if [ $# -lt 1 ]; then
+    echo "`basename $0`: script expects -patch|-unpatch as argument" >&2
+    exit 1
+fi
+
+[ -f debian/patches/00patch-opts ] && . debian/patches/00patch-opts
+patch_opts="${patch_opts:--f --no-backup-if-mismatch} ${2:+-d $2}"
+
+case "$1" in
+    -patch) patch -p1 ${patch_opts} < $0;;
+    -unpatch) patch -R -p1 ${patch_opts} < $0;;
+    *)
+        echo "`basename $0`: script expects -patch|-unpatch as argument" >&2
+        exit 1;;
+esac
+
+exit 0
+
+@DPATCH@
+diff -urNad fortified-1.1.0/src/scriptwriter.c /tmp/dpep.GdvAtF/fortified-1.1.0/src/scriptwriter.c
+--- fortified-1.1.0/src/scriptwriter.c	2005-01-30 22:13:52.000000000 +0100
++++ /tmp/dpep.GdvAtF/fortified-1.1.0/src/scriptwriter.c	2005-01-30 22:19:07.000000000 +0100
+@@ -29,7 +29,7 @@
+ #include "policyview.h"
+ 
+ #define PPP_HOOK_FILE "/etc/ppp/ip-up.local"
+-const gchar* FORTIFIED_HOOK = "sh "FORTIFIED_CONTROL_SCRIPT" start\n";
++const gchar* FORTIFIED_HOOK = "sh /etc/init.d/fortified start\n";
+ 
+ static const gchar *
+ test_bool (const gchar *conf_key)
+@@ -588,23 +588,45 @@
+ void
+ scriptwriter_write_ppp_hook (void)
+ {
+-	if (!file_exists ("/etc/ppp")) {
++	FILE *f;
++	gchar *path = "/etc/ppp/ip-up.d/1fortified";
++
++	if (file_exists (path)) {
++		return;
++	}
++
++	if (!file_exists ("/etc/ppp/ip-up.d")) {
+ 		printf ("No ppp detected on system. Not adding starting hook\n");
+ 		return;
+ 	}
+ 
+-	add_hook (PPP_HOOK_FILE);
+-	chmod (PPP_HOOK_FILE, 0755);
++	printf ("Adding Fortified PPP hook to %s\n", path);
++
++	f = fopen (path, "w");
++
++	if (f == NULL) {
++		perror ("Could not write fortified PPP hook");
++		return;
++	}
++
++	fprintf (f, "#!/bin/sh\n%s", FORTIFIED_HOOK);
++	fclose (f);
++
++	chmod (path, 00755);
+ }
+ 
+ void
+ scriptwriter_remove_ppp_hook (void)
+ {
+-	if (!file_exists ("/etc/ppp/ip-up.local")) {
++	gchar *path = "/etc/ppp/ip-up.d/1fortified";
++
++	if (!file_exists (path)) {
+ 		return;
+ 	}
+ 
+-	remove_hook (PPP_HOOK_FILE);
++	if (unlink (path) == -1) {
++		perror ("Could not remove fortified PPP hook");
++	}
+ }
+ 
+ void

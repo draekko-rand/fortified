@@ -1,0 +1,33 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 21_locales_failing.dpatch by  <hobbit@gandalf>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Use LANG=C to ensure C locale when grepping ifconfig output (Fixes LP:222038).
+
+@DPATCH@
+diff -urNad fortified-1.1.0~/src/scriptwriter.c fortified-1.1.0/src/scriptwriter.c
+--- fortified-1.1.0~/src/scriptwriter.c	2009-04-17 17:52:41.000000000 -0700
++++ fortified-1.1.0/src/scriptwriter.c	2009-04-17 17:54:32.000000000 -0700
+@@ -88,16 +88,16 @@
+ 	fprintf (f, "\n# --(Extract Network Information)--\n\n");
+ 
+ 	fprintf (f, "# External network interface data\n"
+-		    "IP=`/sbin/ifconfig $IF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
+-		    "MASK=`/sbin/ifconfig $IF | grep Mas | cut -d : -f 4`\n"
+-		    "BCAST=`/sbin/ifconfig $IF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
++		    "IP=`LANG=C /sbin/ifconfig $IF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
++		    "MASK=`LANG=C /sbin/ifconfig $IF | grep Mas | cut -d : -f 4`\n"
++		    "BCAST=`LANG=C /sbin/ifconfig $IF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
+ 		    "NET=$IP/$MASK\n\n");
+ 
+ 	fprintf (f, "if [ \"$NAT\" = \"on\" ]; then\n"
+ 		    "	# Internal network interface data\n"
+-		    "	INIP=`/sbin/ifconfig $INIF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
+-		    "	INMASK=`/sbin/ifconfig $INIF | grep Mas | cut -d : -f 4`\n"
+-		    "	INBCAST=`/sbin/ifconfig $INIF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
++		    "	INIP=`LANG=C /sbin/ifconfig $INIF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
++		    "	INMASK=`LANG=C /sbin/ifconfig $INIF | grep Mas | cut -d : -f 4`\n"
++		    "	INBCAST=`LANC=C /sbin/ifconfig $INIF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
+ 		    "	INNET=$INIP/$INMASK\n"
+ 		    "fi\n\n");
+ 

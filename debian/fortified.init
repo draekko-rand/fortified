@@ -1,0 +1,110 @@
+#!/bin/sh
+#
+# Init file for the Fortified firewall
+#
+# chkconfig: 2345 11 92
+#
+# description: Starts, stops, and lock the firewall
+#
+# Script Authors:
+#	Tomas Junnonen <majix@sci.fi>
+#	Paul Drain <pd@cipherfunk.org>
+#
+# config: /etc/fortified/configuration
+#
+### BEGIN INIT INFO
+# Provides:          fortified
+# Required-Start:    $syslog $remote_fs
+# Required-Stop:     $syslog $remote_fs
+# Should-Start:      $local_fs $network
+# Should-Stop:       $local_fs $network
+# Default-Start:     S
+# Default-Stop:      
+# Short-Description: Start firewall
+# Description:       Run fortified-configured firewall script.
+### END INIT INFO
+
+. /lib/lsb/init-functions
+
+FS_CONTROL="/etc/fortified/fortified.sh"
+
+[ -x /usr/sbin/fortified ] || exit 0
+[ -x $FS_CONTROL ] || exit 0
+[ -s /etc/fortified/configuration ] || exit 0
+
+RETVAL=0
+
+start() {
+	log_begin_msg "Starting the Fortified firewall..."
+	$FS_CONTROL start > /dev/null
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ]; then
+		log_end_msg 0
+	else
+		log_end_msg 1
+	fi
+	return $RETVAL
+}
+
+stop() {
+	log_begin_msg "Stopping the Fortified firewall..."
+	$FS_CONTROL stop > /dev/null
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ]; then
+		log_end_msg 0
+	else
+		log_end_msg 1
+	fi
+	return $RETVAL
+}
+
+lock() {
+	log_begin_msg "Locking the Fortified firewall..."
+	$FS_CONTROL lock > /dev/null
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ]; then
+		log_end_msg 0
+	else
+		log_end_msg 1
+	fi
+	return $RETVAL
+}
+
+# See how we were called.
+case "$1" in
+  start)
+	start
+	RETVAL=$?
+	;;
+  stop)
+	stop
+	RETVAL=$?
+	;;
+  restart)
+	stop
+	start
+	RETVAL=$?
+	;;
+  force-reload)
+	stop
+	start
+	RETVAL=$?
+	;;
+  lock)
+	lock
+	RETVAL=$?
+	;;
+  status)
+	if [ -e /var/lock/subsys/fortified -o -e /var/lock/fortified ]; then
+		log_warning_msg "Fortified is running..."
+	else
+		log_warning_msg "Fortified is stopped"
+	fi
+	RETVAL=$?
+	;;
+  *)
+	log_success_msg "Usage: fortified {start|stop|restart|force-reload|lock|status}"
+	exit 1
+esac
+exit $RETVAL
+

@@ -1,0 +1,2396 @@
+# Serbian translation of fortified
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003.
+# 
+# This file is distributed under the same license as the fortified package.
+# 
+# Maintainer: Dušan Marjanović <mdfk@root.co.yu>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fortified\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2003-08-13 15:06+0200\n"
+"Last-Translator: Dušan Marjanović <madafaka@root.co.yu>\n"
+"Language-Team: Serbian (sr) <serbiagnome-lista@nongnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+#, fuzzy
+msgid "Desktop Firewall Tool"
+msgstr "Palikuća Alat za podešavanje fajervola"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Palikuća"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Primeni ICMP postavke, kao što je naznačeno u čarobnjaku."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "Primeni podešavanja tipa servisa, kao što je naznačeno u čarobnjaku."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr ""
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+
+#: fortified.schemas.in.h:12
+#, fuzzy
+msgid "Enable DHCP server for connection sharing"
+msgstr "Podešavanje deljenja internet veze"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Omogući NAT"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "Omogući Prevod mrežnih adresa ili deljenje internet konekcije."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "Omogući podešavanja ICMP"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "Omogući podešavanja tipa servisa"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+#, fuzzy
+msgid "Enable tray icon"
+msgstr "Omogući probne postavke"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr ""
+"Nisam uspeo da pokrenem fajervol\n"
+"\n"
+
+#: fortified.schemas.in.h:19
+#, fuzzy
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr "Odbijaj pakete čija ciljna adresa nije vaša IP adresa."
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Odbijaj suvišne pakete"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Odbijaj nizove istih paketa."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr ""
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr ""
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr ""
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr ""
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:31
+#, fuzzy
+msgid "Show the Fortified icon in the notification area."
+msgstr "Prikazuj kolonu o cilju u Pregledniku paketa"
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "Prikazuj kolonu za tip servisa u Pregledniku paketa."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "Prikazuj kolonu o cilju u Pregledniku paketa"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "Prikazuj kolonu o cilju u Pregledniku paketa"
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "Prikazuj uređaj sa kojeg je pristigao paket u Pregledniku paketa."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr "Prikazuj uređaj preko kojeg se rutirao paket u Pregledniku paketa."
+
+#: fortified.schemas.in.h:37
+#, fuzzy
+msgid "Show the direction column in the Hit View"
+msgstr "Prikazuj dolazni saobraćaj u Pregledniku paketa"
+
+#: fortified.schemas.in.h:38
+#, fuzzy
+msgid "Show the direction column in the Hit View."
+msgstr "Prikazuj kolonu o cilju u Pregledniku paketa"
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "Prikazuj dolazni saobraćaj u Pregledniku paketa"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "Prikazuj kolonu o dužini u Pregledniku paketa"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "Prikazuj kolonu o odlaznom saobraćaju u Pregledniku paketa"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "Prikazuj kolonu o dužini paketa u Pregledniku paketa."
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "Prikazuj kolonu o portu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "Prikazuj kolonu o portu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "Prikazuj kolonu o protokolu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "Prikazuj kolonu o protokolu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "Prikazuj kolonu o servisu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "Prikazuj kolonu o servisu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "Prikazuj kolonu o izvoru u Pregledniku paketa"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "Prikazuj kolonu o izvoru u Pregledniku paketa"
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "Prikazuj kolonu o vremenu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "Prikazuj kolonu o vremenu u Pregledniku paketa"
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "Prikazuj kolonu o tipu servisa u Pregledniku paketa"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:56
+#, fuzzy
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "Pokreni fajervol pri pozivanju provajdera"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "Pokreni fajervol kada se program učita"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "Pokreni fajervol kada se program učita."
+
+#: fortified.schemas.in.h:59
+#, fuzzy
+msgid "Start the firewall when the system boots"
+msgstr "Pokreni fajervol kada se program učita"
+
+#: fortified.schemas.in.h:60
+#, fuzzy
+msgid "Start the firewall when the system boots."
+msgstr "Pokreni fajervol kada se program učita."
+
+#: fortified.schemas.in.h:61
+#, fuzzy
+msgid "Start the firewall when the system dials out"
+msgstr "Pokreni fajervol pri pozivanju provajdera"
+
+#: fortified.schemas.in.h:62
+#, fuzzy
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "Pokreni fajervol kada se program učita."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "Pokreni fajervol kada se program učita."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "Mrežni uređaj povezan na internet. Recimo, ppp0 ili eth0."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "Mrežni uređaj povezan u lokalnu mrežu. Recimo, eth0 ili eth1."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "Spoljni uređaj"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+"Kada se Palikuća prvi put pokrene, izvrši se nekoliko posebnih naredbi."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "Unutrašnji uređaj"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "Lokacija fajla u koji piše pratilac rada sistema."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "Fajl o dešavanjima na sistemu"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+#, fuzzy
+msgid "Failed to stop the firewall"
+msgstr ""
+"Nisam uspeo da isključim fajervol\n"
+"\n"
+
+#: src/fortified.c:87
+#, fuzzy
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr ""
+"Javila se nepoznata greška prilikom pokušaja zaustavljanja vašeg fajervola."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, fuzzy, c-format
+msgid "The device %s is not ready."
+msgstr ""
+"Uređaj %s nije spreman.\n"
+"\n"
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr ""
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr ""
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Molimo vas da proverite postavke vašeg mrežnog uređaja i uverite se\n"
+"da ste povezani na internet."
+
+#: src/fortified.c:143
+#, fuzzy
+msgid "Failed to start the firewall\n"
+msgstr ""
+"Nisam uspeo da pokrenem fajervol\n"
+"\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+#, fuzzy
+msgid "Failed to start the firewall"
+msgstr ""
+"Nisam uspeo da pokrenem fajervol\n"
+"\n"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+#, fuzzy
+msgid "Failed to lock the firewall"
+msgstr ""
+"Nisam uspeo da isključim fajervol\n"
+"\n"
+
+#: src/fortified.c:204
+#, fuzzy
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr ""
+"Javila se nepoznata greška prilikom pokušaja zaustavljanja vašeg fajervola."
+
+#: src/fortified.c:298
+#, fuzzy
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+"\n"
+" -s, --start           Pokreni Fajervol\n"
+" -p, --stop            Zaustavi Fajervol\n"
+"     --halt            Obustavi sav dolazni i odlazni saobraćaj (mod rada u "
+"panici)\n"
+"     --generate-scripts Napravi fajervol skripte iz sadašnjih postavki\n"
+" -v, --version          Ispisuje \n"
+" -h, --help             Upravo gledate\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+#, fuzzy
+msgid "Insufficient privileges"
+msgstr ""
+"Nedovoljne dozvole\n"
+"\n"
+
+#: src/fortified.c:320
+#, fuzzy
+msgid "You must have root user privileges to use Fortified."
+msgstr "Morate imati dozvole korisnika root da bi koristili Palikuću.\n"
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "Fajervol zaustavljen"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "Sve-u-jednom Linux fajervol alat za GNOM.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+#, fuzzy
+msgid "Status"
+msgstr "Pokreni"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr ""
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr ""
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr ""
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr ""
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr ""
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Vreme"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+#, fuzzy
+msgid "Direction"
+msgstr "Prosleđivanje"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "Dolazni"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Odlazni"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Port"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Izvor"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Cilj"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Dužina"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "Tip Servisa"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protokol"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Servis"
+
+#: src/hitview.c:968
+#, fuzzy
+msgid "Blocked Connections"
+msgstr "Blokirani serveri"
+
+#: src/menus.c:43
+#, fuzzy
+msgid "_Firewall"
+msgstr "/_Fajervol"
+
+#: src/menus.c:44
+#, fuzzy
+msgid "_Edit"
+msgstr "/_Izmeni"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr ""
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr ""
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr ""
+
+#: src/menus.c:48
+#, fuzzy
+msgid "_Help"
+msgstr "/Pomo_ć"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr ""
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr ""
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run _Wizard"
+msgstr "Pokreni Čarobnjaka"
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run the firewall wizard"
+msgstr "Fajervol čarobnjak"
+
+#. S
+#: src/menus.c:52
+#, fuzzy
+msgid "_Start Firewall"
+msgstr "Pokreni Fajervol"
+
+#: src/menus.c:52
+#, fuzzy
+msgid "Start the firewall"
+msgstr "Pokreni Fajervol"
+
+#. P
+#: src/menus.c:53
+#, fuzzy
+msgid "Sto_p Firewall"
+msgstr "Zaustavi Fajervol"
+
+#: src/menus.c:53
+#, fuzzy
+msgid "Stop the firewall"
+msgstr "Prekini Fajervol"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "_Lock Firewall"
+msgstr "/_Fajervol"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "Lock the firewall"
+msgstr "Prekini Fajervol"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "_Unlock Firewall"
+msgstr "/_Fajervol"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "Unlock the firewall"
+msgstr ""
+"Nisam uspeo da isključim fajervol\n"
+"\n"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr ""
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr ""
+
+#: src/menus.c:58
+#, fuzzy
+msgid "_Preferences"
+msgstr "/_Izmeni/_Postavke..."
+
+#: src/menus.c:58
+#, fuzzy
+msgid "Program preferences"
+msgstr "Palikuća: Postavke"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr ""
+
+#: src/menus.c:60
+#, fuzzy
+msgid "Save the events to a file"
+msgstr "Sačuvaj listu paketa u fajl"
+
+#. L
+#: src/menus.c:61
+#, fuzzy
+msgid "_Clear"
+msgstr "Očisti"
+
+#: src/menus.c:61
+#, fuzzy
+msgid "Clear the events"
+msgstr "Očisti Listu Paketa"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "_Reload"
+msgstr "Napuni iznova"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "Reload the events"
+msgstr "Iznova napuni listu paketa"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr ""
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr ""
+
+#: src/menus.c:65
+#, fuzzy
+msgid "_Remove Rule"
+msgstr "/Ukloni pravilo"
+
+#: src/menus.c:65
+#, fuzzy
+msgid "Remove the selected rule"
+msgstr "/Ukloni pravilo"
+
+#: src/menus.c:66
+#, fuzzy
+msgid "_Add Rule"
+msgstr "/_Pravila"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+#, fuzzy
+msgid "_Edit Rule"
+msgstr "Izmeni pravilo"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr ""
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr ""
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+#, fuzzy
+msgid "Online Users' _Manual"
+msgstr "/Pomo_ć/Korisnički _Priručnik"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr ""
+
+#: src/menus.c:71
+#, fuzzy
+msgid "Fortified _Homepage"
+msgstr "/Pomo_ć/Početna _strana Palikuće na internetu"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr ""
+
+#: src/menus.c:72
+msgid "_About"
+msgstr ""
+
+#: src/menus.c:72
+#, fuzzy
+msgid "About Fortified"
+msgstr "Palikuća"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr ""
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+#, fuzzy
+msgid "_Lookup Hostnames"
+msgstr "_Nađi ime servera"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr ""
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr ""
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+#, fuzzy
+msgid "Show time column"
+msgstr "Prikazuj kolonu o vremenu u Pregledniku paketa"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr ""
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+#, fuzzy
+msgid "Show out column"
+msgstr "Prikazuj kolonu o odlaznom saobraćaju u Pregledniku paketa"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+#, fuzzy
+msgid "Show port column"
+msgstr "Prikazuj kolonu o portu u Pregledniku paketa"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+#, fuzzy
+msgid "ToS"
+msgstr "Tip Servisa"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Fajervol skripta je sačuvana kao %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr ""
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr ""
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr ""
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr ""
+
+#: src/policyview.c:628
+#, fuzzy
+msgid "Firewall host"
+msgstr "Fajervol port:"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr ""
+
+#: src/policyview.c:675
+#, fuzzy
+msgid "IP or host"
+msgstr "IP ili ime servera:"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+#, fuzzy
+msgid "There was an error when applying the inbound policy:"
+msgstr ""
+"Javila se nepoznata greška prilikom pokušaja obustavljanja mrežnog "
+"zaobraćaja."
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+#, fuzzy
+msgid "There was an error when applying the outbound policy:"
+msgstr ""
+"Javila se nepoznata greška prilikom pokušaja obustavljanja mrežnog "
+"zaobraćaja."
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr ""
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr ""
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+#, fuzzy
+msgid "Allow service"
+msgstr "Servis"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr ""
+
+#: src/policyview.c:1216
+#, fuzzy
+msgid "Forward service"
+msgstr "Prosledi sa"
+
+#: src/policyview.c:1217
+#, fuzzy
+msgid "Firewall Port"
+msgstr "Fajervol port:"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr ""
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+#, fuzzy
+msgid "Add new inbound rule"
+msgstr "Dodaj pravilo o otvaranju porta"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr ""
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+#, fuzzy
+msgid "Forward service from firewall"
+msgstr "Podešavanje ili nadgledanje fajervola"
+
+#: src/policyview.c:1246
+#, fuzzy
+msgid "To internal host"
+msgstr "Unutrašnji uređaj"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr ""
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1278 src/policyview.c:1350
+#, fuzzy
+msgid "Deny service"
+msgstr "Servis"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr ""
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr ""
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+#, fuzzy
+msgid "Add new outbound rule"
+msgstr "Dodaj pravilo o otvaranju porta"
+
+#: src/policyview.c:1334
+#, fuzzy
+msgid "Deny connections to"
+msgstr "Podešavanje deljenja internet veze"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr ""
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr ""
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+#, fuzzy
+msgid "Editing"
+msgstr "/_Izmeni"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr ""
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+#, fuzzy
+msgid "Firewall"
+msgstr "/_Fajervol"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+#, fuzzy
+msgid "Network Settings"
+msgstr "Podešavanje mrežnog uređaja"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP Filtriranje"
+
+#: src/preferences.c:268
+#, fuzzy
+msgid "ToS Filtering"
+msgstr "ICMP Filtriranje"
+
+#: src/preferences.c:273
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Napredno"
+
+#: src/preferences.c:505
+#, fuzzy
+msgid "Hosts"
+msgstr "Server"
+
+#: src/preferences.c:509
+#, fuzzy
+msgid "Ports"
+msgstr "Port"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr ""
+
+#: src/preferences.c:673
+#, fuzzy
+msgid "Invalid DHCP configuration"
+msgstr "Omogući podešavanja tipa servisa"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr ""
+
+#: src/preferences.c:910
+#, fuzzy
+msgid "Fortified interface file not found"
+msgstr "Palikuća Alat za podešavanje fajervola"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr ""
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr ""
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr ""
+
+#: src/preferences.glade.h:9
+#, fuzzy
+msgid "<b>Internet connected network device</b>"
+msgstr "Izaberite vaš unutrašnji mrežni uređaj:"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "Omiljeni način odbijanja paketa"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+#, fuzzy
+msgid "<b>System tray icon</b>"
+msgstr "Rad u okviru obaveštajne zone panela"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Maskiranje Adrese"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Napredno"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr ""
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+#, fuzzy
+msgid "Create new DHCP configuration"
+msgstr "Omogući podešavanja tipa servisa"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Otkriveni uređaji:"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr ""
+
+#: src/preferences.glade.h:38
+#, fuzzy
+msgid "Enable ICMP filtering"
+msgstr "Onemogući ICMP filtriranje"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+#, fuzzy
+msgid "Enable Internet connection sharing"
+msgstr "Podešavanje deljenja internet veze"
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "Podešavanje filtriranja po kvalitetu usluga"
+
+#: src/preferences.glade.h:43
+#, fuzzy
+msgid "Filter host"
+msgstr "Filteri"
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "Filteri"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "IP adresa se dodeljuje preko DHCP-a"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Server"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr ""
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr ""
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "IP adresa se dodeljuje preko DHCP-a"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS Traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr ""
+
+#: src/preferences.glade.h:62
+#, fuzzy
+msgid "Preferences"
+msgstr "/_Izmeni/_Postavke..."
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Prosleđivanje"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Pouzdanost"
+
+#: src/preferences.glade.h:66
+#, fuzzy
+msgid "Servers"
+msgstr "Servisi"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+#, fuzzy
+msgid "Source Quenching"
+msgstr "Utoljavanje izvora"
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "Pokreni fajervol pri pozivanju provajdera"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "Pokreni fajervol pri pozivanju provajdera"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "Pokreni fajervol pri pokretanju programa"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "X Window Sistem"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Protok"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Beleženje vremena"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"Filtriranje po kvalitetu usluga omogućava da podesite stepen prednosti "
+"mrežnog servisa\n"
+"u odnosu na druge i da bi dozvolili veći protok za neke korišćenije servise."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Nedostupan"
+
+#: src/preferences.glade.h:83
+#, fuzzy
+msgid "Workstations"
+msgstr "Cilj"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr ""
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+#, fuzzy
+msgid "Save Events To File"
+msgstr "Sačuvaj listu paketa u fajl"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Aktivno"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr ""
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr ""
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr ""
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr ""
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr ""
+
+#: src/statusview.c:940
+#, fuzzy
+msgid "Color"
+msgstr "Očisti"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr ""
+
+#: src/statusview.c:986
+#, fuzzy
+msgid "Serious"
+msgstr "Servisi"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr ""
+
+#: src/statusview.c:1058
+#, fuzzy
+msgid "Device"
+msgstr "Servis"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Tip"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr ""
+
+#: src/statusview.c:1076
+#, fuzzy
+msgid "Sent"
+msgstr "Dužina"
+
+#: src/statusview.c:1082
+#, fuzzy
+msgid "Activity"
+msgstr "Aktivno"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr ""
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Fajervol zaustavljen"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Fajervol uključen"
+
+#: src/tray.c:150
+#, fuzzy
+msgid "Firewall locked"
+msgstr "Fajervol zaustavljen"
+
+#: src/tray.c:204
+#, fuzzy
+msgid "_Show Fortified"
+msgstr "Palikuća"
+
+#: src/tray.c:214
+#, fuzzy
+msgid "_Exit"
+msgstr "Izađi"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Palikuća greška"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"Neuspelo otvaranje loga sistema\n"
+"\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr ""
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+
+#: src/util.c:277
+#, fuzzy
+msgid "Ethernet device"
+msgstr "Spoljašnji uređaj"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr ""
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr ""
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr ""
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr ""
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr ""
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr ""
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr ""
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr ""
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr ""
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Izaberite mrežni uređaj koji je povezan na internet iz padajuće liste "
+"otkrivenih uređaja. "
+
+#: src/wizard.c:137
+#, fuzzy
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Savet: Ako koristite modem onda je vaš uređaj ppp0. Ako imate kablovsku ili "
+"DSL vezu\n"
+"izaberite eth0. Izaberite ppp0 ako vaš provajder koristi PPP over Ethernet "
+"protok."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Pokreni fajervol pri pozivanju provajdera"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Overite ovu postavku i fajervol će se pokrenuti kada pozovete vašeg "
+"provajdera"
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP adresa se dodeljuje preko DHCP-a"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Overi ovu postavku ako morate da se povežete na DHCP server. Ovo je potrebno "
+"kod korisnika\n"
+"kablovskog i DSL interneta."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+
+#: src/wizard.c:263
+#, fuzzy
+msgid "Local area network device:"
+msgstr "Izaberite vaš unutrašnji mrežni uređaj:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr ""
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr ""
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr ""
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr ""
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Ovaj čarobnjak će vam pomoći da namestite fajervol za vašu mašinu.\n"
+"Biće vam postavljena neka pitanja o vašim postavkama mreže\n"
+"da bi se na osnovu njih podesio fajervol za vaš sistem.\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"Savet: Ako niste sigurni kako da odgovorite na pitanje\n"
+"najbolje je da koristite podrazumevanu vrednost.\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Pritisnite taster Napred za nastavak.\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Vaš fajervol je spreman za rad"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"Čarobnjak je sada spreman da pokrene vaš fajervol.\n"
+"\n"
+"Pritisnite taster Sačuvaj za nastavak, ili taster Nazad\n"
+"da ponovo pogledate izbor.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "Pokreni Fajervol"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Fajervol čarobnjak"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Dobrodošli u Palikuću"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Podešavanje mrežnog uređaja"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Podešavanje deljenja internet veze"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Vaš fajervol je spreman za rad"
+
+#~ msgid ""
+#~ "Allow incoming DHCP packets, and start the firewall when an IP lease is "
+#~ "obtained."
+#~ msgstr "Dozvoli DHCP pakete i pokreni fajervol kada se dobije IP adresa"
+
+#~ msgid ""
+#~ "Always convert the entries in the Hit View from IP format to a valid "
+#~ "hostname. This options can slow down the client a lot, as it is not "
+#~ "threaded."
+#~ msgstr ""
+#~ "Uvek transformiši linije u Pregledniku konekcija iz IP formata u ime "
+#~ "domaćina format. Ova postavka može umnogome usporiti program, jer nije "
+#~ "napisan u nitima."
+
+#~ msgid ""
+#~ "Apply the settings of the well known services, as configured in the "
+#~ "wizard."
+#~ msgstr ""
+#~ "Primeni podešavanja poznatijih servisa, kao što je naznačeno u čarobnjaku."
+
+#~ msgid "Convert IPs to human readable form"
+#~ msgstr "Prikaži IP adrese u čitljivom formatu"
+
+#~ msgid "Enable the configuration of services"
+#~ msgstr "Omogući podešavanja servisa"
+
+#~ msgid "External interface is modem"
+#~ msgstr "Spoljni uređaj je modem"
+
+#~ msgid "External interface uses DHCP"
+#~ msgstr "Spoljni uređaj koristi DHCP"
+
+#~ msgid "Filter out hits not meant for your machine"
+#~ msgstr "Odbijaj pakete koji nisu namenjeni vašoj mašini"
+
+#~ msgid ""
+#~ "Start the firewall when the users dials out. Modifies /etc/ppp/ip-up."
+#~ "local."
+#~ msgstr ""
+#~ "Pokreni fajervol kada korisnik pokuša da zove. Ova postavka menja /etc/"
+#~ "ppp/ip-up.local."
+
+#~ msgid "Stop the firewall when the program exists"
+#~ msgstr "Isključi fajervol kada se program isključi"
+
+#~ msgid "Stop the firewall when the program exists."
+#~ msgstr "Isključi fajervol kada se program isključi."
+
+#~ msgid "User has gone trough the wizard at least once"
+#~ msgstr "Korisnik je prošao bar jednom kroz čarobnjaka"
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited. Works together with the notification area applet."
+#~ msgstr ""
+#~ "Prilikom postavljanja prozora programa u obaveštajnu zonu panela, program "
+#~ "se sakriva umesto da se isključi. Radi zajedno sa apletom za obaveštenja."
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "Fajervol isključen, saobraćaj sada teče slobodno\n"
+
+#~ msgid "Firewall started\n"
+#~ msgstr "Fajervol pokrenut\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "Sav saobraćaj zaustavljen\n"
+
+#~ msgid ""
+#~ "Failed to enter halted firewall mode\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Neuspešno prebacivanje u rad sa zaustavljenim fajervolom\n"
+#~ "\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "Sav saobraćaj obustavljen"
+
+#~ msgid "Fortified "
+#~ msgstr "Palikuća"
+
+#~ msgid ""
+#~ "Fortified requires a Linux 2.4 or later kernel to function.\n"
+#~ "\n"
+#~ "A client for your system might be available at http://fortified.sf.net"
+#~ msgstr ""
+#~ "Palikuća zahteva Linux 2.4 ili novije jezgro da bi radio.\n"
+#~ "\n"
+#~ "Program za vaš sistem je možda dostupan na http://fortified.sf.net"
+
+#~ msgid "Hits"
+#~ msgstr "Paketa"
+
+#~ msgid "Rules"
+#~ msgstr "Pravila"
+
+#~ msgid "Save"
+#~ msgstr "Sačuvaj"
+
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "/_Fajervol/Pokreni _Čarobnjaka"
+
+#~ msgid "/_Firewall/---"
+#~ msgstr "/_Fajervol/---"
+
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "/_Fajervol/_Pokreni Fajervol"
+
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "/_Fajervol/_Zaustavi Fajervol"
+
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "/_Fajervol/_Obustavi mrežni saobraćaj"
+
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "/_Fajervol/_Izlaz"
+
+#~ msgid "/_Edit/_Copy"
+#~ msgstr "/_Izmeni/_Kopiraj"
+
+#~ msgid "/_Edit/---"
+#~ msgstr "/_Izmeni/---"
+
+#~ msgid "/_View"
+#~ msgstr "/_Pregled"
+
+#~ msgid "/_View/_Clear Hit List"
+#~ msgstr "/_Pregled/_Očisti Listu Paketa"
+
+#~ msgid "/_View/_Re_load Hit List"
+#~ msgstr "/_Pregled/_Ponovo učitaj listu paketa"
+
+#~ msgid "/_View/---"
+#~ msgstr "/_Pregled/---"
+
+#~ msgid "/_View/Hit columns"
+#~ msgstr "/_Pregled/Kolone o paketu"
+
+#~ msgid "/_View/Hit columns/Time"
+#~ msgstr "/_Pregled/Kolone o paketu/Vreme"
+
+#~ msgid "/_View/Hit columns/In"
+#~ msgstr "/_Pregled/Kolone o paketu/Dolazni"
+
+#~ msgid "/_View/Hit columns/Out"
+#~ msgstr "/_Pregled/Kolone o paketu/Odlazni"
+
+#~ msgid "/_View/Hit columns/Port"
+#~ msgstr "/_Pregled/Kolone o paketu/Port"
+
+#~ msgid "/_View/Hit columns/Source"
+#~ msgstr "/_Pregled/Kolone o paketu/Izvor"
+
+#~ msgid "/_View/Hit columns/Destination"
+#~ msgstr "/_Pregled/Kolone o paketu/Cilj"
+
+#~ msgid "/_View/Hit columns/Length"
+#~ msgstr "/_Pregled/Kolone o paketu/Dužina"
+
+#~ msgid "/_View/Hit columns/ToS"
+#~ msgstr "/_Pregled/Kolone o paketu/Tip Servisa"
+
+#~ msgid "/_View/Hit columns/Protocol"
+#~ msgstr "/_Pregled/Kolone o paketu/Protokol"
+
+#~ msgid "/_View/Hit columns/Service"
+#~ msgstr "/_Pregled/Kolone o paketu/Servis"
+
+#~ msgid "/_Hits"
+#~ msgstr "/_Paketi"
+
+#~ msgid "/_Hits/_Block Host"
+#~ msgstr "/_Paketi/_Blokiraj server"
+
+#~ msgid "/_Hits/_Trust Host"
+#~ msgstr "/_Paketi/_Veruj serveru"
+
+#~ msgid "/_Hits/_Open Port"
+#~ msgstr "/_Paketi/_Otvori port"
+
+#~ msgid "/_Hits/Open Port for This _Host Only"
+#~ msgstr "/_Paketi/Otvori port samo _za ovaj server"
+
+#~ msgid "/_Hits/Block and _Stop Logging Port"
+#~ msgstr "/_Paketi/Blokiraj i _isključi logovanje porta"
+
+#~ msgid "/_Hits/_Lookup Hostname"
+#~ msgstr "/_Paketi/_Nađi ime servera"
+
+#~ msgid "/_Hits/---"
+#~ msgstr "/_Paketi/---"
+
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "/_Paketi/Sačuvaj Listu Paketa u _Fajl"
+
+#~ msgid "/_Rules/_New Rule"
+#~ msgstr "/_Pravila/_Novo Pravilo"
+
+#~ msgid "/_Rules/_Remove Rule"
+#~ msgstr "/_Pravila/_Ukloni Pravilo"
+
+#~ msgid "/_Rules/_Edit Rule"
+#~ msgstr "/_Pravila/_Izmeni Pravilo"
+
+#~ msgid "/_Help/---"
+#~ msgstr "/Pomo_ć/---"
+
+#~ msgid "/_Help/_About..."
+#~ msgstr "/Pomo_ć/_O programu..."
+
+#~ msgid "/_Block Host"
+#~ msgstr "/_Blokiraj server"
+
+#~ msgid "/_Trust Host"
+#~ msgstr "/_Veruj serveru"
+
+#~ msgid "/_Open Port"
+#~ msgstr "/_Otvori Port"
+
+#~ msgid "/Open Port for This _Host Only"
+#~ msgstr "/Otvori port _samo za ovaj server"
+
+#~ msgid "/Block and _Stop Logging Port"
+#~ msgstr "/Blokiraj i _prestani sa logovanjem porta"
+
+#~ msgid "/New rule"
+#~ msgstr "/Novo pravilo"
+
+#~ msgid "/Edit rule"
+#~ msgstr "/Izmeni pravilo"
+
+#~ msgid "Wizard"
+#~ msgstr "Čarobnjak"
+
+#~ msgid "Stop"
+#~ msgstr "Zaustavi"
+
+#~ msgid "Add trust host rule"
+#~ msgstr "Dodaj pravilo o poverenju u server"
+
+#~ msgid "Add block host rule"
+#~ msgstr "Dodaj pravilo o blokiranju servera"
+
+#~ msgid "Add forwarding rule"
+#~ msgstr "Dodaj pravilo o prosleđivanju"
+
+#~ msgid "Add stealth port rule"
+#~ msgstr "Dodaj pravilo o nevidljivom portu"
+
+#~ msgid "Add block port rule"
+#~ msgstr "Dodaj pravilo o blokiranju porta"
+
+#~ msgid ""
+#~ "The general program settings let you configure the overall behavior\n"
+#~ "of the program.\n"
+#~ msgstr ""
+#~ "Osnovna postavke programa vam dozvoljavaju da odredite uopšteno "
+#~ "ponašanje\n"
+#~ "programa.\n"
+
+#~ msgid "Check this and the firewall will be started when the program loads."
+#~ msgstr "Overi ovo i fajervol će biti pokrenut kada se program pokrene."
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "Zaustavi fajervol pri izlasku iz programa"
+
+#~ msgid ""
+#~ "Check this and the firewall will be stopped when you exit the program."
+#~ msgstr "Overi ovo i fajervol će biti zaustavljen kada izađete iz programa."
+
+#~ msgid "Autoresolve IP numbers to hostnames for hits"
+#~ msgstr "Odmah prevodi IP brojeve u imena servera za pakete"
+
+#~ msgid ""
+#~ "Check this and instead of the IP number you will see a hostname in the "
+#~ "Hits view. This option uses some network bandwidth."
+#~ msgstr ""
+#~ "Overi ovo i umesto IP brojeva videćeš imena servera u listi paketa. Ova "
+#~ "postavka zahteva nešto mrežnog saobraćaja."
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited and can be restored by clicking the Fortified system tray "
+#~ "icon."
+#~ msgstr ""
+#~ "Kada se program stavlja u obaveštajnu zonu panela, on se samo sakriva ali "
+#~ "se ne isključuje i može se povratiti pritiskom tastera miša na ikonu "
+#~ "Palikuće"
+
+#~ msgid ""
+#~ "The filtering settings let you weed out excessive information\n"
+#~ "from the Hits view.\n"
+#~ msgstr ""
+#~ "Postavke filtera omogućavaju da uklonite nepotrebne podatke\n"
+#~ "sa liste paketa.\n"
+
+#~ msgid ""
+#~ "Check this and the Hits view will not show identical hits that follow "
+#~ "each other."
+#~ msgstr ""
+#~ "Overi ovo ii lista paketa neće prikazivati iste pakete koji idu jedan za "
+#~ "drugim"
+
+#~ msgid ""
+#~ "Check this and the hits list will not show hits that have a destination "
+#~ "field other than your IP."
+#~ msgstr ""
+#~ "Overi ovo i lista paketa neće prikazivati pakete koji za ciljnu adresu "
+#~ "nemaju vaš IP."
+
+#~ msgid ""
+#~ "The advanced settings let the experienced user fine tune\n"
+#~ "the program operation.\n"
+#~ msgstr ""
+#~ "Napredne postavke omogućavaju iskusnim korisnicima da\n"
+#~ "preciznije podese rad programa.\n"
+
+#~ msgid ""
+#~ "If you enable this, Fortified can use some experimental patches for "
+#~ "filtering. Do not enable this option until you have read the manual for "
+#~ "the prerequisites."
+#~ msgstr ""
+#~ "Ako omogućite ovo, Palikuća će koristiti neke probne zakrpe za "
+#~ "filtriranje.\n"
+#~ "Nemojte omogućavati ovu postavku, pre nego što ste pročitali priručnik."
+
+#~ msgid "Deny"
+#~ msgstr "Odbij"
+
+#~ msgid "Silently ignore the rejected packets."
+#~ msgstr "Ignoriši odbijeni paket."
+
+#~ msgid "Reject"
+#~ msgstr "Ignoriši"
+
+#~ msgid "Reply with a notice of rejection to the sender."
+#~ msgstr "Odgovori pošiljaocu informacijom o odbijanju"
+
+#~ msgid "General"
+#~ msgstr "Osnovne"
+
+#~ msgid "Connection Sharing"
+#~ msgstr "Deljenje internet veze"
+
+#~ msgid "Type of Service"
+#~ msgstr "Tip Servisa"
+
+#~ msgid "%s (%s) is open to %s"
+#~ msgstr "%s (%s) je otvoren prema %s"
+
+#~ msgid "From port %s to %s, port %s"
+#~ msgstr "Od porta %s do porta %s, port %s"
+
+#~ msgid "Trusted Hosts"
+#~ msgstr "Serveri od poverenja"
+
+#~ msgid "Forwarded Ports"
+#~ msgstr "Preusmereni Portovi"
+
+#~ msgid "Open Ports"
+#~ msgstr "Otvoreni Portovi"
+
+#~ msgid "Stealthed Ports"
+#~ msgstr "Sakriveni Portovi"
+
+#~ msgid "Blocked Ports"
+#~ msgstr "Blokirani Portovi"
+
+#~ msgid "Rule"
+#~ msgstr "Pravilo"
+
+#~ msgid "Please specify a valid hostname or IP address."
+#~ msgstr "Upišite postojeću IP adresu ili ime servera"
+
+#~ msgid "Please specify a valid port number."
+#~ msgstr "Upišite broj porta."
+
+#~ msgid "Please specify a valid internal hostname or IP address."
+#~ msgstr "Upišite tačno ime servera u lokalnoj mreži ili IP adresu."
+
+#~ msgid "Please specify a valid port number for the internal host."
+#~ msgstr "Upišite tačan broj porta za server u lokalnoj mreži."
+
+#~ msgid "Trust Host"
+#~ msgstr "Veruj serveru"
+
+#~ msgid "Block Host"
+#~ msgstr "Blokiraj server"
+
+#~ msgid "Forward To"
+#~ msgstr "Prosleđuje na"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Open Port"
+#~ msgstr "Otvori Port"
+
+#~ msgid "Stealth Port"
+#~ msgstr "Sakrij Port"
+
+#~ msgid "For Machine"
+#~ msgstr "Za Mašinu"
+
+#~ msgid "Block Port"
+#~ msgstr "Blokiraj Port"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "Izaberi fajl za upisivanje logova"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "Nije nađen fajl sa podešavanjima DHCP klijenta\n"
+#~ "\n"
+#~ "Fajervol neće biti automatski učitan pri dodeli nove adrese. Molimo vas "
+#~ "proverite da je spoljni uređaj dobro podešen ili isključite DHCP postavku "
+#~ "ako koristite jednokratna podešavanja\n"
+
+#~ msgid ""
+#~ "No realtime hit information will be available. Please make sure the "
+#~ "syslog daemon is running."
+#~ msgstr ""
+#~ "Informacije o paketima neće biti dostupne u istom trenutku. Pokrenite "
+#~ "syslog servis."
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Izaberite mrežni uređaj iz padajuće liste. Ako ste nesigurni ostavite "
+#~ "prvobitni."
+
+#~ msgid ""
+#~ "Network Address Translation (NAT) is a technique that allows all the "
+#~ "machines\n"
+#~ "on your network to share a single IP address and Internet connection."
+#~ msgstr ""
+#~ "Prevođenje mrežnih adresa (NAT) je tehnika koja dozvoljava mašinama\n"
+#~ "u vašoj mreži da koriste jednu IP adresu i internet vezu."
+
+#~ msgid "Disable Network Address Translation"
+#~ msgstr "Onemogući Prevođenje mrežnih adresa"
+
+#~ msgid "Enable Network Address Translation"
+#~ msgstr "Omoguće Prevođenje mrežnih adresa"
+
+#~ msgid ""
+#~ "This is the device that connects to your LAN. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Ovo je uređaj koji se povezuje na LAN. Ostavite prvobitnu postavku ako "
+#~ "niste sigurni."
+
+#~ msgid "Autodetect internal network IP range"
+#~ msgstr "Automatski otkrij IP opseg unutrašnje mreže"
+
+#~ msgid "Select this and the IP range of your LAN is autodetected."
+#~ msgstr "Izaberite ovo i IP opseg vaše lokalne mreže se automatski određuje."
+
+#~ msgid "Specify internal network IP range manually (advanced users only)"
+#~ msgstr "Naznači ručno IP opseg lokalne mreže (samo za napredne korisnike)"
+
+#~ msgid "Select this only if the automatic detection fails."
+#~ msgstr "Izaberite ovo samo ako automatska postavka ne uspe."
+
+#~ msgid "Enter the internal network address range:"
+#~ msgstr "Upiši IP opseg lokalne mreže:"
+
+#~ msgid ""
+#~ "Tip: The network range is given in the form of <i>address/mask</i>. "
+#~ "192.168.0.0/24 is the\n"
+#~ " most common IP range reserved for internal networks."
+#~ msgstr ""
+#~ "Savet: Mrežni opseg je zadat u obliku <i>adresa/maska</i>. 192.168.0.0/24 "
+#~ "je\n"
+#~ "najčešći IP opseg rezervisan za lokalne mreže."
+
+#~ msgid ""
+#~ "If you run server software on your machine and want to give public "
+#~ "access\n"
+#~ "to the services you provide, you can configure them here.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ako vašu mašinu koristite kao server i želite da date svima pristup\n"
+#~ "uslugama koje pružate, to možete podesiti ovde.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Tip: Services can easily be configured later from the main interface, in "
+#~ "the Rules view.\n"
+#~ "The Rules view settings override any conflicting choices made here."
+#~ msgstr ""
+#~ "Saveti: Servisi se mogu kasnije lako podesiti iz glavnog meniju, kroz "
+#~ "pregled pravila.\n"
+#~ "Podešavanja pravila zaobilaze bilo kakve protivurečne postavke podešene "
+#~ "ovde."
+
+#~ msgid "Disable public access to all services"
+#~ msgstr "Onemogući javni pristup svim servisima"
+
+#~ msgid "Enable public access to the following services:"
+#~ msgstr "Omogući javni pristup sledećim servisima:"
+
+#~ msgid ""
+#~ "ICMP packet filtering can be useful to prevent some common\n"
+#~ "Denial of Service (DoS) attacks on your network."
+#~ msgstr ""
+#~ "Filtriranje ICMP paketa može biti korisno da se onemoguće neki od "
+#~ "poznatijih\n"
+#~ "Denial of Service (DoS) napada na vašu mrežu."
+
+#~ msgid "Enable ICMP filtering related to the following packets:"
+#~ msgstr "Omogući ICMP filtriranje koje se odnosi na sledeće pakete:"
+
+#~ msgid "Echo"
+#~ msgstr "Ispis"
+
+#~ msgid "Disable ToS filtering"
+#~ msgstr "Onemogući filtriranje po kvalitetu usluge"
+
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr ""
+#~ "Omogući filtriranje po kvalitetu usluge koje se odnosi na sledeće pakete:"
+
+#~ msgid "Client Applications"
+#~ msgstr "Klijent Programi"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "Overi ovu postavku da bi omogućili postavke o kvalitetu servisa za neke "
+#~ "uobičajene klijent programe, kao što su WWW, FTP, SSH & E-mail."
+
+#~ msgid "Server Applications"
+#~ msgstr "Server programi"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "Overi ovu postavku da bi omogućili postavke o kvalitetu servisa za neke "
+#~ "uobičajene server programe kao što su SQUID, FTPd, SSHd, SMTP & POP "
+#~ "servisi."
+
+#~ msgid ""
+#~ "Selecting this option will automatically configure Type of Service for "
+#~ "`Throughput' for both X and SSHd. You should select this ONLY if you need "
+#~ "to run X over your link"
+#~ msgstr ""
+#~ "Biranje ove opcije će samo od sebe podesiti veći protok za X i SSHd. Ovo "
+#~ "trebate izabrati SAMO ako pokrećete X na udaljenoj mašini"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "Biranje ove postavke će podesiti najveći protok za servise koje ste "
+#~ "izabrali."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "Biranje ove postavke će podesiti najveću pouzdanost za servise koje ste "
+#~ "izabrali."
+
+#~ msgid "Delay"
+#~ msgstr "Odziv"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "Biranje ove postavke će podesiti najmanje vreme odziva za servise koje "
+#~ "ste izabrali."
+
+#~ msgid "Network services setup"
+#~ msgstr "Podešavanje mrežnih servisa"
+
+#~ msgid "ICMP filtering setup"
+#~ msgstr "Podešavanje ICMP filtriranja"
+
+#~ msgid "Try to detect the location of system binaries"
+#~ msgstr "Probaj da otkriješ lokacije sistemskih programa"
+
+#~ msgid ""
+#~ "Check this and Fortified will search for the location of some needed "
+#~ "binaries. Do not check unless you're having problems."
+#~ msgstr ""
+#~ "Overi ovo i Palikuća će potražiti lokacije bitnih programa. Nemojte "
+#~ "overavati ovu postavku ukoliko nemate problema."

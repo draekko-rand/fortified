@@ -1,0 +1,31 @@
+#!/bin/bash
+set -e
+
+if [ "$1" = "purge" ]; then
+	rm -rf /etc/fortified
+
+	DHCP_HOOK=/etc/dhclient-exit-hooks
+	FS_ADDED_LINE="sh /etc/init.d/fortified start"
+	if [ -r $DHCP_HOOK -a -w $DHCP_HOOK ]; then
+	  if grep "${FS_ADDED_LINE}" ${DHCP_HOOK} >/dev/null; then
+	    TMP=`mktemp -q`
+	    if grep -v "${FS_ADDED_LINE}" $DHCP_HOOK > $TMP; then
+	      # replace /etc/dhclient-exit-hooks with
+	      # itself "purged" (and remove temporary file)
+	      mv $TMP $DHCP_HOOK
+	    else
+	      if [ $? -eq 1 ]; then
+	        # /etc/dhclient-exit-hooks is empty, as it was filled
+		# with only the fortified hook, we can remove it.
+	        rm -f $DHCP_HOOK
+	      fi
+	      # remove temporary file
+	      rm -f $TMP
+	    fi
+	  fi
+	fi
+
+	rm -f /etc/ppp/ip-up.d/1fortified
+fi
+
+#DEBHELPER#

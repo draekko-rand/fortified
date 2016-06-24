@@ -1,0 +1,2357 @@
+# KBST Punjab translation of punlinux.
+# Copyright (C) 2004 THE FORTIFIED_HEAD'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the FORTIFIED_HEAD package.
+# jaswinder singh <jaswindersinghra@yahoo.com>, 2004.
+# jaswinder singh <jaswindersinghra@yahoo.com>, 2004.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2004-03-16 09:15+0530\n"
+"Last-Translator: Jaswinder Singh Phulewala <jaswinderlinux@netscape.net>\n"
+"Language-Team: Punjabi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+#, fuzzy
+msgid "Desktop Firewall Tool"
+msgstr "ਫਾਇਰਸਟਾਰਟਰ ਫਾਇਰਵਾਲ ਸੰਦ"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+#, fuzzy
+msgid "Fortified"
+msgstr "ਫਾਇਰਸਟਾਰਟਰ"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "ICMP ਵਿਵਸਥਾਂਵਾਂ ਜਿਸ ਤਰਾਂ ਤਖਤੀ ਵਿਚ ਦਿਤੀਆਂ ਹਨ ਲਾਗੂ ਕਰੋ।"
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "ਉਪਯੋਗ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀਆਂ ਵਿਵਸਥਾਂਵਾਂ ਜਿਸ ਤਰਾਂ ਤਖਤੀ ਵਿਚ ਦਿਤੀਆਂ ਹਨ ਲਾਗੂ ਕਰੋ।"
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr ""
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+
+#: fortified.schemas.in.h:12
+#, fuzzy
+msgid "Enable DHCP server for connection sharing"
+msgstr "ਇੰਟਰਨੈਟ ਜੋੜ ਸਾਂਝ ਨਿਰਧਾਰਨ"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "NAT ਯੋਗ ਕਰੋ"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "ਨੈਟਵਰਕ ਪਤਾ ਉਲਥਾ ਜਾਂ ਇੰਟਰਨੈਟ ਜੋੜ ਸਾਂਝ ਯੋਗ ਕਰੋ"
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "ICMP ਸੰਰਚਨਾ ਨੂੰ ਯੋਗ ਕਰੋ"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "tos ਰੂਪ ਨੂੰ ਯੋਗ ਕਰੋ"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+#, fuzzy
+msgid "Enable tray icon"
+msgstr "ਪ੍ਯੋਗਿਕ ਚੋਣ ਯੋਗ ਕਰੋ"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr ""
+"ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰਨ ਵਿਚ ਅਸਫਲ \n"
+"\n"
+
+#: fortified.schemas.in.h:19
+#, fuzzy
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr "ਪ੍ਭਾਵ ਜਿਸ ਵਿਚ ਲਕਸ਼ IP ਦਾ ਤੁਹਾਡੇ IP ਨਾਲ ਮੇਲ ਨਹੀਂ ਹੁੰਦਾ, ਨੂੰ ਵੱਖ ਕਰੋ।"
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "ਫਾਲਤੂ ਪ੍ਭਾਵ ਵੱਖ ਕਰੋ"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "ਸਮਾਨਾਰਥਕ ਪ੍ਭਾਵਾਂ ਦੀ ਲੜੀ ਨੂੰ ਵੱਖ ਕਰੋ।"
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr ""
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr ""
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr ""
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr ""
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:31
+#, fuzzy
+msgid "Show the Fortified icon in the notification area."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚ ਲਕਸ਼ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸੇਵਾ ਦੀ ਕਿਸਮ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਲਕਸ਼ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚ ਲਕਸ਼ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਾਧਨ ਜਿਸ ਨੇ ਪ੍ਭਾਵ ਪ੍ਾਪਤ ਕੀਤਾ ਸੀ ਦਿਖਾਓ।"
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਾਧਨ ਜਿਸ ਵਿਚੋਂ ਪ੍ਭਾਵ ਗੁਜਰਿਆ ਸੀ ਦਿਖਾਓ।"
+
+#: fortified.schemas.in.h:37
+#, fuzzy
+msgid "Show the direction column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਅੰਦਰ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:38
+#, fuzzy
+msgid "Show the direction column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚ ਲਕਸ਼ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਅੰਦਰ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਲੰਬਾਈ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਬਾਹਰੀ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੈਕਟ ਲੰਬਾਈ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੋਰਟ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੋਰਟ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪਰੋਟੋਕੋਲ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪਰੋਟੋਕੋਲ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸੇਵਾ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸੇਵਾ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸ੍ਰੋਤ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸ੍ਰੋਤ ਕਾਲਮ ਦਿਖਾਓ ੤"
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਮਾਂ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਮਾਂ ਕਾਲਮ ਦਿਖਾਓ ੤"
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ tos ਕਾਲਮ ਦਿਖਾਓ"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:56
+#, fuzzy
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "dial-out ਉਪਰ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ ੤"
+
+#: fortified.schemas.in.h:59
+#, fuzzy
+msgid "Start the firewall when the system boots"
+msgstr "ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#: fortified.schemas.in.h:60
+#, fuzzy
+msgid "Start the firewall when the system boots."
+msgstr "ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ ੤"
+
+#: fortified.schemas.in.h:61
+#, fuzzy
+msgid "Start the firewall when the system dials out"
+msgstr "dial-out ਉਪਰ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: fortified.schemas.in.h:62
+#, fuzzy
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ ੤"
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ ੤"
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "ਇੰਟਰਨੈਟ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਨੈਟਵਰਕ ਤਾਲਮੇਲ। ਉਦਾਹਰਨ ਲਈ  ppp0 ਜਾਂ eth0।"
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "LAN ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਨੈਟਵਰਕ ਤਾਲਮੇਲ। ਉਦਾਹਰਨ ਲਈ  eth0 ਜਾਂ eth1।"
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "ਬਾਹਰੀ ਤਾਲਮੇਲ"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr "ਪਹਿਲੀ ਵਾਰ ਫਾਇਰਸਟਾਰਟਰ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ ਕੁਝ ਖਾਸ ਕ੍ਰਿਆਂਵਾਂ ਕੀਤੀਆਂ ਗਈਆਂ।"
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "ਅੰਦਰੂਨੀ ਤਾਲਮੇਲ"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "ਸਿਸਟਮ ਰੋਜ਼ਨਾਮਚਾ ਡੈਮਨ ਦੁਆਰਾ ਲਿਖੀ ਹੋਈ ਫਾਈਲ ਦੀ ਸਥਿਤੀ।"
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "ਸਿਸਟਮ ਰੋਜ਼ਨਾਮਚਾ ਫਾਈਲ"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+#, fuzzy
+msgid "Failed to stop the firewall"
+msgstr ""
+"ਫਾਇਰਵਾਲ ਰੋਕਣ ਵਿਚ ਅਸਫਲ \n"
+"\n"
+
+#: src/fortified.c:87
+#, fuzzy
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "ਜਦੋਂ ਤੁਹਾਡੇ ਫਾਇਰਵਾਲ ਨੂੰ ਰੋਕਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਉਥੇ ਇਕ ਨਾ ਲੱਭੀ ਹੋਈ ਗਲਤੀ ਸੀ।"
+
+#: src/fortified.c:126 src/fortified.c:130
+#, fuzzy, c-format
+msgid "The device %s is not ready."
+msgstr ""
+"ਯੰਤਰ %s ਤਿਆਰ ਨਹੀਂ ਹੈ।\n"
+"\n"
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr ""
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr ""
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"ਕਿਰਪਾ ਕਰਕੇ ਨੈਟਵਰਕ ਯੰਤਰ ਵਿਵਸਥਾਂਵਾਂ ਦੀ ਜਾਂ ਕਰੋ ਅਤੇ ਵੇਖੋ ਕਿ ਤੁਹਾਡਾ \n"
+"ਇੰਟਰਨੈਟ ਜੋੜ ਸਰਗਰਮ ਹੈ।"
+
+#: src/fortified.c:143
+#, fuzzy
+msgid "Failed to start the firewall\n"
+msgstr ""
+"ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰਨ ਵਿਚ ਅਸਫਲ \n"
+"\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+#, fuzzy
+msgid "Failed to start the firewall"
+msgstr ""
+"ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰਨ ਵਿਚ ਅਸਫਲ \n"
+"\n"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+#, fuzzy
+msgid "Failed to lock the firewall"
+msgstr ""
+"ਫਾਇਰਵਾਲ ਰੋਕਣ ਵਿਚ ਅਸਫਲ \n"
+"\n"
+
+#: src/fortified.c:204
+#, fuzzy
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "ਜਦੋਂ ਤੁਹਾਡੇ ਫਾਇਰਵਾਲ ਨੂੰ ਰੋਕਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਉਥੇ ਇਕ ਨਾ ਲੱਭੀ ਹੋਈ ਗਲਤੀ ਸੀ।"
+
+#: src/fortified.c:298
+#, fuzzy
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+"\n"
+"\n"
+" -s,--ਸ਼ੁਰੂ              ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ \n"
+" -p, --ਰੋਕੋ             ਫਾਇਰਵਾਲ ਰੋਕੋ \n"
+"      --ਵਿਰਾਮ          ਸਾਰੇ ਬਾਹਰ ਜਾਣ ਅਤੇ ਅੰਦਰ ਆਉਣ ਵਾਲੀ ਭੀੜ ਨੂੰ ਵਿਰਾਮ ਕਰੋ (panic "
+"mode)\n"
+"      --ਪੈਦਾ ਕਰੋ-ਲਿਪੀ ਮੌਜੂਦ ਰੂਪ ਤੋਂ ਫਾਇਰਵਾਲ ਲਿਪੀ ਪੈਦਾ ਕਰਦਾ ਹੈ \n"
+" -v, --ਵਰਜਨ         ਫਾਇਰਸਟਾਰਟਰ ਦਾ ਵਰਜਨ ਅੰਕ ਛਾਪਦਾ ਹੈ \n"
+"-h, --ਸਹਾੲਿਤਾ            ਤੁਸੀਂ ਇਸ ਉਪਰ ਵੇਖ ਰਹੇ ਹੋ \n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+#, fuzzy
+msgid "Insufficient privileges"
+msgstr ""
+"ਨਾ ਕਾਫੀ ਅਧਿਕਾਰ \n"
+"\n"
+
+#: src/fortified.c:320
+#, fuzzy
+msgid "You must have root user privileges to use Fortified."
+msgstr "ਫਾਇਰਸਟਾਰਟਰ ਵਰਤਣ ਲਈ ਤੁਹਾਡੇ ਕੇਲ root ਉਪਯੋਗੀ ਵਾਲੇ ਅਧਿਕਾਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।\n"
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "ਫਾਇਰਵਾਲ ਰੁੱਕ ਚੁੱਕੀ ਹੈ"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "ਗਨੋਮ ਲਈ ਆਲ-ਇਨ-ਵਨ ਲਾੲੀਨੈਕਸ ਫਾਇਰਵਾਲ ਸੇਵਾ।\n"
+
+#: src/gui.c:269 src/statusview.c:962
+#, fuzzy
+msgid "Status"
+msgstr "ਸ਼ੁਰੂ ਕਰਨਾ"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr ""
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr ""
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr ""
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr ""
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr ""
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "ਸਮਾਂ"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+#, fuzzy
+msgid "Direction"
+msgstr "ਮੁੜ ਸੰਚਾਲਨ"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "ਅੰਦਰ"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "ਬਾਹਰ"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "ਪੋਰਟ"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "ਸ੍ਰੋਤ"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "ਲਕਸ਼"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "ਲੰਬਾਈ"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "ਸੇਵਾ ਦੀ ਕਿਸਮ"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "ਪਰੋਟੋਕੋਲ"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "ਸੇਵਾ"
+
+#: src/hitview.c:968
+#, fuzzy
+msgid "Blocked Connections"
+msgstr "ਰੁਕਾਵਟ ਵਾਲਾ ਮੇਜ਼ਬਾਨ"
+
+#: src/menus.c:43
+#, fuzzy
+msgid "_Firewall"
+msgstr "/ਫਾਇਰਵਾਲ"
+
+#: src/menus.c:44
+#, fuzzy
+msgid "_Edit"
+msgstr "/ਸੋਧ"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr ""
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr ""
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr ""
+
+#: src/menus.c:48
+#, fuzzy
+msgid "_Help"
+msgstr "/ਸਹਾੲਿਤਾ"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr ""
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr ""
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run _Wizard"
+msgstr "ਤਖਤੀ ਚਲਾਓ"
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run the firewall wizard"
+msgstr "ਫਾੲਿਰਵਾਲ ਤਖਤੀ"
+
+#. S
+#: src/menus.c:52
+#, fuzzy
+msgid "_Start Firewall"
+msgstr "ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: src/menus.c:52
+#, fuzzy
+msgid "Start the firewall"
+msgstr "ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#. P
+#: src/menus.c:53
+#, fuzzy
+msgid "Sto_p Firewall"
+msgstr "ਫਾਇਰਵਾਲ ਰੋਕੋ"
+
+#: src/menus.c:53
+#, fuzzy
+msgid "Stop the firewall"
+msgstr "ਫਾਇਰਵਾਲ ਰੋਕੋ"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "_Lock Firewall"
+msgstr "/ਫਾਇਰਵਾਲ"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "Lock the firewall"
+msgstr "ਫਾਇਰਵਾਲ ਰੋਕੋ"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "_Unlock Firewall"
+msgstr "/ਫਾਇਰਵਾਲ"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "Unlock the firewall"
+msgstr ""
+"ਫਾਇਰਵਾਲ ਰੋਕਣ ਵਿਚ ਅਸਫਲ \n"
+"\n"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr ""
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr ""
+
+#: src/menus.c:58
+#, fuzzy
+msgid "_Preferences"
+msgstr "/ਸੋਧ/ਮੇਰੀ ਪਸੰਦ..."
+
+#: src/menus.c:58
+#, fuzzy
+msgid "Program preferences"
+msgstr "ਫਾਇਰਸਟਾਰਟਰ: ਮੇਰੀ ਪਸੰਦ"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr ""
+
+#: src/menus.c:60
+#, fuzzy
+msgid "Save the events to a file"
+msgstr "ਪ੍ਭਾਵੀ ਸੂਚੀ ਨੂੰ ਫਾਈਲ ਵਿਚ ਸੰਭਾਲੋ"
+
+#. L
+#: src/menus.c:61
+#, fuzzy
+msgid "_Clear"
+msgstr "ਸਾਫ"
+
+#: src/menus.c:61
+#, fuzzy
+msgid "Clear the events"
+msgstr "ਸਿੱਧੀ ਪ੍ਭਾਵੀ ਲੜੀ"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "_Reload"
+msgstr "ਮੁੜ ਲੋਡ ਕਰੋ"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "Reload the events"
+msgstr "ਪ੍ਭਾਵੀ ਸੂਚੀ ਮੁੜ ਲੋਡ ਕਰੋ"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr ""
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr ""
+
+#: src/menus.c:65
+#, fuzzy
+msgid "_Remove Rule"
+msgstr "/ਹਟਾਓ ਕਾਨੂੰਨ"
+
+#: src/menus.c:65
+#, fuzzy
+msgid "Remove the selected rule"
+msgstr "/ਹਟਾਓ ਕਾਨੂੰਨ"
+
+#: src/menus.c:66
+#, fuzzy
+msgid "_Add Rule"
+msgstr "/ਕਾਨੂੰਨ"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+#, fuzzy
+msgid "_Edit Rule"
+msgstr "ਨਿਯਮ ਸੋਧੋ"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr ""
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr ""
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+#, fuzzy
+msgid "Online Users' _Manual"
+msgstr "/ਸਹਾੲਿਤਾ/ਇੰਟਰਨੈਟ ਉਪਰ ਉਪਯੋਗੀ ਦਾ ਦਸਤਾ"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr ""
+
+#: src/menus.c:71
+#, fuzzy
+msgid "Fortified _Homepage"
+msgstr "/ਸਹਾੲਿਤਾ/ਫਾਇਰਸਟਾਰਟਰ ਮੁੱਖ ਵੈਬ ਸਫ਼ਾ"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr ""
+
+#: src/menus.c:72
+msgid "_About"
+msgstr ""
+
+#: src/menus.c:72
+#, fuzzy
+msgid "About Fortified"
+msgstr "ਫਾਇਰਸਟਾਰਟਰ"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr ""
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr ""
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+#, fuzzy
+msgid "_Lookup Hostnames"
+msgstr "/ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਵੇਖੋ"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr ""
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr ""
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+#, fuzzy
+msgid "Show time column"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਮਾਂ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr ""
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+#, fuzzy
+msgid "Show out column"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਬਾਹਰੀ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+#, fuzzy
+msgid "Show port column"
+msgstr "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੋਰਟ ਕਾਲਮ ਦਿਖਾਓ"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+#, fuzzy
+msgid "ToS"
+msgstr "ਸੇਵਾ ਦੀ ਕਿਸਮ"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "ਫਾਈਰਵਾਲ ਦੀ ਸਲਰਿਪਟ,%s ਦੀ ਤਰਾਂ ਸੰਭਾਲੋ \n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr ""
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr ""
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr ""
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr ""
+
+#: src/policyview.c:628
+#, fuzzy
+msgid "Firewall host"
+msgstr "ਫਾਇਰਵਾਲ ਪੋਰਟ:"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr ""
+
+#: src/policyview.c:675
+#, fuzzy
+msgid "IP or host"
+msgstr "IP ਜਾਂ ਮੇਜ਼ਬਾਨ:"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+#, fuzzy
+msgid "There was an error when applying the inbound policy:"
+msgstr "ਜਦੋਂ ਨੈਟਵਰਕ ਭੀੜ ਵਿਰਾਮ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਉਥੇ ਇਕ ਨਾ ਲੱਭੀ ਹੋਈ ਗਲਤੀ ਸੀ।"
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+#, fuzzy
+msgid "There was an error when applying the outbound policy:"
+msgstr "ਜਦੋਂ ਨੈਟਵਰਕ ਭੀੜ ਵਿਰਾਮ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਉਥੇ ਇਕ ਨਾ ਲੱਭੀ ਹੋਈ ਗਲਤੀ ਸੀ।"
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr ""
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr ""
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+#, fuzzy
+msgid "Allow service"
+msgstr "ਸੇਵਾ"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr ""
+
+#: src/policyview.c:1216
+#, fuzzy
+msgid "Forward service"
+msgstr "ਤੋਂ ਅਗ੾ਹ"
+
+#: src/policyview.c:1217
+#, fuzzy
+msgid "Firewall Port"
+msgstr "ਫਾਇਰਵਾਲ ਪੋਰਟ:"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr ""
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+#, fuzzy
+msgid "Add new inbound rule"
+msgstr "ਖੁੱਲੀ ਪੋਰਟ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr ""
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+#, fuzzy
+msgid "Forward service from firewall"
+msgstr "ਫਾਇਰਵਾਲ ਦਾ ਪ੍ਬੰਧਨ ਅਤੇ ਨਿਗਰਾਨੀ ਕਰੋ"
+
+#: src/policyview.c:1246
+#, fuzzy
+msgid "To internal host"
+msgstr "ਅੰਦਰੂਨੀ ਤਾਲਮੇਲ"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr ""
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1278 src/policyview.c:1350
+#, fuzzy
+msgid "Deny service"
+msgstr "ਸੇਵਾ"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr ""
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr ""
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+#, fuzzy
+msgid "Add new outbound rule"
+msgstr "ਖੁੱਲੀ ਪੋਰਟ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#: src/policyview.c:1334
+#, fuzzy
+msgid "Deny connections to"
+msgstr "ਇੰਟਰਨੈਟ ਜੋੜ ਸਾਂਝ ਨਿਰਧਾਰਨ"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr ""
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr ""
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+#, fuzzy
+msgid "Editing"
+msgstr "/ਸੋਧ"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr ""
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+#, fuzzy
+msgid "Firewall"
+msgstr "/ਫਾਇਰਵਾਲ"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+#, fuzzy
+msgid "Network Settings"
+msgstr "ਨੈਟਵਰਕ ਯੰਤਰ ਨਿਰਧਾਰਨ"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP ਫਿਲਟਰ"
+
+#: src/preferences.c:268
+#, fuzzy
+msgid "ToS Filtering"
+msgstr "ICMP ਫਿਲਟਰ"
+
+#: src/preferences.c:273
+#, fuzzy
+msgid "Advanced Options"
+msgstr "ਤਕਨੀਕੀ"
+
+#: src/preferences.c:505
+#, fuzzy
+msgid "Hosts"
+msgstr "ਮੇਜ਼ਬਾਨ"
+
+#: src/preferences.c:509
+#, fuzzy
+msgid "Ports"
+msgstr "ਪੋਰਟ"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr ""
+
+#: src/preferences.c:673
+#, fuzzy
+msgid "Invalid DHCP configuration"
+msgstr "tos ਰੂਪ ਨੂੰ ਯੋਗ ਕਰੋ"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr ""
+
+#: src/preferences.c:910
+#, fuzzy
+msgid "Fortified interface file not found"
+msgstr "ਫਾਇਰਸਟਾਰਟਰ ਫਾਇਰਵਾਲ ਸੰਦ"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr ""
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr ""
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr ""
+
+#: src/preferences.glade.h:9
+#, fuzzy
+msgid "<b>Internet connected network device</b>"
+msgstr "ਆਪਣਾ ਅੰਦਰੂਨੀ ਨੈਟਵਰਕ ਯੰਤਰ ਚੁਣੋ:"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "ਪੈਕਟ ਰੱਦ ਕਰਨ ਲਈ ਪੇਸ਼ ਪਸੰਦ ਦਾ ਢੰਗ"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+#, fuzzy
+msgid "<b>System tray icon</b>"
+msgstr "ਸਿਸਟਮ ਟ੍ਰੇ ਕੰਮ ਰੂਪ"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "ਪਤਾ ਲੁਕੋਣਾ"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "ਤਕਨੀਕੀ"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr ""
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+#, fuzzy
+msgid "Create new DHCP configuration"
+msgstr "tos ਰੂਪ ਨੂੰ ਯੋਗ ਕਰੋ"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "ਪਤਾ ਲਗਾਏ ਯੰਤਰ(s):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr ""
+
+#: src/preferences.glade.h:38
+#, fuzzy
+msgid "Enable ICMP filtering"
+msgstr "ICMP ਵੱਖ ਕਰਨ ਨੂੰ ਅਯੋਗ ਕਰੋ"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+#, fuzzy
+msgid "Enable Internet connection sharing"
+msgstr "ਇੰਟਰਨੈਟ ਜੋੜ ਸਾਂਝ ਨਿਰਧਾਰਨ"
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "ਫਿਲਟਰ ਸੇਵਾ ਨਿਰਧਾਰਨ ਦੀ ਕਿਸਮ"
+
+#: src/preferences.glade.h:43
+#, fuzzy
+msgid "Filter host"
+msgstr "ਫਿਲਟਰ"
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "ਫਿਲਟਰ"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "DHCP ਦੁਆਰਾ IP ਪਤਾ ਨਿਸਚਿਤ ਕੀਤਾ ਹੈ"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "ਮੇਜ਼ਬਾਨ"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr ""
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr ""
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "DHCP ਦੁਆਰਾ IP ਪਤਾ ਨਿਸਚਿਤ ਕੀਤਾ ਹੈ"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS ਪਥ-ਖੋਜ"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr ""
+
+#: src/preferences.glade.h:62
+#, fuzzy
+msgid "Preferences"
+msgstr "/ਸੋਧ/ਮੇਰੀ ਪਸੰਦ..."
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "ਮੁੜ ਸੰਚਾਲਨ"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "ਭਰੋਸੇ ਯੋਗਤਾ"
+
+#: src/preferences.glade.h:66
+#, fuzzy
+msgid "Servers"
+msgstr "ਸੇਵਾਵ੾"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+#, fuzzy
+msgid "Source Quenching"
+msgstr "ਸ੍ਰੋਤ ਖਤਮ ਕਰਨ ਵਾਲੇ"
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "dial-out ਉਪਰ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "dial-out ਉਪਰ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "ਪ੍ੋਗਰਾਮ ਦੀ ਸ਼ੁਰੂਆਤ ਤੇ ਫਾਈਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "X ਝਰੋਖਾ ਸਿਸਟਮ"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "ਨਿਪੁੰਨਤਾ"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "ਸਮ੾-ਸੰਕੇਤ"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "ਪਥ-ਖੋਜ"
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"ਪ੍ਯੋਗ ਵੱਖ ਕਰਨ ਦੀ ਕਿਸਮ ਤੁਹਾਨੂੰ ਆਮ ਵਰਤੇ ਜਾਂਦੇ ਪ੍ਯੋਗਾਂ ਦੀ ਨਿਪੁੰਨਤਾ ਦਰ ਵਧਾਉਣ ਲਈ \n"
+"ਨੈਟਵਰਕ ਪ੍ਯੋਗਾਂ ਨੂੰ ਦੁਬਾਰਾ ਪ੍ਾਥਮਿਕਤਾ ਦੇਣ ਦੀ ੲਿਜ਼ਾਜਤ ਦੇਵੇਗਾ।"
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "ਪਹੁੰਚ ਤੋਂ ਬਾਹਰ"
+
+#: src/preferences.glade.h:83
+#, fuzzy
+msgid "Workstations"
+msgstr "ਲਕਸ਼"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr ""
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+#, fuzzy
+msgid "Save Events To File"
+msgstr "ਪ੍ਭਾਵੀ ਸੂਚੀ ਨੂੰ ਫਾਈਲ ਵਿਚ ਸੰਭਾਲੋ"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "ਸਰਗਰਮ"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr ""
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr ""
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr ""
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr ""
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr ""
+
+#: src/statusview.c:940
+#, fuzzy
+msgid "Color"
+msgstr "ਸਾਫ"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr ""
+
+#: src/statusview.c:986
+#, fuzzy
+msgid "Serious"
+msgstr "ਸੇਵਾਵ੾"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr ""
+
+#: src/statusview.c:1058
+#, fuzzy
+msgid "Device"
+msgstr "ਸੇਵਾ"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "ਕਿਸਮ"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr ""
+
+#: src/statusview.c:1076
+#, fuzzy
+msgid "Sent"
+msgstr "ਲੰਬਾਈ"
+
+#: src/statusview.c:1082
+#, fuzzy
+msgid "Activity"
+msgstr "ਸਰਗਰਮ"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr ""
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "ਫਾਇਰਵਾਲ ਰੁਕ ਗੲੀ  ਹੈ"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "ਫਾਇਰਵਾਲ ਚੱਲ ਰਹੀ ਹੈ"
+
+#: src/tray.c:150
+#, fuzzy
+msgid "Firewall locked"
+msgstr "ਫਾਇਰਵਾਲ ਰੁੱਕ ਚੁੱਕੀ ਹੈ"
+
+#: src/tray.c:204
+#, fuzzy
+msgid "_Show Fortified"
+msgstr "ਫਾਇਰਸਟਾਰਟਰ"
+
+#: src/tray.c:214
+#, fuzzy
+msgid "_Exit"
+msgstr "ਬਾਹਰ"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Fortified ਗਲਤੀ"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"ਰੋਜ਼ਨਾਮਚਾ ਖੋਲਣ ਵਿਚ ਅਸਫ਼ਲ\n"
+"\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr ""
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+
+#: src/util.c:277
+#, fuzzy
+msgid "Ethernet device"
+msgstr "ਬਾਹਰੀ ਯੰਤਰ"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr ""
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr ""
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr ""
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr ""
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr ""
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr ""
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr ""
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr ""
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr ""
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"ਕਿਰਪਾ ਕਰਕੇ ਖੋਜ ਕੀਤੇ ਯੰਤਰਾਂ ਦੀ ਹੇਠਾਂ ਡਿਗਵੀਂ ਸੂਚੀ ਵਿਚੋਂ \n"
+" ਇੰਟਰਨੈਟ ਨਾਲ ਜੁੜਿਆ ਆਪਣਾ ਯੰਤਰ ਚੁਣੋ।"
+
+#: src/wizard.c:137
+#, fuzzy
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"ਸੰਕੇਤ: ਜੇ ਤੁਸੀਂ ਮਾਡਮ ਵਰਤਦੇ ਹੋ ਤਾਂ ਯੰਤਰ ਨਾਉਂ ppp0 ਵਰਗਾ ਹੋਵੇਗਾ। ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਕੇਬਲ ਮਾਡਮ ਜਾਂ \n"
+" DSL ਜੋੜ ਹੈ ਤਾਂ eth0 ਚੁਣੋ।ਜੇ ਤੁਹਾਡਾ ਕੇਬਲ ਜਾਂ DSL ਚਾਲਕ, ਈਥਰਨੈਟ ਪਰੋਟੋਕਾਲ ਉਪਰ PPP \n"
+"ਵਰਤਦਾ ਹੈ ਤਾਂ  ppp0 ਚੁਣੋ।"
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "dial-out ਉਪਰ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"ਇਸ ਚੋਣ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਜਦੋਂ ਤੁਸੀਂ ਆਪਣਾ ਇੰਟਰਨੈਟ ਉਪਯੋਗ ਪ੍ਬੰਧਕੀ ਨੂੰ ਡਾਇਲ ਕਰੋਗੇ ਤਾਂ ਫਾਈਰਵਾਲ ਸ਼ੁਰੂ "
+"ਹੋਵੇਗੀ।"
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "DHCP ਦੁਆਰਾ IP ਪਤਾ ਨਿਸਚਿਤ ਕੀਤਾ ਹੈ"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"ਜੇ ਤੁਸੀਂ DHCP ਸਰਵਰ ਨਾਲ ਜੁੜਨਾ ਹੈ ਤਾਂ ਇਸ ਚੋਣ ਦੀ ਜਾਂਚ ਕਰੋ।ਕੇਬਲ ਮਾਡਮ ਅਤੇ DSL ਉਪਯੋਗੀਆਂ ਨੂੰ ਜਾਂਚ "
+"ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+
+#: src/wizard.c:263
+#, fuzzy
+msgid "Local area network device:"
+msgstr "ਆਪਣਾ ਅੰਦਰੂਨੀ ਨੈਟਵਰਕ ਯੰਤਰ ਚੁਣੋ:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr ""
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr ""
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr ""
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr ""
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"ਇਹ ਤਖਤੀ ਤੁਹਾਡੇ ਲਾੲੀਨੈਕਸ ਸਿਸਟਮ ਉਪਰ firewall ਲਗਾਉਣ ਵਿਚ ਸਹਾੲਿਤਾ ਕਰੇਗਾ।\n"
+"ਤੁਹਾਨੂੰ ਸਿਸਟਮ ਲਈ firewall ਖੜੀ \n"
+" ਕਰਨ ਦੇ ਮਕਸਦ ਵਿਚ ਨੈਟਵਰਕ \n"
+"ਬਾਰੇ ਕੁਝ ਸਵਾਲ ਪੁਛੇ ਜਾਣਗੇ\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"ਸੰਕੇਤ: ਜੇ ਤੁਸੀਂ ਅਵਿਸ਼ਵਾਸੀ ਹੋ ਕਿ ਸਵਾਲ ਦਾ ਜਵਾਬ ਕਿਵੇਂ ਦੇਣਾ ਹੈ \n"
+"ਮੂਲ ਮੁੱਲ ਵਰਤਣੇ ਹੀ ਠੀਕ ਹਨ।\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਜਾਰੀ ਰਹਿਣ ਲਈ ਅੱਗੇ ਬਟਨ ਦਬਾਓ।\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "ਤੁਹਾਡੀ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੈ"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"ਤਖਤੀ ਹੁਣ ਤੁਹਾਡਾ firewall ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੈ।\n"
+"\n"
+"ਜਾਰੀ ਕਰਨ ਲਈ ਸੰਭਾਲੋ ਬਟਨ ਦਬਾਓ ਜਾਂ ਪਿੱਛੇ ਬਟਨ  ਦਬਾਓ \n"
+"ਆਪਣੀਆਂ ਚੋਣਾਂ ਦਾ ਨਿਰੀਖਣ ਕਰਨ ਲਈ।\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "ਫਾੲਿਰਵਾਲ ਤਖਤੀ"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "ਫਾੲਿਰਸਟਾਟਰ ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "ਨੈਟਵਰਕ ਯੰਤਰ ਨਿਰਧਾਰਨ"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "ਇੰਟਰਨੈਟ ਜੋੜ ਸਾਂਝ ਨਿਰਧਾਰਨ"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "ਤੁਹਾਡੀ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੈ"
+
+#~ msgid ""
+#~ "Allow incoming DHCP packets, and start the firewall when an IP lease is "
+#~ "obtained."
+#~ msgstr "ਅੰਦਰ ਆ ਰਹੇ DHCP ਪੈਕਟਾਂ ਨੂੰ ੲਿਜ਼ਾਜਤ ਦਿਓ ਅਤੇ ਜਦੋਂ IP ਹੱਕ ਲਿਆ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#~ msgid ""
+#~ "Always convert the entries in the Hit View from IP format to a valid "
+#~ "hostname. This options can slow down the client a lot, as it is not "
+#~ "threaded."
+#~ msgstr ""
+#~ "ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚ IP ਬਣਤਰ ਨੂੰ ਹਮੇਸ਼ਾ ਯੋਗ ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਵਿਚ ਬਦਲੋ। ਇਹ ਚੋਣ ਥੋੜੀ ਦੇਰ ਲਈ ਕਲਾਈਂਟ "
+#~ "ਨੂੰ ਹੌਲੀ ਕਰੇਗੀ ਜਿਸ ਤਰਾਂ ਇਹ ਕ੍ਮ ਵਿੱਚ ਨਾ ਹੋਵੇ।"
+
+#~ msgid ""
+#~ "Apply the settings of the well known services, as configured in the "
+#~ "wizard."
+#~ msgstr "ਜਾਣੇ-ਪਛਾਣੇ ਉਪਯੋਗਾਂ ਦੀਆਂ ਵਿਵਸਥਾਂਵਾਂ ਜਿਸ ਤਰਾਂ ਤਖਤੀ ਵਿਚ ਦਿਤੀਆਂ ਹਨ ਲਾਗੂ ਕਰੋ।"
+
+#~ msgid "Convert IPs to human readable form"
+#~ msgstr "IPs ਨੂੰ ਵਿਅਕਤੀਆਂ ਦੇ ਪੜਨ ਯੋਗ ਬਣਾਓ"
+
+#~ msgid "Enable the configuration of services"
+#~ msgstr "ਸੇਵਾਵ੾ ਦੀ ਸੰਰਚਨਾ ਨੰੂ ਯੋਗ ਕਰੋ"
+
+#~ msgid "External interface is modem"
+#~ msgstr "ਅੰਦਰੂਨੀ ਤਾਲਮੇਲ ਮਾਡਮ ਹੈ"
+
+#~ msgid "External interface uses DHCP"
+#~ msgstr "ਬਾਹਰੀ ਤਾਲਮੇਲ DHCP ਵਰਤਦਾ ਹੈ"
+
+#~ msgid "Filter out hits not meant for your machine"
+#~ msgstr "ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਲਈ ਗੈਰ ਜਰੂਰੀ ਪ੍ਭਾਵ ਵੱਖ ਕਰੋ"
+
+#~ msgid ""
+#~ "Start the firewall when the users dials out. Modifies /etc/ppp/ip-up."
+#~ "local."
+#~ msgstr "ਜਦੋਂ ਉਪਯੋਗੀ ਡਾਇਲ ਕਰਨ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ।/etc/ppp/ip-up.local ਨੂੰ ਠੀਕ ਕਰੋ।"
+
+#~ msgid "Stop the firewall when the program exists"
+#~ msgstr "ਜਦੋਂ ਕਾਰਜ ਵਿਚੋਂ ਬਾਹਰ ਆਉਣਾ ਤਾਂ ਫਾਇਰਵਾਲ ਰੋਕੋ।"
+
+#~ msgid "Stop the firewall when the program exists."
+#~ msgstr "ਜਦੋਂ ਕਾਰਜ ਵਿਚੋਂ ਬਾਹਰ ਆਉਣਾ ਤਾਂ ਫਾਇਰਵਾਲ ਰੋਕੋ।"
+
+#~ msgid "User has gone trough the wizard at least once"
+#~ msgstr "ਉਪਯੋਗੀ ਨੂੰ ਘੱਟ ਤੋਂ ਘੱਟ ਇਕ ਵਾਰ ਤਖਤੀ ਵਿਚੋਂ ਲੰਘ ਚੁੱਕਾ ਹੈ"
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited. Works together with the notification area applet."
+#~ msgstr ""
+#~ "ਜਦੋਂ ਟ੍ਰੇ ਸਥਿਤੀ ਵਿਚ ਕਾਰਜ ਤਖਤੀ ਬੰਦ ਕਰਦੇ ਹਾਂ ਤਾਂ ਕਾਰਜ ਢਕਿਆ ਜਾਵੇਗਾ ਨਾ ਕਿ ਬੰਦ ਹੋਵੇਗਾ। "
+#~ "ਸੂਚਨਾ ਖੇਤਰ ਐਪਲਿਟ ਨਾਲ ਕੰਮ ਕਰਦਾ ਹੈ।"
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "ਫਾਇਰਵਾਲ ਰੁਕ ਗਈ ਹੈ, ਨੈਟਵਰਕ ਭੀੜ ਹੁਣ ਆਸਾਨ ਚੱਲ ਰਹੀ ਹੈ \n"
+
+#~ msgid "Firewall started\n"
+#~ msgstr "ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਹੋ ਗਈ ਹੈ\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "ਸਾਰੀ ਭੀੜ ਵਿਰਾਮ ਕੀਤੀ\n"
+
+#~ msgid ""
+#~ "Failed to enter halted firewall mode\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ਫਾਇਰਵਾਲ ਵਿਰਾਮ ਅਵਸਥਾ ਵਿਚ ਜਾਣ ਤੋਂ ਅਸਫਲ \n"
+#~ "\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "ਸਾਰੀ ਭੀੜ ਵਿਰਾਮ ਕੀਤੀ ਗਈ"
+
+#~ msgid ""
+#~ "Fortified requires a Linux 2.4 or later kernel to function.\n"
+#~ "\n"
+#~ "A client for your system might be available at http://fortified.sf.net"
+#~ msgstr ""
+#~ "ਫਾਇਰਸਟਾਰਟਰ ਕੰਮ ਕਰਨ ਲਈ ਲਾੲੀਨੈਕਸ ੨਼੪ ਜਾਂ ਬਾਅਦ ਵਾਲਾ ਕਰਨਲ ਚਾਹੁੰਦਾ ਹੈ।\n"
+#~ "\n"
+#~ "ਤੁਹਾਡੇ ਸਿਸਟਮ ਲਈ ਕਲਾਈਂਟ http://fortified.sf.net ਉਪਰ ਉਪਲੱਬਧ ਹੋਵੇਗਾ"
+
+#~ msgid "Hits"
+#~ msgstr "ਪ੍ਭਾਵ"
+
+#~ msgid "Rules"
+#~ msgstr "ਕਾਨੂੰਨ"
+
+#~ msgid "Save"
+#~ msgstr "ਸੰਭਾਲੋ"
+
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "/ਫਾਇਰਵਾਲ/ਤਖਤੀ ਚਲਾਓ"
+
+#~ msgid "/_Firewall/---"
+#~ msgstr "/ਫਾਇਰਵਾਲ/---"
+
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "/ਫਾਇਰਵਾਲ/ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ"
+
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "/ਫਾਇਰਵਾਲ/ਫਾਇਰਵਾਲ ਰੋਕੋ"
+
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "/ਫਾਇਰਵਾਲ/ਨੈਟਵਰਕ ਭੀੜ ਰੋਕੋ"
+
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "/ਫਾਇਰਵਾਲ/ਬਾਹਰ"
+
+#~ msgid "/_Edit/_Copy"
+#~ msgstr "/ਸੋਧ/ਨਕਲ"
+
+#~ msgid "/_Edit/---"
+#~ msgstr "/ਸੋਧ/---"
+
+#~ msgid "/_View"
+#~ msgstr "/ਦਰਿਸ਼"
+
+#~ msgid "/_View/_Clear Hit List"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਸੂਚੀ ਖਾਲੀ ਕਰੋ"
+
+#~ msgid "/_View/_Re_load Hit List"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਸੂਚੀ ਮੋੜ ਸਥਾਪਿਤ ਕਰੋ"
+
+#~ msgid "/_View/---"
+#~ msgstr "/ਦਰਿਸ਼/--"
+
+#~ msgid "/_View/Hit columns"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ"
+
+#~ msgid "/_View/Hit columns/Time"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਸਮਾਂ"
+
+#~ msgid "/_View/Hit columns/In"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਅੰਦਰ"
+
+#~ msgid "/_View/Hit columns/Out"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਬਾਹਰ"
+
+#~ msgid "/_View/Hit columns/Port"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਰਸਤਾ"
+
+#~ msgid "/_View/Hit columns/Source"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਸ੍ਰੋਤ"
+
+#~ msgid "/_View/Hit columns/Destination"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਲਕਸ਼"
+
+#~ msgid "/_View/Hit columns/Length"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਲੰਬਾਈ"
+
+#~ msgid "/_View/Hit columns/ToS"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਉਪਯੋਗ ਦੀ ਕਿਸਮ(ToS)"
+
+#~ msgid "/_View/Hit columns/Protocol"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਪਰੋਟੋਕੋਲ"
+
+#~ msgid "/_View/Hit columns/Service"
+#~ msgstr "/ਦਰਿਸ਼/ਪ੍ਭਾਵੀ ਖਾਨੇ/ਸੇਵਾ"
+
+#~ msgid "/_Hits"
+#~ msgstr "/ਪ੍ਭਾਵ"
+
+#~ msgid "/_Hits/_Block Host"
+#~ msgstr "/ਪ੍ਭਾਵ/ਰੁਕਾਵਟ ਵਾਲਾ ਮੇਜ਼ਬਾਨ"
+
+#~ msgid "/_Hits/_Trust Host"
+#~ msgstr "/ਪ੍ਭਾਵ/ਵਿਸ਼ਵਾਸੀ ਮੇਜ਼ਬਾਨ"
+
+#~ msgid "/_Hits/_Open Port"
+#~ msgstr "/ਪ੍ਭਾਵ/ ਪੋਰਟ ਖੋਲੋ"
+
+#~ msgid "/_Hits/Open Port for This _Host Only"
+#~ msgstr "/ਪ੍ਭਾਵ/ਸਿਰਫ ਇਸ ਮੇਜ਼ਬਾਨ ਲਈ  ਪੋਰਟ ਖੋਲੋ"
+
+#~ msgid "/_Hits/Block and _Stop Logging Port"
+#~ msgstr "/ਪ੍ਭਾਵ/ਰੋਜਨਾਮਚਾ ਪੋਰਟ ਵਿੱਚ ਰੁਕਾਵਟ ਪਾਓ ਅਤੇ ਰੋਕੋ"
+
+#~ msgid "/_Hits/_Lookup Hostname"
+#~ msgstr "/ਪ੍ਭਾਵ/ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਵੇਖੋ"
+
+#~ msgid "/_Hits/---"
+#~ msgstr "/ਪ੍ਭਾਵ/---"
+
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "/ਪ੍ਭਾਵ/ਪ੍ਭਾਵੀ ਸੂਚੀ ਨੂੰ ਫਾਈਲ ਵਿਚ ਸੰਭਾਲੋ"
+
+#~ msgid "/_Rules/_New Rule"
+#~ msgstr "/ਕਾਨੂੰਨ/ਨਵਾਂ ਕਾਨੂੰਨ"
+
+#~ msgid "/_Rules/_Remove Rule"
+#~ msgstr "/ਕਾਨੂੰਨ/ਹਟਾਉ ਕਾਨੂੰਨ"
+
+#~ msgid "/_Rules/_Edit Rule"
+#~ msgstr "/ਕਾਨੂੰਨ/ਸੋਧ ਕਾਨੂੰਨ"
+
+#~ msgid "/_Help/---"
+#~ msgstr "/ਸਹਾੲਿਤਾ/---"
+
+#~ msgid "/_Help/_About..."
+#~ msgstr "/ਸਹਾੲਿਤਾ/ੲਿਸ ਬਾਰੇ ਼਼"
+
+#~ msgid "/_Block Host"
+#~ msgstr "/ਰੁਕਾਵਟ ਵਾਲਾ ਮੇਜ਼ਬਾਨ"
+
+#~ msgid "/_Trust Host"
+#~ msgstr "/ਵਿਸ਼ਵਾਸ਼ੀ ਪੋਰਟ"
+
+#~ msgid "/_Open Port"
+#~ msgstr "/ਪੋਰਟ ਖੋਲੋ"
+
+#~ msgid "/Open Port for This _Host Only"
+#~ msgstr "/ਸਿਰਫ ਇਸ ਮੇਜ਼ਬਾਨ ਲਈ ਪੋਰਟ ਖੋਲੋ"
+
+#~ msgid "/Block and _Stop Logging Port"
+#~ msgstr "/ਰੋਜ਼ਨਾਮਚਾ ਪੋਰਟ ਨੂੰ ਰੁਕਾਵਟ ਪਾਓ ਅਤੇ ਰੋਕੋ"
+
+#~ msgid "/New rule"
+#~ msgstr "/ਨਵਾਂ ਕਾਨੂੰਨ"
+
+#~ msgid "/Edit rule"
+#~ msgstr "/ਸੋਧ ਕਾਨੂੰਨ"
+
+#~ msgid "Wizard"
+#~ msgstr "ਤਖਤੀ"
+
+#~ msgid "Stop"
+#~ msgstr "ਰੋਕਣਾ"
+
+#~ msgid "Add trust host rule"
+#~ msgstr "ਵਿਸ਼ਵਾਸ਼ੀ ਮੇਜ਼ਬਾਨ ਦਾ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#~ msgid "Add block host rule"
+#~ msgstr "ਰੁਕਾਵਟ ਵਾਲੇ ਮੇਜ਼ਬਾਨ ਦਾ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#~ msgid "Add forwarding rule"
+#~ msgstr "ਅਗਾਂਹਵਧੂ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#~ msgid "Add stealth port rule"
+#~ msgstr "ਲੁਕਵੀ ਪੋਰਟ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#~ msgid "Add block port rule"
+#~ msgstr "ਰੁਕਾਵਟ ਪੋਰਟ ਕਾਨੂੰਨ ਜੋੜੋ"
+
+#~ msgid ""
+#~ "The general program settings let you configure the overall behavior\n"
+#~ "of the program.\n"
+#~ msgstr ""
+#~ "ਸਧਾਰਨ ਕਾਰਜ ਵਿਵਸਥਾਂਵਾਂ ਤੁਹਾਨੂੰ ਕਾਰਜ ਦੇ ਸਾਰੇ ਵਰਤਾਓ \n"
+#~ "ਨੂੰ ਰੂਪ ਦੇਣ ਦਿੰਦਾ ਹੈ।\n"
+
+#~ msgid "Check this and the firewall will be started when the program loads."
+#~ msgstr "ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਜਦੋਂ ਪ੍ੋਗਰਾਮ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਈਰਵਾਲ ਸ਼ੁਰੂ ਹੋਵੇਗੀ।"
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "ਪ੍ੋਗਰਾਮ ਤੋਂ ਬਾਹਰ ਆਉਣ ਤੇ ਫਾਈਰਵਾਲ ਰੋਕੋ"
+
+#~ msgid ""
+#~ "Check this and the firewall will be stopped when you exit the program."
+#~ msgstr "ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ, ਜਦੋਂ ਤੁਸੀਂ ਕਾਰਜ ਵਿਚੋਂ ਬਾਹਰ ਆਉਂਦੇ ਹੋ ਤਾਂ ਫਾਇਰਵਾਲ ਰੁਕੇਗੀ।"
+
+#~ msgid "Autoresolve IP numbers to hostnames for hits"
+#~ msgstr "ਪ੍ਭਾਵ ਪਾਉਣ ਲਈ IP ਪਤੇ ਤੋਂ ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਦਾ ਸ੍ਵੈ ਖੰਡਨ "
+
+#~ msgid ""
+#~ "Check this and instead of the IP number you will see a hostname in the "
+#~ "Hits view. This option uses some network bandwidth."
+#~ msgstr ""
+#~ "IP ਅੰਕ ਦੀ ਥਾਂ ਤੇ ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ ਤੁਸੀਂ ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚ ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਦੇਖੋਗੇ।ਇਹ ਚੇਣ ਕੁਝ "
+#~ "ਨੈਟਵਰਕ ਪਟੀ ਦੀ ਚੌੜਾਈ ਵਰਤਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited and can be restored by clicking the Fortified system tray "
+#~ "icon."
+#~ msgstr ""
+#~ "ਜਦੋਂ ਟ੍ਰੇ ਸਥਿਤੀ ਵਿਚ ਕਾਰਜ ਤਖਤੀ ਬੰਦ ਕਰਦੇ ਹਾਂ ਤਾਂ ਕਾਰਜ ਢਕਿਆ ਜਾਵੇਗਾ ਨਾ ਕਿ ਬੰਦ ਹੋਵੇਗਾ ਅਤੇ "
+#~ "ਫਾਇਰਸਟਾਰਟਰ ਸਿਸਟਮ ਟ੍ਰੇ ਆਈਕਾਨ ਕਲਿਕ ਕਰਕੇ ਦੁਬਾਰਾ ਲਿਆਂਦਾ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "The filtering settings let you weed out excessive information\n"
+#~ "from the Hits view.\n"
+#~ msgstr ""
+#~ "ਵਖ ਕਰਨ ਵਾਲੀਆਂ ਵਿਵਸਥਾਂਵਾਂ ਤੁਹਾਨੂੰ ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚੋਂ ਫਾਲਤੂ ਸੂਚਨਾਂ \n"
+#~ "ਬਾਹਰ ਕਢਣ ਦੇਵੇਗਾ।\n"
+
+#~ msgid ""
+#~ "Check this and the Hits view will not show identical hits that follow "
+#~ "each other."
+#~ msgstr ""
+#~ "ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਸਮਾਨਾਰਥਕ ਪ੍ਭਾਵਾਂ ਜੋ ਇਕ ਦੂਜੇ ਉਪਰ ਨਿਰਭਰ ਹਨ,ਨੂੰ ਨਹੀਂ "
+#~ "ਦਿਖਾਵੇਗਾ।"
+
+#~ msgid ""
+#~ "Check this and the hits list will not show hits that have a destination "
+#~ "field other than your IP."
+#~ msgstr ""
+#~ "ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਪ੍ਭਾਵੀ ਸੂਚੀ ਤੁਹਾਡੇ IP ਤੋਂ ਬਿਨਾਂ ਲਕਸ਼ ਖੇਤਰ ਵਾਲੇ ਪ੍ਭਾਵ ਨਹੀਂ ਦਿਖਾਵੇਗਾ।"
+
+#~ msgid ""
+#~ "The advanced settings let the experienced user fine tune\n"
+#~ "the program operation.\n"
+#~ msgstr ""
+#~ "ਵਿਕਸਤ ਵਿਵਸਥਾਂਵਾਂ ਤਜਰਬੇਕਾਰ ਉਪਯੋਗੀਆਂ ਨੂੰ ਵਧੀਆ ਢੰਗ ਨਾਲ \n"
+#~ " ਕਾਰਜ ਸੰਚਾਲਨ ਕਰਨ ਦਿੰਦਾ ਹੈ।\n"
+
+#~ msgid ""
+#~ "If you enable this, Fortified can use some experimental patches for "
+#~ "filtering. Do not enable this option until you have read the manual for "
+#~ "the prerequisites."
+#~ msgstr ""
+#~ "ਜੇ ਤੁਸੀਂ ਇਸ ਨੂੰ ਅਯੋਗ ਕਰਦੇ ਹੋ ਤਾਂ ਵੱਖ ਕਰਨ ਲਈ ਫਾਇਰਸਟਾਰਟਰ ਕੁਝ ਪ੍ਯੋਗਿਕ ਟੁਕੜੇ ਵਰਤ ਸਕਦਾ ਹੈ। ਇਸ "
+#~ "ਚੋਣ ਨੂੰ ਯੋਗ ਨਾ ਕਰੋ ਜਦ ਤਕ prerequisites ਦਾ ਦਸਤਾ ਨਹੀ ਪੜ ਲੈਂਦੇ"
+
+#~ msgid "Deny"
+#~ msgstr "ਗਲਤ"
+
+#~ msgid "Silently ignore the rejected packets."
+#~ msgstr "ਰੱਦ ਪੈਕਟਾਂ ਨੂੰ ਚੁਪ-ਚਾਪ ਅਣਡਿਠ ਕਰੋ।"
+
+#~ msgid "Reject"
+#~ msgstr "ਰੱਦ ਕਰੋ"
+
+#~ msgid "Reply with a notice of rejection to the sender."
+#~ msgstr "ਭੇਜਣ ਵਾਲੇ ਨੂੰ ਰੱਦ ਕਰਨ ਦੀ ਸੂਚਨਾ ਨਾਲ ਟਿੱਪਣੀ ਦਿਉ।"
+
+#~ msgid "General"
+#~ msgstr "ਸਧਾਰਣ"
+
+#~ msgid "Connection Sharing"
+#~ msgstr "ਜੋੜ ਸਾਂਝ"
+
+#~ msgid "Type of Service"
+#~ msgstr "ਸੇਵਾ ਕਿਸਮ"
+
+#~ msgid "%s (%s) is open to %s"
+#~ msgstr "%s ਲਈ %s (%s) ਖੁੱਲਾ ਹੈ"
+
+#~ msgid "From port %s to %s, port %s"
+#~ msgstr "%s ਪੋਰਟ ਤੋਂ %s ਤੱਕ ਪੋਰਟ %s"
+
+#~ msgid "Trusted Hosts"
+#~ msgstr "ਵਿਸ਼ਵਾਸ਼ੀ ਮੇਜ਼ਬਾਨ"
+
+#~ msgid "Forwarded Ports"
+#~ msgstr "ਅਗਾਂਹ ਭੇਜੀ ਪੋਰਟ"
+
+#~ msgid "Open Ports"
+#~ msgstr "ਖੁੱਲੀ ਪੋਰਟ"
+
+#~ msgid "Stealthed Ports"
+#~ msgstr "ਲੁਕਵੀ ਪੋਰਟ"
+
+#~ msgid "Blocked Ports"
+#~ msgstr "ਰੁਕਾਵਟ ਵਾਲੀਅਾ ਪੋਰਟ"
+
+#~ msgid "Rule"
+#~ msgstr "ਨਿਯਮ"
+
+#~ msgid "Please specify a valid hostname or IP address."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਯੋਗ ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਜਾਂ IP ਪਤਾ ਦਿਉ।"
+
+#~ msgid "Please specify a valid port number."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਯੋਗ ਪੋਰਟ ਨੰ ਦਿਓ।"
+
+#~ msgid "Please specify a valid internal hostname or IP address."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਯੋਗ ਅੰਦਰੂਨੀ ਮੇਜ਼ਬਾਨ ਨਾਉਂ ਜਾਂ IP ਪਤਾ ਦਿਉ।"
+
+#~ msgid "Please specify a valid port number for the internal host."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਅੰਦਰੂਨੀ ਮੇਜ਼ਬਾਨ ਵਾਸਤੇ ਯੋਗ ਪੋਰਟ ਨੰ ਦਿਉ।"
+
+#~ msgid "Trust Host"
+#~ msgstr "ਵਿਸ਼ਵਾਸ਼ੀ ਮੇਜ਼ਬਾਨ"
+
+#~ msgid "Block Host"
+#~ msgstr "ਰੁਕਾਵਟ ਵਾਲਾ ਮੇਜ਼ਬਾਨ"
+
+#~ msgid "Forward To"
+#~ msgstr "ਵੱਲ ਅਗਾਂਹ ਭੇਜਣਾ"
+
+#~ msgid "Port:"
+#~ msgstr "ਪੋਰਟ:"
+
+#~ msgid "Open Port"
+#~ msgstr "ਖੁੱਲੀ ਪੋਰਟ"
+
+#~ msgid "Stealth Port"
+#~ msgstr "ਲੁਕਵਾਂ ਪੋਰਟ"
+
+#~ msgid "For Machine"
+#~ msgstr "ਮਸ਼ੀਨ ਲੲੀ"
+
+#~ msgid "Block Port"
+#~ msgstr "ਰੁਕਾਵਟ ਵਾਲੀ ਪੋਰਟ"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "ਰੋਜ਼ਨਾਮਚੇ ਵਿਚ ਸੰਭਾਲਣ ਲਈ ਫਾਈਲ ਚੁਣੋ"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "ਕੋਈ ਵੀ DHCP ਕਲਾਈਂਟ ਰੂਪ ਨਹੀ ਲੱਭਿਆ \n"
+#~ "\n"
+#~ "lease renewal ਉਪਰ ਫਾਇਰਵਾਲ ਸ੍ਵੈ ਲੋਡ ਨਹੀਂ ਹੋਵੇਗੀ। ਕਿਰਪਾ ਕਰਕੇ ਵੇਖੋ ਕਿ ਬਾਹਰੀ ਯੰਤਰ ਨੂੰ ਠੀਕ "
+#~ "ਤਰਾਂ ਰੂਪ ਦਿਤਾ ਹੈ ਜਾਂ DHCP ਚੋਣ ਅਯੋਗ ਕੀਤੀ ਹੈ ਜੇ ਤੁਸੀਂ ਸਥਿਰ ਵਿਵਸਥਾਂਵਾਂ ਵਰਤਦੇ ਹੋ।\n"
+
+#~ msgid ""
+#~ "No realtime hit information will be available. Please make sure the "
+#~ "syslog daemon is running."
+#~ msgstr ""
+#~ "ਕੋਈ ਵੀ ਸਮੇਂ ਮੁਤਾਬਿਕ ਪ੍ਭਾਵੀ ਸੂਚਨਾ ਮੌਜੂਦ ਨਹੀਂ ਹੋਵੇਗੀ। ਕਿਰਪਾ ਕਰਕੇ ਵੇਖੋ ਕਿ ਸਿਸਟਮ ਰੋਜਨਾਮਚਾ "
+#~ "ਡੈਮਨ ਚਲ ਰਿਹਾ ਹੈ"
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr "ਹੇਠਾਂ ਡਿਗਵੀਂ ਸੂਚੀ ਵਿਚੋਂ ਆਪਣਾ ਨੈਟਵਰਕ ਯੰਤਰ ਚੁਣੋ। ਯਕੀਨ ਨਹੀਂ ਤਾਂ ਮੂਲ ਰਖੋ।"
+
+#~ msgid ""
+#~ "Network Address Translation (NAT) is a technique that allows all the "
+#~ "machines\n"
+#~ "on your network to share a single IP address and Internet connection."
+#~ msgstr ""
+#~ "ਨੈਟਵਰਕ ਪਤਾ ਅਨੁਵਾਦ (NAT) ਇਕ ਅਜਿਹੀ ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਡੇ ਨੈਟਵਰਕ ਉਪਰ ਸਾਰੀਆਂ ਮਸ਼ੀਨਾਂ ਨੂੰ \n"
+#~ "ਇਕੋ ਹੀ IP ਪਤਾ ਅਤੇ ਇੰਟਰਨੈਟ ਤਾਲਮੇਲ ਸਾਂਝਾ ਕਰਨ ਦੀ ੲਿਜ਼ਾਜਤ ਦਿੰਦਾ ਹੈ।"
+
+#~ msgid "Disable Network Address Translation"
+#~ msgstr "ਨੈਟਵਰਕ ਪਤਾ ਰੂਪਾਂਤਰਣ ਅਯੋਗ ਕਰੋ"
+
+#~ msgid "Enable Network Address Translation"
+#~ msgstr "ਨੈਟਵਰਕ ਪਤਾ ਰੂਪਾਂਤਰਣ ਯੋਗ ਕਰੋ"
+
+#~ msgid ""
+#~ "This is the device that connects to your LAN. Go with the default if "
+#~ "unsure."
+#~ msgstr "ਇਹ ਤੁਹਾਡੇ LAN ਨਾਲ ਜੁੜਨ ਵਾਲਾ ਯੰਤਰ ਹੈ। ਜੇ ਅਵਿਸ਼ਵਾਸੀ ਹੈ ਤਾਂ ਮੂਲ ਲੈ ਕੇ ਚਲੋ।"
+
+#~ msgid "Autodetect internal network IP range"
+#~ msgstr "ਅੰਦਰੂਨੀ ਨੈਟਵਰਕ IP ਦਰ ਦੀ ਸ੍ਵੇ ਪੜਚੋਲ ਕਰੋ"
+
+#~ msgid "Select this and the IP range of your LAN is autodetected."
+#~ msgstr "ਇਹ ਚੁਣੋ ਅਤੇ ਤੁਹਾਡੇ LAN ਦੀ IP ਦਰ ਆਪਣੇ-ਆਪ ਪਤਾ ਚਲੇਗੀ।"
+
+#~ msgid "Specify internal network IP range manually (advanced users only)"
+#~ msgstr "ਅੰਦਰੂਨੀ ਨੈਟਵਰਕ IP ਦਰ ਦਸਤਾਵੇਜ਼ੀ ਦੱਸੋ(ਸਿਰਫ ਤਕਨੀਕੀ ਉਪਯੋਗੀਅ੾ ਲੲੀ)"
+
+#~ msgid "Select this only if the automatic detection fails."
+#~ msgstr "ਜੇ ਸ੍ਵੈ ਪੜਚੋਲ ਅਸਫਲ ਹੁੰਦੀ ਹੈ ਤਾਂ ਸਿਰਫ ਇਹ ਚੁਣੋ।"
+
+#~ msgid "Enter the internal network address range:"
+#~ msgstr "ਅੰਦਰੂਨੀ ਨੈਟਵਰਕ ਪਤਾ ਦਰ ਦਿੳੁ:"
+
+#~ msgid ""
+#~ "Tip: The network range is given in the form of <i>address/mask</i>. "
+#~ "192.168.0.0/24 is the\n"
+#~ " most common IP range reserved for internal networks."
+#~ msgstr ""
+#~ "ਸੰਕੇਤ: ਨੈਟਵਰਕ ਦਰ <i>ਪਤਾ/ਮਾਸਕ</i> ਦੇ ਰੂਪ ਵਿਚ ਦਿਤੀ ਗਈ ਹੈ।\n"
+#~ "192.168.0.0/24 ਅੰਦਰੂਨੀ ਨੈਟਵਰਕਾਂ ਵਾਸਤੇ ਰਾਖਵੀਂ ਆਮ IP ਦਰ ਹੈ।"
+
+#~ msgid ""
+#~ "If you run server software on your machine and want to give public "
+#~ "access\n"
+#~ "to the services you provide, you can configure them here.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ਜੇ ਤੁਸੀਂ ਆਪਣੀ ਮਸ਼ੀਨ ਉਪਰ ਸਰਵਰ ਸਾਫਟਵੇਅਰ ਚਲਾਉਦੇ ਹੋ ਅਤੇ ਤੁਹਾਡੇ ਦੁਆਰਾ ਦਿਤੇ ਪ੍ਯੋਗਾਂ ਤਕ\n"
+#~ " ਆਮ ਪਹੁੰਚ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਇਥੇ ਸੰਰਚਨਾ ਕਰ ਸਕਦੇ ਹੋ।\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Tip: Services can easily be configured later from the main interface, in "
+#~ "the Rules view.\n"
+#~ "The Rules view settings override any conflicting choices made here."
+#~ msgstr ""
+#~ "ਸੰਕੇਤਃ ਕਾਨੂੰਨਾਂ ਦੇ ਦਰਿਸ਼ ਵਿਚ ਮੁੱਖ ਤਾਲਮੇਲ ਤੋਂ ਬਾਅਦ ਪ੍ਯੋਗ ਸੌਖੀ ਹੀ ਸੰਰਚਨਾ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।\n"
+#~ "ਕਾਨੂੰਨੀ ਦਰਿਸ਼ ਬੰਧ ਇਥੇ ਕੀਤੀਆਂ ਅਸਹਿਮਤ ਚੋਣਾਂ ਨੂੰ ਦੁਬਾਰਾ ਲਿਖਦਾ ਹੈ।"
+
+#~ msgid "Disable public access to all services"
+#~ msgstr "ਸਾਰੇ ਪ੍ਯੋਗਾਂ ਵਾਸਤੇ ਆਮ ਪਹੁੰਚ ਨੂੰ ਅਯੋਗ ਕਰੋ"
+
+#~ msgid "Enable public access to the following services:"
+#~ msgstr "ਹੇਠਲੇ ਪ੍ਯੋਗਾਂ ਵਾਸਤੇ ਆਮ ਪਹੁੰਚ ਨੂੰ ਯੋਗ ਕਰੋ:"
+
+#~ msgid ""
+#~ "ICMP packet filtering can be useful to prevent some common\n"
+#~ "Denial of Service (DoS) attacks on your network."
+#~ msgstr ""
+#~ "ICMP ਵੱਖ ਕਰਨਾ ਤੁਹਾਡੇ ਨੈਟਵਰਕ ਤੇ ਪ੍ਯੋਗ ਗਲਤ ਸਿੱਧ ਕਰਨ (DoS) \n"
+#~ "ਵਾਲੇ ਆਮ ਹਮਲਿਆਂ ਤੋਂ ਬਚਾਉਣ ਲਈ ਵਰਤਣ ਯੋਗ ਹੋ ਸਕਦਾ ਹੈ।"
+
+#~ msgid "Enable ICMP filtering related to the following packets:"
+#~ msgstr "ਹੇਠਲੇ ਪੈਕਟਾਂ ਨਾਲ ਸੰਬੰਧਿਤ ICMP ਵੱਖ ਕਰਨ ਨੂੰ ਯੋਗ ਕਰੋ:"
+
+#~ msgid "Echo"
+#~ msgstr "ਗੂੰਜ"
+
+#~ msgid "Disable ToS filtering"
+#~ msgstr "ਪ੍ਯੋਗ ਫਿਲਟਰ੾ ਨੂੰ ਅਯੋਗ ਬਣਾਓ"
+
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr "ਹੇਠਲੇ ਪੈਕਟਾਂ ਨਾਲ ਸੰਬੰਧਿਤ ਪ੍ਯੋਗ ਵੱਖ ਕਰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਯੋਗ ਬਣਾਓ:"
+
+#~ msgid "Client Applications"
+#~ msgstr "ਕਲ੾ਈਂਟ ਕਾਰਜ"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "ਆਮ ਕਲਾਈਂਟ ਕਾਰਜਾਂ ਜਿਵੇਂ WWW, FTP, SSH ਅਤੇ E-Mail ਵਾਸਤੇ ਪ੍ਯੋਗ ਚਿੰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਯੋਗ ਕਰਨ "
+#~ "ਲਈ ਇਸ ਚੋਣ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "Server Applications"
+#~ msgstr "ਸਰਵਰ ਕਾਰਜ"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "ਆਮ ਸਰਵਰ ਕਾਰਜਾਂ ਜਿਵੇਂ SQUID, FTPd, SSHd, SMTP ਅਤੇ POP Daemons ਵਾਸਤੇ ਪ੍ਯੋਗ ਚਿੰਨ ਦੀ "
+#~ "ਕਿਸਮ ਨੂੰ ਯੋਗ ਕਰਨ ਲਈ ਇਸ ਚੋਣ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid ""
+#~ "Selecting this option will automatically configure Type of Service for "
+#~ "`Throughput' for both X and SSHd. You should select this ONLY if you need "
+#~ "to run X over your link"
+#~ msgstr ""
+#~ "ਇਹ ਚੋਣ ਚੁਣਨਾ, X ਅਤੇ SSHd ਦੋਨਾਂ ਦੀ ਨਿਪੁੰਨਤਾ ਲਈ ਪ੍ਯੋਗ ਚਿੰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਆਪਣੇ-ਆਪ ਰੂਪ ਦੇਵੇਗਾ। "
+#~ "ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਸੰਬੰਧ ਉਪਰ X ਚਲਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਸਿਰਫ ਇਹ ਚੁਣਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "ਇਹ ਚੋਣ ਚੁਣਨਾ, ਤੁਹਾਡੀਆਂ ਚੁਣੀਆਂ ਚੋਣਾਂ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਨਿਪੁੰਨਤਾ ਲਈ ਪ੍ਯੋਗ ਚਿੰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਰੂਪ "
+#~ "ਦੇਵੇਗਾ।"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "ਇਹ ਚੋਣ ਚੁਣਨਾ, ਤੁਹਾਡੀਆਂ ਚੁਣੀਆਂ ਚੋਣਾਂ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਭਰੋਸੇਯੋਗਤਾ ਲਈ ਪ੍ਯੋਗ ਚਿੰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਰੂਪ "
+#~ "ਦੇਵੇਗਾ।"
+
+#~ msgid "Delay"
+#~ msgstr "ਅੰਤਰਾਲ"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "ਇਹ ਚੋਣ ਚੁਣਨਾ, ਤੁਹਾਡੀਆਂ ਚੁਣੀਆਂ ਚੋਣਾਂ ਦੇ ਘੱਟ ਤੋਂ ਘੱਟ ਵਕਫੇ ਲਈ ਪ੍ਯੋਗ ਚਿੰਨ ਦੀ ਕਿਸਮ ਨੂੰ ਰੂਪ ਦੇਵੇਗਾ।"
+
+#~ msgid "Network services setup"
+#~ msgstr "ਨੈਟਵਰਕ ਸੇਵਾਵ੾ ਨਿਰਧਾਰਨ"
+
+#~ msgid "ICMP filtering setup"
+#~ msgstr "ICMP ਫਿਲਟਰ ਨਿਰਧਾਰਨ"

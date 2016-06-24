@@ -1,0 +1,409 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/fortified/client/first_run</key>
+      <applyto>/apps/fortified/client/first_run</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Is it the first time the user is running the program</short>
+        <long>The first time Fortified starts several special actions are taken.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/start_firewall_on_boot</key>
+      <applyto>/apps/fortified/client/start_firewall_on_boot</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Start the firewall when the system boots</short>
+        <long>Start the firewall when the system boots.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/start_firewall_on_gui</key>
+      <applyto>/apps/fortified/client/start_firewall_on_gui</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Start the firewall when the program loads</short>
+        <long>Start the firewall when the program loads.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/start_firewall_on_dial_out</key>
+      <applyto>/apps/fortified/client/start_firewall_on_dial_out</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Start the firewall when the system dials out</short>
+        <long>Start the firewall when the system establishes a PPP connection.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/start_firewall_on_dhcp</key>
+      <applyto>/apps/fortified/client/start_firewall_on_dhcp</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Start the firewall on a DHCP lease renewal</short>
+        <long>Start the firewall when the system receives a new DHCP lease.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/enable_tray_icon</key>
+      <applyto>/apps/fortified/client/enable_tray_icon</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable tray icon</short>
+        <long>Show the Fortified icon in the notification area.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/minimize_to_tray</key>
+      <applyto>/apps/fortified/client/minimize_to_tray</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Minimize to tray</short>
+        <long>When closing the program window, instead of exiting, hide the window.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/system_log</key>
+      <applyto>/apps/fortified/client/system_log</applyto>
+      <owner>Fortified</owner>
+      <type>string</type>
+      <default>/var/log/messages</default>
+      <locale name="C">
+        <short>The system log file</short>
+        <long>The location of the file the system logging daemon writes to.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/policy_auto_apply</key>
+      <applyto>/apps/fortified/client/policy_auto_apply</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Policy auto apply</short>
+        <long>Apply changes made to policy immediately, the alternative is for the user to confirm the changes in advance.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/fortified/client/filter/redundant</key>
+      <applyto>/apps/fortified/client/filter/redundant</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Filter out redundant hits</short>
+        <long>Filter out sequences of identical hits.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/filter/not_for_firewall</key>
+      <applyto>/apps/fortified/client/filter/not_for_firewall</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Filter out hits not targeted at the firewall</short>
+        <long>Filter out hits that have an destination IP that does not match the firewall host.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_time_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_time_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the time column in the Hit View</short>
+        <long>Show the time column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_direction_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_direction_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the direction column in the Hit View</short>
+        <long>Show the direction column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_in_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_in_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the in column in the Hit View</short>
+        <long>Show the device the hit was received from in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_out_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_out_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the out column in the Hit View</short>
+        <long>Show the device the hit was routed to in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_port_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_port_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the port column in the Hit View</short>
+        <long>Show the port column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_source_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_source_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the source column in the Hit View</short>
+        <long>Show the source column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_destination_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_destination_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the destination column in the Hit View</short>
+        <long>Show the destination column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_length_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_length_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the length column in the Hit View</short>
+        <long>Show the packet length column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_tos_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_tos_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the tos column in the Hit View</short>
+        <long>Show the Type of Service column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_protocol_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_protocol_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the protocol column in the Hit View</short>
+        <long>Show the protocol column in the Hit View.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/client/ui/hitview_service_col</key>
+      <applyto>/apps/fortified/client/ui/hitview_service_col</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the service column in the Hit View</short>
+        <long>Show the service column in the Hit View.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/fortified/firewall/ext_if</key>
+      <applyto>/apps/fortified/firewall/ext_if</applyto>
+      <owner>Fortified</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>The external interface</short>
+        <long>The Internet connected network interface. For example, ppp0 or eth0.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/firewall/nat</key>
+      <applyto>/apps/fortified/firewall/nat</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable NAT</short>
+        <long>Enable Network Address Translation, or Internet connection sharing.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/firewall/int_if</key>
+      <applyto>/apps/fortified/firewall/int_if</applyto>
+      <owner>Fortified</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>The internal interface</short>
+        <long>The LAN connected network interface. For example, eth0 or eth1.</long>
+      </locale>
+    </schema>
+    
+    <schema>
+      <key>/schemas/apps/fortified/firewall/dhcp/enable_server</key>
+      <applyto>/apps/fortified/firewall/dhcp/enable_server</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable DHCP server for connection sharing</short>
+        <long>Run the system dhcpd server in conjunction with Fortified Internet connection sharing.</long>
+      </locale>
+    </schema>    
+    <schema>
+      <key>/schemas/apps/fortified/firewall/dhcp/lowest_ip</key>
+      <applyto>/apps/fortified/firewall/dhcp/lowest_ip</applyto>
+      <owner>Fortified</owner>
+      <type>string</type>
+      <default>192.168.0.100</default>
+      <locale name="C">
+        <short>Lowest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the lower limit of the IP space to use for DHCP leases.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/firewall/dhcp/highest_ip</key>
+      <applyto>/apps/fortified/firewall/dhcp/highest_ip</applyto>
+      <owner>Fortified</owner>
+      <type>string</type>
+      <default>192.168.0.254</default>
+      <locale name="C">
+        <short>Highest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the higher limit of the IP space to use for DHCP leases.</long>
+      </locale>
+    </schema>    
+    <schema>
+      <key>/schemas/apps/fortified/firewall/dhcp/nameserver</key>
+      <applyto>/apps/fortified/firewall/dhcp/nameserver</applyto>
+      <owner>Fortified</owner>
+      <type>string</type>
+      <default>&lt;dynamic&gt;</default>
+      <locale name="C">
+        <short>Nameserver DHCP clients should use</short>
+        <long>The nameserver clients should use. You can specify multiple nameserver in a space separated list. A value of &lt;dynamic&gt; causes the nameservers to be determined at run time.</long>
+      </locale>
+    </schema>    
+    
+    <schema>
+      <key>/schemas/apps/fortified/firewall/deny_packets</key>
+      <applyto>/apps/fortified/firewall/deny_packets</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Deny packets</short>
+        <long>Drop denied packets without sending an error packet back.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/firewall/block_external_broadcast</key>
+      <applyto>/apps/fortified/firewall/block_external_broadcast</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Block broadcasts from external network</short>
+        <long>Block broadcasts from external network.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/firewall/block_internal_broadcast</key>
+      <applyto>/apps/fortified/firewall/block_internal_broadcast</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Block broadcasts from internal network</short>
+        <long>Block broadcasts from internal network.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/fortified/firewall/block_non_routables</key>
+      <applyto>/apps/fortified/firewall/block_non_routables</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Block traffic from reserved address space on the public interface</short>
+        <long>Block potentially spoofed traffic claiming to come from IANA reserved address space on the external interface.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/fortified/firewall/restrictive_outbound</key>
+      <applyto>/apps/fortified/firewall/restrictive_outbound</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Restrictive outbound policy mode</short>
+        <long>Restrict outbound traffic by default, only allowing whitelisted outgoing connections.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/fortified/firewall/tos/enable</key>
+      <applyto>/apps/fortified/firewall/tos/enable</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable the configuration of tos</short>
+        <long>Apply the settings of Type of Service, as configured in the wizard.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/fortified/firewall/icmp/enable</key>
+      <applyto>/apps/fortified/firewall/icmp/enable</applyto>
+      <owner>Fortified</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable the configuration of ICMP</short>
+        <long>Apply the ICMP settings, as configured in the wizard.</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

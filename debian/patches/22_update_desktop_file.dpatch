@@ -1,0 +1,25 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 22_remove_encoding_from_desktop.patch.dpatch by Jonathan Marsden <jmarsden@fastmail.fm>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Remove deprecated Encoding= line from fortified.desktop.in file
+
+@DPATCH@
+diff -urNad '--exclude=CVS' '--exclude=.svn' '--exclude=.git' '--exclude=.arch' '--exclude=.hg' '--exclude=_darcs' '--exclude=.bzr' fortified-1.1.0~/fortified.desktop.in fortified-1.1.0/fortified.desktop.in
+--- fortified-1.1.0~/fortified.desktop.in	2011-02-03 14:41:26.000000000 +0000
++++ fortified-1.1.0/fortified.desktop.in	2011-02-03 14:45:46.000000000 +0000
+@@ -1,12 +1,11 @@
+ [Desktop Entry]
+-Encoding=UTF-8
+ _Name=Fortified
+ _Comment=Desktop Firewall Tool
+ Exec=su-to-root -X -c /usr/sbin/fortified
+-Icon=fortified.png
++Icon=fortified
+ Terminal=false
+ Type=Application
+ StartupNotify=true
+-Categories=System;GNOME;Network;Settings;
++Categories=System;Settings;
+ X-GNOME-Bugzilla-Bugzilla=GNOME
+ X-GNOME-Bugzilla-Product=fortified

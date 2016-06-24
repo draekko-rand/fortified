@@ -1,0 +1,1717 @@
+# Catalan translation of fortified
+# Copyright © 2003 Free Software Foundation, Inc.
+# David Rios <drios@andorra.ad>, 2002.
+# Xavier Conde Rueda <xaviconde@eresmas.com>, 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2004-12-31 19:22+0200\n"
+"Last-Translator: Xavier Conde Rueda <xaviconde@eresmas.com\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "Eina de tallafoc Fortified per a l'escriptori"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+"Aplica inmeditament les canvis fets a les polítiques. En cas contrari, "
+"l'usuari les confirma més endavant."
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Aplica els paràmetres d'ICMP, com es va configurar en l'assistent."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr ""
+"Aplica els paràmetres de tipus de servei, com es va configurar en "
+"l'assistent."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr "Bloca les difusions de xarxes externes"
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr "Bloca les difusions de xarxes externes."
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr "Bloca les difusions de xarxes internes"
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr "Bloca les difusions de xarxes internes."
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr "Rebutja paquets"
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+"Elimina els paquets rebutjats sense enviar un paquet d'error de retorn."
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "Habilita el servidor DHCP per compartir la connexió"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Habilita traducció d'adreces"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr ""
+"Habilita la traducció d'adreces de xarxa o compartició de la connexió a "
+"Internet."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "Habilita la configuració d'ICMP"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "Habilita la configuració de tipus de servei"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "Habilita la icona de la safata"
+
+#: fortified.schemas.in.h:18
+msgid "Filter out hits not targeted at the firewall"
+msgstr "Filtra les peticions no dirigides al tallafoc"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+"Filtra les peticions que tenen una adreça IP destí que no coincideix amb la "
+"màquina del tallafoc."
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Filtra peticions redundants"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Filtra seqüències de peticions iguals."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr "IP més alta en el rang per servir als clients DHCP"
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr "L'usuari executa el programa per primera vegada"
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr "L'adreça IP més baixa per servir als clients DHCP"
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr "Minimitza a la safata"
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr "Servidor de noms que haurien de fer servir els clients DHCP"
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr "Aplica automàticament les polítiques"
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+"Restringeix el tràfic de sortida, només permet les connexions de sortida de "
+"la llista blanca."
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr "Mode de política de sortida restrictiva"
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+"Executa el servidor dhcpd del sistema juntament amb la compartició de "
+"connexió d'Internet del Fortified."
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr "Mostra la icona del Fortified en l'àrea de notificació."
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "Mostra la columna de tipus de servei a la vista de peticions."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "Mostra la columna de destinació a la vista de peticions"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "Mostra la columna de destinació a la vista de peticions."
+
+#: fortified.schemas.in.h:35
+msgid "Show the device the hit was received from in the Hit View."
+msgstr ""
+"Mostra el dispositiu des del que s'ha rebut la petició a la vista de "
+"peticions."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+"Mostra el dispositiu al qual s'ha encaminat la petició a la vista de "
+"peticions."
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr "Mostra la columna de direcció a la vista de peticions"
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr "Mostra la columna de direcció a la vista de peticions."
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "Mostra la columna d'entrada a la vista de peticions"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "Mostra la columna de longitud a la vista de peticions"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "Mostra la columna de sortida a la vista de peticions"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "Mostra la columna de longitud del paquet a la vista de peticions"
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "Mostra la columna de port a la vista de peticions"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "Mostra la columna de port a la vista de peticions."
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "Mostra la columna de protocol a la vista de peticions"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "Mostra la columna de protocol a la vista de peticions."
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "Mostra la columna de servei a la vista de peticions"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "Mostra la columna de servei a la vista de peticions."
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "Mostra la columna d'origen a la vista de peticions"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "Mostra la columna d'origen a la vista de peticions."
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "Mostra la columna de temps a la vista de peticions"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "Mostra la columna de temps a la vista de peticions."
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "Mostra la columna de tipus de servei a la vista de peticions"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+"Especifica el límit superior de l'espai IP per fer servir en prèstecs DHCP."
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+"Especifica el límit inferior de l'espai IP per fer servir en prèstecs DHCP."
+
+#: fortified.schemas.in.h:56
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "Inicia el tallafoc quan es renova el prèstec DHCP"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "Inicia el tallafoc en engegar el programa"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "Inicia el tallafoc en engegar el programa."
+
+#: fortified.schemas.in.h:59
+msgid "Start the firewall when the system boots"
+msgstr "Inicia el tallafoc quan el sistema arrenca"
+
+#: fortified.schemas.in.h:60
+msgid "Start the firewall when the system boots."
+msgstr "Inicia el tallafoc quan el sistema arrenca."
+
+#: fortified.schemas.in.h:61
+msgid "Start the firewall when the system dials out"
+msgstr "Inicia el tallafoc quan el sistema es connecta"
+
+#: fortified.schemas.in.h:62
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "Inicia el tallafoc quan el sistema estableix una connexió PPP."
+
+#: fortified.schemas.in.h:63
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "Inicia el tallafoc quan el sistema rep un prèstec de DHCP."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr ""
+"Interfície de la xarxa connectada a internet. Per exemple, ppp0 o eth0."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "Interfície de la xarxa connectada a la LAN. Per exemple, eth0 o eth1."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "La interfície externa"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+"El primer cop que s'inicia el Fortified es realitzen una sèrie d'accions "
+"especials."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "La interfície interna"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr ""
+"La ubicació de l'arxiu on escriu el dimoni de monitorització del sistema."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+"El servidor de noms que ha de fer servir els clients. Podeu especificar "
+"múltiples servidors de noms en una llista separada per espais. Un valor &lt;"
+"dinàmic&gt; causa que es detecti el servidor de noms en el moment d'executar-"
+"se."
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "Fitxer del registre del sistema"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr "En tancar la finestra del programa, amaga-la en comptes de sortir."
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr "No s'ha pogut obrir el fitxer de configuració del servidor DHCP: "
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr "No s'ha pogut escriure el fitxer de configuració del servidor DHCP: "
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+msgid "Failed to stop the firewall"
+msgstr "No s'ha pogut aturar el tallafoc"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "S'ha produït un error indeterminat en intentar aturar el tallafoc."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr "El dispositiu %s no està disponible."
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr "El vostre nucli no suporta iptables."
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr "Ha succeït un error desconegut."
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Reviseu els paràmetres del vostre dispositiu de xarxa i \n"
+"assegureu-vos de que la vostra connexió a Internet és activa."
+
+#: src/fortified.c:143
+msgid "Failed to start the firewall\n"
+msgstr "No es pot iniciar el tallafoc\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+msgid "Failed to start the firewall"
+msgstr "No es pot iniciar el tallafoc"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+msgid "Failed to lock the firewall"
+msgstr "No s'ha pogut blocar el tallafoc"
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "S'ha produït un error indeterminat en intentar blocar el tallafoc."
+
+#: src/fortified.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+" -s, --start            Inicia el tallafoc\n"
+" -p, --stop             Atura el tallafoc\n"
+"     --lock             Deté tot el tràfic entrant i sortint\n"
+"     --generate-scripts Genera seqüències d'ordres del tallafoc a partir de "
+"la configuració actual\n"
+"     --start-hidden     Inicia el tallafoc sense interfície\n"
+" -v, --version          Mostra el número de la versió del Fortified\n"
+" -h, --help             El que esteu veient\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr "Privilegis insuficients"
+
+#: src/fortified.c:320
+msgid "You must have root user privileges to use Fortified."
+msgstr "Heu de ser el superusuari per utilitzar el tallafoc."
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr "S'està actualitzant una nova versió del tallafoc...\n"
+
+#: src/fortified.c:425
+#, c-format
+msgid "Firewall update complete\n"
+msgstr "S'ha completat l'actualització del tallafoc\n"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "Un tallafoc Linux molt complet per a l'entorn GNOME.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "Estat"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "Esdeveniments"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "Política"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr "Sortida"
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr "Entrada"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "Desconegut"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Temps"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr "Direcció"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "Entrada"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Sortida"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Port"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Origen"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Destinació"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Longitud"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "Tipus de servei"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protocol"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Servei"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "Connexions bloquejades"
+
+#: src/menus.c:43
+msgid "_Firewall"
+msgstr "Talla_foc"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr "_Edita"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr "Esde_veniments"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr "Mostra _columna"
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr "_Política"
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr "_Ajuda"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr "_Surt"
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr "Surt del programa"
+
+#: src/menus.c:51
+msgid "Run _Wizard"
+msgstr "E_xecuta l'assistent"
+
+#: src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "Executa l'assistent del tallafoc"
+
+#. S
+#: src/menus.c:52
+msgid "_Start Firewall"
+msgstr "_Inicia el tallafoc"
+
+#: src/menus.c:52
+msgid "Start the firewall"
+msgstr "Inicia el tallafoc"
+
+#. P
+#: src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "Atura el _tallafoc"
+
+#: src/menus.c:53
+msgid "Stop the firewall"
+msgstr "Atura el tallafoc"
+
+#: src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "B_loca el tallafoc"
+
+#: src/menus.c:54
+msgid "Lock the firewall"
+msgstr "Bloca el tallafoc"
+
+#: src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "_Desbloca el tallafoc"
+
+#: src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "Desbloca el tallafoc"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr "_Copia la descripció"
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr "Copia la descripció de l'esdeveniment"
+
+#: src/menus.c:58
+msgid "_Preferences"
+msgstr "_Preferències"
+
+#: src/menus.c:58
+msgid "Program preferences"
+msgstr "Preferències del programa"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr "De_sa la llista"
+
+#: src/menus.c:60
+msgid "Save the events to a file"
+msgstr "Desa els esdeveniments en un fitxer"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr "_Neteja"
+
+#: src/menus.c:61
+msgid "Clear the events"
+msgstr "Neteja els esdeveniments"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr "To_rna a carregar"
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr "Torna a carregar els esdeveniments"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr "_Cancel·la"
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "No tornis a carregar els esdeveniments"
+
+#: src/menus.c:65
+msgid "_Remove Rule"
+msgstr "Elimina la _regla"
+
+#: src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "Elimina la regla seleccionada"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr "_Afegeix una regla"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr "Afegeix una regla al grup de polítiques seleccionat"
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr "_Edita la regla"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "Edita la regla seleccionada"
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr "A_plica la política"
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr "Aplica els canvis fets a la política"
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "_Manual en línia"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr "Obre el manual d'usuaris en línia en un navegador"
+
+#: src/menus.c:71
+msgid "Fortified _Homepage"
+msgstr "Pàgina de _Fortified"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr "Obre la pàgina web del Fortified en un navegador"
+
+#: src/menus.c:72
+msgid "_About"
+msgstr "_Quant a"
+
+#: src/menus.c:72
+msgid "About Fortified"
+msgstr "Quant al Fortified"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr "Permet connexions des de l'origen"
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr "Permet totes les connexions des d'aquest origen"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr "Permet servei d'entrada per a tots"
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr "Permet servei d'entrada per a tots"
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr "Permet servei d'entrada per a l'origen"
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr "Permet servei d'entrada per a l'origen"
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr "Permet connexions al destí"
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr "Permet connexions al destí"
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr "Permet servei de sortida per a tots"
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr "Permet servei de sortida per a tots"
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr "Permet servei de sortida per a origen"
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr "Permet servei de sortida per a origen"
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr "Inhabilita esdeveniments d'aquest origen"
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr "No mostris els futurs esdeveniments d'aquest origen"
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr "Inhabilita esdeveniments al port"
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr "No mostris els esdeveniments futurs d'aquest port"
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "Obté _noms d'ordinador"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr "Obté els noms de màquina de les peticions seleccionades"
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr "_Termina la connexió"
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr "Termina la connexió seleccionada"
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr "Obté els noms de màquina de la connexió seleccionada"
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr "Mostra la columna de temps"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr "Mosta la columna de direcció"
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr "Mostra la columna d'entrada"
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr "Mostra la columna de sortida"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr "Mostra la columna de port"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr "Tipus de servei"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Seqüència del tallafoc anomenada i desada com a %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr "Màquina invàlida"
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+"La màquina que heu especificat no és vàlida,\n"
+"reviseu la vostra selecció."
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr "Port invàlid"
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+"El port que heu especificat no és vàlid,\n"
+"reviseu la vostra selecció."
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr "Màquina interna invàlida"
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr "Port intern invàlid"
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr "IP, màquina o xarxa"
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr "Nom"
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr "Qualsevol"
+
+#: src/policyview.c:628
+msgid "Firewall host"
+msgstr "Màquina del tallafoc"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr "Clients de la LAN"
+
+#: src/policyview.c:675
+msgid "IP or host"
+msgstr "IP o màquina"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr "No s'ha aplicat la política"
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr "No s'ha aplicat la política d'entrada"
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr "S'ha produït un error en aplicar la política d'entrada:"
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr "No s'ha aplicat la política de sortida"
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr "S'ha produït un error en aplicar la política de sortida:"
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr "Permet connexions des de màquina"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr "Comentari"
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+msgid "Allow service"
+msgstr "Permet servei"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr "Per a"
+
+#: src/policyview.c:1216
+msgid "Forward service"
+msgstr ""
+
+#: src/policyview.c:1217
+msgid "Firewall Port"
+msgstr "Port del tallafoc"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr "A"
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr "Afegeix una regla d'entrada"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr "Permet connexions de"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr "Quna l'origen és"
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr ""
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr "A màquina interna"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr "Rebutja connexions a la màquina"
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr "Rebutja connexions de màquines LAN"
+
+#: src/policyview.c:1278 src/policyview.c:1350
+msgid "Deny service"
+msgstr "Rebutja el servei"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr "Permet connexions a la màquina"
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr "Permet connexions de màquines LAN"
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr "Tràfic de s_ortida"
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr "Permissiu predeterminadament, tràfic de llista blanca"
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr "Restrictiu predeterminadament, tràfic de llista blanca"
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr "Afegeix una regla de sortida"
+
+#: src/policyview.c:1334
+msgid "Deny connections to"
+msgstr "Rebutja connexions a"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr "Rebutja connexions de"
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr "Permet connexions a"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr "Política del tràfic d'entrada"
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr "Política del tràfic de sortida"
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr "Edició"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+"No s'ha trobat una configuració adequada per a Fortified. Si esteu "
+"executant el Fortified des del directori on l'heu muntat, executeu 'make "
+"install-data-local' per instal·lar una configuració, o simplement 'make "
+"install' per instal·lar tot el programa.\n"
+"\n"
+"Es tancarà el Fortified."
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr "Interfície"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "Tallafoc"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "Configuració de la xarxa"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "Filtrat ICMP"
+
+#: src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "Filtrat tipus de servei"
+
+#: src/preferences.c:273
+msgid "Advanced Options"
+msgstr "Opcions avançades"
+
+#: src/preferences.c:505
+msgid "Hosts"
+msgstr "Ordinadors"
+
+#: src/preferences.c:509
+msgid "Ports"
+msgstr "Ports"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr "Reviseu les vostres seleccions"
+
+#: src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "Configuració DHCP invàlida"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+"Reviseu la vostra configuració DHCP. La configuració\n"
+"que heu especificat no és vàlida."
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr "Manca un fitxer"
+
+#: src/preferences.c:910
+msgid "Fortified interface file not found"
+msgstr "No s'ha trobat el fitxer d'interfície Fortified"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr "No s'ha trobat el fitxer d'interfície preferences.glade."
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr "<b>Permet els següents tipus de paquets ICMP</b>"
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr "<b>Connexions blocades</b>"
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr "<b>Tràfic de difusió</b>"
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr "<b>Detalls del servidor DHCP</b>"
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr "<b>No registris esdeveniments per als següents</b>"
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr "<b>No registris esdeveniments de</b>"
+
+#: src/preferences.glade.h:9
+msgid "<b>Internet connected network device</b>"
+msgstr "<b>Dispositiu de xarxa connectat a Internet</b>"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr "<b>Dispositiu de xarxa local connectat</b>"
+
+#: src/preferences.glade.h:11
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "<b>Mètode preferit de rebuig de paquet</b>"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr "<b>Prioritza maximitzant</b>"
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr "<b>Prioritza els serveis usats més habitualment</b>"
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr "<b>Edició de regles</b>"
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr "<b>Inici i persistència</b>"
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr "<b>Icona de la safata del sistema</b>"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Opcions avançades del tallafoc</span>"
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Llista d'esdeveniments</span>"
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Tallafoc</span>"
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Filtratge ICMP</span>"
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Configuració de xarxa</span>"
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Editor de polítiques</span>"
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Tipus de filtratge de servei</span>"
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Interfície d'usuari</span>"
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Emmascarament d'adreça"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Avançat"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr "Aplica immediatament els canvis en les polítiques"
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr "Crea una nova configuració DHCP"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Dispositiu(s) detectat(s):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr "Ignora en silenci"
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr "Resposta d'eco (pong)"
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr "Petició d'eco (ping)"
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr "Habilita DHCP per a la xarxa local"
+
+#: src/preferences.glade.h:38
+msgid "Enable ICMP filtering"
+msgstr "Habilita el filtratge ICMP"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr "Habilita la compartició de connexió a Internet"
+
+#: src/preferences.glade.h:40
+msgid "Enable Type of Service filtering"
+msgstr "Habilita el filtratge de tipus de servei"
+
+#: src/preferences.glade.h:43
+msgid "Filter host"
+msgstr "Filtra per màquina"
+
+#: src/preferences.glade.h:44
+msgid "Filter port"
+msgstr "Filtra per port"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+msgid "Highest IP address to assign:"
+msgstr "L'adreça IP s'assigna via DHCP"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Ordinador"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr "ICMP"
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+"El filtratge ICMP permet restringir la creació i recepció de paquets de "
+"control\n"
+"pel tallafoc, i prevenir potencialment els atacs de <i>Rebuig de servei</"
+"i>,\n"
+"encara que també s'inhabiliten moltes eines de xarxa habituals."
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr "Interactivitat"
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "Conserva la configuració de DHCP existent"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+msgid "Lowest IP address to assign:"
+msgstr "L'adreça IP més baixa que s'assigna:"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS Traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr "Minimitza a la safata en tancar la finestra"
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr "Servidor de noms:"
+
+#: src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "Preferències"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Redirecció"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr "Rebutja amb un paquet d'error"
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Fiabilitat"
+
+#: src/preferences.glade.h:66
+msgid "Servers"
+msgstr "Servidors"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+"Ignora les entrades que tinguin una destinació que no sigui el tallafoc"
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr "Ignora les entrades redundants"
+
+#: src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr ""
+
+#: src/preferences.glade.h:70
+msgid "Start firewall on system boot"
+msgstr "Inicia el tallafoc en arrencar el sistema"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr "Inicia/reinicia el tallafoc en renovar el prèstec de DHCP"
+
+#: src/preferences.glade.h:72
+msgid "Start/restart firewall on dial-out"
+msgstr "Inicia/reinicia el tallafoc en connectar-se"
+
+#: src/preferences.glade.h:73
+msgid "Start/restart firewall on program startup"
+msgstr "Inicia/reinicia el tallafoc en iniciar el programa"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "El sistema de finestres X"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Velocitat de transferència"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Marca de temps"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"El filtratge del tipus de servei us permet prioritzar el tràfic de xarxa\n"
+"per augmentar la velocitat de transferència de dades o la interactivitat\n"
+"per als serveis més utilitzats."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "No s'hi pot arribar"
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "Estacions de treball"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "_Accepta"
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+"S'ha produït un error en escriure el fitxer %s\n"
+"\n"
+"%s"
+
+#: src/savelog.c:92
+msgid "Save Events To File"
+msgstr "Desa els esdeveniments en un fitxer"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Actiu"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr "Inhabilitat"
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr "Blocat"
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internet"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "Local"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr "Programa"
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr "Color"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "Total"
+
+#: src/statusview.c:986
+msgid "Serious"
+msgstr "Greu"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr "Xarxa"
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "Dispositiu"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Tipus"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr "Rebut"
+
+#: src/statusview.c:1076
+msgid "Sent"
+msgstr "Enviat"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "Activitat"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "Connexions actives"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "El tallafoc s'ha aturat"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "El tallafoc s'està executant"
+
+#: src/tray.c:150
+msgid "Firewall locked"
+msgstr "El tallafoc s'ha blocat"
+
+#: src/tray.c:204
+msgid "_Show Fortified"
+msgstr "Mo_stra el Fortified"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr "_Surt"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Error del Fortified"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"No es pot obrir el registre del sistema\n"
+"\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr "No hi haurà cap informació sobre esdeveniments disponible."
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr "No s'ha pogut obrir /proc/net/dev per llegir: "
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr "Dispositiu ethernet"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr "Ehternet"
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr "Dispositiu de marcatge"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr "Marcatge"
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr "Dispositiu inalàmbric"
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr "Inalàmbric"
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr "Túnel IPv6"
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr "Túnel VPN"
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr "Túnel IP encaminat"
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr "Dispositiu desconegut"
+
+#: src/wizard.c:106
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Seleccioneu el dispositiu de la xarxa connectat a Internet de la\n"
+"llista desplegable de dispositius disponibles."
+
+#: src/wizard.c:137
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Consell: si utilitzeu un mòdem, el nom del dispositiu és similar a ppp0. Si "
+"teniu un\n"
+"mòdem per cable o una connexió DSL, escolliu eth0. Escolliu ppp0 si el "
+"vostre\n"
+"operador utilitza el protocol PPPoE."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Inicia el tallafoc en connectar-se"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Activeu aquesta opció i el tallafoc s'iniciarà quan marqueu la connexió al "
+"vostre proveïdor de serveis d'internet."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "L'adreça IP s'assigna via DHCP"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Activeu aquesta opció si necessiteu connectar-vos a un servidor DHCP. Els "
+"usuaris amb mòdem per cable i DSL han d'activar-la."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+"El Fortified pot compartir la vostra connexió a Internet amb ordinadors de "
+"la vostra xarxa local fent servir una adreça IP pública i un mètode anomenat "
+"traducció d'adreces de xarxa (NAT)."
+
+#: src/wizard.c:263
+msgid "Local area network device:"
+msgstr "Dispositiu de xarxa d'àrea local:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr "Habilita el DHCP per a la xarxa local"
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr "Explica la funció del DHCP..."
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr "Detalls del servidor DHCP"
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "Crea una configuració DHCP nova:"
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Aquest assistent us ajudarà a configurar un tallafoc\n"
+"per al vostre ordinador Linux. Se us demanaran algunes\n"
+"qüestions sobre la configuració de la vostra xarxa a fi de\n"
+"personalitzar el tallafoc per al vostre sistema.\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"Consell: si no esteu segurs de la resposta a una pregunta, val més\n"
+"utilitzar el valor per defecte donat.\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Premeu el botó endavant per continuar.\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Preparat per iniciar el tallafoc"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"L'auxiliar està preparat per iniciar el tallafoc.\n"
+"\n"
+"Premeu el botó Desa per continuar, o el botó Endarrere\n"
+"per revisar les vostres opcions.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "_Inicia el tallafoc"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+"El dispositiu d'àrea local connectat i el d'Internet han de ser diferents."
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr "La configuració de DHCP proporcionada no és vàlida."
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Assitent del tallafoc"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Benvinguts al Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Configuració dels dispositius de la xarxa"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Configuració de la compartició de connexió a Internet"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Preparat per iniciar el tallafoc"

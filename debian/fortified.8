@@ -1,0 +1,67 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH FORTIFIED 8 "November 26, 2004"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+fortified \- program to manage and observe firewalls
+.SH SYNOPSIS
+.B fortified
+.RI [ options ]
+.br
+.SH DESCRIPTION
+This manual page documents briefly the
+.B fortified
+command.
+This manual page was written for the Debian GNU/Linux distribution
+because the original program does not have a manual page.
+Instead, it has documentation in html format (see below).
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBfortified\fP is a GNOME program that will help you in configuring
+and monitoring a GNU/Linux firewall using either ipchains or iptables.
+.SH OPTIONS
+This program follows the usual GNU command line syntax, with long
+options starting with two dashes (`-').
+A summary of options is included below.
+.TP
+.B \-\-generate\-scripts
+Generate firewall scripts from current configuration. If fortified is updated and you don't want to run the GUI, the scripts in /etc/fortified are not up-to-date. So you have to run fortified with this option to update the scripts.
+.TP
+.B \-h, \-\-help
+Show summary of options.
+.TP
+.B \-\-lock
+Lock the firewall, blocking all traffic.
+.TP
+.B \-p, \-\-stop
+Stop the firewall.
+.TP
+.B \-s, \-\-start
+Start the firewall.
+.TP
+.B \-\-start\-hidden
+Start fortified with the GUI not visible.
+.TP
+.B \-v, \-\-version
+Show version of program.
+
+.SH SEE ALSO
+.br
+This program is fully documented in http://www.fs-security.com/docs/.
+.SH AUTHOR
+This manual page was written by Ryan M. Golbeck <rmgolbeck@debian.org> and later revised by Rene Engelhard <rene@debian.org> and Yann Verley <yann.verley@free.fr> for the Debian GNU/Linux system (but may be used by others).

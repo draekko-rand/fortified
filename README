@@ -1,0 +1,36 @@
+Fortified
+===========
+
+Fortified is a complete firewalling tool for Linux. Use the firewall
+creation wizard to create a basic firewall, then streamline it further
+using the powerful dynamic rules modifiers. Open and close ports with
+a few clicks, or stealth your services giving access only to a select
+few. Watch the real-time hit monitor as attackers probe your machine
+for open ports, in vain. Fortified takes full advantage of GNOME but
+will work in most environments.
+
+
+Major version history
+======
+
+1.1.0 - Fork of firestarter with updates to work on a modern system.
+
+
+Requirements
+============
+
+A machine running Linux kernel with Linux iptables and GNOME 2.6 or greater.
+
+
+Legal Information
+==================
+Fortified is released under the GPL. See the COPYING file for more
+information. Fortified is distributed without any warranty, either
+expressed or implied. Use at your risk.
+
+Code
+====
+
+The project can be found at https://github.com/draekko-rand/fortified as
+well as the issue tracker and wiki.
+

@@ -1,0 +1,19 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 02_restart_dnsmasq.dpatch by  <paul@cupis.co.uk>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@DPATCH@
+diff -urNad fortified-1.1.0~/src/scriptwriter.c fortified-1.1.0/src/scriptwriter.c
+--- fortified-1.1.0~/src/scriptwriter.c	2007-08-05 10:06:35.000000000 +0100
++++ fortified-1.1.0/src/scriptwriter.c	2007-08-05 10:07:02.000000000 +0100
+@@ -183,6 +183,8 @@
+ 		    "		/etc/init.d/dhcp3-server restart > /dev/null\n"
+ 		    "	elif [ -e /etc/init.d/dhcpd ]; then\n"
+ 		    "		  /etc/init.d/dhcpd restart > /dev/null\n"
++		    "	elif [ -e /etc/init.d/dnsmasq ]; then\n"
++		    "		  /etc/init.d/dnsmasq restart > /dev/null\n"
+ 		    "	else\n"
+ 		    "		/usr/sbin/dhcpd 2> /dev/null\n"
+ 		    "	fi\n\n"

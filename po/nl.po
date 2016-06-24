@@ -1,0 +1,1745 @@
+# Dutch Fortified translation.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Luc Rems <luc.rems@flashpointsystems.net>, 2000.
+# Jeroen van der Vegt <A.J.vanderVegt@ITS.TUDelft.nl>, 2003
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Fortified\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2004-12-13 22:17+0100\n"
+"Last-Translator: Jeroen van der Vegt <A.J.vanderVegt@ITS.TUDelft.nl>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "Bureaublad firewall hulpmiddel"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+"Beleidswizijgingen direct gebruiken. Het alternatief is de gebruiker alle "
+"wijzigingen te laten bevestigen."
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Gebruik de ICMP instellingen zoals opgegeven in de assistent."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "Gebruik de ToS instellingen zoals opgegeven in de assistent."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+#, fuzzy
+msgid "Block broadcasts from external network"
+msgstr "Blokkeer rondvraag verkeer"
+
+#: fortified.schemas.in.h:5
+#, fuzzy
+msgid "Block broadcasts from external network."
+msgstr "Blokkeer rondvraag verkeer."
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+#, fuzzy
+msgid "Block broadcasts from internal network"
+msgstr "Blokkeer rondvraag verkeer"
+
+#: fortified.schemas.in.h:7
+#, fuzzy
+msgid "Block broadcasts from internal network."
+msgstr "Blokkeer rondvraag verkeer."
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr "Pakketten ontkennen"
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr "Ontkende berichten negeren zonder een foutmelding terug te sturen."
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "Activeer een DHCP bij het delen van een internet connectie"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Gebruik NAT"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr ""
+"Network Address Translation (ook wel 'internet verbinding delen') gebruiken."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "Geef de mogelijkheid ICMP te configureren"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "Geef de mogelijkheid ToS te configureren"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "Mededelingen gebied gebruiken"
+
+#: fortified.schemas.in.h:18
+msgid "Filter out hits not targeted at the firewall"
+msgstr "Verwijder hits die niet gericht waren op de firewall"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+"Hits er uit filteren die een ander bestemmingsadres hebben dan de firewall"
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Dubbele hits er uit filteren"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Series van gelijke hits er uit filteren."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr "Hoogste IP-adres om uit te delen via DHCP"
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr "Start de gebruiker het programma voor de eerste keer"
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr "Laagste IP adres om uit te delen via DHCP"
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr "Minimaliseren naar het mededelingen gebied"
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr "De 'nameservers' die via DHCP moet worden toegewezen"
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr "Automatisch het beleid gebruiken"
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+"Standaard al het uitgaande verkeer blokkeren, en alleen uitgaand verkeer "
+"waarvoor toestemming is verleend doorlaten."
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr "Manier van het beperken van uitgaand verkeer"
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+"Start de DHCP server die op het systeem aanwezig is bij het delen van de "
+"internet verbinding via Fortified."
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr "Het Fortified pictogram tonen in het mededelignen gebied."
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "De 'ToS'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "De 'bestemming'-kolom weergeven in het hits-overzicht"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "De 'bestemming'-kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "Het apparaat waarop de hit binnenkwam weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+"Het apparaat waar de hit naar doorgestuurd werd weergeven in het hits-"
+"overzicht."
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr "De 'richting'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr "De 'richting'-kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "De 'in'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "De 'lengte'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "De 'uit'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "De 'pakketlengte'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "De 'poort'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "De 'poort'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "De 'protocol'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "De 'poort'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "De 'dienst'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "De 'dienst'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "De 'bron'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "De 'bron'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "De 'tijd'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "De 'tijd'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "De 'ToS'- kolom weergeven in het hits-overzicht."
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr "Bepaald de bovengrens van de IP adressen om uit te delen via  DHCP."
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr "Bepaalt de ondergrens van de IP adressen om uit te delen via  DHCP."
+
+#: fortified.schemas.in.h:56
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "De firewall starten bij het verkrijgen van een nieuw DHCP adres"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "De firewall starten wanneer het programma start."
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "De firewall starten wanneer het programma start."
+
+#: fortified.schemas.in.h:59
+msgid "Start the firewall when the system boots"
+msgstr "De firewall starten wanneer de computer start"
+
+#: fortified.schemas.in.h:60
+msgid "Start the firewall when the system boots."
+msgstr "De firewall starten wanneer de computer start."
+
+#: fortified.schemas.in.h:61
+msgid "Start the firewall when the system dials out"
+msgstr "De firewall starten bij het inbellen"
+
+#: fortified.schemas.in.h:62
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "De firewall starten wanneer een PPP verbinding wordt opgezet."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "De firewall starten wanneer een nieuw DHCP adres wordt verkregen."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr ""
+"De netwerkverbinding die aangesloten is op internet. 'ppp0' of 'eth0' "
+"bijvoorbeeld."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr ""
+"De netwerkverbinding die aangesloten is op het interne netwerk. 'eth0' of "
+"'eth1' bijvoorbeeld."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "De externe interface"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+"De eerste keer dat Fortified wordt gestart, worden een aantal bijzondere "
+"opdrachten uitgevoerd."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "De interne interface"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "De plaats van het bestand waar de systeem-logger naar schrijft."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+"De 'nameserver' die via DHCP moet worden toegewezen. U kunt meerdere servers "
+"opgeven door ze te scheiden met komma's. &lt;dynamic&gt; zorgt ervoor dat de "
+"nameservers automatisch worden bepaald."
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "Firewall systeem logbestand"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+"Het programma minimaliseren wanneer het venster wordt gesloten in plaats van "
+"afsluiten."
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+"Het lukte niet het configuratie bestand van de DHCP server te openen om naar "
+"te schrijven:"
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+"Het lukte niet te schrijven naar het configuratie bestand van de DHCP server:"
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+msgid "Failed to stop the firewall"
+msgstr "Het lukte niet de firewall te stoppen"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "Er trad een onbekende fout op bij het stoppen van de firewall."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr "Apparaat %s is niet klaar."
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr "Uw kernel ondersteunt geen iptables."
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr "Er ging iets mis."
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Controleer alstublieft de instellingen van het netwerkapparaat en zorg\n"
+"dat uw Internet-verbinding actief is."
+
+#: src/fortified.c:143
+msgid "Failed to start the firewall\n"
+msgstr "Het lukte niet de firewall te starten\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+msgid "Failed to start the firewall"
+msgstr "Het lukte niet de firewall te starten"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+msgid "Failed to lock the firewall"
+msgstr "Het lukte niet de firewall te vergrendelen"
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "Er trad een onbekende fout op bij het vergrendelen van de firewall."
+
+#: src/fortified.c:298
+#, fuzzy
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+"\n"
+"\n"
+" -s, --start          Start de firewall\n"
+" -p, --stop           Stop de firewall\n"
+"     --lock             Vergendel de firewall, zodat al het in- en uitgaande "
+"verkeer wordt gestopt\n"
+"     --generate-scripts Maakt firewall-scripts aan aan de hand van de "
+"huidige configuratie\n"
+"     --start-hidden     Start Fortified zonder het venster weer te geven\n"
+" -v, --version        Geef Fortified's versienummer weer\n"
+" -h, --help           Dat ziet u nu\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr "Onvoldoende rechten"
+
+#: src/fortified.c:320
+msgid "You must have root user privileges to use Fortified."
+msgstr "U moet root zijn om Fortified te gebruiken."
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "Firewall gestopt"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "Een alles-in-één Linux firewall hulpmiddel voor GNOME.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "Status"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "Gebeurtenissen"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "Beleid"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr "Uitgaand"
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr "Inkomend"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "Onbekend"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Tijd"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr "Richting"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "In"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Uit"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Poort"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Bron"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Bestemming"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Lengte"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "ToS"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protocol"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Dienst"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "Geblokkeerde verbindingen"
+
+#: src/menus.c:43
+msgid "_Firewall"
+msgstr "_Firewall"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr "Be_werken"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr "_Gebeurtenissen"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr "_Kolom weergeven"
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr "_Beleid"
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr "_Hulp"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr "Het programma beëindigen"
+
+#: src/menus.c:51
+msgid "Run _Wizard"
+msgstr "_Assistent starten"
+
+#: src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "De firewall-assistent starten"
+
+#. S
+#: src/menus.c:52
+msgid "_Start Firewall"
+msgstr "De firewall _starten"
+
+#: src/menus.c:52
+msgid "Start the firewall"
+msgstr "De firewall starten"
+
+#. P
+#: src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "De firewall sto_ppen"
+
+#: src/menus.c:53
+msgid "Stop the firewall"
+msgstr "De firewall stoppen"
+
+#: src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "De firewall vergrendelen"
+
+#: src/menus.c:54
+msgid "Lock the firewall"
+msgstr "De firewall vergrendelen"
+
+#: src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "De firewall ontgrendelen"
+
+#: src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "De firewall ontgrendelen"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr "_Kopieër beschrijving"
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr "De gebeuretenisbeschrijving kopieëren"
+
+#: src/menus.c:58
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: src/menus.c:58
+msgid "Program preferences"
+msgstr "Programma voorkeuren"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr "Lijst _opslaan"
+
+#: src/menus.c:60
+msgid "Save the events to a file"
+msgstr "De gebeurtenissen opslaan in een bestand"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr "_Leegmaken"
+
+#: src/menus.c:61
+msgid "Clear the events"
+msgstr "De lijst met gebeurtenissen leegmaken"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr "_Herladen"
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr "De gebeuretenissen herladen"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "Annuleer eht herladen van de gebeurtenissen"
+
+#: src/menus.c:65
+msgid "_Remove Rule"
+msgstr "De regel _verwijderen"
+
+#: src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "Verwijder de geselecteerde regel"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr "Een regel _toevoegen"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr "Een regel toevoegen aan de geselecteerde beleidsgroep"
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr "Regel _wijzigen"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "De geselecteerde regel wijzigen"
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr "Beleid toe_passen"
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr "De veranderingen toepassen die zijn gemaakt in het beleid"
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "Online gebruikershandleiding"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr "Open de online gebruiekrshandleiding in een browser"
+
+#: src/menus.c:71
+msgid "Fortified _Homepage"
+msgstr "Fortified _webpagina"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr "Open de Fortified webstek in een browser"
+
+#: src/menus.c:72
+msgid "_About"
+msgstr "_Over"
+
+#: src/menus.c:72
+msgid "About Fortified"
+msgstr "Over Fortified"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr "Verbindingen van bron toestaan"
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr "Alle verbindingen van deze bron toestaan"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr "Iedereen toestaan verbinding te leggen met deze computer"
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr "Iedereen toestaan verbinding te leggen met deze computer"
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr "Iedereen toestaan verbinding te leggen met deze computer"
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr "Deze bron toestaan verbinding te leggen met deze dienst"
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr "Verbindingen toestaan naar bestemming"
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr "Verbindingen toestaan naar bestemming"
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr "Uitgaande verbindingen toestaan voor iedereen"
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr "Uitgaande verbindingen toestaan voor iedereen"
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr "Deze bron toestaan verbinding te leggen met deze dienst"
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr "Deze uitgaande dienst beschikbaar stellen voor deze bron"
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr "Gebeurtenissen van deze bron uitschakelen"
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr "Laat gebeurtenissen van deze bron voortaan niet meer zien"
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr "Gebeurtenissen van deze poort uitschakelen"
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr "Laat gebeurtenissen van deze poort voortaan niet meer zien"
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "_Computernamen opzoeken"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr "De computernaam opzoeken van de geselecteerde hit"
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr "Verbinding _verbreken"
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr "Verbreek de geselecteerde verbinding"
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr "Computernamen opzoeken van de geselecteerde verbinding"
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr "De 'tijd'- kolom weergeven"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr "De 'richting'- kolom weergeven"
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr "Weegeven in kolom"
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr "De 'uit'- kolom weergeven"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr "De 'poort'- kolom weergeven"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr "ToS"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Firewall script opgeslagen als %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr "Ongeldige computernaam"
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+"De door u opgegeven computernaam is niet geldig,\n"
+"controleer aub uw invoer."
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr "Ongeldige poort"
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+"De opgegeven poort is niet geldig,\n"
+"controleer aub uw invoer."
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr "Ongeldige interne computer"
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr "Ongeldige interne poort"
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr "IP adres, computernaam of netwerk"
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr "Naam"
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr "Iedereen"
+
+#: src/policyview.c:628
+msgid "Firewall host"
+msgstr "Firewall computer"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr "Computers in uw interne netwerk."
+
+#: src/policyview.c:675
+msgid "IP or host"
+msgstr "IP-adres of computernaam"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr "Het lukte niet het beleid toe te passen"
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr "Het lukte niet het beleid voor het binnenkomende verkeer toe te passen"
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr ""
+"Er trad een onbekende fout op bij het toepassen van het beleid voor het "
+"binnenkomende verkeer:"
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr "Het lukte niet het beleid toe te passen voor het uitgaande verkeer"
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr ""
+"Er trad een onbekende fout op bij het toepassen van het beleid voor het "
+"uitgaande verkeer:"
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr "Verbindingen van computer toestaan"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr "Commentaar"
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+msgid "Allow service"
+msgstr "Dienst toestaan"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr "Voor"
+
+#: src/policyview.c:1216
+msgid "Forward service"
+msgstr "Dienst doorsturen"
+
+#: src/policyview.c:1217
+msgid "Firewall Port"
+msgstr "Firewall poort"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr "Naar"
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr "Een nieuwe regel toevoegen voor binnenkomend verkeer"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr "Verbindingen toestaan van"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr "Waar de bron is"
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr "Dienst doorsturen van de firewall"
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr "Naar een interne computer"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr "Weiger verbindingen naar computer"
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr "Weiger verbindingen van LAN computer"
+
+#: src/policyview.c:1278 src/policyview.c:1350
+msgid "Deny service"
+msgstr "Dienst weigeren"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr "Verbindingen toestaan naar computer"
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr "Verbindingen toestaan naar LAN computer"
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr "_Uitgaand verkeer"
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr "Gewoonlijk toestaan, specifiek verkeer blokkeren"
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr "Gewoonlijk blokkeren, specifiek verkeer toestaan"
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr "Een nieuwe regel voor uitgaand verkeer toevoegen"
+
+#: src/policyview.c:1334
+msgid "Deny connections to"
+msgstr "Verbindingen niet toestaan naar"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr "Verbindingen weigeren van"
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr "Verbindingen toestaan naar"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr "Beleid voor inkomend verkeer"
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr "Beleid voor uitgaand verkeer"
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr "Aanpassen van: "
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+"Er kon geen fatsoenlijke configuratie voor Fortified worden gevonden. Als "
+"u Fortified start in de directory waar u het in gecompileerd hebt, voer "
+"dan 'make install-data-local' uit om een configuratie te installeren, of "
+"eenvoudigweg 'make install' om het hele programma te installeren.\n"
+"\n"
+"Fortified wordt nu afgesloten."
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr "Netwerkverbinding"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "Firewall"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "Netwerk configuratie"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP-filtering"
+
+#: src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "ToS-filtering"
+
+#: src/preferences.c:273
+msgid "Advanced Options"
+msgstr "Geavanceerde opties"
+
+#: src/preferences.c:505
+msgid "Hosts"
+msgstr "Computernamen"
+
+#: src/preferences.c:509
+msgid "Ports"
+msgstr "Poorten"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr "Kijk alstublieft uw keuzes nog een keer na"
+
+#: src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "Ongeldige DHCP configuratie"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+"Controleer alstublieft uw DHCP instellingen, de opgegeven\n"
+"configuratie is niet geldig."
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr "Onbrekend bestand"
+
+#: src/preferences.c:910
+msgid "Fortified interface file not found"
+msgstr "Fortified interface bestand niet gevonden"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+"Het interface opmaak bestand 'preferences.glade' kon niet worden gevonden."
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr "<b>De volgende ICMP pakketten toestaan</b>"
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr "<b>Geblokkeerde verbindingen</b>"
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr "<b>Rondvraag verkeer</b>"
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr "<b>Details van de DHCP server</b>"
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr "<b>Hiervoor de gebeurtenissen niet melden:</b>"
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr "<b>Gebeurtenissen vanaf</b>"
+
+#: src/preferences.glade.h:9
+msgid "<b>Internet connected network device</b>"
+msgstr "<b></b>"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr "<b>Netwerkapparaat verbonden met het interne netwerk</b>"
+
+#: src/preferences.glade.h:11
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "<b>Voorkeursmethode om pakketten te weigeren</b>"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr "<b>Voorrang verlenen door te vergroten</b>"
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr "<b>Voorrang verlenen aan diensten veel gebruikt door:</b>"
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr "<b>Regels wijzigen</b>"
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr "<b>Opstaren en afsluiten</b>"
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr "<b>Gebruik van het paneel-mededelingengebied.</b>"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Geadvanceerde Firewall Opties</span>"
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Lijst van gebeurtenissen</span>"
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ICMP-filtering</span>"
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Netwerk instellingen</span>"
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Gebruikers interface</span>"
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Address Masking"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr "Beleidswijzigingen onmiddelijk doorvoeren"
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr "Een nieuwe DHCP configuratie maken"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Gedetecteerde appara(a)t(en):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr "Stilletjes weggooien"
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr "Antwoord op 'echo' (pong)"
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr "Verzoek om antwoord (ping)"
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr "DHCP gebruiken voor het interne netwerk"
+
+#: src/preferences.glade.h:38
+msgid "Enable ICMP filtering"
+msgstr "ICMP-filtering activeren"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr "Internetverbinding-delen activeren"
+
+#: src/preferences.glade.h:40
+msgid "Enable Type of Service filtering"
+msgstr "Type of Service-filtering activeren"
+
+#: src/preferences.glade.h:43
+msgid "Filter host"
+msgstr "Computernaam filteren"
+
+#: src/preferences.glade.h:44
+msgid "Filter port"
+msgstr "Poorten filteren"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+msgid "Highest IP address to assign:"
+msgstr "Hoogste IP-adres om via DHCP toe te kennen:"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Computernaam"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr "ICMP"
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+"ICMP-filtering geeft u de mogelijkheid om het aanmaken en\n"
+"ontvangen van pakketen door de firewall te beperken. U kunt zo "
+"mogelijkerwijs\n"
+"een <i>Denial of Service</i> af te slaan, Normale netwerkprogramma's kunnen\n"
+"zo echter ook worden ontregeld."
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr "Interactiviteit"
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "De bestaande DHCP configuratie behouden"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+msgid "Lowest IP address to assign:"
+msgstr "Laagste IP-adres om via DHCP toe te kennen:"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS Traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+"Minimalizeren naar het paneel-mededelingsgebied\n"
+"wanneer het venster wordt gesloten."
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr "Name server:"
+
+#: src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Redirection"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr "Weigeren met een foutmeldingspakket"
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Betrouwbaarheid"
+
+#: src/preferences.glade.h:66
+msgid "Servers"
+msgstr "Servers"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr "Items overslaan waarvan de firewall niet de bestemming is"
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr "Overbodige items overslaan"
+
+#: src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr "Bron wissen"
+
+#: src/preferences.glade.h:70
+msgid "Start firewall on system boot"
+msgstr "De firewall starten het starten van het systeem"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+"De firewall (her)starten bij het opnieuw verkrijgen van een IP-adres via DHCP"
+
+#: src/preferences.glade.h:72
+msgid "Start/restart firewall on dial-out"
+msgstr "De firewall (her)starten bij het inbellen"
+
+#: src/preferences.glade.h:73
+msgid "Start/restart firewall on program startup"
+msgstr "De firewall (her)starten bij het starten van het programma"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "Het X Window System"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Doorvoersnelheid"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Timestamping"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"'Type of Service' (ToS) filtering geeft u de mogelijkheid specifieke\n"
+"netwerkdiensten een andere prioriteit te geven, om sommige\n"
+"diensten een hogere doorvoersnelheid te geven, of een snellere reactie."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Unreachable"
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "Werkstations"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "_Accepteren"
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+"Fout bij het schrijven naar bestand %s\n"
+"\n"
+"%s"
+
+#: src/savelog.c:92
+msgid "Save Events To File"
+msgstr "De gebeurtenissen opslaan in een bestand"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Actief"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr "Vergrendeld"
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internet"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "Lokaal"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr "Applicatie"
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr "Kleur"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "Totaal"
+
+#: src/statusview.c:986
+msgid "Serious"
+msgstr "Serieus"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr "Netwerk"
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "Apparaat"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Type"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr "Ontvangen"
+
+#: src/statusview.c:1076
+msgid "Sent"
+msgstr "Verzonden"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "Activiteit"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "Actieve verbindingen"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Firewall gestopt"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Firewall actief"
+
+#: src/tray.c:150
+msgid "Firewall locked"
+msgstr "Firewall vergrendeld"
+
+#: src/tray.c:204
+msgid "_Show Fortified"
+msgstr "Fortified _tonen"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr "_Afsluiten"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Fortified fout"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr "Kon de systeemlogger niet openen\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr "Er zal geen informatie beschikbaar over gebeurtenissen."
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr "Het lukte niet /proc/net/dev te openen om te lezen:"
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr "Ethernet apparaat"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr "Inbel apparaat"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr "Inbellen"
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr "Draadloos apparaat"
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr "Draadloos"
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr "IPv6 tunnel"
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr "VPN tunnel"
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr "IP tunnel"
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr "Onbekend apparaat"
+
+#: src/wizard.c:106
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Selecteer het netwerkapparaat waarmee u aan het Internet verbonden bent\n"
+"uit de keuzelijst."
+
+#: src/wizard.c:137
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Tip: Als u een modem gebruikt heet het apparaat waarschijnlijk ppp0. Als u "
+"een kabelmodem-\n"
+"of ADSL-verbinding heeft, kies dan eth0. Kies ppp0 als uw Internet provider "
+"PPPoE gebruikt "
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "De firewall starten bij het inbellen"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Activeer deze optie en het programma start automatisch wanneer u een "
+"internet verbinding maakt."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP adres wordt via DHCP toegekend."
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Activeer deze optie indien u met een DHCP server moet verbinden. Mensen met "
+"een kabel- of ADSL-verbinding zouden deze optie moeten gebruiken."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+"Fortified kan uw internet verbinding delen met de computers op het interne "
+"netwerk,\n"
+"zodat er slechts 1 openbaar IP adres wordt gebruikt. Dit heet 'Network "
+"Address Translation'."
+
+#: src/wizard.c:263
+msgid "Local area network device:"
+msgstr "Selecteer uw interne netwerkapparaat:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr "DHCP gebruiken voor het interne netwerk"
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr "Leg de DHCP mogelijkheid uit...."
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr "Details van de DHCP server"
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "Een nieuwe DHCP configuratie maken:"
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Deze assisten helpt u uw firewall te configureren voor uw\n"
+"Linux computer. Er zullen enkele vragen gesteld worden\n"
+"over uw netwerkconfiguratie om de firewall voor u op\n"
+"maat te maken.\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"Tip: als u niet weet wat u moet kiezen, gebruik dan de standaard optie.\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Klik op 'Volgende' om door te gaan.\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Klaar om uw firewall te starten"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"De assistent is nu klaar om uw firewall te starten.\n"
+"\n"
+"Klik op de 'Opslaan'-knop om door te gaan, of op de \n"
+"'Terug'-knop om uw keuzes te herzien.\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "De firewall _starten"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+"Het interne-netwerkapparaat en het apparaat waarmee u met het internet "
+"verbonden bent, kunnen niet dezelfde zijn."
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr "De opgegeven DHCP configuratie is niet geldig."
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Firewall assistent"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Welkom bij Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Netwerkapparaat configuratie"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Internetverbinding-delen configuratie"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Klaar om uw firewall te starten"
+
+#~ msgid "Fortified "
+#~ msgstr "Fortified"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "De DHCP-client configuratie kon niet worden gevonden.\n"
+#~ "\n"
+#~ "De firewall zal niet automatisch worden geladen wanneer u een nieuw IP-"
+#~ "adres krijgt via DHCP. Controleer de configuratie van het netwerkapparaat "
+#~ "waarmee u met het Internet bent verbonden, of zet DHCP uit als u een vast "
+#~ "IP-adres heeft.\n"

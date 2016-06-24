@@ -1,0 +1,2362 @@
+# fortified's Portuguese Translation
+# Copyright © 2001, 2002, 2003, 2004 fortified
+# Distributed under the same licence as the fortified package
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2004-08-19 00:00+0000\n"
+"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
+"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "Ferramenta de Firewall para o Ambiente de Trabalho"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Aplicar as definições ICMP, tal como configuradas pelo assistente."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr ""
+"Aplicar as definições de Tipo de Serviço, tal como configuradas pelo "
+"assistente."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr "Negar pacotes"
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr "Ignorar pacotes negados sem responder com um pacote de erro."
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "Activar o servidor DHCP para partilha de ligação"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Activar NAT"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr ""
+"Activar Tradução de Endereços de Rede (NAT), ou partilha de ligação à "
+"Internet."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "Activar a configuração de ICMP"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "Activar a configuração de tds"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+#, fuzzy
+msgid "Enable tray icon"
+msgstr "Activar as Opções Experimentais"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr ""
+"Falha ao iniciar a firewall:\n"
+"\n"
+
+#: fortified.schemas.in.h:19
+#, fuzzy
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr "Filtrar acessos que tenham um IP de destino que não seja o seu IP."
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Filtrar acessos redundantes"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Filtrar sequências de acessos idênticos."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr "Maior IP no intervalo a servir a clientes DHCP"
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr "É a primeira vez que o utilizador está a executar a aplicação"
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr "Menor IP no intervalo a servir a clientes DHCP"
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr ""
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr "Servidor de nomes que os clientes DHCP deverão utilizar"
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr ""
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+"Executar o servidor dhcpd do sistema juntamente com a partinha de ligação à "
+"Internet Fortified."
+
+#: fortified.schemas.in.h:31
+#, fuzzy
+msgid "Show the Fortified icon in the notification area."
+msgstr "Apresentar a coluna de destino na Vista de Acessos."
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "Apresentar a coluna de Tipo de Serviço na Vista de Acessos."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "Apresentar a coluna de destino na Vista de Acessos"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "Apresentar a coluna de destino na Vista de Acessos."
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr ""
+"Apresentar o dispositivo onde foi recebido o acesso na Vista de Acessos."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+"Apresentar o dispositivo para onde foi redireccionado o acesso na Vista de "
+"Acessos."
+
+#: fortified.schemas.in.h:37
+#, fuzzy
+msgid "Show the direction column in the Hit View"
+msgstr "Apresentar a coluna de entrada na Vista de Acessos"
+
+#: fortified.schemas.in.h:38
+#, fuzzy
+msgid "Show the direction column in the Hit View."
+msgstr "Apresentar a coluna de destino na Vista de Acessos."
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "Apresentar a coluna de entrada na Vista de Acessos"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "Apresentar a coluna de comprimento na Vista de Acessos"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "Apresentar a coluna de saída na Vista de Acessos"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "Apresentar a coluna de tamanho de pacote na Vista de Acessos."
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "Apresentar a coluna de porto na Vista de Acessos"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "Apresentar a coluna de porto na Vista de Acessos."
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "Apresentar a coluna de protocolo na Vista de Acessos"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "Apresentar a coluna de protocolo na Vista de Acessos."
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "Apresentar a coluna de serviço na Vista de Acessos"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "Apresentar a coluna de serviço na Vista de Acessos."
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "Apresentar a coluna de origem na Vista de Acessos"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "Apresentar a coluna de origem na Vista de Acessos."
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "Apresentar a coluna de data na Vista de Acessos"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "Apresentar a coluna de data na Vista de Acessos."
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "Apresentar a coluna de tds na Vista de Acessos"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+"Especifica o limite superior do espaço IP a utilizar para alocações por DHCP."
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+"Especifica o limite inferior do espaço IP a utilizar para alocações por DHCP."
+
+#: fortified.schemas.in.h:56
+#, fuzzy
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "Iniciar a firewall ao ligar-se ao exterior"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "Iniciar a firewall ao arrancar a aplicação"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "Iniciar a firewall ao arrancar a aplicação."
+
+#: fortified.schemas.in.h:59
+#, fuzzy
+msgid "Start the firewall when the system boots"
+msgstr "Iniciar a firewall ao arrancar a aplicação"
+
+#: fortified.schemas.in.h:60
+#, fuzzy
+msgid "Start the firewall when the system boots."
+msgstr "Iniciar a firewall ao arrancar a aplicação."
+
+#: fortified.schemas.in.h:61
+#, fuzzy
+msgid "Start the firewall when the system dials out"
+msgstr "Iniciar a firewall ao ligar-se ao exterior"
+
+#: fortified.schemas.in.h:62
+#, fuzzy
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "Iniciar a firewall ao arrancar a aplicação."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "Iniciar a firewall ao arrancar a aplicação."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "O interface de rede ligado à Internet. Por exemplo, ppp0 ou eth0."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr ""
+"O interface de rede ligado à rede interna (LAN). Por exemplo, eth0 ou eth1."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "O interface externo"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+"Ao iniciar o Fortified pela primeira vez, são tomadas várias acções "
+"especiais."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "O interface interno"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr ""
+"A localização do ficheiro para onde escreve o daemon de registo do sistema."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+"O servidor de nomes que os clientes deverão utilizar. Pode especificar "
+"vários servidores de nomes numa lista separada por espaços. Um valor de &lt;"
+"dynamic&gt; significa que os servidores de nomes serã determinados durante a "
+"execução."
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "O ficheiro de registo do sistema"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+"Falha ao abrir o ficheiro de configuração do servidor DHCP para escrita: "
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr "Falha ao escrever no ficheiro de configuração do servidor DHCP: "
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+#, fuzzy
+msgid "Failed to stop the firewall"
+msgstr ""
+"Falha ao parar a firewall\n"
+"\n"
+
+#: src/fortified.c:87
+#, fuzzy
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "Ocorreu um erro indeterminado ao tentar parar a sua firewall."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, fuzzy, c-format
+msgid "The device %s is not ready."
+msgstr ""
+"O dispositivo %s não está preparado.\n"
+"\n"
+
+#: src/fortified.c:133
+#, fuzzy
+msgid "Your kernel does not support iptables."
+msgstr ""
+"O seu kernel não suporta iptables.\n"
+"\n"
+
+#: src/fortified.c:135
+#, fuzzy
+msgid "An unknown error occurred."
+msgstr ""
+"Ocorreu um erro desconhecido.\n"
+"\n"
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Verifique as configurações dos seus dispositivos de rede e\n"
+"certifique-se de que a sua ligação à Internet está activa."
+
+#: src/fortified.c:143
+#, fuzzy
+msgid "Failed to start the firewall\n"
+msgstr ""
+"Falha ao iniciar a firewall:\n"
+"\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+#, fuzzy
+msgid "Failed to start the firewall"
+msgstr ""
+"Falha ao iniciar a firewall:\n"
+"\n"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+#, fuzzy
+msgid "Failed to lock the firewall"
+msgstr ""
+"Falha ao parar a firewall\n"
+"\n"
+
+#: src/fortified.c:204
+#, fuzzy
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "Ocorreu um erro indeterminado ao tentar parar a sua firewall."
+
+#: src/fortified.c:298
+#, fuzzy
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+"\n"
+"\n"
+" -s, --start            Iniciar a firewall\n"
+" -p, --stop             Parar a firewall\n"
+"     --halt             Pausar todo o tráfego recebido e saído (modo de "
+"pânico)\n"
+"     --generate-scripts Gerar os scripts de firewall a partr da configuração "
+"actual\n"
+" -v, --version          Imprime a versão do Fortified\n"
+" -h, --help             Está a lê-la\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+#, fuzzy
+msgid "Insufficient privileges"
+msgstr ""
+"Privilégios insuficientes\n"
+"\n"
+
+#: src/fortified.c:320
+#, fuzzy
+msgid "You must have root user privileges to use Fortified."
+msgstr ""
+"Tem de possuir privilégios de root para poder utilizar o Fortified.\n"
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "Firewall pausada"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "Utilitário tudo-em-um de firewall Linux para o GNOME.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "Estado"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "Eventos"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "Regra"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr "Saída"
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr "Entrada"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Data"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+#, fuzzy
+msgid "Direction"
+msgstr "Redireccionamento"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "Entrado"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Saído"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Porto"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Origem"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Destino"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Comprimento"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "TDS"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protocolo"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Serviço"
+
+#: src/hitview.c:968
+#, fuzzy
+msgid "Blocked Connections"
+msgstr "Ligações activas"
+
+#: src/menus.c:43
+#, fuzzy
+msgid "_Firewall"
+msgstr "/_Firewall"
+
+#: src/menus.c:44
+#, fuzzy
+msgid "_Edit"
+msgstr "/_Editar"
+
+#: src/menus.c:45
+#, fuzzy
+msgid "E_vents"
+msgstr "Eventos"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr ""
+
+#: src/menus.c:47
+#, fuzzy
+msgid "_Policy"
+msgstr "Regra"
+
+#: src/menus.c:48
+#, fuzzy
+msgid "_Help"
+msgstr "/A_juda"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr ""
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr ""
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run _Wizard"
+msgstr "Executar o Assistente"
+
+#: src/menus.c:51
+#, fuzzy
+msgid "Run the firewall wizard"
+msgstr "Assistente de Firewall"
+
+#. S
+#: src/menus.c:52
+#, fuzzy
+msgid "_Start Firewall"
+msgstr "Iniciar a Firewall"
+
+#: src/menus.c:52
+#, fuzzy
+msgid "Start the firewall"
+msgstr "Iniciar a firewall"
+
+#. P
+#: src/menus.c:53
+#, fuzzy
+msgid "Sto_p Firewall"
+msgstr "Parar a Firewall"
+
+#: src/menus.c:53
+#, fuzzy
+msgid "Stop the firewall"
+msgstr "Parar a firewall"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "_Lock Firewall"
+msgstr "/_Firewall"
+
+#: src/menus.c:54
+#, fuzzy
+msgid "Lock the firewall"
+msgstr "Parar a firewall"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "_Unlock Firewall"
+msgstr "/_Firewall"
+
+#: src/menus.c:55
+#, fuzzy
+msgid "Unlock the firewall"
+msgstr ""
+"Falha ao parar a firewall\n"
+"\n"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr ""
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr ""
+
+#: src/menus.c:58
+#, fuzzy
+msgid "_Preferences"
+msgstr "/_Editar/_Preferências..."
+
+#: src/menus.c:58
+#, fuzzy
+msgid "Program preferences"
+msgstr "Fortified: Preferências"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr ""
+
+#: src/menus.c:60
+#, fuzzy
+msgid "Save the events to a file"
+msgstr "Gravar a Lista de Acessos em Ficheiro"
+
+#. L
+#: src/menus.c:61
+#, fuzzy
+msgid "_Clear"
+msgstr "Limpar"
+
+#: src/menus.c:61
+#, fuzzy
+msgid "Clear the events"
+msgstr "Limpar a Lista de Acessos"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "_Reload"
+msgstr "Reler"
+
+#: src/menus.c:62
+#, fuzzy
+msgid "Reload the events"
+msgstr "Reler a Lista de Acessos"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr ""
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr ""
+
+#: src/menus.c:65
+#, fuzzy
+msgid "_Remove Rule"
+msgstr "/Remover a regra"
+
+#: src/menus.c:65
+#, fuzzy
+msgid "Remove the selected rule"
+msgstr "/Remover a regra"
+
+#: src/menus.c:66
+#, fuzzy
+msgid "_Add Rule"
+msgstr "/_Regras"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+#, fuzzy
+msgid "_Edit Rule"
+msgstr "Editar a regra"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr ""
+
+#: src/menus.c:68
+#, fuzzy
+msgid "A_pply Policy"
+msgstr "Regra"
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+#, fuzzy
+msgid "Online Users' _Manual"
+msgstr "/A_juda/_Manual do Utilizador Online"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr ""
+
+#: src/menus.c:71
+#, fuzzy
+msgid "Fortified _Homepage"
+msgstr "/A_juda/Página _Web do Fortified"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr ""
+
+#: src/menus.c:72
+msgid "_About"
+msgstr ""
+
+#: src/menus.c:72
+#, fuzzy
+msgid "About Fortified"
+msgstr "Fortified"
+
+#: src/menus.c:74
+#, fuzzy
+msgid "Allow Connections From Source"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/menus.c:74
+#, fuzzy
+msgid "Allow all connections from this source"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+#, fuzzy
+msgid "Allow Connections to Destination"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+#, fuzzy
+msgid "Disable Events from Source"
+msgstr "/Desactivar os _Eventos da Origem"
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr "Desactivar Eventos no Porto"
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+#, fuzzy
+msgid "_Lookup Hostnames"
+msgstr "/_Acessos/Procurar o _Nome da Máquina"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+#, fuzzy
+msgid "_Terminate Connection"
+msgstr "Ligações activas"
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr ""
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+#, fuzzy
+msgid "Show time column"
+msgstr "Apresentar a coluna de data na Vista de Acessos"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr ""
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+#, fuzzy
+msgid "Show out column"
+msgstr "Apresentar a coluna de saída na Vista de Acessos"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+#, fuzzy
+msgid "Show port column"
+msgstr "Apresentar a coluna de porto na Vista de Acessos"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+#, fuzzy
+msgid "ToS"
+msgstr "TDS"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Script de firewall gravado como %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr ""
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr ""
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr ""
+
+#: src/policyview.c:626
+#, fuzzy
+msgid "Anyone"
+msgstr "Zona"
+
+#: src/policyview.c:628
+#, fuzzy
+msgid "Firewall host"
+msgstr "Porto da firewall:"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr ""
+
+#: src/policyview.c:675
+#, fuzzy
+msgid "IP or host"
+msgstr "IP ou nome de máquina:"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+#, fuzzy
+msgid "There was an error when applying the inbound policy:"
+msgstr "Ocorreu um erro indeterminado ao tentar pausar o tráfego de rede."
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+#, fuzzy
+msgid "There was an error when applying the outbound policy:"
+msgstr "Ocorreu um erro indeterminado ao tentar pausar o tráfego de rede."
+
+#: src/policyview.c:1204
+#, fuzzy
+msgid "Allow connections from host"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr ""
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+#, fuzzy
+msgid "Allow service"
+msgstr "Serviço"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr ""
+
+#: src/policyview.c:1216
+#, fuzzy
+msgid "Forward service"
+msgstr "Reencaminhar De"
+
+#: src/policyview.c:1217
+#, fuzzy
+msgid "Firewall Port"
+msgstr "Porto da firewall:"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr ""
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr ""
+
+#: src/policyview.c:1228 src/policyview.c:1370
+#, fuzzy
+msgid "Allow connections from"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr ""
+
+#: src/policyview.c:1246
+#, fuzzy
+msgid "To internal host"
+msgstr "O interface interno"
+
+#: src/policyview.c:1268
+#, fuzzy
+msgid "Deny connections to host"
+msgstr "Ligações activas"
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr ""
+
+#: src/policyview.c:1278 src/policyview.c:1350
+#, fuzzy
+msgid "Deny service"
+msgstr "Dispositivo"
+
+#: src/policyview.c:1286
+#, fuzzy
+msgid "Allow connections to host"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/policyview.c:1291
+#, fuzzy
+msgid "Allow connections from LAN host"
+msgstr "/_Autorizar Todas as Ligações da Origem"
+
+#: src/policyview.c:1307
+#, fuzzy
+msgid "_Outbound traffic"
+msgstr "Saída"
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr ""
+
+#: src/policyview.c:1334
+#, fuzzy
+msgid "Deny connections to"
+msgstr "Ligações activas"
+
+#: src/policyview.c:1342
+#, fuzzy
+msgid "Deny connections from"
+msgstr "Ligações activas"
+
+#: src/policyview.c:1362
+#, fuzzy
+msgid "Allow connections to"
+msgstr "Ligações activas"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+#, fuzzy
+msgid "Editing"
+msgstr "/_Editar"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+"Não foi encontrada uma configuração adequada para o Fortified. Se estiver "
+"a executar o Fortified a partir do directório onde o compilou, execute "
+"'make install-data-local' para instalar uma configuração ou simplesmente "
+"'make install' para instalar toda a aplicação.\n"
+"\n"
+"Fortified irá agora terminar."
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+#, fuzzy
+msgid "Interface"
+msgstr "Internet"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "Firewall"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+#, fuzzy
+msgid "Network Settings"
+msgstr "Configuração do dispositivo de rede"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "Filtragem ICMP"
+
+#: src/preferences.c:268
+#, fuzzy
+msgid "ToS Filtering"
+msgstr "Filtragem ICMP"
+
+#: src/preferences.c:273
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Avançada"
+
+#: src/preferences.c:505
+#, fuzzy
+msgid "Hosts"
+msgstr "Máquina"
+
+#: src/preferences.c:509
+#, fuzzy
+msgid "Ports"
+msgstr "Porto"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+#, fuzzy
+msgid "Please review your choices"
+msgstr "Reveja as suas definições DHCP"
+
+#: src/preferences.c:673
+#, fuzzy
+msgid "Invalid DHCP configuration"
+msgstr "Criar uma nova configuração DHCP:"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr ""
+
+#: src/preferences.c:910
+msgid "Fortified interface file not found"
+msgstr ""
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr ""
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+#, fuzzy
+msgid "<b>Blocked connections</b>"
+msgstr "Ligações activas"
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+#, fuzzy
+msgid "<b>DHCP server details</b>"
+msgstr "Detalhes do servidor DHCP"
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr ""
+
+#: src/preferences.glade.h:9
+msgid "<b>Internet connected network device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:10
+#, fuzzy
+msgid "<b>Local network connected device</b>"
+msgstr "Dispositivo de rede interno:"
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "Método preferido de rejeição de pacotes"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+#, fuzzy
+msgid "<b>System tray icon</b>"
+msgstr "Modo de operação no painel de notificações"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Mascarar Endereço"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Avançada"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr ""
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+#, fuzzy
+msgid "Create new DHCP configuration"
+msgstr "Criar uma nova configuração DHCP:"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Dispositivo(s) Detectado(s):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+#, fuzzy
+msgid "Enable DHCP for the local network"
+msgstr "Activar DHCP para a rede local"
+
+#: src/preferences.glade.h:38
+#, fuzzy
+msgid "Enable ICMP filtering"
+msgstr "Desactivar a Filtragem ICMP"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr "Activar a partilha de ligação à Internet"
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "Configuração da filtragem de Tipo de Serviço"
+
+#: src/preferences.glade.h:43
+#, fuzzy
+msgid "Filter host"
+msgstr "Filtros"
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "Filtros"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "Endereço IP é atribuido via DHCP"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Máquina"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+#, fuzzy
+msgid "Interactivity"
+msgstr "Actividade"
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "Manter a configuração existente de DHCP"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "Endereço IP é atribuido via DHCP"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "Traceroute MS"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr ""
+
+#: src/preferences.glade.h:62
+#, fuzzy
+msgid "Preferences"
+msgstr "/_Editar/_Preferências..."
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Redireccionamento"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Estabilidade"
+
+#: src/preferences.glade.h:66
+#, fuzzy
+msgid "Servers"
+msgstr "Serviços"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+#, fuzzy
+msgid "Source Quenching"
+msgstr "Extinção da Origem"
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "Iniciar a firewall ao ligar-se ao exterior"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "Iniciar a firewall ao ligar-se ao exterior"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "Iniciar a firewall ao arrancar a aplicação"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "O Sistema de Janelas X"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Performance"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Indicação de Data"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"Filtragem por Tipo de Serviço permite-lhe re-prioritizar serviços de rede\n"
+"para permitir tráfego mais rápido nos serviços mais utilizados."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Inacessível"
+
+#: src/preferences.glade.h:83
+#, fuzzy
+msgid "Workstations"
+msgstr "Destino"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr ""
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+#, fuzzy
+msgid "Save Events To File"
+msgstr "Gravar a Lista de Acessos em Ficheiro"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Activa"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr ""
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr ""
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internet"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "Local"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr ""
+
+#: src/statusview.c:940
+#, fuzzy
+msgid "Color"
+msgstr "Limpar"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "Total"
+
+#: src/statusview.c:986
+msgid "Serious"
+msgstr "Grave"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr "Rede"
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "Dispositivo"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Tipo"
+
+#: src/statusview.c:1070
+#, fuzzy
+msgid "Received"
+msgstr "Recebido"
+
+#: src/statusview.c:1076
+msgid "Sent"
+msgstr "Enviado"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "Actividade"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "Ligações activas"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Firewall parada"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Firewall em execução"
+
+#: src/tray.c:150
+#, fuzzy
+msgid "Firewall locked"
+msgstr "Firewall pausada"
+
+#: src/tray.c:204
+#, fuzzy
+msgid "_Show Fortified"
+msgstr "Fortified"
+
+#: src/tray.c:214
+#, fuzzy
+msgid "_Exit"
+msgstr "Sair"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Erro do Fortified"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"Falha ao abrir o registo de sistema\n"
+"\n"
+
+#: src/util.c:140
+#, fuzzy
+msgid "No event information will be available."
+msgstr "Não estará disponível em tempo real qualquer informação de acesso."
+
+#: src/util.c:236
+#, fuzzy
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+"Falha ao abrir o ficheiro de configuração do servidor DHCP para escrita: "
+
+#: src/util.c:277
+#, fuzzy
+msgid "Ethernet device"
+msgstr "Dispositivo Externo"
+
+#: src/util.c:279
+#, fuzzy
+msgid "Ethernet"
+msgstr "Internet"
+
+#: src/util.c:282
+#, fuzzy
+msgid "Dialup device"
+msgstr "Dispositivo"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr ""
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr ""
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr ""
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr ""
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr ""
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr ""
+
+#: src/util.c:298
+#, fuzzy
+msgid "Unknown device"
+msgstr "Desconhecido"
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Seleccione o seu dispositivo de rede ligado à Internet na caixa de selecção\n"
+"que contém a lista dos dispositivos detectados."
+
+#: src/wizard.c:137
+#, fuzzy
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Dica: Caso utilize um modem provavelmente o dispositivo chama-se ppp0. Caso "
+"possua um modem\n"
+"de cabo ou xDSL, seleccione eth0. Seleccione ppp0 caso o seu operador de "
+"cabo ou xDSL\n"
+"utilize o protocolo PPP sobre Ethernet."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Iniciar a firewall ao ligar-se ao exterior"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Active esta opção e a firewall iniciar-se-á quando se ligar ao seu "
+"Fornecedor de Acesso à Internet."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "Endereço IP é atribuido via DHCP"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Active esta opção se necessitar de se ligar a um servidor DHCP. Utilizadores "
+"de modem por cabo e xDSL deverão activar esta opção."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+"Fortified pode partilhar a sua ligação à Internet com computadores na sua "
+"rede local\n"
+"utilizando um único endereço IP público e um método denominado Tradução de "
+"Endereços de Rede (NAT)."
+
+#: src/wizard.c:263
+msgid "Local area network device:"
+msgstr "Dispositivo de rede interno:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr "Activar DHCP para a rede local"
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr "Explicar a funcionalidade de DHCP..."
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr "Detalhes do servidor DHCP"
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "Criar uma nova configuração DHCP:"
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Este assistente irá ajudá-lo a configurar uma firewall para\n"
+"a sua máquina Linux. Ser-lhe-ão feitas algumas perguntas\n"
+"sobre a sua configuração de rede por forma a personalizar\n"
+"a firewall para o seu sistema.\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"Dica: Caso não tenha a certeza sobre como responder a uma questão\n"
+"será preferível aceitar o valor por omissão.\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Prima o botão avançar para continuar.\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Preparado para iniciar a sua firewall"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"O assistente está agora preparado para iniciar a sua firewall.\n"
+"\n"
+"Prima o botão gravar para continuar, ou o botão retroceder\n"
+"para rever as suas selecções.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "Iniciar a firewall"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Assistente de Firewall"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Bem Vindo ao Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Configuração do dispositivo de rede"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Configuração da partilha de ligação à Internet"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Preparado para iniciar a sua firewall"
+
+#~ msgid ""
+#~ "Allow incoming DHCP packets, and start the firewall when an IP lease is "
+#~ "obtained."
+#~ msgstr ""
+#~ "Autorizar a recepção de pacotes DHCP, e iniciar a firewall após obter uma "
+#~ "alocação de IP."
+
+#~ msgid ""
+#~ "Always convert the entries in the Hit View from IP format to a valid "
+#~ "hostname. This options can slow down the client a lot, as it is not "
+#~ "threaded."
+#~ msgstr ""
+#~ "Converter sempre as entradas na Vista de Acessos do formato IP para um "
+#~ "nome de máquina válido. Esta opção, por não ser processada em paralelo, "
+#~ "poderá tornar o cliente mais lento."
+
+#~ msgid ""
+#~ "Apply the settings of the well known services, as configured in the "
+#~ "wizard."
+#~ msgstr ""
+#~ "Aplicar as definições dos serviços conhecidos, tal como configuradas pelo "
+#~ "assistente."
+
+#~ msgid "Convert IPs to human readable form"
+#~ msgstr "Converter IPs em formato humanamente legível"
+
+#~ msgid "Enable the configuration of services"
+#~ msgstr "Activar a configuração de serviços"
+
+#~ msgid "External interface is modem"
+#~ msgstr "Interface externa é um modem"
+
+#~ msgid "External interface uses DHCP"
+#~ msgstr "Interface externa utiliza DHCP"
+
+#~ msgid "Filter out hits not meant for your machine"
+#~ msgstr "Filtrar acessos não destinados a esta máquina"
+
+#~ msgid ""
+#~ "Start the firewall when the user dials out. Modifies /etc/ppp/ip-up.local."
+#~ msgstr ""
+#~ "Iniciar a firewall quando o utilizador efectuar uma ligação ao exterior. "
+#~ "Altera o /etc/ppp/ip-up.local."
+
+#~ msgid "Stop the firewall when the program exists"
+#~ msgstr "Parar a firewall ao terminar a aplicação"
+
+#~ msgid "Stop the firewall when the program exists."
+#~ msgstr "Parar a firewall ao terminar a aplicação."
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited. Works together with the notification area applet."
+#~ msgstr ""
+#~ "Ao fechar a janela da aplicação em modo de painel de notificação, a "
+#~ "aplicação é escondida em vez de terminar. Funciona em conjunto com a "
+#~ "applet de área de notificação."
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "Firewall parada, o tráfego na rede flui agora livremente\n"
+
+#~ msgid "Firewall started\n"
+#~ msgstr "Firewall iniciada\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "Todo o tráfego pausado\n"
+
+#~ msgid ""
+#~ "Failed to enter halted firewall mode\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Falha ao entrar em modo de firewall em pausa\n"
+#~ "\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "Todo o tráfego pausado"
+
+#~ msgid "Fortified "
+#~ msgstr "Fortified "
+
+#~ msgid "Save"
+#~ msgstr "Gravar"
+
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "/_Firewall/E_xecutar o Assistente"
+
+#~ msgid "/_Firewall/---"
+#~ msgstr "/_Firewall/---"
+
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "/_Firewall/_Iniciar a Firewall"
+
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "/_Firewall/_Parar a Firewall"
+
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "/_Firewall/Pausar o _Tráfego de Rede"
+
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "/_Firewall/_Sair"
+
+#~ msgid "/_Edit/_Copy"
+#~ msgstr "/_Editar/_Copiar"
+
+#~ msgid "/_Edit/---"
+#~ msgstr "/_Editar/---"
+
+#~ msgid "/_View"
+#~ msgstr "/_Ver"
+
+#~ msgid "/_View/_Clear Hit List"
+#~ msgstr "/_Ver/_Limpar a Lista de Acessos"
+
+#~ msgid "/_View/_Reload Hit List"
+#~ msgstr "/_Ver/_Reler a Lista de Acessos"
+
+#~ msgid "/_View/---"
+#~ msgstr "/_Ver/---"
+
+#~ msgid "/_View/Hit columns"
+#~ msgstr "/_Ver/Colunas de acesso"
+
+#~ msgid "/_View/Hit columns/Time"
+#~ msgstr "/_Ver/Colunas de acesso/Data"
+
+#~ msgid "/_View/Hit columns/In"
+#~ msgstr "/_Ver/Colunas de acesso/Entrada"
+
+#~ msgid "/_View/Hit columns/Out"
+#~ msgstr "/_Ver/Colunas de acesso/Saída"
+
+#~ msgid "/_View/Hit columns/Port"
+#~ msgstr "/_Ver/Colunas de acesso/Porto"
+
+#~ msgid "/_View/Hit columns/Source"
+#~ msgstr "/_Ver/Colunas de acesso/Origem"
+
+#~ msgid "/_View/Hit columns/Destination"
+#~ msgstr "/_Ver/Colunas de acesso/Destino"
+
+#~ msgid "/_View/Hit columns/Length"
+#~ msgstr "/_Ver/Colunas de acesso/Comprimento"
+
+#~ msgid "/_View/Hit columns/ToS"
+#~ msgstr "/_Ver/Colunas de acesso/TdS"
+
+#~ msgid "/_View/Hit columns/Protocol"
+#~ msgstr "/_Ver/Colunas de acesso/Protocolo"
+
+#~ msgid "/_View/Hit columns/Service"
+#~ msgstr "/_Ver/Colunas de acesso/Serviço"
+
+#~ msgid "/_Hits"
+#~ msgstr "/_Acessos"
+
+#~ msgid "/_Hits/_Allow All Connections From Source"
+#~ msgstr "/_Acessos/_Autorizar Todas as Ligações da Origem"
+
+#~ msgid "/_Hits/_Open Port for Everyone"
+#~ msgstr "/_Acessos/Abrir o Porto a _Todos"
+
+#~ msgid "/_Hits/Open Port for _This Source"
+#~ msgstr "/_Acessos/Abrir o Porto Apenas para Esta _Origem"
+
+#~ msgid "/_Hits/Disable Events from _Source"
+#~ msgstr "/_Acessos/Desactivar os _Eventos da Origem"
+
+#~ msgid "/_Hits/Disable Events on _Port"
+#~ msgstr "/_Acessos/Desactivar os Eventos no _Porto"
+
+#~ msgid "/_Hits/---"
+#~ msgstr "/_Acessos/---"
+
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "/_Acessos/Gravar a Lista de Acessos para Ficheiro"
+
+#~ msgid "/_Rules/_New Rule"
+#~ msgstr "/_Regras/_Nova Regra"
+
+#~ msgid "/_Rules/_Remove Rule"
+#~ msgstr "/_Regras/_Remover a Regra"
+
+#~ msgid "/_Rules/_Edit Rule"
+#~ msgstr "/_Regras/_Editar Regra"
+
+#~ msgid "/_Help/---"
+#~ msgstr "/A_juda/---"
+
+#~ msgid "/_Help/_About..."
+#~ msgstr "/A_juda/_Sobre..."
+
+#~ msgid "/_Open Port for Everyone"
+#~ msgstr "/Abrir o Porto a _Todos"
+
+#~ msgid "/Open Port for _This Source"
+#~ msgstr "/Abrir o Porto Apenas para Esta _Origem"
+
+#~ msgid "/Disable Events on _Port"
+#~ msgstr "/Desactivar os Eventos no _Porto"
+
+#~ msgid "/_Lookup Source Hostname"
+#~ msgstr "/Procurar o _Nome da Máquina"
+
+#~ msgid "/New rule"
+#~ msgstr "/Nova regra"
+
+#~ msgid "/Edit rule"
+#~ msgstr "/Editar a regra"
+
+#~ msgid "Wizard"
+#~ msgstr "Assistente"
+
+#~ msgid "Start"
+#~ msgstr "Iniciar"
+
+#~ msgid "Stop"
+#~ msgstr "Parar"
+
+#~ msgid "Create new rule"
+#~ msgstr "Criar uma nova regra"
+
+#~ msgid ""
+#~ "The general program settings let you configure the overall behavior\n"
+#~ "of the program.\n"
+#~ msgstr ""
+#~ "As definições gerais da aplicação permitem-lhe configurar o "
+#~ "comportamento\n"
+#~ "global da aplicação.\n"
+
+#~ msgid "Check this and the firewall will be started when the program loads."
+#~ msgstr ""
+#~ "Active esta opção e a firewall será iniciada ao arrancar a aplicação."
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "Parar a firewall ao terminar a aplicação"
+
+#~ msgid ""
+#~ "Check this and the firewall will be stopped when you exit the program."
+#~ msgstr ""
+#~ "Active esta opção e a firewall será parada quando terminar a aplicação."
+
+#~ msgid "Autoresolve IP numbers to hostnames for hits"
+#~ msgstr "Resolver automaticamente IPs dos acessos para nomes de máquinas"
+
+#~ msgid ""
+#~ "Check this and instead of the IP number you will see a hostname in the "
+#~ "Hits view. This option uses some network bandwidth."
+#~ msgstr ""
+#~ "Active esta opção para visualizar nomes de máquinas em vez de números IP "
+#~ "na vista de Acessos. Esta opção consome alguma largura de banda."
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited and can be restored by clicking the Fortified system tray "
+#~ "icon."
+#~ msgstr ""
+#~ "Ao fechar a janela da aplicação em modo de painel a aplicação é escondida "
+#~ "em vez de terminar e pode ser restaurada clicando no ícone do "
+#~ "Fortified, no painel de notificação."
+
+#~ msgid ""
+#~ "The filtering settings let you weed out excessive information\n"
+#~ "from the Hits view.\n"
+#~ msgstr ""
+#~ "As definições de filtros permitem-lhe remover informação excessiva\n"
+#~ "da vista de Acessos.\n"
+
+#~ msgid ""
+#~ "Check this and the Hits view will not show identical hits that follow "
+#~ "each other."
+#~ msgstr ""
+#~ "Active esta opção e a vista de Acessos não irá apresentar acessos "
+#~ "idênticos consecutivos."
+
+#~ msgid ""
+#~ "Check this and the hits list will not show hits that have a destination "
+#~ "field other than your IP."
+#~ msgstr ""
+#~ "Active esta opção e a lista de acessos não apresentará acessos que tenham "
+#~ "um campo de destino diferente do seu IP."
+
+#~ msgid ""
+#~ "The advanced settings let the experienced user fine tune\n"
+#~ "the program operation.\n"
+#~ msgstr ""
+#~ "As definições avançadas permitem a um utilizador experiente\n"
+#~ "afinar o funcionamento da aplicação.\n"
+
+#~ msgid ""
+#~ "If you enable this, Fortified can use some experimental patches for "
+#~ "filtering. Do not enable this option until you have read the manual for "
+#~ "the prerequisites."
+#~ msgstr ""
+#~ "Se activar esta opção, o Fortified poderá utilizar algumas alterações "
+#~ "experimentais para filtragem. Não active esta opção até que tenha lido os "
+#~ "pré-requisitos no manual."
+
+#~ msgid "Deny"
+#~ msgstr "Negar"
+
+#~ msgid "Silently ignore the rejected packets."
+#~ msgstr "Ignorar silenciosamente os pacotes rejeitados."
+
+#~ msgid "Reject"
+#~ msgstr "Rejeitar"
+
+#~ msgid "Reply with a notice of rejection to the sender."
+#~ msgstr "Responder com uma notificação de rejeição para a origem."
+
+#~ msgid "General"
+#~ msgstr "Genéricas"
+
+#~ msgid "Connection Sharing"
+#~ msgstr "Partilha de Ligação"
+
+#~ msgid "Type of Service"
+#~ msgstr "Tipo de Serviço"
+
+#~ msgid "%s (%s) is open to %s"
+#~ msgstr "%s (%s) está aberto para %s"
+
+#~ msgid "From port %s to %s, port %s"
+#~ msgstr "Do porto %s para %s, porto %s"
+
+#~ msgid "Trusted Hosts"
+#~ msgstr "Máquinas Credíveis"
+
+#~ msgid "Forwarded Ports"
+#~ msgstr "Portos Redireccionados"
+
+#~ msgid "Open Ports"
+#~ msgstr "Portos Abertos"
+
+#~ msgid "Stealthed Ports"
+#~ msgstr "Portos Silenciados"
+
+#~ msgid "Disable Events for Hosts"
+#~ msgstr "Desactivar Eventos da Máquina"
+
+#~ msgid "Disable Events on Ports"
+#~ msgstr "Desactivar Eventos nos Portos"
+
+#~ msgid "Rule"
+#~ msgstr "Regra"
+
+#~ msgid "Please specify a valid hostname or IP address."
+#~ msgstr "Especifique o nome de uma máquina ou endereço IP válido."
+
+#~ msgid "Please specify a valid port number."
+#~ msgstr "Especifique um número de porto válido."
+
+#~ msgid "Please specify a valid internal hostname or IP address."
+#~ msgstr "Especifique o nome de uma máquina ou endereço IP interno válido."
+
+#~ msgid "Please specify a valid port number for the internal host."
+#~ msgstr "Especifique um número de porto válido para o servidor interno."
+
+#~ msgid "Trust Host"
+#~ msgstr "Confiar na Máquina"
+
+#~ msgid "Disable Events from Host"
+#~ msgstr "Desactivar Eventos da Máquina"
+
+#~ msgid "Forward To"
+#~ msgstr "Reencaminhar Para"
+
+#~ msgid "Port:"
+#~ msgstr "Porto:"
+
+#~ msgid "Open Port"
+#~ msgstr "Abrir o Porto"
+
+#~ msgid "Stealth Port"
+#~ msgstr "Silenciar o Porto"
+
+#~ msgid "For Machine"
+#~ msgstr "Para a Máquina"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "Seleccionar o ficheiro onde gravar o registo"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "Não foi encontrada nenhuma configuração de cliente DHCP\n"
+#~ "\n"
+#~ "A firewall não será lida automaticamente após a renovação do empréstimo "
+#~ "de IP. Certifique-se de que o dispositivo externo está devidamente "
+#~ "configurado ou desactive a opção DHCP caso esteja a utilizar "
+#~ "configurações estáticas.\n"
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Seleccione o seu dispositivo de rede da lista de selecção. Em caso de "
+#~ "dúvida, mantenha o valor por omissão."
+
+#~ msgid "Disable Internet connection sharing"
+#~ msgstr "Desactivar a partilha de ligação à Internet"
+
+#~ msgid ""
+#~ "This is your internal network device.\n"
+#~ "Leave the default device selected if you are unsure."
+#~ msgstr ""
+#~ "Este é o seu dispositivo de rede interna.\n"
+#~ "Em caso de dúvida, mantenha seleccionada a omissão."
+
+#~ msgid ""
+#~ "If you run server software on your machine and want to give public "
+#~ "access\n"
+#~ "to the services you provide, you can configure them here.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Caso execute aplicações de servidor na sua máquina e deseja "
+#~ "disponibilizar\n"
+#~ "acesso público aos seus serviços, pode configurá-los aqui.\n"
+
+#~ msgid ""
+#~ "Tip: Services can easily be configured later from the main interface, in "
+#~ "the Rules view.\n"
+#~ "The Rules view settings override any conflicting choices made here."
+#~ msgstr ""
+#~ "Dica: Os serviços podem ser facilmente configurados mais tarde no "
+#~ "interface principal, na\n"
+#~ "vista de Regras. A vista de Regras sobrepõe quaisquer opções em conflito "
+#~ "aqui tomadas."
+
+#~ msgid "Disable public access to all services"
+#~ msgstr "Desactivar o acesso público a todos os serviços"
+
+#~ msgid "Enable public access to the following services:"
+#~ msgstr "Activar o acesso público aos seguintes serviços:"
+
+#~ msgid ""
+#~ "ICMP packet filtering can be useful to prevent some common\n"
+#~ "Denial of Service (DoS) attacks on your network."
+#~ msgstr ""
+#~ "Filtragem de Pacotes ICMP pode ser útil para impedir alguns\n"
+#~ "ataques mais comuns de Negação de Serviço (DoS) à sua rede."
+
+#~ msgid "Enable ICMP filtering related to the following packets:"
+#~ msgstr "Activar a Filtragem ICMP relacionada com os seguintes pacotes:"
+
+#~ msgid "Echo"
+#~ msgstr "Echo"
+
+#~ msgid "Disable ToS filtering"
+#~ msgstr "Desactivar a filtragem TdS"
+
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr "Activar a filtragem TdS relacionada com os seguintes pacotes:"
+
+#~ msgid "Client Applications"
+#~ msgstr "Aplicações Cliente"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "Active esta opção para permitir indicações de Tipo de Serviço nas "
+#~ "aplicações cliente comuns, tais como WWW, FTP, SSH & E-Mail."
+
+#~ msgid "Server Applications"
+#~ msgstr "Aplicações de Servidor"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "Active esta opção para permitir indicações de Tipo de Serviço nas "
+#~ "aplicações de servidor comuns, tais como SQUID, FTPd, SSHd, SMTP & "
+#~ "Daemons POP."
+
+#~ msgid ""
+#~ "Selecting this option will automatically configure Type of Service for "
+#~ "`Throughput' for both X and SSHd. You should select this ONLY if you need "
+#~ "to run X over your link"
+#~ msgstr ""
+#~ "Seleccionar esta opção irá automaticamente configurar um Tipo de Serviço "
+#~ "para `Performance' do X e SSHd. Deverá seleccionar esta opção APENAS se "
+#~ "necessitar de executar o X remotamente"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "Seleccionar esta opção irá configurar indicações de Tipo de Serviço para "
+#~ "Performace Máxima para as opções seleccionadas."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "Seleccionar esta opção irá configurar indicações de Tipo de Serviço para "
+#~ "Estabilidade Máxima para as opções seleccionadas."
+
+#~ msgid "Delay"
+#~ msgstr "Atraso"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "Seleccionar esta opção irá configurar indicações de Tipo de Serviço para "
+#~ "Atraso Mínimo para as opções seleccionadas."
+
+#~ msgid "Network services setup"
+#~ msgstr "Configuração dos serviços de rede"
+
+#~ msgid "ICMP filtering setup"
+#~ msgstr "Configuração da filtragem ICMP"

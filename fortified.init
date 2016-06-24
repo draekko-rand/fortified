@@ -1,0 +1,101 @@
+#!/bin/sh
+#
+# Init file for the Fortified firewall
+#
+# chkconfig: 2345 11 92
+#
+# description: Starts, stops, and lock the firewall
+#
+# Script Authors:
+#	Tomas Junnonen <majix@sci.fi>
+#	Paul Drain <pd@cipherfunk.org>
+#
+# config: /etc/fortified/configuration
+
+# Source function library.
+. /etc/init.d/functions
+
+# Source networking configuration
+. /etc/sysconfig/network
+
+# Check that networking is up.
+[ ${NETWORKING} = "no" ] && exit 0
+
+FS_CONTROL="/etc/fortified/fortified.sh"
+
+[ -x $FS_CONTROL ] || exit 0
+[ -s /etc/fortified/configuration ] || exit 0
+
+RETVAL=0
+
+start() {
+	echo -n "Starting the Fortified firewall: "
+	$FS_CONTROL start > /dev/null
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ]; then
+		success
+	else
+		failure
+	fi
+	echo
+	return $RETVAL
+}
+
+stop() {
+	echo -n "Stopping the Fortified firewall:"
+	$FS_CONTROL stop > /dev/null
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ]; then
+		success
+	else
+		failure
+	fi
+	echo
+	return $RETVAL
+}
+
+lock() {
+	echo -n "Locking the Fortified firewall:"
+	$FS_CONTROL lock > /dev/null
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ]; then
+		success
+	else
+		failure
+	fi
+	echo
+	return $RETVAL
+}
+
+# See how we were called.
+case "$1" in
+  start)
+	start
+	RETVAL=$?
+	;;
+  stop)
+	stop
+	RETVAL=$?
+	;;
+  restart)
+	stop
+	start
+	RETVAL=$?
+	;;
+  lock)
+	lock
+	RETVAL=$?
+	;;
+  status)
+	if [ -e /var/lock/subsys/fortified -o -e /var/lock/fortified ]; then
+		echo "Fortified is running..."
+	else
+		echo "Fortified is stopped"
+	fi
+	RETVAL=$?
+	;;
+  *)
+	echo "Usage: fortified {start|stop|restart|lock|status}"
+	exit 1
+esac
+exit $RETVAL

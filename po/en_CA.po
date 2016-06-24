@@ -1,0 +1,1696 @@
+# English/Canada translation of fortified 0.9.3.
+# Copyright (C) 2004 Adam Weinberger and the GNOME Foundation
+# This file is distributed under the same licence as the fortified package.
+# Maintainer: Adam Weinberger <adamw@FreeBSD.org>
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified 0.9.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2005-01-06 10:05-0400\n"
+"Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
+"Language-Team: English/Canada <adamw@FreeBSD.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "Desktop Firewall Tool"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+"Apply changes made to policy immediately; the alternative is for the user to "
+"confirm the changes in advance."
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Apply the ICMP settings, as configured in the wizard."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "Apply the settings of Type of Service, as configured in the wizard."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr "Block broadcasts from external network"
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr "Block broadcasts from external network."
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr "Block broadcasts from internal network"
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr "Block broadcasts from internal network."
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr "Block traffic from reserved address space on the public interface"
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr "Deny packets"
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr "Drop denied packets without sending an error packet back."
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "Enable DHCP server for connection sharing"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "Enable NAT"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "Enable Network Address Translation, or Internet connection sharing."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "Enable the configuration of ICMP"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "Enable the configuration of tos"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "Enable tray icon"
+
+#: fortified.schemas.in.h:18
+msgid "Filter out hits not targeted at the firewall"
+msgstr "Filter out hits not targeted at the firewall"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+"Filter out hits that have a destination IP that does not match the firewall "
+"host."
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Filter out redundant hits"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Filter out sequences of identical hits."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr "Highest IP in the range to serve to DHCP clients"
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr "Is it the first time the user is running the program"
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr "Lowest IP in the range to serve to DHCP clients"
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr "Minimize to tray"
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr "Nameserver DHCP clients should use"
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr "Policy auto apply"
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr "Restrictive outbound policy mode"
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr "Show the Fortified icon in the notification area."
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "Show the Type of Service column in the Hit View."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "Show the destination column in the Hit View"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "Show the destination column in the Hit View."
+
+#: fortified.schemas.in.h:35
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "Show the device the hit was received from in the Hit View."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr "Show the device the hit was routed to in the Hit View."
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr "Show the direction column in the Hit View"
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr "Show the direction column in the Hit View."
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "Show the in column in the Hit View"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "Show the length column in the Hit View"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "Show the out column in the Hit View"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "Show the packet length column in the Hit View."
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "Show the port column in the Hit View"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "Show the port column in the Hit View."
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "Show the protocol column in the Hit View"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "Show the protocol column in the Hit View."
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "Show the service column in the Hit View"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "Show the service column in the Hit View."
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "Show the source column in the Hit View"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "Show the source column in the Hit View."
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "Show the time column in the Hit View"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "Show the time column in the Hit View."
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "Show the tos column in the Hit View"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr "Specifies the higher limit of the IP space to use for DHCP leases."
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr "Specifies the lower limit of the IP space to use for DHCP leases."
+
+#: fortified.schemas.in.h:56
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "Start the firewall on a DHCP lease renewal"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "Start the firewall when the program loads"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "Start the firewall when the program loads."
+
+#: fortified.schemas.in.h:59
+msgid "Start the firewall when the system boots"
+msgstr "Start the firewall when the system boots"
+
+#: fortified.schemas.in.h:60
+msgid "Start the firewall when the system boots."
+msgstr "Start the firewall when the system boots."
+
+#: fortified.schemas.in.h:61
+msgid "Start the firewall when the system dials out"
+msgstr "Start the firewall when the system dials out"
+
+#: fortified.schemas.in.h:62
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "Start the firewall when the system establishes a PPP connection."
+
+#: fortified.schemas.in.h:63
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "Start the firewall when the system receives a new DHCP lease."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "The Internet connected network interface. For example, ppp0 or eth0."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "The LAN connected network interface. For example, eth0 or eth1."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "The external interface"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr "The first time Fortified starts several special actions are taken."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "The internal interface"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "The location of the file the system logging daemon writes to."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "The system log file"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr "When closing the program window, hide the window instead of exiting."
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr "Failed to open DHCP server configuration file for writing: "
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr "Failed to write to DHCP server configuration file: "
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+msgid "Failed to stop the firewall"
+msgstr "Failed to stop the firewall"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr "There was an undetermined error when trying to stop the firewall."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr "The device %s is not ready."
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr "Your kernel does not support iptables."
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr "An unknown error occurred."
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+
+#: src/fortified.c:143
+msgid "Failed to start the firewall\n"
+msgstr "Failed to start the firewall\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+msgid "Failed to start the firewall"
+msgstr "Failed to start the firewall"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+msgid "Failed to lock the firewall"
+msgstr "Failed to lock the firewall"
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr "There was an undetermined error when trying to lock the firewall."
+
+#: src/fortified.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr "Insufficient privileges"
+
+#: src/fortified.c:320
+msgid "You must have root user privileges to use Fortified."
+msgstr "You must have root user privileges to use Fortified."
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr "Updating firewall to new version...\n"
+
+#: src/fortified.c:425
+#, c-format
+msgid "Firewall update complete\n"
+msgstr "Firewall update complete\n"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "An all-in-one Linux firewall utility for GNOME.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "Status"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "Events"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "Policy"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr "Outbound"
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr "Inbound"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "Unknown"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Time"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr "Direction"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "In"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Out"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Port"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Source"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Destination"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Length"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "TOS"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protocol"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Service"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "Blocked Connections"
+
+#: src/menus.c:43
+msgid "_Firewall"
+msgstr "_Firewall"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr "_Edit"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr "E_vents"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr "_Show Column"
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr "_Policy"
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr "_Help"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr "_Quit"
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr "Quit the program"
+
+#: src/menus.c:51
+msgid "Run _Wizard"
+msgstr "Run _Wizard"
+
+#: src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "Run the firewall wizard"
+
+#. S
+#: src/menus.c:52
+msgid "_Start Firewall"
+msgstr "_Start Firewall"
+
+#: src/menus.c:52
+msgid "Start the firewall"
+msgstr "Start the firewall"
+
+#. P
+#: src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "Sto_p Firewall"
+
+#: src/menus.c:53
+msgid "Stop the firewall"
+msgstr "Stop the firewall"
+
+#: src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "_Lock Firewall"
+
+#: src/menus.c:54
+msgid "Lock the firewall"
+msgstr "Lock the firewall"
+
+#: src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "_Unlock Firewall"
+
+#: src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "Unlock the firewall"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr "_Copy description"
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr "Copy event description"
+
+#: src/menus.c:58
+msgid "_Preferences"
+msgstr "_Preferences"
+
+#: src/menus.c:58
+msgid "Program preferences"
+msgstr "Program preferences"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr "_Save List"
+
+#: src/menus.c:60
+msgid "Save the events to a file"
+msgstr "Save the events to a file"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr "_Clear"
+
+#: src/menus.c:61
+msgid "Clear the events"
+msgstr "Clear the events"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr "_Reload"
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr "Reload the events"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "Cancel reloading the events"
+
+#: src/menus.c:65
+msgid "_Remove Rule"
+msgstr "_Remove Rule"
+
+#: src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "Remove the selected rule"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr "_Add Rule"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr "Add a rule to the selected policy group"
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr "_Edit Rule"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "Edit the selected rule"
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr "A_pply Policy"
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr "Apply the changes made to the policy"
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "Online User's _Manual"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr "Open the online user's manual in a browser"
+
+#: src/menus.c:71
+msgid "Fortified _Homepage"
+msgstr "Fortified _Homepage"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr "Open the Fortified homepage in a browser"
+
+#: src/menus.c:72
+msgid "_About"
+msgstr "_About"
+
+#: src/menus.c:72
+msgid "About Fortified"
+msgstr "About Fortified"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr "Allow Connections From Source"
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr "Allow all connections from this source"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr "Allow Inbound Service for Everyone"
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr "Allow inbound service for everyone"
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr "Allow Inbound Service for Source"
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr "Allow inbound service for source"
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr "Allow Connections to Destination"
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr "Allow connections to destination"
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr "Allow Outbound Service for Everyone"
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr "Allow outbound service for everyone"
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr "Allow Outbound Service for Source"
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr "Allow outbound service for source"
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr "Disable Events from Source"
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr "Do not show future events from this source"
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr "Disable Events on Port"
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr "Do not show future events regarding this port"
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "_Look Up Hostnames"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr "Look up the hostnames of the selected hit"
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr "_Terminate Connection"
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr "Terminate the selected connection"
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr "Look up the hostnames of the selected connection"
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr "Show time column"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr "Show direction column"
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr "Show in column"
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr "Show out column"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr "Show port column"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr "ToS"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Firewall script saved as %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr "Invalid host"
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+"The host you have specified is not a valid host.\n"
+"Please review your choice."
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr "Invalid port"
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+"The port you have specified is not a valid port.\n"
+"Please review your choice."
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr "Invalid internal host"
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr "Invalid internal port"
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr "IP, host or network"
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr "Name"
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr "Anyone"
+
+#: src/policyview.c:628
+msgid "Firewall host"
+msgstr "Firewall host"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr "LAN clients"
+
+#: src/policyview.c:675
+msgid "IP or host"
+msgstr "IP or host"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr "Failed to apply policy"
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr "Failed to apply inbound policy"
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr "There was an error when applying the inbound policy:"
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr "Failed to apply outbound policy"
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr "There was an error when applying the outbound policy:"
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr "Allow connections from host"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr "Comment"
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+msgid "Allow service"
+msgstr "Allow service"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr "For"
+
+#: src/policyview.c:1216
+msgid "Forward service"
+msgstr "Forward service"
+
+#: src/policyview.c:1217
+msgid "Firewall Port"
+msgstr "Firewall Port"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr "To"
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr "Add new inbound rule"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr "Allow connections from"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr "When the source is"
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr "Forward service from firewall"
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr "To internal host"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr "Deny connections to host"
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr "Deny connections from LAN host"
+
+#: src/policyview.c:1278 src/policyview.c:1350
+msgid "Deny service"
+msgstr "Deny service"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr "Allow connections to host"
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr "Allow connections from LAN host"
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr "_Outbound traffic"
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr "Permissive by default, blacklist traffic"
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr "Restrictive by default, whitelist traffic"
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr "Add new outbound rule"
+
+#: src/policyview.c:1334
+msgid "Deny connections to"
+msgstr "Deny connections to"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr "Deny connections from"
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr "Allow connections to"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr "Inbound traffic policy"
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr "Outbound traffic policy"
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr "Editing"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr "Interface"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "Firewall"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "Network Settings"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP Filtering"
+
+#: src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "ToS Filtering"
+
+#: src/preferences.c:273
+msgid "Advanced Options"
+msgstr "Advanced Options"
+
+#: src/preferences.c:505
+msgid "Hosts"
+msgstr "Hosts"
+
+#: src/preferences.c:509
+msgid "Ports"
+msgstr "Ports"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr "Please review your choices"
+
+#: src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "Invalid DHCP configuration"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+"The DHCP configuration you specified is invalid.\n"
+"Please review your settings."
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr "Missing file"
+
+#: src/preferences.c:910
+msgid "Fortified interface file not found"
+msgstr "Fortified interface file not found"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr "The interface markup file preferences.glade could not be found."
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr "<b>Allow the following ICMP packet types</b>"
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr "<b>Blocked connections</b>"
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr "<b>Broadcast traffic</b>"
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr "<b>DHCP server details</b>"
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr "<b>Do not log events for the following</b>"
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr "<b>Do not log events from</b>"
+
+#: src/preferences.glade.h:9
+msgid "<b>Internet connected network device</b>"
+msgstr "<b>Internet connected network device</b>"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr "<b>Local network connected device</b>"
+
+#: src/preferences.glade.h:11
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "<b>Preferred packet rejection method</b>"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr "<b>Prioritize by maximizing the</b>"
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr "<b>Prioritize services commonly used by</b>"
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr "<b>Rule editing</b>"
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr "<b>Startup and persistence</b>"
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr "<b>System tray icon</b>"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr "<b>Traffic validation</b>"
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Address Masking"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Advanced"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr "Apply policy changes immediately"
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr "Block traffic from reserved addresses on public interfaces"
+
+#: src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr "Create new DHCP configuration"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Detected device(s):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr "Drop silently"
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr "Echo reply (pong)"
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr "Echo request (ping)"
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr "Enable DHCP for the local network"
+
+#: src/preferences.glade.h:38
+msgid "Enable ICMP filtering"
+msgstr "Enable ICMP filtering"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr "Enable Internet connection sharing"
+
+#: src/preferences.glade.h:40
+msgid "Enable Type of Service filtering"
+msgstr "Enable Type of Service filtering"
+
+#: src/preferences.glade.h:43
+msgid "Filter host"
+msgstr "Filter host"
+
+#: src/preferences.glade.h:44
+msgid "Filter port"
+msgstr "Filter port"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+msgid "Highest IP address to assign:"
+msgstr "Highest IP address to assign:"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Host"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr "ICMP"
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr "Interactivity"
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "Keep existing DHCP configuration"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+msgid "Lowest IP address to assign:"
+msgstr "Lowest IP address to assign:"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS Traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr "Minimize to tray on window close"
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr "Name server:"
+
+#: src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "Preferences"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Redirection"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr "Reject with error packet"
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Reliability"
+
+#: src/preferences.glade.h:66
+msgid "Servers"
+msgstr "Servers"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr "Skip entries where the destination is not the firewall"
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr "Skip redundant entries"
+
+#: src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr "Source Quenching"
+
+#: src/preferences.glade.h:70
+msgid "Start firewall on system boot"
+msgstr "Start firewall on system boot"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr "Start/restart firewall on DHCP lease renewal"
+
+#: src/preferences.glade.h:72
+msgid "Start/restart firewall on dial-out"
+msgstr "Start/restart firewall on dial-out"
+
+#: src/preferences.glade.h:73
+msgid "Start/restart firewall on program startup"
+msgstr "Start/restart firewall on program startup"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "The X Window System"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Throughput"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Timestamping"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher thoroughput rates or better\n"
+"interactivity."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Unreachable"
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "Workstations"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "_Accept"
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+
+#: src/savelog.c:92
+msgid "Save Events To File"
+msgstr "Save Events To File"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Active"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr "Disabled"
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr "Locked"
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internet"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "Local"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr "Program"
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr "Colour"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "Total"
+
+#: src/statusview.c:986
+msgid "Serious"
+msgstr "Serious"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr "Network"
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "Device"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Type"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr "Received"
+
+#: src/statusview.c:1076
+msgid "Sent"
+msgstr "Sent"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "Activity"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "Active connections"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Firewall stopped"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Firewall running"
+
+#: src/tray.c:150
+msgid "Firewall locked"
+msgstr "Firewall locked"
+
+#: src/tray.c:204
+msgid "_Show Fortified"
+msgstr "_Show Fortified"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr "_Exit"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Fortified error"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"Failed to open the system log\n"
+"\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr "No event information will be available."
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr "Failed to open /proc/net/dev for reading: "
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr "Ethernet device"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr "Dialup device"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr "Dialup"
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr "Wireless device"
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr "Wireless"
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr "IPv6 Tunnel"
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr "VPN Tunnel"
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr "Routed IP Tunnel"
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr "Unknown device"
+
+#: src/wizard.c:106
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Please select your Internet-connected network device from the drop-down\n"
+"list of available devices."
+
+#: src/wizard.c:137
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"Tip: If you use a modem, the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Start the firewall on dial-out"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP address is assigned via DHCP"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+
+#: src/wizard.c:263
+msgid "Local area network device:"
+msgstr "Local area network device:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr "Enable DHCP for local network"
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr "Explain the DHCP function..."
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr "DHCP server details"
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "Create new DHCP configuration:"
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Please press the forward button to continue.\n"
+
+#: src/wizard.c:430
+msgid "The wizard is now ready to start your firewall."
+msgstr "The wizard is now ready to start your firewall."
+
+#: src/wizard.c:431
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"Press the save button to continue, or the back button to review your choices."
+
+#: src/wizard.c:437
+msgid "Start firewall now"
+msgstr "Start firewall now"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policies."
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr "The local area and the Internet connected devices cannot be the same."
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr "The supplied DHCP configuration is invalid."
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Firewall Wizard"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Welcome to Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Network device setup"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Internet connection sharing setup"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Ready to start your firewall"

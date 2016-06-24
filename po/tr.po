@@ -1,0 +1,2488 @@
+# Turkish translation of fortified.
+# Copyright (C) 2001, 2002, 2003 Free Software Foundation, Inc.
+# Görkem Çetin <gorkem@gelecek.com.tr>, 2001.
+# Arman Aksoy <armish@linux-sevenler.de>, 2003
+# Rıdvan CAN <ridvan@linuxdeneyimi.com>, 2003
+# Sertaç Ö. YILDIZ <sertacyildiz@gmail.com>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2004-11-26 01:01+0200\n"
+"Last-Translator: Sertaç Ö. Yıldız <sertacyildiz@gmail.com>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: VI-Improved\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "Güvenlik Duvarı Aracı"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+"Kurallarda yapılan değişiklikleri anında uygula, kullanıcının daha sonra "
+"onaylamasını bekleme."
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr "Sihirbaz ile yapılandırılan ICMP ayarlarını uygula."
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr "Sihirbaz ile yapılandırılan Servis Tipi (ToS) ayarlarını uygula."
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+#, fuzzy
+msgid "Block broadcasts from external network"
+msgstr "Yayım mesajlarını engelle"
+
+#: fortified.schemas.in.h:5
+#, fuzzy
+msgid "Block broadcasts from external network."
+msgstr "Yayım mesajlarını engelle."
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+#, fuzzy
+msgid "Block broadcasts from internal network"
+msgstr "Yayım mesajlarını engelle"
+
+#: fortified.schemas.in.h:7
+#, fuzzy
+msgid "Block broadcasts from internal network."
+msgstr "Yayım mesajlarını engelle."
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr "Paketleri engelle"
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr "Engellenen paketler için geri hata paketi gönderme."
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "Bağlantı paylaştırma için DHCP sunucusunu etkinleştir"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "NAT Etkin"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr ""
+"Ağ Adresi Dönüştürmeyi (NAT) ya da Internet bağlantısı paylaştırmayı "
+"etkinleştir."
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "ICMP yapılandırmasını etkinleştir"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr "ToS yapılandırmasını etkinleştir"
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "Uyarı alanı imgeciğini etkinleştir"
+
+#: fortified.schemas.in.h:18
+msgid "Filter out hits not targeted at the firewall"
+msgstr "Hedefi güvenlik duvarı olmayan paketleri gösterme"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+"Bunu seçerseniz, hedef IP'si güvenlik duvarınınki olmayan erişimleri "
+"Erişenler görünümünde görmezsiniz."
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr "Fazla erişenleri gösterme"
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr "Özdeş erişimlerin hepsini gösterme."
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr "DHCP istemcilerine verilecek en yüksek IP nuamrası"
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr "Kullanıcı programı ilk kez mi çalıştırıyor"
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr "DHCP istemcilerine verilecek en düşük IP nuamrası"
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr "Uyarı alanına küçült"
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr "DHCP istemcilerinin kullanacağı isim sunucusu"
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr "Kuralı kendiliğinden uygula"
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr "Dışarı doğru trafiği, izin verilen durumlar dışında engelle."
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr "Dışarı doğru bağlantılar için kısıtlı kip"
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+"Sistemin dhcp sunucusunu Fortified Internet Bağlantı Paylaştırması ile "
+"birlikte çalıştır."
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr "Uyarı alanında Fortified imgeciğini göster."
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr "Erişim gösteriminde Servis Tipi sütununu göster."
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr "Erişim gösteriminde hedef sütununu göster"
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr "Erişim gösteriminde hedef sütununu göster."
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "Erişim gösteriminde erişimi alan aygıtı göster."
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr "Erişim gösteriminde erişimin yönlendirildiği aygıtı göster."
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr "Erişim gösteriminde doğrultu sütununu göster"
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr "Erişim gösteriminde doğrultu sütununu göster."
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr "Erişim gösteriminde içeri sütununu göster"
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr "Erişim gösteriminde uzunluk sütununu göster"
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr "Erişim gösteriminde dışarı sütununu göster"
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr "Erişim gösteriminde paket uzunluğu sütununu göster."
+
+#: fortified.schemas.in.h:43
+msgid "Show the port column in the Hit View"
+msgstr "Erişim gösteriminde port sütununu göster"
+
+#: fortified.schemas.in.h:44
+msgid "Show the port column in the Hit View."
+msgstr "Erişim gösteriminde port sütununu göster."
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr "Erişim gösteriminde iletişim kuralları sütununu göster"
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr "Erişim gösteriminde iletişim kuralları sütununu göster."
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr "Erişim gösteriminde servis sütununu göster"
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr "Erişim gösteriminde servis sütununu göster"
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr "Erişim gösteriminde kaynak sütununu göster"
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr "Erişim gösteriminde kaynak sütununu göster."
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr "Erişim gösteriminde zaman sütununu göster"
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr "Erişim gösteriminde zaman sütununu göster."
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr "Erişim gösteriminde ToS sütununu göster"
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr "DHCP ile kullanılacak IP atama aralığının üst sınırını belirler."
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr "DHCP ile kullanılacak IP atama aralığının alt sınırını belirler."
+
+#: fortified.schemas.in.h:56
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr "DHCP ile IP ataması yenilenirken güvenlik duvarını başlat"
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "Program yüklendiğinde güvenlik duvarını başlat"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr ""
+"Bunu seçerseniz, program yüklendiğinde güvenlik duvarı başlatılacaktır."
+
+#: fortified.schemas.in.h:59
+msgid "Start the firewall when the system boots"
+msgstr "Güvenlik duvarını sistem açılışında başlat"
+
+#: fortified.schemas.in.h:60
+msgid "Start the firewall when the system boots."
+msgstr "Bunu seçerseniz, sistem açılışında güvenlik duvarı başlatılacaktır."
+
+#: fortified.schemas.in.h:61
+msgid "Start the firewall when the system dials out"
+msgstr "Çevirmeli ağa bağlanırken güvenlik duvarını başlat"
+
+#: fortified.schemas.in.h:62
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr ""
+"Bunu seçerseniz, PPP bağlantısı sağlandığında güvenlik duvarı "
+"başlatılacaktır."
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr ""
+"Bunu seçerseniz, DHCP'den sisteme yeni IP atandığında güvenlik duvarı "
+"başlatılacaktır."
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "İnternete bağlı ağ arayüzü. Örneğin, ppp0 veya eth0."
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "Yerel ağa bağlanma ağ arayüzü. Örneğin, eth0 yada eth1."
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "Dış arayüz"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr "İlk olarak Fortified'ın özel eylemler olarak ele aldıkları başlar."
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "İç arayüz"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr "Sistem günlük süreçlerini konuma yazar."
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+"İsetmcilerin kullanacağı isim sunucusu. Birden fazla sunucuyu, aralarında "
+"boşluk bırakarak yazabilirsiniz. &lt;dynamic&gt; değeri, isim sunucularının "
+"çalışma esnasında  belirleneceğini gösterir."
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr "Sistem günlük dosyası"
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr "Programı kapatırken, çıkmak yerine sadece pencereyi gizle."
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr "DHCP sunucu yapılandırma dosyası yazma işlemi için açılamadı: "
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr "DHCP sunucu yapılandırma dosyası yazılamadı: "
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+msgid "Failed to stop the firewall"
+msgstr "Güvenlik duvarı durdurulamadı"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr ""
+"Güvenlik duvarını durdurmaya çalışırken, belirlenemeyen bir hata oluştu."
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr "%s aygıtı hazır değil."
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr "Çekirdeğiniz iptables desteklemiyor."
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr "Bilinmeyen bir hata oluştu."
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+"Lütfen ağ aygıtınızın ayarlarını kontrol edin ve bağlatınızın\n"
+"aktif olduğundan emin olun."
+
+#: src/fortified.c:143
+msgid "Failed to start the firewall\n"
+msgstr "Güvenlik duvarı başlatılamadı\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+msgid "Failed to start the firewall"
+msgstr "Güvenlik duvarı başlatılamadı"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+msgid "Failed to lock the firewall"
+msgstr "Güvenlik duvarı kilitlenemedi."
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr ""
+"Güvenlik duvarını kilitlemeye çalışırken, belirlenemeyen bir hata oluştu."
+
+#: src/fortified.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+" -s, --start            Güvenlik duvarını başlat\n"
+" -p, --stop             Güvenlik duvarını durdur\n"
+"     --lock             Tüm trafiği engelleyerek güvenlik duvarını kilitle\n"
+"     --generate-scripts Şu anki yapılandırmadan güvenlik duvarı betiği "
+"oluştur\n"
+"     --start-hidden     Fortified'ı grafik arayüzü olmadan başlat\n"
+" -v, --verison          Fortified'ın sürüm numarasını gösterir\n"
+" -h, --help             Bu ekranı gösterir\n"
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr "Ship olduğunuz haklar yetersiz"
+
+#: src/fortified.c:320
+msgid "You must have root user privileges to use Fortified."
+msgstr "Fortified'ı kullanabilmek için root kullanıcısı hakları gerekli."
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "Güvenlik duvarı durduruldu"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "GNOME için hepsi-bir-arada Linux güvenlik duvarı aracı.\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "Durum"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "Erişimler"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "Kurallar"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr "Dışarı"
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr "İçeri"
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "Tarih"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr "Yön"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "İçeri"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "Dışarı"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "Port"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "Kaynak"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "Hedef"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "Boyut"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr "ToS"
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "Protokol"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "Servis"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "Engellenen Bağlantılar"
+
+#: src/menus.c:43
+msgid "_Firewall"
+msgstr "_Güvenlik Duvarı"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr "Dü_zenle"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr "_Olaylar"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr "_Sütunu Göster"
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr "_Kurallar"
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr "_Yardım"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr "Çı_kış"
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr "Programdan çık"
+
+#: src/menus.c:51
+msgid "Run _Wizard"
+msgstr "Sihi_rbazı Çalıştır"
+
+#: src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "Güvenlik Duvarı Sihirbazını çalıştır"
+
+#. S
+#: src/menus.c:52
+msgid "_Start Firewall"
+msgstr "Güvenlik Duvarını _Başlat"
+
+#: src/menus.c:52
+msgid "Start the firewall"
+msgstr "Güvenlik duvarını başlat"
+
+#. P
+#: src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "Güvenlik Duvarını _Durdur"
+
+#: src/menus.c:53
+msgid "Stop the firewall"
+msgstr "Güvenlik duvarını durdur"
+
+#: src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "Güvenlik Duvarını Ki_litle"
+
+#: src/menus.c:54
+msgid "Lock the firewall"
+msgstr "Güvenlik duvarını kilitle"
+
+#: src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "Güvenlik Duvarını _Aç"
+
+#: src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "Güvenlik duvarını aç"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr "Açıklamayı _kopyala"
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr "Olay açıklamasını kopyala"
+
+#: src/menus.c:58
+msgid "_Preferences"
+msgstr "_Tercihler..."
+
+#: src/menus.c:58
+msgid "Program preferences"
+msgstr "Program Tercihleri"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr "Li_steyi Kaydet"
+
+#: src/menus.c:60
+msgid "Save the events to a file"
+msgstr "Erişim listesini bir dosyaya kaydet"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr "_Temizle"
+
+#: src/menus.c:61
+msgid "Clear the events"
+msgstr "Erişim Listesini Temizle"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr "_Yeniden Yükle"
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr "Erişim Listesini Yeniden Yükle"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "Erişim listesini yeniden yüklemeyi iptal et"
+
+#: src/menus.c:65
+msgid "_Remove Rule"
+msgstr "Ku_ralı Kaldır"
+
+#: src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "Seçili kuralı kaldır"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr "Kur_al Ekle"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr "Seçili kural grubuna yeni kural ekle"
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr "Kuralı Düz_enle"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "Seçili kuralı düzenle"
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr "Kuralı Uygul_a"
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr "Kurallara yapılan değişiklikleri uygula"
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "Kullanıcı _El Kitabı (Çevrimiçi)"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr "Çevrimiçi el kitabını bir web istemcisinde aç"
+
+#: src/menus.c:71
+msgid "Fortified _Homepage"
+msgstr "Fortified Ana_sayfası"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr "Fortified anasayfasını bir web istemcisinde aç"
+
+#: src/menus.c:72
+msgid "_About"
+msgstr "H_akkında"
+
+#: src/menus.c:72
+msgid "About Fortified"
+msgstr "Fortified Hakkında"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr "Bu Makineden Gelen Bağlantılara İzin Ver"
+
+#: src/menus.c:74
+msgid "Allow all connections from this source"
+msgstr "Bu makineden gelen tüm bağlantılara izin ver"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr "Bu Servise Erişimi Herkese Aç"
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr "Bu servise erişimi herkese aç"
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr "Bu Servise Erişimi Bu Kaynağa Aç"
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr "Bu servise erişimi bu kaynağa aç"
+
+#: src/menus.c:77
+msgid "Allow Connections to Destination"
+msgstr "Bu Makineye Giden Bağlantılara İzin Ver"
+
+#: src/menus.c:77
+msgid "Allow connections to destination"
+msgstr "Bu makineye giden bağlantılara izin ver"
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr "Bu Servisin Dışarı Erişimini Herkese Aç"
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr "Bu servisin dışarı erişimini herkese aç"
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr "Bu Servisin Dışarı Erişimini Bu Kaynağa Aç"
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr "Bu servisin dışarı erişimini bu kaynağa aç"
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr "Bu Kaynaktan Erişimleri Engelle"
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr "Bu kaynağın daha sonraki erişimlerini gösterme"
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr "Bu Porttaki Erişimleri Engele"
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr "Bu portta daha sonraki erişimleri gösterme"
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "Makine adına _Bak"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr "Seçili erişimin makine adına bak"
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr "Bağlan_tıyı Sonlandır"
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr "Seçili bağlantıyı sonlandır"
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr "Seçili bağlantının makine adlarına bak"
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr "Zaman sütununu göster"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr "Doğrultu sütununu göster"
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr "Içeri sütununu göster"
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr "Dışarı sütununu göster"
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr "Port sütununu göster"
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr "ToS"
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "Güvenlik duvarı betiği %s olarak kaydedildi\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr "Geçersiz makine"
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+"Belirttiğiniz, geçerli bir makine değil,\n"
+"lütfen seçiminizi kontrol edin."
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr "Geçersiz port"
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+"Belirttiğiniz, geçerli bir port değil,\n"
+"lütfen seçiminizi kontrol edin."
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr "Geçersiz iç makine"
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr "Geçersiz iç port"
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr "IP, makine adı ya da ağ"
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr "İsim"
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr "Herkes"
+
+#: src/policyview.c:628
+msgid "Firewall host"
+msgstr "Güvenlik Duvarı makinesi"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr "LAN istemcileri"
+
+#: src/policyview.c:675
+msgid "IP or host"
+msgstr "IP veya makine adı"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr "Kural uygulanamadı"
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr "İçeri erişim kuralı uygulanamadı"
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr "İçeri erişim kuralı uygulanırken bir hata oluştu:"
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr "Dışarı erişim kuralı uygulanamadı"
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr "Dışarı erişim kuralı uygulanırken bir hata oluştu:"
+
+#: src/policyview.c:1204
+msgid "Allow connections from host"
+msgstr "Şu makineden bağlantılara izin ver"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr "Yorum"
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+msgid "Allow service"
+msgstr "İzin verilecek servis"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr "Kimin için geçerli"
+
+#: src/policyview.c:1216
+msgid "Forward service"
+msgstr "Servisi aktar"
+
+#: src/policyview.c:1217
+msgid "Firewall Port"
+msgstr "Güvenlik duvarı portu"
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr "Kime"
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr "Yeni içeri erişim kuralı ekle"
+
+#: src/policyview.c:1228 src/policyview.c:1370
+msgid "Allow connections from"
+msgstr "Şuradan bağlantıları kabul et"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr "Kaynak neresi"
+
+#: src/policyview.c:1245
+msgid "Forward service from firewall"
+msgstr "Servisi üvenlik duvarından yönlendir"
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr "İç makineye"
+
+#: src/policyview.c:1268
+msgid "Deny connections to host"
+msgstr "Şu makineye bağlantıları engelle"
+
+#: src/policyview.c:1273
+msgid "Deny connections from LAN host"
+msgstr "LAN'daki makineden bağlantıları engelle"
+
+#: src/policyview.c:1278 src/policyview.c:1350
+msgid "Deny service"
+msgstr "Şu servisi engelle"
+
+#: src/policyview.c:1286
+msgid "Allow connections to host"
+msgstr "Makineye bağlantıları kabul et"
+
+#: src/policyview.c:1291
+msgid "Allow connections from LAN host"
+msgstr "LAN'daki makineden bağlantıları kabul et"
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr "Çı_kan trafik"
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr "Engellenenler dışındakilere izin ver"
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr "İzin verilenler dışındakileri engelle"
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr "Yeni dışarı erişim kuralı ekle"
+
+#: src/policyview.c:1334
+msgid "Deny connections to"
+msgstr "Şuraya bağlantıları engelle"
+
+#: src/policyview.c:1342
+msgid "Deny connections from"
+msgstr "Şuradan bağlantıları engelle"
+
+#: src/policyview.c:1362
+msgid "Allow connections to"
+msgstr "Şuraya bağlantıları kabul et"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr "İçeri erişim kuralı"
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr "Dışarı erişim kuralı"
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr "Düzenlenen"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+"Fortified için uygun bir yapılandırma bulunamadı. Eğer derlediğiniz dizin "
+"içinden çalıştırıyorsanız, bir yapılandırma kurmak için 'make install-data-"
+"local' komutunu çalıştırın, ya da kısace 'make install' ile tüm programı "
+"kurun.\n"
+"\n"
+"Fortified şimdi kapanacak."
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr "Arayüz"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "Güvenlik Duvarı"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "Ağ Ayarları"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP Filtreleme"
+
+#: src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "ToS Filtreleme"
+
+#: src/preferences.c:273
+msgid "Advanced Options"
+msgstr "İleri Seçenekler"
+
+#: src/preferences.c:505
+msgid "Hosts"
+msgstr "Makineler"
+
+#: src/preferences.c:509
+msgid "Ports"
+msgstr "Portlar"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr "Seçimlerinizi lütfen gözden geçirin"
+
+#: src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "Geçersiz DHCP yapılandırması"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+"Lütfen DHCP ayarlarını kontrol edin, belirttiğiniz\n"
+"yapılandırma geçerli değil."
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr "Eksik dosya"
+
+#: src/preferences.c:910
+msgid "Fortified interface file not found"
+msgstr "Fortified arayüz dosyası bulunamadı"
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr "Arayüz XML dosyası preferences.glade bulunamadı."
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr "<b>Şu türdeki ICMP paketlerine izin ver</b>"
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr "<b>Engellenen bağlantılar</b>"
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr "<b>Yayım (broadcast) mesajları</b>"
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr "<b>DHCP sunucusu ayrıntıları</b>"
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr "<b>Şunlar için günlüğe olay ekleme</b>"
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr "<b>Buradan erişimlerin kaydını tutma</b>"
+
+#: src/preferences.glade.h:9
+msgid "<b>Internet connected network device</b>"
+msgstr "<b>Internet'e bağlı ağ aygıtınız</b>"
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr "<b>İç ağa bağlı ağ aygıtınız</b>"
+
+#: src/preferences.glade.h:11
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "<b>Tercih edilen paket reddetme yöntemi</b>"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr "<b>Şunu artıracak şekilde öncelik ver</b>"
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr "<b>Şunların sıkça kullandığı servislere öncelik ver</b>"
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr "<b>Kural Düzenleme</b>"
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr "<b>Başlangıç ve kalıcılık</b>"
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr "<b>Uyarı alanı imgeciği</b>"
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">İleri Güvenlik Duvarı Seçenekleri</"
+"span>"
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Erişim Listeleri</span>"
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Güvenlik Duvarı</span>"
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">ICMP Filtreleme</span>"
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Ağ Ayarları</span>"
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Kural Düzenleyici</span>"
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+"<span size=\"x-large\" weight=\"bold\">Servis Türü (ToS) Filtreleme</span>"
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Kullanıcı Arayüzü</span>"
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr "Addres Maskeleme"
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr "Kurallardaki değişiklikleri anında uygula"
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr "Yeni DHCP yapılandırması oluştur"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "Bulunan aygıt(lar):"
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr "Sesizce reddet"
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr "Echo cevabı (pong)"
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr "Echo isteği (ping)"
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr "İç ağ için DHCP'yi etkinleştir"
+
+#: src/preferences.glade.h:38
+msgid "Enable ICMP filtering"
+msgstr "ICMP filtrelemeyi etkinleştir"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+msgid "Enable Internet connection sharing"
+msgstr "İnternet bağlantısı paylaştırmayi etkinleştir"
+
+#: src/preferences.glade.h:40
+msgid "Enable Type of Service filtering"
+msgstr "Servis Türü'ne (ToS) göre filtrelemeyi etkinleştir"
+
+#: src/preferences.glade.h:43
+msgid "Filter host"
+msgstr "Makineyi filtrele"
+
+#: src/preferences.glade.h:44
+msgid "Filter port"
+msgstr "Portu filtrele"
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+msgid "Highest IP address to assign:"
+msgstr "Atanacak en yüksek IP adresi:"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "Makine"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr "ICMP"
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+"ICMP filtrelemesi kontrol paketlerinin oluşturulmasını ve güvenlik duvarı\n"
+"tarafından alınmasını sınırlamanıza olanak verir. Olası <i>Servisi Engelleme "
+"(DoS)</i>\n"
+"saldırılarını önler, ancak çoğu ağ aracının çalışmasını da etkiler."
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr "Etkileşimlilik"
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "Var olan DHCP yapılandırmasını koru"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+msgid "Lowest IP address to assign:"
+msgstr "Atanacak en düşük IP adresi:"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr "MS Traceroute"
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr "Pencere kapanırken uyarı alanına küçült"
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr "İsim sunucusu:"
+
+#: src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "Yönlendirme (redirection)"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr "Hata paketi ile reddet"
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "Güvenilirlik"
+
+#: src/preferences.glade.h:66
+msgid "Servers"
+msgstr "Sunucular"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr "Hedefin güvenlik duvarı olmadığı olayları atla"
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr "Gereksiz olayları atla"
+
+#: src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr "Kaynağı Yavaşlatma"
+
+#: src/preferences.glade.h:70
+msgid "Start firewall on system boot"
+msgstr "Sistem açılırken güvenlik duvarını başlat"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr "DHCP ataması yenilenirken güvenlik duvarını (yeniden) başlat"
+
+#: src/preferences.glade.h:72
+msgid "Start/restart firewall on dial-out"
+msgstr "Çevirmeli ağa bağlanırken güvenlik duvarını (yeniden) başlat"
+
+#: src/preferences.glade.h:73
+msgid "Start/restart firewall on program startup"
+msgstr "Program başlarken güvenlik duvarını (yeniden) başlat"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "X Pencere Sistemi"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr "Verim"
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr "Timestamping"
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: src/preferences.glade.h:79
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"Servis Türü (ToS) filtrelemesi ile bazı uygulamalara daha yüksek verim\n"
+"(throughput) ya da daha iyi etkileşim sağlamak için ağ trafiğine bazı\n"
+"öncelikler verebilirsiniz."
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr "Erişilemiyor"
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "İş İstasyonu"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "K_abul Et"
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+"%s dosyasına yazarken hata\n"
+"\n"
+"%s"
+
+#: src/savelog.c:92
+msgid "Save Events To File"
+msgstr "Erişim Listesini Dosyaya Kaydet"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr "Etkin"
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr "Kapalı"
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr "Kilitli"
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internet"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "İç Ağ"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr "Program"
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr "Renk"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "Toplam"
+
+#: src/statusview.c:986
+msgid "Serious"
+msgstr "Önemli"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr "Ağ"
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "Aygıt"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "Tür"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr "Alınan"
+
+#: src/statusview.c:1076
+msgid "Sent"
+msgstr "Gönderilen"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "Faaliyet"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "Etkin bağlantılar"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "Güvenlik duvarı durduruldu"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "Güvenlik duvarı çalışıyor"
+
+#: src/tray.c:150
+msgid "Firewall locked"
+msgstr "Güvenlik duvarı kilitli"
+
+#: src/tray.c:204
+msgid "_Show Fortified"
+msgstr "Fortified'ı Gö_ster"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr "Çı_kış"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Fortified hatası"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+"Sisyem kaydı açılamadı\n"
+"\n"
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr "Erişim bilgisi bulunmayacak."
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr "/proc/net/dev okuma için açılamadı: "
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr "Ethernet aygıtı"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr "Çevirmeli ağ aygıtı"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr "Çevirmeli ağ"
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr "Kablosuz aygıt"
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr "Kablosuz"
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr "IPv6 Tüneli"
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr "VPN Tüneli"
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr "Yonlendirilmiş IP Tüneli"
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr "Bilinmeyen aygıt"
+
+#: src/wizard.c:106
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr ""
+"Lütfen internete bağlı olan ağ aygıtınızı sisteminizde mevcut aygıtlar\n"
+"arasından seçiniz."
+
+#: src/wizard.c:137
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"İpucu: Eğer çevirmeli ağ kullanıyorsanız aygıt adı muhtemelen ppp0'dır.\n"
+"Kablo modem veya DSL bağlantısı ise eth0'ı seçin. Eğer kablo modem ya da "
+"DSL\n"
+"servis sağlayıcınızın PPPoE protokolünü kullandığını biliyorsanız ppp0'i "
+"seçin."
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "Çevirmeli ağa bağlanırken güvenlik duvarını başlat"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr ""
+"Eğer bu seçeneği işaretlerseniz İnternet Servis Sağlayıcınıza çevirmeli ağ "
+"ile bağlanırken güvenlik duvarı başlatılacaktır."
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP adresi DHCP tarafından atanıyor"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr ""
+"Eğer bir DHCP sunucusuna bağlanmanız gerekiyorsa bu seçeneği işaretleyin. "
+"Kablo modem ve DSL kullanıcıları bunu işaretleyecektir."
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+"Fortified, dışarı bakan tek bir IP adresi ve ağ adresi dönüştürme (NAT) \n"
+"yöntemi ile iç ağınızdaki bilgisayarlara İnternet bağlantınızı "
+"paylaştırabilir"
+
+#: src/wizard.c:263
+msgid "Local area network device:"
+msgstr "İç ağa bakan ağ aygıtı:"
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr "İç ağ için DHCP'yi etkinleştir"
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr "DHCP işlevini açikla..."
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr "DHCP sunucusu ayrıntıları"
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "Yeni ICMP Yapılandırması oluştur:"
+
+#: src/wizard.c:399
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"Bu sihirbaz, Linux makineniz için bir güvenlik duvarı\n"
+"kurmanıza yardımcı olacaktır. Güvenlik duvarını sisteminize\n"
+"göre ayarlayabilmek için, ağınızla ilgili bazı sorular \n"
+"sorulacaktır.\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+"İpucu: Eğer bir sorunun cevabından emin değilseniz\n"
+"yapılacak en iyi şey öntanımlı değeri kullanmak olacaktır.\n"
+"\n"
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr "Devam etmek için ileri tuşuna tıklayınız.\n"
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "Güvenlik duvarı başlatılmaya hazır"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"Sihirbaz, güvenlik duvarını başlatmaya hazır.\n"
+"\n"
+"Devam etmek için devam tuşuna, seçimlerinizi yeniden\n"
+"gözden geçirmek için geri tuşuna tıklayınız.\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "Güvenlik Duvarını _Başlat"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr "İç ağa bakan aygıt ile İnternete bağlı olan aygıt aynı olamaz."
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr "Verilen DHCP yapılandırması geçerli değil."
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "Güvenlik Duvarı Sihirbazı"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "Fortified'a Hoşgeldiniz"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "Ağ aygıtı ayarları"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "İnternet bağlantısını paylaştırma ayarları"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "Güvenlik duvarı başlatılmaya hazır"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "DHCP istemci yapılandırması bulunamadı\n"
+#~ "\n"
+#~ "Atama yenilenmesinde güvenlik duvarı kendiliğinden yüklenmeyecektir. "
+#~ "Lütfen dışarı bakan aygıtın uygun ayarlandığından emin olun ya da kalıcı "
+#~ "ayarlar kullanıyorsanız DHCP seçeneğini iptal edin.\n"
+
+#~ msgid ""
+#~ "Allow incoming DHCP packets, and start the firewall when an IP lease is "
+#~ "obtained."
+#~ msgstr ""
+#~ "Gelen DHCP paketlerine izin ver, ve bir IP istediği edinildiğinde "
+#~ "güvenlik programını başlat."
+
+#~ msgid ""
+#~ "Always convert the entries in the Hit View from IP format to a valid "
+#~ "hostname. This options can slow down the client a lot, as it is not "
+#~ "threaded."
+#~ msgstr ""
+#~ "Her zaman geçerli makina isimlerine IP biçiminden girişlerini "
+#~ "dönüştürerek hitlerini göster. Bu seçenek çok fazla istemci olduğunda "
+#~ "yavaşlayabilir."
+
+#~ msgid ""
+#~ "Apply the settings of the well known services, as configured in the "
+#~ "wizard."
+#~ msgstr ""
+#~ "İyi bilinen servislerin ayarlarını sihirbazdaki yapılandırmaya göre "
+#~ "uygula."
+
+#~ msgid "Convert IPs to human readable form"
+#~ msgstr "IP adreslerini okunabilir hale dönüştür"
+
+#~ msgid "Enable the configuration of services"
+#~ msgstr "Servisler yapılandırması etkin"
+
+#~ msgid "External interface is modem"
+#~ msgstr "Dış arabirimli modem"
+
+#~ msgid "External interface uses DHCP"
+#~ msgstr "Dış arabirimli DHCP kullan"
+
+#~ msgid "Filter out hits not meant for your machine"
+#~ msgstr "Makinenizin ile ilgili olmayan erişimleri gösterme"
+
+#~ msgid ""
+#~ "Start the firewall when the users dials out. Modifies /etc/ppp/ip-up."
+#~ "local."
+#~ msgstr ""
+#~ "Kullanıcılar dışarı çevirdiklerinde güvenlik programını başlat. "
+#~ "Güncelleme /etc/ppp/ip.local."
+
+#~ msgid "Stop the firewall when the program exists"
+#~ msgstr "Çıkışta güvenlik duvarını durdur"
+
+#~ msgid "Stop the firewall when the program exists."
+#~ msgstr "Çıkışta güvenlik duvarını durdur"
+
+#~ msgid "User has gone trough the wizard at least once"
+#~ msgstr "Daha önceden sihirbaz kullanıcı tarafından kullanılmış"
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited. Works together with the notification area applet."
+#~ msgstr ""
+#~ "Programı kapattığınızda çıkış yapmak yerine sistem çubuğuna "
+#~ "yerleşecektir. Yeniden görüntülemek için Fortified simgesine çift "
+#~ "tıklayabilirsiniz."
+
+#~ msgid "Firewall stopped, network traffic is now flowing freely\n"
+#~ msgstr "Güvenlik duvarı durduruldu, ağ trafiği serbestçe kullanılabilir.\n"
+
+#~ msgid "Firewall started\n"
+#~ msgstr "Güvenlik duvarı başlatıldı\n"
+
+#~ msgid "All traffic halted\n"
+#~ msgstr "Tüm trafik bekletiliyor\n"
+
+#~ msgid ""
+#~ "Failed to enter halted firewall mode\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ağ trafiğini bekletme moduna geçerken hata oluştu\n"
+#~ "\n"
+
+#~ msgid "All traffic halted"
+#~ msgstr "Tüm trafik bekletiliyor"
+
+#~ msgid ""
+#~ "Fortified requires a Linux 2.4 or later kernel to function.\n"
+#~ "\n"
+#~ "A client for your system might be available at http://fortified.sf.net"
+#~ msgstr ""
+#~ "Fortified'ın çalışabilmesi için Linux 2.4 veya sonrası bir çekirdeğe "
+#~ "ihtiyacınız var.\n"
+#~ "\n"
+#~ "Sisteminize uygun bir istemciyi http://fortified.sf.net adresinde "
+#~ "bulabilirsiniz."
+
+#~ msgid "Hits"
+#~ msgstr "Erişenler"
+
+#~ msgid "Rules"
+#~ msgstr "Kurallar"
+
+#~ msgid "Save"
+#~ msgstr "Kaydet"
+
+#~ msgid "/_Firewall/Run _Wizard"
+#~ msgstr "/_Güvenlik duvarı/Sihirbazı _Başlat"
+
+#~ msgid "/_Firewall/---"
+#~ msgstr "/_Güvenlik duvarı/---"
+
+#~ msgid "/_Firewall/_Start Firewall"
+#~ msgstr "/_Güvenlil Duvarı/Güvenlik _Duvarını Başlat"
+
+#~ msgid "/_Firewall/Sto_p Firewall"
+#~ msgstr "/_Güvenlik duvarı/Güvenlik Duvarını _Durdur"
+
+#~ msgid "/_Firewall/_Halt Network Traffic"
+#~ msgstr "/_Güvenlik Duvarı/Ağ Trafiğini _Beklet"
+
+#~ msgid "/_Firewall/_Quit"
+#~ msgstr "/_Güvenlik duvarı/_Çık"
+
+#~ msgid "/_Edit/_Copy"
+#~ msgstr "/Dü_zenle/_Kopyala"
+
+#~ msgid "/_Edit/---"
+#~ msgstr "/Dü_zenle/---"
+
+#~ msgid "/_View"
+#~ msgstr "/_Görünüm"
+
+#~ msgid "/_View/_Clear Hit List"
+#~ msgstr "/_Görünüm/Erişim Listesini _Temizle"
+
+#~ msgid "/_View/_Re_load Hit List"
+#~ msgstr "/_Görünüm/Erişim Listesini _Yeniden Yükle"
+
+#~ msgid "/_View/---"
+#~ msgstr "/_Görünüm/---"
+
+#~ msgid "/_View/Hit columns"
+#~ msgstr "/_Görünüm/Erişim Sütunları"
+
+#~ msgid "/_View/Hit columns/Time"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Zaman"
+
+#~ msgid "/_View/Hit columns/In"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Gelenler"
+
+#~ msgid "/_View/Hit columns/Out"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Gidenler"
+
+#~ msgid "/_View/Hit columns/Port"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Port"
+
+#~ msgid "/_View/Hit columns/Source"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Kaynak"
+
+#~ msgid "/_View/Hit columns/Destination"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Hedef"
+
+#~ msgid "/_View/Hit columns/Length"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Uzunluk"
+
+#~ msgid "/_View/Hit columns/ToS"
+#~ msgstr "/_Görünüm/Erişim Sütunları/ToS"
+
+#~ msgid "/_View/Hit columns/Protocol"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Protokol"
+
+#~ msgid "/_View/Hit columns/Service"
+#~ msgstr "/_Görünüm/Erişim Sütunları/Servis"
+
+#~ msgid "/_Hits"
+#~ msgstr "/_Erişim"
+
+#~ msgid "/_Hits/_Block Host"
+#~ msgstr "/_Erişim/_Makineyi Engelle"
+
+#~ msgid "/_Hits/_Trust Host"
+#~ msgstr "/_Erişim/Makineye _Güven"
+
+#~ msgid "/_Hits/_Open Port"
+#~ msgstr "/_Erişim/_Port Aç"
+
+#~ msgid "/_Hits/Open Port for This _Host Only"
+#~ msgstr "/_Erişim/_Sadece Bu Makine için Port Aç"
+
+#~ msgid "/_Hits/Block and _Stop Logging Port"
+#~ msgstr "/_Erişim/Portu Engelle ve _Kayıt Tutma"
+
+#~ msgid "/_Hits/_Lookup Hostname"
+#~ msgstr "/_Erişim/Makineadına _Bak"
+
+#~ msgid "/_Hits/---"
+#~ msgstr "/_Erişim/---"
+
+#~ msgid "/_Hits/Save Hit List to _File"
+#~ msgstr "/_Erişim/Erişim Listesini _Dosyaya Kaydet"
+
+#~ msgid "/_Rules/_New Rule"
+#~ msgstr "/_Kurallar/_Yeni Kural"
+
+#~ msgid "/_Rules/_Remove Rule"
+#~ msgstr "/_Kurallar/Kural Ka_ldır"
+
+#~ msgid "/_Rules/_Edit Rule"
+#~ msgstr "/_Kurallar/Kural Dü_zenle"
+
+#~ msgid "/_Help/---"
+#~ msgstr "/_Yardım/---"
+
+#~ msgid "/_Help/_About..."
+#~ msgstr "/_Yardım/_Hakkında..."
+
+#~ msgid "/_Block Host"
+#~ msgstr "/_Makineyi Engelle"
+
+#~ msgid "/_Trust Host"
+#~ msgstr "/_Makineye Güven"
+
+#~ msgid "/_Open Port"
+#~ msgstr "/_Port Aç"
+
+#~ msgid "/Open Port for This _Host Only"
+#~ msgstr "/_Sadece Bu Makine için Port Aç"
+
+#~ msgid "/Block and _Stop Logging Port"
+#~ msgstr "/Portu Engelle ve _Kayıt Tutma"
+
+#~ msgid "/New rule"
+#~ msgstr "/Yeni kural"
+
+#~ msgid "/Edit rule"
+#~ msgstr "/Kural düzenle"
+
+#~ msgid "Wizard"
+#~ msgstr "Sihirbaz"
+
+#~ msgid "Stop"
+#~ msgstr "Durdur"
+
+#~ msgid "Add trust host rule"
+#~ msgstr "Güvenli makina kuralı ekle"
+
+#~ msgid "Add block host rule"
+#~ msgstr "Engellenmiş makina kuralı ekle"
+
+#~ msgid "Add forwarding rule"
+#~ msgstr "Yönlendirme kuralı ekle"
+
+#~ msgid "Add stealth port rule"
+#~ msgstr "Gizli port kuralı ekle"
+
+#~ msgid "Add block port rule"
+#~ msgstr "Engellenmiş port kuralı ekle"
+
+#~ msgid ""
+#~ "The general program settings let you configure the overall behavior\n"
+#~ "of the program.\n"
+#~ msgstr ""
+#~ "Genel program ayarları, programın genel davranışlarını ayarlamanızı\n"
+#~ "sağlar.\n"
+
+#~ msgid "Check this and the firewall will be started when the program loads."
+#~ msgstr ""
+#~ "Bunu seçerseniz, güvenlik duvarı program yüklendiğinde başlatılacaktır."
+
+#~ msgid "Stop firewall on program exit"
+#~ msgstr "Çıkışta güvenlik duvarını durdur"
+
+#~ msgid ""
+#~ "Check this and the firewall will be stopped when you exit the program."
+#~ msgstr ""
+#~ "Bunu seçerseniz, programdan çıktığınızda güvenlik duvarı durdurulacaktır."
+
+#~ msgid "Autoresolve IP numbers to hostnames for hits"
+#~ msgstr ""
+#~ "Erişenler için IP numaralarını otomatik olarak makine adlarına çevir"
+
+#~ msgid ""
+#~ "Check this and instead of the IP number you will see a hostname in the "
+#~ "Hits view. This option uses some network bandwidth."
+#~ msgstr ""
+#~ "Bunu seçerseniz Erişenler görünümünde IP adresleri yerine makine adlarını "
+#~ "görürsünüz. Bu seçenek bir miktar ağ bandı kullanmaktadır."
+
+#~ msgid ""
+#~ "When closing the program window in tray mode the program is hid instead "
+#~ "of exited and can be restored by clicking the Fortified system tray "
+#~ "icon."
+#~ msgstr ""
+#~ "Programı kapattığınızda çıkış yapmak yerine sistem çubuğuna "
+#~ "yerleşecektir. Yeniden görüntülemek için Fortified simgesine çift "
+#~ "tıklayabilirsiniz."
+
+#~ msgid ""
+#~ "The filtering settings let you weed out excessive information\n"
+#~ "from the Hits view.\n"
+#~ msgstr ""
+#~ "Filtreleme ayarları ile Erişenler görünümündeki fazla\n"
+#~ "bilgileri ayıklayabilirsiniz.\n"
+
+#~ msgid ""
+#~ "Check this and the Hits view will not show identical hits that follow "
+#~ "each other."
+#~ msgstr ""
+#~ "Bunu seçerseniz, Erişenler görünümünde ardı ardına yapılan aynı "
+#~ "erişimleri görmessiniz."
+
+#~ msgid ""
+#~ "Check this and the hits list will not show hits that have a destination "
+#~ "field other than your IP."
+#~ msgstr ""
+#~ "Bunu seçerseniz, sizin IP'nizden farklı hedefe olan erişimleri Erişenler "
+#~ "görünümünde görmessiniz."
+
+#~ msgid ""
+#~ "The advanced settings let the experienced user fine tune\n"
+#~ "the program operation.\n"
+#~ msgstr ""
+#~ "Gelişmiş ayarlar, tecrübeli kullanıcıların program işlemlerini daha\n"
+#~ "kapsamlı düzenleyebilmesini sağlar.\n"
+
+#~ msgid "Enable Experimental Options"
+#~ msgstr "Deneysel Seçenekleri Etkinleştir"
+
+#~ msgid ""
+#~ "If you enable this, Fortified can use some experimental patches for "
+#~ "filtering. Do not enable this option until you have read the manual for "
+#~ "the prerequisites."
+#~ msgstr ""
+#~ "Eğer bu açıksa, filtreiçin Fortified bazı deneysel yamaları "
+#~ "kullanabilir. Ön istekler için kılavuzu okuduysanız bu seçenek etkin "
+#~ "değildir."
+
+#~ msgid "Deny"
+#~ msgstr "Yoksay"
+
+#~ msgid "Silently ignore the rejected packets."
+#~ msgstr "Reddedilen paketleri sessizce gözardı et."
+
+#~ msgid "Reject"
+#~ msgstr "Reddet"
+
+#~ msgid "Reply with a notice of rejection to the sender."
+#~ msgstr "Gönderene bir reddedilme uyarısı ile cevap ver."
+
+#~ msgid "General"
+#~ msgstr "Genel"
+
+#~ msgid "Connection Sharing"
+#~ msgstr "Bağlantı Paylaştırma"
+
+#~ msgid "Type of Service"
+#~ msgstr "Servis Türü (ToS)"
+
+#~ msgid "%s (%s) is open to %s"
+#~ msgstr "%s (%s), %s'e açıldı"
+
+#~ msgid "From port %s to %s, port %s"
+#~ msgstr "%s portundan %s'e, %s portu"
+
+#~ msgid "Trusted Hosts"
+#~ msgstr "Güvenilir Makineler"
+
+#~ msgid "Forwarded Ports"
+#~ msgstr "Aktarılan Portlar"
+
+#~ msgid "Open Ports"
+#~ msgstr "Açık Portlar"
+
+#~ msgid "Stealthed Ports"
+#~ msgstr "Gizli Portlar"
+
+#~ msgid "Blocked Ports"
+#~ msgstr "Engellenen Portlar"
+
+#~ msgid "Rule"
+#~ msgstr "Kural"
+
+#~ msgid "Please specify a valid hostname or IP address."
+#~ msgstr "Lütfen geçerli bir IP adresi veya makine adı belirtin."
+
+#~ msgid "Please specify a valid port number."
+#~ msgstr "Lütfen geçerli bir port numarası belirtin."
+
+#~ msgid "Please specify a valid internal hostname or IP address."
+#~ msgstr "Lütfen geçerli bir iç makineadu veya IP adresi belirtin."
+
+#~ msgid "Please specify a valid port number for the internal host."
+#~ msgstr ""
+#~ "Lütfen paketleri alacak makine için geçerli bir port numarası belirtin."
+
+#~ msgid "Trust Host"
+#~ msgstr "Makineye Güven"
+
+#~ msgid "Block Host"
+#~ msgstr "Makineyi Engelle"
+
+#~ msgid "Forward To"
+#~ msgstr "Aktarılacak"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Open Port"
+#~ msgstr "Portu Aç"
+
+#~ msgid "Stealth Port"
+#~ msgstr "Portu Gizle"
+
+#~ msgid "For Machine"
+#~ msgstr "Makine için"
+
+#~ msgid "Block Port"
+#~ msgstr "Portu Engelle"
+
+#~ msgid "Select file to save log to"
+#~ msgstr "Kayıtların kaydedileceği dosyayı seçin"
+
+#~ msgid ""
+#~ "No realtime hit information will be available. Please make sure the "
+#~ "syslog daemon is running."
+#~ msgstr ""
+#~ "Gerçek zamanlı erişim bilgisi kullanılmayacak. Lütfen syslog servisinin "
+#~ "çalıştığından emin olun."
+
+#~ msgid ""
+#~ "Select your network device from the dropdown list. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Aşağıdaki listeden ağ aygıtnızı seçin. Eğer emin değilseniz öntanımlı "
+#~ "olanı seçerek devam edin."
+
+#~ msgid ""
+#~ "Network Address Translation (NAT) is a technique that allows all the "
+#~ "machines\n"
+#~ "on your network to share a single IP address and Internet connection."
+#~ msgstr ""
+#~ "Ağ Adresi Çevirimi (NAT), ağınızdaki tüm makinelerin tek IP adresi "
+#~ "üzerinden \n"
+#~ "internete çıkmasını sağlar."
+
+#~ msgid "Disable Network Address Translation"
+#~ msgstr "Ağ Adresi Çevirimini Kapat"
+
+#~ msgid "Enable Network Address Translation"
+#~ msgstr "Ağ Adresi Çevirimini Aç"
+
+#~ msgid ""
+#~ "This is the device that connects to your LAN. Go with the default if "
+#~ "unsure."
+#~ msgstr ""
+#~ "Bu, sizin LAN'a bağlı aygıtınız. Eğer emin değilseniz öntanımlı ile devam "
+#~ "edin."
+
+#~ msgid "Autodetect internal network IP range"
+#~ msgstr "Paketlerin geldiği ağdaki IP aralığını otomatik belirle"
+
+#~ msgid "Select this and the IP range of your LAN is autodetected."
+#~ msgstr ""
+#~ "Eğer bunu seçerseniz, LAN'ınızın IP aralığı otomatik belirlenecektir."
+
+#~ msgid "Specify internal network IP range manually (advanced users only)"
+#~ msgstr ""
+#~ "Paketleirn geldiği ağın IP aralığını kendiniz belirtin (sadece uzman "
+#~ "kullanıcılar için)"
+
+#~ msgid "Select this only if the automatic detection fails."
+#~ msgstr "Eğer otomatik belirleme başarısız olduysa, bunu seçebilirsiniz."
+
+#~ msgid "Enter the internal network address range:"
+#~ msgstr "Paketlerin geldiği ağ adres aralığını giriniz:"
+
+#~ msgid ""
+#~ "Tip: The network range is given in the form of <i>address/mask</i>. "
+#~ "192.168.0.0/24 is the\n"
+#~ " most common IP range reserved for internal networks."
+#~ msgstr ""
+#~ "İpucu: Ağ aralığı <i>adres/maske</i> biçiminde verilmiştir. "
+#~ "192.168.0.0/24\n"
+#~ " bu tip ağlar için en sık kullanılan IP aralığıdır."
+
+#~ msgid ""
+#~ "If you run server software on your machine and want to give public "
+#~ "access\n"
+#~ "to the services you provide, you can configure them here.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Eğer makinenizde sunucu uygulamaları çalışıyorsa ve bu servislere\n"
+#~ "genel erişim vermek istiyorsanız, buradan ayarlayabilirsiniz.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Tip: Services can easily be configured later from the main interface, in "
+#~ "the Rules view.\n"
+#~ "The Rules view settings override any conflicting choices made here."
+#~ msgstr ""
+#~ "İpucu: Servisler daha sonra ana arayüzün Kurallar bölümünden kolaylıkla "
+#~ "ayarlanabilir.\n"
+#~ "Kurallar'daki ayarlar buradaki seçimler ile çelişenleri gözardı edecektir."
+
+#~ msgid "Disable public access to all services"
+#~ msgstr "Tüm servislere genel erişimi kapat"
+
+#~ msgid "Enable public access to the following services:"
+#~ msgstr "Belirtilen servislere genel erişimi aç:"
+
+#~ msgid ""
+#~ "ICMP packet filtering can be useful to prevent some common\n"
+#~ "Denial of Service (DoS) attacks on your network."
+#~ msgstr ""
+#~ "ICMP paketlerinin filtrelenmesi makinenize yapılacakbilecek olağan\n"
+#~ "bir Dağıtık Servis Saldırısı (DoS)'nı önleyecektir."
+
+#~ msgid "Enable ICMP filtering related to the following packets:"
+#~ msgstr "Aşağıdaki paketlerle ilişkili olacak şekilde ICMP filtrelemeyi aç:"
+
+#~ msgid "Echo"
+#~ msgstr "Echo"
+
+#~ msgid "Disable ToS filtering"
+#~ msgstr "ToS filtrelemeyi kaldır"
+
+#~ msgid "Enable ToS filtering related to the following packets:"
+#~ msgstr "Aşağıdaki paketlerle ilişkili olacak şekilde ToS filtrelemeyi aç:"
+
+#~ msgid "Client Applications"
+#~ msgstr "İstemci Uygulamaları"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common client "
+#~ "applications, such as WWW, FTP, SSH & E-Mail."
+#~ msgstr ""
+#~ "Çok kullanılan istemci uygulamaları (WWW, FTP, SS & E-Posta) için Servis "
+#~ "Türüne (ToS) göre erişim açmak istiyorsanız bu seçeneği işaretleyin."
+
+#~ msgid "Server Applications"
+#~ msgstr "Sunucu Uygulamaları"
+
+#~ msgid ""
+#~ "Check this option to enable Type of Service flags for common server "
+#~ "applications, such as SQUID, FTPd, SSHd, SMTP & POP Daemons."
+#~ msgstr ""
+#~ "Çok kullanılan sunucu uygulamaları (SQUID, FTPd, SSHd, SMTP & POP "
+#~ "servisleri) için Servis Türüne (ToS) göre erişim vermek istiyorsanız bu "
+#~ "seçeneği işaretleyin."
+
+#~ msgid ""
+#~ "Selecting this option will automatically configure Type of Service for "
+#~ "`Throughput' for both X and SSHd. You should select this ONLY if you need "
+#~ "to run X over your link"
+#~ msgstr ""
+#~ "Hem X hem de SSHd servisleri için otomatik olarak Servis Türüne (ToS) "
+#~ "göre öncelik vermek istiyorsanız, bu seçeneği işaretleyin. Bu seçeneği "
+#~ "yalnızca bağlantınız üzerinden X çalıştırmak istiyorsanız seçin."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Throughput for the options you have selected."
+#~ msgstr ""
+#~ "Seçtiğiniz ayarlara ve Servis Türüne (ToS) göre en yüksek önceliği vermek "
+#~ "istiyorsanız, bu seçeneği işaretleyin."
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Maximum "
+#~ "Reliability for the options you have selected."
+#~ msgstr ""
+#~ "Seçtiğiniz ayarlara ve Servis Türüne (ToS) göre en yüksek güvenirliği "
+#~ "sağlamak için, bu seçeneği işaretleyin."
+
+#~ msgid "Delay"
+#~ msgstr "Gecikme"
+
+#~ msgid ""
+#~ "Selecting this option will configure Type of Service flags for Minimum "
+#~ "Delay for the options you have selected."
+#~ msgstr ""
+#~ "Seçtiğiniz ayarlara ve Servis Türüne (ToS) göre en az gecikmeyi belirtmek "
+#~ "için bu seçenği işaretleyin."
+
+#~ msgid "Network services setup"
+#~ msgstr "Ağ servisleri ayarları"
+
+#~ msgid "ICMP filtering setup"
+#~ msgstr "ICMP filtre ayarları"
+
+#~ msgid ""
+#~ "If you enable this, Fortified will disregard all network broadcast "
+#~ "traffic."
+#~ msgstr ""
+#~ "Eğer bu seçeneği açarsanız, Fortified tüm ağ yayın trafiğini gözardı "
+#~ "edecektir."
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ msgstr ""
+#~ "DHCP istemci ayarı bulunamadı\n"
+#~ "\n"
+
+#~ msgid "You must be root to manipulate the firewall."
+#~ msgstr "Güvenlik duvarını ayarlamak için root olmalısınız."
+
+#~ msgid "Open service to machine"
+#~ msgstr "Servisi makineye aç"
+
+#~ msgid "Open service to anyone"
+#~ msgstr "Servisi herkese aç"
+
+#~ msgid "Dynamic rules"
+#~ msgstr "Dinamik kurallar"
+
+#~ msgid "Choose your skill level"
+#~ msgstr "Uzmanlık derecenizi girin"
+
+#~ msgid ""
+#~ "Please choose the skill level best suited to you.\n"
+#~ "\n"
+#~ "Simple is recommended for most workstation users with a single computer.\n"
+#~ "Advanced presents you with more options and is meant for experienced "
+#~ "users\n"
+#~ "with machines acting as gateways."
+#~ msgstr ""
+#~ "Lütfen size en yakın uzmanlık derecenizi seçin.\n"
+#~ "\n"
+#~ "Tek kullanıcıya sahip iş istasyonları için 'basit' seçeneği uygundur.\n"
+#~ "Gelişmiş seçenek, daha uzman kullanıcılara yöneliktir ve ek "
+#~ "yapılandırma \n"
+#~ "ayarlarına olanak tanır. Özellikle geçit amaçlı bilgisayarlarda "
+#~ "kullanılır."
+
+#~ msgid "Simple firewall setup"
+#~ msgstr "Basit güvenlik duvarı kurulumu"
+
+#~ msgid "Advanced firewall setup"
+#~ msgstr "Gelişmiş güvenlik duvarı kurulumu"
+
+#~ msgid "IP Masquerade Configuration"
+#~ msgstr "IP Gizleme Yapılandırması"
+
+#~ msgid "Disable masquerading"
+#~ msgstr "Maskelemeyi kapat"
+
+#~ msgid "Port Forwarding"
+#~ msgstr "Port Yönlendirme"
+
+#~ msgid "Yes, I run the following services on my machine:"
+#~ msgstr "Evet, aşağıdaki servisleri makinemde çalıştırıyorum:"
+
+#~ msgid "General options"
+#~ msgstr "Genel seçenekler"
+
+#~ msgid "Exit program when window is closed (otherwise hide)"
+#~ msgstr "Pencere kapatıldığı zaman programdan çık (aksi takdirde gizle)"
+
+#~ msgid "Start hidden"
+#~ msgstr "Gizli başla"
+
+#~ msgid ""
+#~ "Check this and Fortified will start hidden. Click on the status button "
+#~ "to unhide. Disabled by default."
+#~ msgstr ""
+#~ "Bu düğmeye tıklarsanız Fortified gizli olarak başlayacaktır. Durum "
+#~ "düğmesine tıklayarak yeniden görünür hale getirebilirsiniz."
+
+#~ msgid "Block these ports explicitly"
+#~ msgstr "Bu portları engelle"
+
+#~ msgid "Add"
+#~ msgstr "Ekle"
+
+#~ msgid "Wizard options"
+#~ msgstr "Sihirbaz seçenekleri"
+
+#~ msgid "Show every page in wizard"
+#~ msgstr "Sihirbazda tüm sayfaları göster"
+
+#~ msgid "Checking this box will simply ignore the unauthorized packets."
+#~ msgstr "Bu düğmenin tıklanması paketin yoksayılmasına neden olacaktır."
+
+#~ msgid "Checking this box will reject the unauthorized packets"
+#~ msgstr "Bu düğmenin tıklanması paketin reddedilmesine neden olacaktır."
+
+#~ msgid "You must rerun the wizard for the changes to take effect"
+#~ msgstr ""
+#~ "Değişikliklerin etkin olabilmesi için sihirbazı yeniden çalıştırmalısınız"
+
+#~ msgid "Blocking"
+#~ msgstr "Engelleme"
+
+#~ msgid "Deny all connections from machine"
+#~ msgstr "Makineden gelen tüm bağlantıları durdur"
+
+#~ msgid "Remove all rules in this group"
+#~ msgstr "Bu gruptaki tüm kuralları sil"
+
+#~ msgid "Remove all rules in all groups"
+#~ msgstr "Tüm gruplardaki tüm kuralları sil"
+
+#~ msgid "Enter IP range or hostname to deny all connections from:"
+#~ msgstr "Tüm bağlantıların engelleneceği IP aralığı ya da makine adı:"
+
+#~ msgid "Enter IP range or hostname to allow all connections from:"
+#~ msgstr "Tüm bağlantıların kabul edileceği IP aralığı ya da makine adı:"
+
+#~ msgid "Enter the port number of the service to open:"
+#~ msgstr "Servisin açılacağı port numarası:"
+
+#~ msgid "Enter IP range or hostname to open service to:"
+#~ msgstr "Servisin açılacağı IP aralığı ya da makine adı:"
+
+#~ msgid "Old version detected"
+#~ msgstr "Eski bir sürüm bulundu"
+
+#~ msgid ""
+#~ "\n"
+#~ "A firewall created by an older version of\n"
+#~ "Fortified has been detected.\n"
+#~ "\n"
+#~ "OK to remove old firewall (recommended)?\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Fortified'ın eski bir sürümü tarafından \n"
+#~ "oluşturulan güvenlik duvarı bulundu.\n"
+#~ "\n"
+#~ "Eski güvenlik duvarını silmek için Tamam \n"
+#~ "tuşuna tıklayın (önerilen yöntem)\n"
+
+#~ msgid "Could not allocate memory, exiting...\n"
+#~ msgstr "Bellek ayrılamadı. Çıkılıyor...\n"
+
+#~ msgid "Download ipmasqadm now"
+#~ msgstr "ipmasqadm'yi indir"
+
+#~ msgid "LAN port:"
+#~ msgstr "LAN portu:"
+
+#~ msgid "LAN machine address:"
+#~ msgstr "LAN makine adresi:"
+
+#~ msgid "Connection type (TCP / UDP):"
+#~ msgstr "Bağlantı türü (TCP / UDP):"
+
+#~ msgid "Configure Port Forwarding"
+#~ msgstr "Port Yönlendirmesini Yapılandır"
+
+#~ msgid "Add entry"
+#~ msgstr "Girdi ekle"
+
+#~ msgid "Remove entry"
+#~ msgstr "Girdiyi sil"
+
+#~ msgid "Host not found."
+#~ msgstr "Makine bulunamadı."
+
+#~ msgid "Non recovery error in the DNS server."
+#~ msgstr "DNS sunucuda geri dönülemez hata"
+
+#~ msgid "There was a problem with the DNS server. Please try again."
+#~ msgstr "DNS sunucuyla bir sorun yaşandı. Lütfen tekrar deneyiniz."

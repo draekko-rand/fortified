@@ -1,0 +1,100 @@
+#! /usr/bin/make -f
+
+## debian/rules for fortified
+
+include /usr/share/dpatch/dpatch.make
+
+ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+	CFLAGS="-O0 -Wall -g"
+else
+	CFLAGS="-O2 -Wall -g"
+endif
+						
+configure: configure-stamp
+configure-stamp: patch-stamp
+	dh_testdir
+	
+	cp config.guess config.guess.orig
+	cp config.sub config.sub.orig
+	@cp -f /usr/share/misc/config.guess .
+	@cp -f /usr/share/misc/config.sub .
+	CFLAGS=$(CFLAGS) ./configure --prefix=/usr \
+		--mandir=/usr/share/man \
+		--infodir=/usr/share/info \
+		--datadir=/usr/share \
+		--sysconfdir=/etc
+
+	touch configure-stamp
+
+build: configure-stamp build-stamp
+
+build-stamp:
+	dh_testdir
+	$(MAKE)
+
+	touch build-stamp
+
+clean: unpatch
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	rm -f intltool-extract intltool-update intltool-merge
+	rm -f fortified.schemas fortified.desktop
+
+	[ ! -f Makefile ] || $(MAKE) distclean
+	
+	dh_clean
+
+	rm -f po/*.gmo
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_installdirs
+
+	export GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1; \
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/fortified
+	cd $(CURDIR)/debian/fortified/usr && mv bin sbin
+	install -D -m644 pixmaps/fortified.xpm \
+		$(CURDIR)/debian/fortified/usr/share/pixmaps/fortified.xpm
+	rm $(CURDIR)/debian/fortified/usr/share/gnome/apps/Internet/fortified.desktop
+	rm -r $(CURDIR)/debian/fortified/usr/share/gnome
+	install -D -m644 fortified.desktop \
+		$(CURDIR)/debian/fortified/usr/share/applications/fortified.desktop
+	# install script in i(p|f)-(up|down).d to restart guarddog
+	# whenever interfaces are brought up/down
+	install -D -m755 debian/fortified.ifupdown \
+		$(CURDIR)/debian/fortified/etc/ppp/ip-up.d/50fortified
+	install -D -m755 debian/fortified.ifupdown \
+		$(CURDIR)/debian/fortified/etc/ppp/ip-down.d/50fortified
+	install -D -m755 debian/fortified.ifupdown \
+		$(CURDIR)/debian/fortified/etc/network/if-up.d/50fortified
+	install -D -m755 debian/fortified.ifupdown \
+		$(CURDIR)/debian/fortified/etc/network/if-down.d/50fortified
+	# remote RPATH from binary
+	chrpath -d $(CURDIR)/debian/fortified/usr/sbin/fortified
+
+binary-indep: build install
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installdocs
+	dh_installmenu
+	dh_installman
+	dh_installchangelogs ChangeLog
+	dh_installinit --no-start --update-rcd-params="start 65 S ."
+	dh_gconf
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms -X "50fortified"
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

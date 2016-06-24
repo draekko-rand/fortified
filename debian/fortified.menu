@@ -1,0 +1,3 @@
+?package(fortified):needs="X11" section="Applications/Network/Monitoring" \
+ title="Fortified" command="su-to-root -X -c /usr/sbin/fortified" \
+ icon="/usr/share/pixmaps/fortified.xpm"

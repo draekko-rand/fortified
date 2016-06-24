@@ -1,0 +1,1684 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Wu XiaoGuang <woohsiaokuang@yahoo.com.cn>, 2002.
+#   QA: Sarah Smith <sarahs@redhat.com>, 2002
+# Funda Wang <fundawang@linux.net.cn>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fortified\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-29 14:33+0200\n"
+"PO-Revision-Date: 2004-11-27 22:32+0800\n"
+"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fortified.desktop.in.h:1
+msgid "Desktop Firewall Tool"
+msgstr "桌面防火墙工具"
+
+#: fortified.desktop.in.h:2 src/fortified.c:297
+msgid "Fortified"
+msgstr "Fortified"
+
+#: fortified.schemas.in.h:1
+msgid ""
+"Apply changes made to policy immediately, the alternative is for the user to "
+"confirm the changes in advance."
+msgstr ""
+
+#: fortified.schemas.in.h:2
+msgid "Apply the ICMP settings, as configured in the wizard."
+msgstr ""
+
+#: fortified.schemas.in.h:3
+msgid "Apply the settings of Type of Service, as configured in the wizard."
+msgstr ""
+
+#: fortified.schemas.in.h:4 src/preferences.glade.h:29
+msgid "Block broadcasts from external network"
+msgstr ""
+
+#: fortified.schemas.in.h:5
+msgid "Block broadcasts from external network."
+msgstr ""
+
+#: fortified.schemas.in.h:6 src/preferences.glade.h:30
+msgid "Block broadcasts from internal network"
+msgstr ""
+
+#: fortified.schemas.in.h:7
+msgid "Block broadcasts from internal network."
+msgstr ""
+
+#: fortified.schemas.in.h:8
+msgid ""
+"Block potentially spoofed traffic claiming to come from IANA reserved "
+"address space on the external interface."
+msgstr ""
+
+#: fortified.schemas.in.h:9
+msgid "Block traffic from reserved address space on the public interface"
+msgstr ""
+
+#: fortified.schemas.in.h:10
+msgid "Deny packets"
+msgstr ""
+
+#: fortified.schemas.in.h:11
+msgid "Drop denied packets without sending an error packet back."
+msgstr ""
+
+#: fortified.schemas.in.h:12
+msgid "Enable DHCP server for connection sharing"
+msgstr "启用连接共享的 DHCP 服务器"
+
+#: fortified.schemas.in.h:13
+msgid "Enable NAT"
+msgstr "启用 NAT"
+
+#: fortified.schemas.in.h:14
+msgid "Enable Network Address Translation, or Internet connection sharing."
+msgstr "启用网络地址翻译或 Internet 连接共享。"
+
+#: fortified.schemas.in.h:15
+msgid "Enable the configuration of ICMP"
+msgstr "启用 ICMP 配置"
+
+#: fortified.schemas.in.h:16
+msgid "Enable the configuration of tos"
+msgstr ""
+
+#: fortified.schemas.in.h:17 src/preferences.glade.h:41
+msgid "Enable tray icon"
+msgstr "启用托盘图标"
+
+#: fortified.schemas.in.h:18
+#, fuzzy
+msgid "Filter out hits not targeted at the firewall"
+msgstr "准备好启动防火墙"
+
+#: fortified.schemas.in.h:19
+msgid ""
+"Filter out hits that have an destination IP that does not match the firewall "
+"host."
+msgstr ""
+
+#: fortified.schemas.in.h:20
+msgid "Filter out redundant hits"
+msgstr ""
+
+#: fortified.schemas.in.h:21
+msgid "Filter out sequences of identical hits."
+msgstr ""
+
+#: fortified.schemas.in.h:22
+msgid "Highest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:23
+msgid "Is it the first time the user is running the program"
+msgstr ""
+
+#: fortified.schemas.in.h:24
+msgid "Lowest IP in the range to serve to DHCP clients"
+msgstr ""
+
+#: fortified.schemas.in.h:25
+msgid "Minimize to tray"
+msgstr "最小化到托盘"
+
+#: fortified.schemas.in.h:26
+msgid "Nameserver DHCP clients should use"
+msgstr ""
+
+#: fortified.schemas.in.h:27
+msgid "Policy auto apply"
+msgstr "自动应用策略"
+
+#: fortified.schemas.in.h:28
+msgid ""
+"Restrict outbound traffic by default, only allowing whitelisted outgoing "
+"connections."
+msgstr ""
+
+#: fortified.schemas.in.h:29
+msgid "Restrictive outbound policy mode"
+msgstr ""
+
+#: fortified.schemas.in.h:30
+msgid ""
+"Run the system dhcpd server in conjunction with Fortified Internet "
+"connection sharing."
+msgstr ""
+
+#: fortified.schemas.in.h:31
+msgid "Show the Fortified icon in the notification area."
+msgstr ""
+
+#: fortified.schemas.in.h:32
+msgid "Show the Type of Service column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:33
+msgid "Show the destination column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:34
+msgid "Show the destination column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:35
+#, fuzzy
+msgid "Show the device the hit was received from in the Hit View."
+msgstr "启动防火墙"
+
+#: fortified.schemas.in.h:36
+msgid "Show the device the hit was routed to in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:37
+msgid "Show the direction column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:38
+msgid "Show the direction column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:39
+msgid "Show the in column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:40
+msgid "Show the length column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:41
+msgid "Show the out column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:42
+msgid "Show the packet length column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:43
+#, fuzzy
+msgid "Show the port column in the Hit View"
+msgstr "启动防火墙"
+
+#: fortified.schemas.in.h:44
+#, fuzzy
+msgid "Show the port column in the Hit View."
+msgstr "启动防火墙"
+
+#: fortified.schemas.in.h:45
+msgid "Show the protocol column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:46
+msgid "Show the protocol column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:47
+msgid "Show the service column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:48
+msgid "Show the service column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:49
+msgid "Show the source column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:50
+msgid "Show the source column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:51
+msgid "Show the time column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:52
+msgid "Show the time column in the Hit View."
+msgstr ""
+
+#: fortified.schemas.in.h:53
+msgid "Show the tos column in the Hit View"
+msgstr ""
+
+#: fortified.schemas.in.h:54
+msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:55
+msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+msgstr ""
+
+#: fortified.schemas.in.h:56
+msgid "Start the firewall on a DHCP lease renewal"
+msgstr ""
+
+#: fortified.schemas.in.h:57
+msgid "Start the firewall when the program loads"
+msgstr "程序装入时启动防火墙"
+
+#: fortified.schemas.in.h:58
+msgid "Start the firewall when the program loads."
+msgstr "程序装入时启动防火墙。"
+
+#: fortified.schemas.in.h:59
+msgid "Start the firewall when the system boots"
+msgstr "系统启动时启动防火墙"
+
+#: fortified.schemas.in.h:60
+msgid "Start the firewall when the system boots."
+msgstr "系统启动时启动防火墙。"
+
+#: fortified.schemas.in.h:61
+msgid "Start the firewall when the system dials out"
+msgstr "系统拨出时启动防火墙"
+
+#: fortified.schemas.in.h:62
+msgid "Start the firewall when the system establishes a PPP connection."
+msgstr "系统建立 PPP 连接时启动防火墙。"
+
+#: fortified.schemas.in.h:63
+#, fuzzy
+msgid "Start the firewall when the system receives a new DHCP lease."
+msgstr "系统受到新的 DHCP 租约时启动防火墙。"
+
+#: fortified.schemas.in.h:64
+msgid "The Internet connected network interface. For example, ppp0 or eth0."
+msgstr "连接 Internet 的网络接口。例如 ppp0 或 eth0。"
+
+#: fortified.schemas.in.h:65
+msgid "The LAN connected network interface. For example, eth0 or eth1."
+msgstr "连接局域网的网络接口。例如 eth0 或 eth1。"
+
+#: fortified.schemas.in.h:66
+msgid "The external interface"
+msgstr "外部接口"
+
+#: fortified.schemas.in.h:67
+msgid "The first time Fortified starts several special actions are taken."
+msgstr ""
+
+#: fortified.schemas.in.h:68
+msgid "The internal interface"
+msgstr "内部接口"
+
+#: fortified.schemas.in.h:69
+msgid "The location of the file the system logging daemon writes to."
+msgstr ""
+
+#: fortified.schemas.in.h:70
+msgid ""
+"The nameserver clients should use. You can specify multiple nameserver in a "
+"space separated list. A value of &lt;dynamic&gt; causes the nameservers to "
+"be determined at run time."
+msgstr ""
+
+#: fortified.schemas.in.h:71
+msgid "The system log file"
+msgstr ""
+
+#: fortified.schemas.in.h:72
+msgid "When closing the program window, instead of exiting, hide the window."
+msgstr ""
+
+#: src/dhcp-server.c:124
+msgid "Failed to open DHCP server configuration file for writing: "
+msgstr ""
+
+#: src/dhcp-server.c:131
+msgid "Failed to write to DHCP server configuration file: "
+msgstr ""
+
+#: src/fortified.c:83 src/fortified.c:85 src/fortified.c:86
+#, fuzzy
+msgid "Failed to stop the firewall"
+msgstr "停止防火墙"
+
+#: src/fortified.c:87
+msgid "There was an undetermined error when trying to stop the firewall."
+msgstr ""
+
+#: src/fortified.c:126 src/fortified.c:130
+#, c-format
+msgid "The device %s is not ready."
+msgstr ""
+
+#: src/fortified.c:133
+msgid "Your kernel does not support iptables."
+msgstr ""
+
+#: src/fortified.c:135
+msgid "An unknown error occurred."
+msgstr ""
+
+#: src/fortified.c:139
+msgid ""
+"Please check your network device settings and make sure your\n"
+"Internet connection is active."
+msgstr ""
+
+#: src/fortified.c:143
+msgid "Failed to start the firewall\n"
+msgstr "启动防火墙失败\n"
+
+#: src/fortified.c:147 src/fortified.c:148
+msgid "Failed to start the firewall"
+msgstr "启动防火墙失败"
+
+#: src/fortified.c:200 src/fortified.c:202 src/fortified.c:203
+msgid "Failed to lock the firewall"
+msgstr "锁定防火墙失败"
+
+#: src/fortified.c:204
+msgid "There was an undetermined error when trying to lock the firewall."
+msgstr ""
+
+#: src/fortified.c:298
+msgid ""
+" -s, --start            Start the firewall\n"
+" -p, --stop             Stop the firewall\n"
+"     --lock             Lock the firewall, blocking all traffic\n"
+"     --generate-scripts Generate firewall scripts from current "
+"configuration\n"
+"     --start-hidden     Start Fortified with the GUI not visible\n"
+" -v, --version          Prints Fortified's version number\n"
+" -h, --help             You're looking at it\n"
+msgstr ""
+
+#: src/fortified.c:316 src/fortified.c:318 src/fortified.c:319
+msgid "Insufficient privileges"
+msgstr "权限不足"
+
+#: src/fortified.c:320
+msgid "You must have root user privileges to use Fortified."
+msgstr "要使用 Fortified，您必须拥有 root 用户权限。"
+
+#: src/fortified.c:423
+#, c-format
+msgid "Updating firewall to new version...\n"
+msgstr ""
+
+#: src/fortified.c:425
+#, fuzzy, c-format
+msgid "Firewall update complete\n"
+msgstr "防火墙已停止"
+
+#: src/gui.c:157
+msgid "An all-in-one Linux firewall utility for GNOME.\n"
+msgstr "GNOME 一站式 Linux 防火墙工具。\n"
+
+#: src/gui.c:269 src/statusview.c:962
+msgid "Status"
+msgstr "状态"
+
+#: src/gui.c:274 src/preferences.c:240 src/preferences.glade.h:42
+#: src/statusview.c:968
+msgid "Events"
+msgstr "事件"
+
+#: src/gui.c:279 src/preferences.c:245 src/preferences.glade.h:60
+msgid "Policy"
+msgstr "策略"
+
+#: src/hitview.c:264 src/statusview.c:999
+msgid "Outbound"
+msgstr ""
+
+#: src/hitview.c:268 src/statusview.c:992
+msgid "Inbound"
+msgstr ""
+
+#: src/hitview.c:271 src/service.c:176 src/service.c:209 src/service.c:244
+#: src/util.c:300
+msgid "Unknown"
+msgstr "未知"
+
+#. column for time
+#: src/hitview.c:444 src/menus.c:91
+msgid "Time"
+msgstr "时间"
+
+#. column for direction
+#: src/hitview.c:451 src/menus.c:92
+msgid "Direction"
+msgstr "方向"
+
+#. column for in device
+#: src/hitview.c:458 src/menus.c:93
+msgid "In"
+msgstr "入"
+
+#. column for out device
+#: src/hitview.c:465 src/menus.c:94
+msgid "Out"
+msgstr "出"
+
+#. column for port
+#: src/hitview.c:472 src/menus.c:95 src/policyview.c:598 src/policyview.c:689
+#: src/policyview.c:1210 src/policyview.c:1219 src/policyview.c:1279
+#: src/policyview.c:1297 src/preferences.glade.h:61 src/statusview.c:937
+msgid "Port"
+msgstr "端口"
+
+#. column for source
+#: src/hitview.c:479 src/menus.c:96 src/statusview.c:935
+msgid "Source"
+msgstr "源"
+
+#. column for destination
+#: src/hitview.c:486 src/menus.c:97 src/statusview.c:936
+msgid "Destination"
+msgstr "目的"
+
+#. column for packet length
+#: src/hitview.c:493 src/menus.c:98
+msgid "Length"
+msgstr "长度"
+
+#. column for ToS
+#: src/hitview.c:500
+msgid "TOS"
+msgstr ""
+
+#. column for protocol
+#: src/hitview.c:507 src/menus.c:100
+msgid "Protocol"
+msgstr "协议"
+
+#. column for service
+#: src/hitview.c:514 src/menus.c:101 src/statusview.c:938
+msgid "Service"
+msgstr "服务"
+
+#: src/hitview.c:968
+msgid "Blocked Connections"
+msgstr "屏蔽的连接"
+
+#: src/menus.c:43
+msgid "_Firewall"
+msgstr "防火墙(_F)"
+
+#: src/menus.c:44
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: src/menus.c:45
+msgid "E_vents"
+msgstr "事件(_V)"
+
+#: src/menus.c:46
+msgid "_Show Column"
+msgstr "显示列(_S)"
+
+#: src/menus.c:47
+msgid "_Policy"
+msgstr "策略(_P)"
+
+#: src/menus.c:48
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#. Q
+#: src/menus.c:50
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+#: src/menus.c:50
+msgid "Quit the program"
+msgstr "退出程序"
+
+#: src/menus.c:51
+msgid "Run _Wizard"
+msgstr "运行向导(_W)"
+
+#: src/menus.c:51
+msgid "Run the firewall wizard"
+msgstr "运行防火墙向导"
+
+#. S
+#: src/menus.c:52
+msgid "_Start Firewall"
+msgstr "启动防火墙(_S)"
+
+#: src/menus.c:52
+msgid "Start the firewall"
+msgstr "启动防火墙"
+
+#. P
+#: src/menus.c:53
+msgid "Sto_p Firewall"
+msgstr "停止防火墙(_P)"
+
+#: src/menus.c:53
+msgid "Stop the firewall"
+msgstr "停止防火墙"
+
+#: src/menus.c:54
+msgid "_Lock Firewall"
+msgstr "锁定防火墙(_L)"
+
+#: src/menus.c:54
+msgid "Lock the firewall"
+msgstr "锁定防火墙"
+
+#: src/menus.c:55
+msgid "_Unlock Firewall"
+msgstr "解锁防火墙(_U)"
+
+#: src/menus.c:55
+msgid "Unlock the firewall"
+msgstr "解锁防火墙"
+
+#. C
+#: src/menus.c:57
+msgid "_Copy description"
+msgstr "复制描述(_C)"
+
+#: src/menus.c:57
+msgid "Copy event description"
+msgstr "复制事件描述"
+
+#: src/menus.c:58
+msgid "_Preferences"
+msgstr "首选项(_P)"
+
+#: src/menus.c:58
+msgid "Program preferences"
+msgstr "程序首选项"
+
+#. F12
+#: src/menus.c:60
+msgid "_Save List"
+msgstr "保存列表(_S)"
+
+#: src/menus.c:60
+msgid "Save the events to a file"
+msgstr "将事件保存到文件"
+
+#. L
+#: src/menus.c:61
+msgid "_Clear"
+msgstr "清除(_C)"
+
+#: src/menus.c:61
+msgid "Clear the events"
+msgstr "清除事件"
+
+#: src/menus.c:62
+msgid "_Reload"
+msgstr "重新装入(_R)"
+
+#: src/menus.c:62
+msgid "Reload the events"
+msgstr "重新装入事件"
+
+#: src/menus.c:63
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: src/menus.c:63
+msgid "Cancel reloading the events"
+msgstr "取消重新装入事件"
+
+#: src/menus.c:65
+msgid "_Remove Rule"
+msgstr "删除规则(_R)"
+
+#: src/menus.c:65
+msgid "Remove the selected rule"
+msgstr "删除选中规则"
+
+#: src/menus.c:66
+msgid "_Add Rule"
+msgstr "添加规则(_A)"
+
+#: src/menus.c:66
+msgid "Add a rule to the selected policy group"
+msgstr ""
+
+#: src/menus.c:67
+msgid "_Edit Rule"
+msgstr "编辑规则(_E)"
+
+#: src/menus.c:67
+msgid "Edit the selected rule"
+msgstr "编辑选中规则"
+
+#: src/menus.c:68
+msgid "A_pply Policy"
+msgstr "应用策略(_P)"
+
+#: src/menus.c:68
+msgid "Apply the changes made the policy"
+msgstr ""
+
+#: src/menus.c:70
+msgid "Online Users' _Manual"
+msgstr "在线用户手册(_M)"
+
+#: src/menus.c:70
+msgid "Open the online users' manual in a browser"
+msgstr "在浏览器中打开在线用户手册"
+
+#: src/menus.c:71
+msgid "Fortified _Homepage"
+msgstr "Fortified 主页(_H)"
+
+#: src/menus.c:71
+msgid "Open the Fortified homepage in a browser"
+msgstr "在浏览器中打开 Fortified 主页"
+
+#: src/menus.c:72
+msgid "_About"
+msgstr "关于(_A)"
+
+#: src/menus.c:72
+msgid "About Fortified"
+msgstr "关于 Fortified"
+
+#: src/menus.c:74
+msgid "Allow Connections From Source"
+msgstr ""
+
+#: src/menus.c:74
+#, fuzzy
+msgid "Allow all connections from this source"
+msgstr "允许所有来自以下机器的连接"
+
+#: src/menus.c:75
+msgid "Allow Inbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:75
+msgid "Allow inbound service for everyone"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow Inbound Service for Source"
+msgstr ""
+
+#: src/menus.c:76
+msgid "Allow inbound service for source"
+msgstr ""
+
+#: src/menus.c:77
+#, fuzzy
+msgid "Allow Connections to Destination"
+msgstr "允许所有来自以下机器的连接"
+
+#: src/menus.c:77
+#, fuzzy
+msgid "Allow connections to destination"
+msgstr "允许所有来自以下机器的连接"
+
+#: src/menus.c:78
+msgid "Allow Outbound Service for Everyone"
+msgstr ""
+
+#: src/menus.c:78
+msgid "Allow outbound service for everyone"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow Outbound Service for Source"
+msgstr ""
+
+#: src/menus.c:79
+msgid "Allow outbound service for source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Disable Events from Source"
+msgstr ""
+
+#: src/menus.c:80
+msgid "Do not show future events from this source"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Disable Events on Port"
+msgstr ""
+
+#: src/menus.c:81
+msgid "Do not show future events from on this port"
+msgstr ""
+
+#. R
+#: src/menus.c:82 src/menus.c:85
+msgid "_Lookup Hostnames"
+msgstr "查阅主机名(_L)"
+
+#: src/menus.c:82
+msgid "Look up the hostnames of the selected hit"
+msgstr ""
+
+#: src/menus.c:84
+msgid "_Terminate Connection"
+msgstr "中断连接(_T)"
+
+#: src/menus.c:84
+msgid "Terminate the selected connection"
+msgstr "中断选中连接"
+
+#: src/menus.c:85
+msgid "Look up the hostnames of the selected connection"
+msgstr ""
+
+#: src/menus.c:91
+msgid "Show time column"
+msgstr "显示时间列"
+
+#: src/menus.c:92
+msgid "Show direction column"
+msgstr "显示方向列"
+
+#: src/menus.c:93
+msgid "Show in column"
+msgstr ""
+
+#: src/menus.c:94
+msgid "Show out column"
+msgstr ""
+
+#: src/menus.c:95 src/menus.c:96 src/menus.c:97 src/menus.c:98 src/menus.c:99
+#: src/menus.c:100 src/menus.c:101
+msgid "Show port column"
+msgstr ""
+
+#: src/menus.c:99 src/preferences.glade.h:77
+msgid "ToS"
+msgstr ""
+
+#: src/netfilter-script.c:803
+#, c-format
+msgid "Firewall script saved as %s\n"
+msgstr "防火墙脚本被保存为 %s\n"
+
+#: src/policyview.c:233 src/policyview.c:234 src/policyview.c:259
+#: src/policyview.c:260
+msgid "Invalid host"
+msgstr "无效主机"
+
+#: src/policyview.c:235 src/policyview.c:261 src/policyview.c:273
+msgid ""
+"The host you have specified is not a valid host,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:245 src/policyview.c:246
+msgid "Invalid port"
+msgstr "无效端口"
+
+#: src/policyview.c:247 src/policyview.c:282
+msgid ""
+"The port you have specified is not a valid port,\n"
+"please review your choice."
+msgstr ""
+
+#: src/policyview.c:271 src/policyview.c:272
+msgid "Invalid internal host"
+msgstr ""
+
+#: src/policyview.c:280 src/policyview.c:281
+msgid "Invalid internal port"
+msgstr ""
+
+#: src/policyview.c:510 src/policyview.c:632
+msgid "IP, host or network"
+msgstr ""
+
+#: src/policyview.c:583
+msgid "Name"
+msgstr "名称"
+
+#: src/policyview.c:626
+msgid "Anyone"
+msgstr "任何人"
+
+#: src/policyview.c:628
+msgid "Firewall host"
+msgstr "防火墙主机"
+
+#: src/policyview.c:630
+msgid "LAN clients"
+msgstr "局域网客户"
+
+#: src/policyview.c:675
+#, fuzzy
+msgid "IP or host"
+msgstr "查寻主机名"
+
+#: src/policyview.c:1027 src/policyview.c:1059
+msgid "Failed to apply policy"
+msgstr ""
+
+#: src/policyview.c:1028
+msgid "Failed to apply inbound policy"
+msgstr ""
+
+#: src/policyview.c:1029
+msgid "There was an error when applying the inbound policy:"
+msgstr ""
+
+#: src/policyview.c:1060
+msgid "Failed to apply outbound policy"
+msgstr ""
+
+#: src/policyview.c:1061
+msgid "There was an error when applying the outbound policy:"
+msgstr ""
+
+#: src/policyview.c:1204
+#, fuzzy
+msgid "Allow connections from host"
+msgstr "允许所有连接来源于"
+
+#: src/policyview.c:1205 src/policyview.c:1212 src/policyview.c:1220
+#: src/policyview.c:1229 src/policyview.c:1238 src/policyview.c:1247
+#: src/policyview.c:1269 src/policyview.c:1274 src/policyview.c:1281
+#: src/policyview.c:1287 src/policyview.c:1292 src/policyview.c:1299
+#: src/policyview.c:1335 src/policyview.c:1343 src/policyview.c:1352
+#: src/policyview.c:1363 src/policyview.c:1371 src/policyview.c:1380
+msgid "Comment"
+msgstr ""
+
+#: src/policyview.c:1209 src/policyview.c:1236 src/policyview.c:1296
+#: src/policyview.c:1378
+#, fuzzy
+msgid "Allow service"
+msgstr "服务"
+
+#: src/policyview.c:1211 src/policyview.c:1280 src/policyview.c:1298
+msgid "For"
+msgstr ""
+
+#: src/policyview.c:1216
+#, fuzzy
+msgid "Forward service"
+msgstr "转发端口"
+
+#: src/policyview.c:1217
+#, fuzzy
+msgid "Firewall Port"
+msgstr "防火墙端口："
+
+#: src/policyview.c:1218
+msgid "To"
+msgstr ""
+
+#: src/policyview.c:1227 src/policyview.c:1235 src/policyview.c:1244
+msgid "Add new inbound rule"
+msgstr ""
+
+#: src/policyview.c:1228 src/policyview.c:1370
+#, fuzzy
+msgid "Allow connections from"
+msgstr "允许所有连接来源于"
+
+#: src/policyview.c:1237 src/policyview.c:1351 src/policyview.c:1379
+msgid "When the source is"
+msgstr ""
+
+#: src/policyview.c:1245
+#, fuzzy
+msgid "Forward service from firewall"
+msgstr "转发端口"
+
+#: src/policyview.c:1246
+msgid "To internal host"
+msgstr ""
+
+#: src/policyview.c:1268
+#, fuzzy
+msgid "Deny connections to host"
+msgstr "拒绝所有连接来源于"
+
+#: src/policyview.c:1273
+#, fuzzy
+msgid "Deny connections from LAN host"
+msgstr "拒绝所有连接来源于"
+
+#: src/policyview.c:1278 src/policyview.c:1350
+#, fuzzy
+msgid "Deny service"
+msgstr "服务"
+
+#: src/policyview.c:1286
+#, fuzzy
+msgid "Allow connections to host"
+msgstr "允许所有连接来源于"
+
+#: src/policyview.c:1291
+#, fuzzy
+msgid "Allow connections from LAN host"
+msgstr "允许所有连接来源于"
+
+#: src/policyview.c:1307
+msgid "_Outbound traffic"
+msgstr ""
+
+#: src/policyview.c:1314
+msgid "Permissive by default, blacklist traffic"
+msgstr ""
+
+#: src/policyview.c:1320
+msgid "Restrictive by default, whitelist traffic"
+msgstr ""
+
+#: src/policyview.c:1333 src/policyview.c:1341 src/policyview.c:1349
+#: src/policyview.c:1361 src/policyview.c:1369 src/policyview.c:1377
+msgid "Add new outbound rule"
+msgstr ""
+
+#: src/policyview.c:1334
+#, fuzzy
+msgid "Deny connections to"
+msgstr "拒绝所有连接来源于"
+
+#: src/policyview.c:1342
+#, fuzzy
+msgid "Deny connections from"
+msgstr "拒绝所有连接来源于"
+
+#: src/policyview.c:1362
+#, fuzzy
+msgid "Allow connections to"
+msgstr "允许所有连接来源于"
+
+#: src/policyview.c:1441
+msgid "Inbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1446
+msgid "Outbound traffic policy"
+msgstr ""
+
+#: src/policyview.c:1454
+msgid "Editing"
+msgstr "编辑"
+
+#: src/preferences.c:155
+msgid ""
+"A proper configuration for Fortified was not found. If you are running "
+"Fortified from the directory you built it in, run 'make install-data-"
+"local' to install a configuration, or simply 'make install' to install the "
+"whole program.\n"
+"\n"
+"Fortified will now close."
+msgstr ""
+
+#: src/preferences.c:235 src/preferences.glade.h:53
+msgid "Interface"
+msgstr "接口"
+
+#: src/preferences.c:253 src/preferences.glade.h:45 src/statusview.c:950
+msgid "Firewall"
+msgstr "防火墙"
+
+#: src/preferences.c:258 src/preferences.glade.h:59
+msgid "Network Settings"
+msgstr "网络配置"
+
+#: src/preferences.c:263
+msgid "ICMP Filtering"
+msgstr "ICMP 过滤"
+
+#: src/preferences.c:268
+msgid "ToS Filtering"
+msgstr "ToS 过滤"
+
+#: src/preferences.c:273
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: src/preferences.c:505
+msgid "Hosts"
+msgstr "主机"
+
+#: src/preferences.c:509
+msgid "Ports"
+msgstr "端口"
+
+#: src/preferences.c:672 src/wizard.c:534 src/wizard.c:551
+msgid "Please review your choices"
+msgstr ""
+
+#: src/preferences.c:673
+msgid "Invalid DHCP configuration"
+msgstr "无效的 DHCP 配置"
+
+#: src/preferences.c:674
+msgid ""
+"Please review your DHCP settings, the configuration\n"
+"you specified is not valid."
+msgstr ""
+
+#: src/preferences.c:909
+msgid "Missing file"
+msgstr "缺少文件"
+
+#: src/preferences.c:910
+msgid "Fortified interface file not found"
+msgstr ""
+
+#: src/preferences.c:911
+msgid "The interface markup file preferences.glade could not be found."
+msgstr ""
+
+#: src/preferences.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/preferences.glade.h:2
+msgid "*"
+msgstr "*"
+
+#: src/preferences.glade.h:3
+msgid "<b>Allow the following ICMP packet types</b>"
+msgstr ""
+
+#: src/preferences.glade.h:4
+msgid "<b>Blocked connections</b>"
+msgstr ""
+
+#: src/preferences.glade.h:5
+msgid "<b>Broadcast traffic</b>"
+msgstr ""
+
+#: src/preferences.glade.h:6
+msgid "<b>DHCP server details</b>"
+msgstr ""
+
+#: src/preferences.glade.h:7
+msgid "<b>Do not log events for the following</b>"
+msgstr ""
+
+#: src/preferences.glade.h:8
+msgid "<b>Do not log events from</b>"
+msgstr ""
+
+#: src/preferences.glade.h:9
+#, fuzzy
+msgid "<b>Internet connected network device</b>"
+msgstr "选择您的内部网络接口："
+
+#: src/preferences.glade.h:10
+msgid "<b>Local network connected device</b>"
+msgstr ""
+
+#: src/preferences.glade.h:11
+#, fuzzy
+msgid "<b>Prefered packet rejection method</b>"
+msgstr "优先使用的包丢弃方法"
+
+#: src/preferences.glade.h:12
+msgid "<b>Prioritize by maximizing the</b>"
+msgstr ""
+
+#: src/preferences.glade.h:13
+msgid "<b>Prioritize services commonly used by</b>"
+msgstr ""
+
+#: src/preferences.glade.h:14
+msgid "<b>Rule editing</b>"
+msgstr ""
+
+#: src/preferences.glade.h:15
+msgid "<b>Startup and persistence</b>"
+msgstr ""
+
+#: src/preferences.glade.h:16
+msgid "<b>System tray icon</b>"
+msgstr ""
+
+#: src/preferences.glade.h:17
+msgid "<b>Traffic validation</b>"
+msgstr ""
+
+#: src/preferences.glade.h:18
+msgid "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+msgstr ""
+
+#: src/preferences.glade.h:19
+msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+msgstr ""
+
+#: src/preferences.glade.h:20
+msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+msgstr ""
+
+#: src/preferences.glade.h:21
+msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:22
+msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+msgstr ""
+
+#: src/preferences.glade.h:23
+msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+msgstr ""
+
+#: src/preferences.glade.h:24
+msgid "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+msgstr ""
+
+#: src/preferences.glade.h:25
+msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+msgstr ""
+
+#: src/preferences.glade.h:26
+msgid "Address Masking"
+msgstr ""
+
+#: src/preferences.glade.h:27
+msgid "Advanced"
+msgstr "高级"
+
+#: src/preferences.glade.h:28
+msgid "Apply policy changes immediately"
+msgstr "立即应用策略更改"
+
+#: src/preferences.glade.h:31
+msgid "Block traffic from reserved addresses on public interfaces"
+msgstr ""
+
+#: src/preferences.glade.h:32
+msgid "Create new DHCP configuration"
+msgstr "创建新的 DHCP 配置"
+
+#: src/preferences.glade.h:33 src/wizard.c:117
+msgid "Detected device(s):"
+msgstr "检测到的设备："
+
+#: src/preferences.glade.h:34
+msgid "Drop silently"
+msgstr ""
+
+#: src/preferences.glade.h:35
+msgid "Echo reply (pong)"
+msgstr ""
+
+#: src/preferences.glade.h:36
+msgid "Echo request (ping)"
+msgstr ""
+
+#: src/preferences.glade.h:37
+msgid "Enable DHCP for the local network"
+msgstr ""
+
+#: src/preferences.glade.h:38
+#, fuzzy
+msgid "Enable ICMP filtering"
+msgstr "禁用ICMP过滤"
+
+#: src/preferences.glade.h:39 src/wizard.c:245
+#, fuzzy
+msgid "Enable Internet connection sharing"
+msgstr "互联网连接共享设置"
+
+#: src/preferences.glade.h:40
+#, fuzzy
+msgid "Enable Type of Service filtering"
+msgstr "服务类型(ToS)过滤设置"
+
+#: src/preferences.glade.h:43
+msgid "Filter host"
+msgstr ""
+
+#: src/preferences.glade.h:44
+#, fuzzy
+msgid "Filter port"
+msgstr "防火墙端口："
+
+#: src/preferences.glade.h:46 src/wizard.c:344
+#, fuzzy
+msgid "Highest IP address to assign:"
+msgstr "IP地址通过DHCP分配"
+
+#: src/preferences.glade.h:47
+msgid "Host"
+msgstr "主机"
+
+#: src/preferences.glade.h:48
+msgid "ICMP"
+msgstr ""
+
+#: src/preferences.glade.h:49
+msgid ""
+"ICMP filtering allows you to restrict control packet creation and\n"
+"reception by the firewall, potentially preventing <i>Denial of Service</i>\n"
+"attacks, but also disabling many common network tools."
+msgstr ""
+
+#: src/preferences.glade.h:52
+msgid "Interactivity"
+msgstr "交互式"
+
+#: src/preferences.glade.h:54 src/wizard.c:313
+msgid "Keep existing DHCP configuration"
+msgstr "保留已有的 DHCP 配置"
+
+#: src/preferences.glade.h:55 src/wizard.c:334
+#, fuzzy
+msgid "Lowest IP address to assign:"
+msgstr "IP地址通过DHCP分配"
+
+#: src/preferences.glade.h:56
+msgid "MS Traceroute"
+msgstr ""
+
+#: src/preferences.glade.h:57
+msgid "Minimize to tray on window close"
+msgstr ""
+
+#: src/preferences.glade.h:58 src/wizard.c:354
+msgid "Name server:"
+msgstr "名称服务器："
+
+#: src/preferences.glade.h:62
+msgid "Preferences"
+msgstr "首选项"
+
+#: src/preferences.glade.h:63
+msgid "Redirection"
+msgstr "重定向"
+
+#: src/preferences.glade.h:64
+msgid "Reject with error packet"
+msgstr ""
+
+#: src/preferences.glade.h:65
+msgid "Reliability"
+msgstr "可靠性"
+
+#: src/preferences.glade.h:66
+msgid "Servers"
+msgstr "服务器"
+
+#: src/preferences.glade.h:67
+msgid "Skip entries where the destination is not the firewall"
+msgstr ""
+
+#: src/preferences.glade.h:68
+msgid "Skip redundant entries"
+msgstr ""
+
+#: src/preferences.glade.h:69
+msgid "Source Quenching"
+msgstr ""
+
+#: src/preferences.glade.h:70
+#, fuzzy
+msgid "Start firewall on system boot"
+msgstr "拨号完成后启动防火墙"
+
+#: src/preferences.glade.h:71
+msgid "Start/restart firewall on DHCP lease renewal"
+msgstr ""
+
+#: src/preferences.glade.h:72
+#, fuzzy
+msgid "Start/restart firewall on dial-out"
+msgstr "拨号完成后启动防火墙"
+
+#: src/preferences.glade.h:73
+#, fuzzy
+msgid "Start/restart firewall on program startup"
+msgstr "运行程序时启动防火墙"
+
+#: src/preferences.glade.h:74
+msgid "The X Window System"
+msgstr "X Window 系统"
+
+#: src/preferences.glade.h:75
+msgid "Throughput"
+msgstr ""
+
+#: src/preferences.glade.h:76
+msgid "Timestamping"
+msgstr ""
+
+#: src/preferences.glade.h:78
+msgid "Traceroute"
+msgstr ""
+
+#: src/preferences.glade.h:79
+#, fuzzy
+msgid ""
+"Type of Service filtering allows you to prioritize network traffic in order\n"
+"for certain applications to recieve higher troughput rates or better\n"
+"interactivity."
+msgstr ""
+"服务类型(ToS)过滤允许您重新安排网络服务的优先级，\n"
+"对于常用地服务能够获得更高的吞吐量。"
+
+#: src/preferences.glade.h:82
+msgid "Unreachable"
+msgstr ""
+
+#: src/preferences.glade.h:83
+msgid "Workstations"
+msgstr "工作站"
+
+#: src/preferences.glade.h:84
+msgid "_Accept"
+msgstr "接受(_A)"
+
+#: src/savelog.c:67
+#, c-format
+msgid ""
+"Error writing to file %s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/savelog.c:92
+#, fuzzy
+msgid "Save Events To File"
+msgstr "把防火墙受攻击列表存入文件"
+
+#: src/statusview.c:485 src/statusview.c:1034
+msgid "Active"
+msgstr ""
+
+#: src/statusview.c:487
+msgid "Disabled"
+msgstr ""
+
+#: src/statusview.c:489
+msgid "Locked"
+msgstr ""
+
+#: src/statusview.c:681
+msgid "Internet"
+msgstr "Internet"
+
+#: src/statusview.c:684
+msgid "Local"
+msgstr "本地"
+
+#: src/statusview.c:939
+msgid "Program"
+msgstr "程序"
+
+#: src/statusview.c:940
+msgid "Color"
+msgstr "颜色"
+
+#: src/statusview.c:980
+msgid "Total"
+msgstr "总计"
+
+#: src/statusview.c:986
+#, fuzzy
+msgid "Serious"
+msgstr "服务"
+
+#: src/statusview.c:1046
+msgid "Network"
+msgstr ""
+
+#: src/statusview.c:1058
+msgid "Device"
+msgstr "设备"
+
+#: src/statusview.c:1064
+msgid "Type"
+msgstr "类型"
+
+#: src/statusview.c:1070
+msgid "Received"
+msgstr ""
+
+#: src/statusview.c:1076
+#, fuzzy
+msgid "Sent"
+msgstr "发自"
+
+#: src/statusview.c:1082
+msgid "Activity"
+msgstr "活动"
+
+#: src/statusview.c:1089
+msgid "Active connections"
+msgstr "活动连接"
+
+#: src/tray.c:144
+msgid "Firewall stopped"
+msgstr "防火墙已停止"
+
+#: src/tray.c:147
+msgid "Firewall running"
+msgstr "防火墙正运行"
+
+#: src/tray.c:150
+msgid "Firewall locked"
+msgstr "防火墙已锁定"
+
+#: src/tray.c:204
+msgid "_Show Fortified"
+msgstr "显示 Fortified(_S)"
+
+#: src/tray.c:214
+msgid "_Exit"
+msgstr "退出(_E)"
+
+#: src/util.c:109
+msgid "Fortified error"
+msgstr "Fortified 出错"
+
+#: src/util.c:138
+msgid ""
+"Failed to open the system log\n"
+"\n"
+msgstr ""
+
+#: src/util.c:140
+msgid "No event information will be available."
+msgstr ""
+
+#: src/util.c:236
+msgid "Failed to open /proc/net/dev for reading: "
+msgstr ""
+
+#: src/util.c:277
+msgid "Ethernet device"
+msgstr "以太网设备"
+
+#: src/util.c:279
+msgid "Ethernet"
+msgstr "以太网"
+
+#: src/util.c:282
+msgid "Dialup device"
+msgstr "拨号设备"
+
+#: src/util.c:284
+msgid "Dialup"
+msgstr "拨号"
+
+#: src/util.c:287
+msgid "Wireless device"
+msgstr "无线设备"
+
+#: src/util.c:289
+msgid "Wireless"
+msgstr "无线"
+
+#: src/util.c:291
+msgid "IPv6 Tunnel"
+msgstr ""
+
+#: src/util.c:293
+msgid "VPN Tunnel"
+msgstr ""
+
+#: src/util.c:295
+msgid "Routed IP Tunnel"
+msgstr ""
+
+#: src/util.c:298
+msgid "Unknown device"
+msgstr "未知设备"
+
+#: src/wizard.c:106
+#, fuzzy
+msgid ""
+"Please select your Internet connected network device from the drop-down\n"
+"list of available devices."
+msgstr "从下拉列表中选择您的网络设备。如果不确定，请使用默认值。"
+
+#: src/wizard.c:137
+#, fuzzy
+msgid ""
+"Tip: If you use a modem the device name is likely ppp0. If you have a cable "
+"modem or a\n"
+"DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+"operator uses\n"
+"the PPPoE protocol."
+msgstr ""
+"如果您使用调制解调器，设备名可能是ppp0。如果您有\n"
+"电缆调制解调器或 DSL 连接，选择eth0。"
+
+#: src/wizard.c:147
+msgid "Start the firewall on dial-out"
+msgstr "拨号完成后启动防火墙"
+
+#: src/wizard.c:149
+msgid ""
+"Check this option and the firewall will start when you dial your Internet "
+"Service Provider."
+msgstr "选择该选项，当您拨号连上ISP时，防火墙就会启动。"
+
+#: src/wizard.c:155
+msgid "IP address is assigned via DHCP"
+msgstr "IP 地址通过 DHCP 分配"
+
+#: src/wizard.c:157
+msgid ""
+"Check this option if you need to connect to a DHCP server. Cable modem and "
+"DSL users should check this."
+msgstr "若需要DHCP服务器，请选择该选项。电缆调制解调器和DLS用户需选择该项。"
+
+#: src/wizard.c:237
+msgid ""
+"Fortified can share your Internet connection with the computers on your "
+"local network\n"
+"using a single public IP address and a method called Network Address "
+"Translation."
+msgstr ""
+
+#: src/wizard.c:263
+msgid "Local area network device:"
+msgstr "局域网接口："
+
+#: src/wizard.c:283
+msgid "Enable DHCP for local network"
+msgstr ""
+
+#: src/wizard.c:287
+msgid "Explain the DHCP function..."
+msgstr ""
+
+#: src/wizard.c:293
+msgid "DHCP server details"
+msgstr "DHCP 服务器细节"
+
+#: src/wizard.c:317
+msgid "Create new DHCP configuration:"
+msgstr "创建新的 DHCP 配置："
+
+#: src/wizard.c:399
+#, fuzzy
+msgid ""
+"This wizard will help you to set up a firewall for your\n"
+"Linux machine. You will be asked some questions\n"
+"about your network setup in order to customize the\n"
+"firewall for your system.\n"
+"\n"
+msgstr ""
+"本向导将帮您设置Linux的防火墙。\n"
+"您将被问到一些您地网络设置的问题，以便\n"
+"为您的系统定制防火墙。\n"
+"\n"
+"请按下一步按钮来继续。\n"
+"\n"
+"\n"
+
+#: src/wizard.c:404
+msgid ""
+"Tip: If you are uncertain of how to answer a question it is\n"
+"best to use the default value supplied.\n"
+"\n"
+msgstr ""
+
+#: src/wizard.c:407
+msgid "Please press the forward button to continue.\n"
+msgstr ""
+
+#: src/wizard.c:430
+#, fuzzy
+msgid "The wizard is now ready to start your firewall."
+msgstr "准备好启动您的防火墙"
+
+#: src/wizard.c:431
+#, fuzzy
+msgid ""
+"Press the save button to continue, or the back button to review your choices."
+msgstr ""
+"向导已经准备好启动防火墙。\n"
+"\n"
+"请按保存按钮来继续，或按返回按钮\n"
+"来查看您的选择。\n"
+"\n"
+
+#: src/wizard.c:437
+#, fuzzy
+msgid "Start firewall now"
+msgstr "启动防火墙(_S)"
+
+#: src/wizard.c:443
+msgid ""
+"Tip: If you are connecting to the firewall host remotely you might want to\n"
+"defer starting the firewall until you have created additional policy."
+msgstr ""
+
+#: src/wizard.c:535
+msgid "The local area and the Internet connected devices can not be the same."
+msgstr ""
+
+#: src/wizard.c:552
+msgid "The supplied DHCP configuration is not valid."
+msgstr ""
+
+#: src/wizard.c:618
+msgid "Firewall Wizard"
+msgstr "防火墙向导"
+
+#: src/wizard.c:643
+msgid "Welcome to Fortified"
+msgstr "欢迎使用 Fortified"
+
+#: src/wizard.c:649
+msgid "Network device setup"
+msgstr "网络设备设置"
+
+#: src/wizard.c:655
+msgid "Internet connection sharing setup"
+msgstr "Internet 连接共享设置"
+
+#. Final page
+#: src/wizard.c:662
+msgid "Ready to start your firewall"
+msgstr "准备好启动您的防火墙"
