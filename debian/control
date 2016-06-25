@@ -2,14 +2,13 @@ Source: fortified
 Section: admin
 Priority: optional
 Maintainer: Draekko <draekko.software+fortified@gmail.com>
-Build-Depends: debhelper (>= 5.0.51~), libgnome2-dev, libglade2-dev, libgnomeui-dev (>= 2.6.1.1-4), gettext, libpopt-dev, dpatch, autotools-dev, libxml-parser-perl, chrpath, X11
-Build-Conflicts: dpatch (= 1.21)
+Build-Depends: debhelper (>= 5.0.51~), libgnome2-dev, libglade2-dev, libgnomeui-dev (>= 2.6.1.1-4), gettext, libpopt-dev, autotools-dev, libxml-parser-perl, libx11-6
 Standards-Version: 3.9.1
 Homepage: https://github.com/draekko-rand/fortified
 
 Package: fortified
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, iptables (>= 1.2.11), menu, lsb-base (>=3.1), X11
+Depends: ${shlibs:Depends}, ${misc:Depends}, iptables (>= 1.2.11), menu, lsb-base (>=3.1)
 Suggests: dhcp3-server
 Description: GTK program for managing and observing your firewall
  Fortified is a complete firewall tool for Linux machines. It

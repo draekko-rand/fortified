@@ -21,6 +21,8 @@ AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 AM_PROG_LIBTOOL
 
+AM_GCONF_SOURCE_2
+
 AC_PATH_PROG(GCONFTOOL, gconftool-2, no)
 
 if test x"$GCONFTOOL" = xno; then
@@ -46,6 +48,8 @@ AC_CHECK_LIB([X11], [XFlush], [],[
 
 AC_SUBST(FORTIFIED_CFLAGS)
 AC_SUBST(FORTIFIED_LIBS)
+
+AM_GCONF_SOURCE_2
 
 dnl i18n
 ALL_LINGUAS="az ca cs da de el en_CA en_GB es fi fr ga hr hu it ja ko lv ml nb nl no pa pl pt pt_BR ro ru sk sq sr sr@Latn sv tr uk vi zh_CN zh_TW"

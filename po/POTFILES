@@ -1,0 +1,19 @@
+	../fortified.desktop.in \
+	../fortified.schemas.in \
+	../src/dhcp-server.c \
+	../src/fortified.c \
+	../src/gui.c \
+	../src/hitview.c \
+	../src/logread.c \
+	../src/menus.c \
+	../src/netfilter-script.c \
+	../src/policyview.c \
+	../src/preferences.c \
+	../src/preferences.glade \
+	../src/savelog.c \
+	../src/scriptwriter.c \
+	../src/service.c \
+	../src/statusview.c \
+	../src/tray.c \
+	../src/util.c \
+	../src/wizard.c
