@@ -65,7 +65,6 @@ ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
 
 AC_OUTPUT([
 Makefile
-fortified.spec
 src/Makefile
 src/xpm/Makefile
 po/Makefile.in

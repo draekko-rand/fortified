@@ -541,13 +541,13 @@ menus_policy_apply_enabled (gboolean enabled)
 static void
 open_homepage (void)
 {
-	gnome_url_show ("http://www.fs-security.com", NULL);
+	open_browser ("https://github.com/draekko-rand/fortified");
 }
 
 static void
 open_manual (void)
 {
-	gnome_url_show ("http://www.fs-security.com/docs/", NULL);
+	open_browser ("https://github.com/draekko-rand/fortified/wiki");
 }
 
 /* [ copy_selected ]

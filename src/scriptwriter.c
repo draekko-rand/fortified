@@ -29,7 +29,7 @@
 #include "policyview.h"
 
 #define PPP_HOOK_FILE "/etc/ppp/ip-up.local"
-const gchar* FORTIFIED_HOOK = "sh "FORTIFIED_CONTROL_SCRIPT" start\n";
+const gchar* FORTIFIED_HOOK = "sh /etc/init.d/fortified start\n";
 
 static const gchar *
 test_bool (const gchar *conf_key)
@@ -88,16 +88,16 @@ scriptwriter_output_fortified_script ()
 	fprintf (f, "\n# --(Extract Network Information)--\n\n");
 
 	fprintf (f, "# External network interface data\n"
-		    "IP=`/sbin/ifconfig $IF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
-		    "MASK=`/sbin/ifconfig $IF | grep Mas | cut -d : -f 4`\n"
-		    "BCAST=`/sbin/ifconfig $IF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
+		    "IP=`LANG=C /sbin/ifconfig $IF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
+		    "MASK=`LANG=C /sbin/ifconfig $IF | grep Mas | cut -d : -f 4`\n"
+		    "BCAST=`LANG=C /sbin/ifconfig $IF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
 		    "NET=$IP/$MASK\n\n");
 
 	fprintf (f, "if [ \"$NAT\" = \"on\" ]; then\n"
 		    "	# Internal network interface data\n"
-		    "	INIP=`/sbin/ifconfig $INIF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
-		    "	INMASK=`/sbin/ifconfig $INIF | grep Mas | cut -d : -f 4`\n"
-		    "	INBCAST=`/sbin/ifconfig $INIF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
+		    "	INIP=`LANG=C /sbin/ifconfig $INIF | grep inet | cut -d : -f 2 | cut -d \\  -f 1`\n"
+		    "	INMASK=`LANG=C /sbin/ifconfig $INIF | grep Mas | cut -d : -f 4`\n"
+		    "	INBCAST=`LANC=C /sbin/ifconfig $INIF |grep Bcast: | cut -d : -f 3 | cut -d \\  -f 1`\n"
 		    "	INNET=$INIP/$INMASK\n"
 		    "fi\n\n");
 
@@ -174,15 +174,25 @@ scriptwriter_output_fortified_script ()
 		    "				sed \"s/domain-name-servers.*$/domain-name-servers $NAMESERVER;/\" /etc/dhcp3/dhcpd.conf > /etc/dhcp3/dhcpd.conf.tmp\n"
 		    "				mv /etc/dhcp3/dhcpd.conf.tmp /etc/dhcp3/dhcpd.conf\n"
 		    "			fi\n"
+		    "			if [ -f /etc/dhcpd/dhcpd.conf ]; then\n"
+		    "				sed \"s/domain-name-servers.*$/domain-name-servers $NAMESERVER;/\" /etc/dhcpd/dhcpd.conf > /etc/dhcpd/dhcpd.conf.tmp\n"
+		    "				mv /etc/dhcpd/dhcpd.conf.tmp /etc/dhcpd/dhcpd.conf\n"
+		    "			fi\n"
 		    "		else\n"
 		    "			echo -e \"Warning: Could not determine new DNS settings for DHCP\\nKeeping old configuration\"\n"
 		    "		fi\n"
 		    "	fi\n\n"
 
-		    "	if [ -e /etc/init.d/dhcpd ]; then\n"
-		    "		/etc/init.d/dhcpd restart > /dev/null\n"
+		    "	if [ -e /etc/init.d/isc-dhcp-server ]; then\n"
+		    "		  /etc/init.d/isc-dhcp-server restart > /dev/null\n"
+		    "	elif [ -e /etc/init.d/dhcp3-server ]; then\n"
+		    "		  /etc/init.d/dhcp3-server restart > /dev/null\n"
+		    "	elif [ -e /etc/init.d/dhcpd ]; then\n"
+		    "		  /etc/init.d/dhcpd restart > /dev/null\n"
+		    "	elif [ -e /etc/init.d/dnsmasq ]; then\n"
+		    "		  /etc/init.d/dnsmasq restart > /dev/null\n"
 		    "	else\n"
-		    "		/usr/sbin/dhcpd 2> /dev/null\n"
+		    "		  /usr/sbin/dhcpd 2> /dev/null\n"
 		    "	fi\n\n"
 
 		    "	if [ $? -ne 0 ]; then\n"
@@ -229,11 +239,13 @@ scriptwriter_output_fortified_script ()
 
 	fprintf (f, "# Lock the firewall, blocking all traffic\n"
 		    "lock_firewall () {\n"
+		    "	$IPT -F;\n"
+		    "	$IPT -X\n"
+		    "	$IPT -A INPUT -i lo -s 127.0.0.1 -d 127.0.0.1 -j ACCEPT\n"
+		    "	$IPT -A OUTPUT -s 127.0.0.1 -d 127.0.0.1 -j ACCEPT\n"
 		    "	$IPT -P INPUT DROP\n"
 		    "	$IPT -P FORWARD DROP\n"
 		    "	$IPT -P OUTPUT DROP\n"
-		    "	$IPT -F;\n"
-		    "	$IPT -X\n"
 		    "	$IPT -Z\n"
 		    "	retval=$?\n"
 		    "	if [ $? -eq 0 ]; then\n"
@@ -444,7 +456,7 @@ dhclient_is_running (void)
 {
 	gboolean exists;
 	
-	gchar *path = g_strconcat ("/var/run/dhclient-",
+	gchar *path = g_strconcat ("/var/run/dhclient.",
 				preferences_get_string (PREFS_FW_EXT_IF),
 				".pid", NULL);
 
@@ -490,7 +502,7 @@ append_hook_to_script (FILE *f)
 			list = g_list_append (list, g_strdup (buf));
 	}
 
-	rewind (f);
+	fprintf (f, "\n");
 	fprintf (f, FORTIFIED_HOOK);
 
 	link = list;
@@ -588,23 +600,45 @@ add_hook (gchar *path)
 void
 scriptwriter_write_ppp_hook (void)
 {
-	if (!file_exists ("/etc/ppp")) {
+	FILE *f;
+	gchar *path = "/etc/ppp/ip-up.d/1fortified";
+
+	if (file_exists (path)) {
+		return;
+	}
+
+	if (!file_exists ("/etc/ppp/ip-up.d")) {
 		printf ("No ppp detected on system. Not adding starting hook\n");
 		return;
 	}
 
-	add_hook (PPP_HOOK_FILE);
-	chmod (PPP_HOOK_FILE, 0755);
+	printf ("Adding Fortified PPP hook to %s\n", path);
+
+	f = fopen (path, "w");
+
+	if (f == NULL) {
+		perror ("Could not write fortified PPP hook");
+		return;
+	}
+
+	fprintf (f, "#!/bin/sh\n%s", FORTIFIED_HOOK);
+	fclose (f);
+
+	chmod (path, 00755);
 }
 
 void
 scriptwriter_remove_ppp_hook (void)
 {
-	if (!file_exists ("/etc/ppp/ip-up.local")) {
+	gchar *path = "/etc/ppp/ip-up.d/1fortified";
+
+	if (!file_exists (path)) {
 		return;
 	}
 
-	remove_hook (PPP_HOOK_FILE);
+	if (unlink (path) == -1) {
+		perror ("Could not remove fortified PPP hook");
+	}
 }
 
 void

@@ -215,7 +215,7 @@ preferences_set_string (const gchar *gconf_key, const gchar *data)
 static void
 preferences_show_help (void)
 {
-	gnome_url_show ("http://www.fs-security.com/docs/preferences.php", NULL);
+	open_browser ("http://www.fs-security.com/docs/preferences.php");
 }
 
 static GtkTreeModel*
@@ -273,7 +273,7 @@ create_sections_model (void)
 			    1, _("Advanced Options"),
 			    -1);
 	gtk_tree_iter_free (top_section);
-	gtk_tree_iter_free (iter);
+	g_free (iter);
 
 	return GTK_TREE_MODEL (store);
 }

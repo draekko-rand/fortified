@@ -45,5 +45,6 @@ gchar *get_subnet_of_interface (gchar *itf);
 
 gboolean append_to_file (gchar *path, gchar *data, gboolean newline);
 void remove_line_from_file (gchar *path, gint position);
+void open_browser(const gchar *str);
 
 #endif

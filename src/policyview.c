@@ -146,7 +146,7 @@ append_to_view (GtkTreeView *view, GtkListStore *user_store, GtkTreeIter *user_i
 
 	g_strfreev (tokens);
 	if (view != NULL)
-		gtk_tree_iter_free (iter);
+		g_free (iter);
 	return TRUE;
 }
 
@@ -218,7 +218,9 @@ rule_dialog_reset (GtkDialog *dialog)
 		gtk_entry_set_text (GTK_ENTRY (element), "");
 	}
 
-	g_object_steal_data (G_OBJECT (dialog), "editing");
+	GtkTreeIter *iter = g_object_steal_data (G_OBJECT (dialog), "editing");
+	if (iter)
+		g_free(iter);
 }
 
 static gboolean
@@ -428,7 +430,7 @@ rule_dialog_response_cb (GtkDialog *dialog,
 				gtk_list_store_remove (GTK_LIST_STORE (model), iter); /* Remove from the view */
 				remove_line_from_file (rule_file, (int)position);
 
-				gtk_tree_iter_free (iter);
+				g_free (iter);
 			}
 
 			append_to_file (rule_file, data, TRUE);

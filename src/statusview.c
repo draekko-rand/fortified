@@ -773,7 +773,7 @@ free_connection_entry (gpointer data)
 {
 	Connection_entry *entry = (Connection_entry *)data;
 	
-	gtk_tree_iter_free (entry->ref);
+	g_free (entry->ref);
 	g_free (data);
 }
 

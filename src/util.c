@@ -18,6 +18,7 @@
 #include <arpa/inet.h>
 #include <net/if.h>
 #include <sys/ioctl.h>
+#include <libgnomevfs/gnome-vfs-mime-handlers.h>
 
 #include "globals.h"
 #include "fortified.h"
@@ -536,4 +537,24 @@ remove_line_from_file (gchar *path, gint position)
 	g_io_channel_shutdown (io, TRUE, &error);
 	g_free (contents);
 	g_free (tail);
+}
+
+/* [ open_browser ]
+ * Open default browser without superuser privileges
+ */
+
+void
+open_browser (const gchar *str)
+{
+        const gchar *sudo_user;
+        GnomeVFSMimeApplication *app;
+        app=gnome_vfs_mime_get_default_application("text/html");
+        sudo_user=g_getenv("SUDO_USER");
+        if (sudo_user!=NULL)
+	{
+                g_spawn_command_line_async (g_strjoin(" ","sudo -u",sudo_user,app->command,str, NULL),NULL);
+		g_fprintf(stderr,"Doing :%s:\n",g_strjoin(" ","sudo -u",sudo_user,app->command,str, NULL));
+	}
+        else
+                g_spawn_command_line_async (g_strjoin(" ",app->command,str, NULL),NULL);
 }

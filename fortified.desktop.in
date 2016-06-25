@@ -1,12 +1,9 @@
 [Desktop Entry]
-Encoding=UTF-8
 _Name=Fortified
 _Comment=Desktop Firewall Tool
-Exec=fortified
-Icon=fortified.png
+Exec=gksudo /usr/sbin/fortified
+Icon=fortified
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=System;Application;
-X-GNOME-Bugzilla-Bugzilla=GNOME
-X-GNOME-Bugzilla-Product=fortified
+Categories=System;Settings;

@@ -3,8 +3,6 @@ ACLOCAL_AMFLAGS = -I m4
 SUBDIRS = po src pixmaps scripts
 
 EXTRA_DIST = autogen.sh \
-	     fortified.spec \
-	     fortified.spec.in \
 	     fortified.console \
 	     fortified.pam \
 	     CREDITS \
