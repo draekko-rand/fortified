@@ -1,4 +1,9 @@
 #! /bin/sh
 
+if [ -e /tmp/fortified-stop ]; then
+    invoke-rc.d fortified stop
+    exit 0
+fi
+
 invoke-rc.d fortified restart
 
